@@ -1,5 +1,0 @@
-<span data-ttu-id="c1f99-101">Azure 函数在明确指示其执行操作之前不起作用。</span><span class="sxs-lookup"><span data-stu-id="c1f99-101">An Azure function won't do work until something explicitly tells it to execute.</span></span> <span data-ttu-id="c1f99-102">在本模块中, 我们研究了计时器、HTTP 和 blob 触发器。</span><span class="sxs-lookup"><span data-stu-id="c1f99-102">In this module, we explored the timer, HTTP, and blob triggers.</span></span>
-
-<span data-ttu-id="c1f99-103">当您需要在一致的时间执行函数时, 计时器触发器非常有用。</span><span class="sxs-lookup"><span data-stu-id="c1f99-103">Timer triggers are great when you need to execute a function at a consistent time.</span></span> <span data-ttu-id="c1f99-104">HTTP 触发器允许您在接收来自外部源的数据时执行逻辑。</span><span class="sxs-lookup"><span data-stu-id="c1f99-104">HTTP triggers allow you to execute logic when you receive data from an outside source.</span></span> <span data-ttu-id="c1f99-105">Blob 触发器允许您响应在云中存储或更新的数据。</span><span class="sxs-lookup"><span data-stu-id="c1f99-105">Blob triggers allow you to respond to data that's stored or updated in the cloud.</span></span>
-
-[!include[](../../../includes/azure-sandbox-cleanup.md)]

@@ -1,3 +1,0 @@
-<span data-ttu-id="3a1de-101">在本模块中, 您已创建了一个 .net Core 控制台应用程序, 该应用程序可创建、更新和删除用户记录, 使用 SQL 和 LINQ 查询用户, 并运行存储过程以查询数据库中的项目。</span><span class="sxs-lookup"><span data-stu-id="3a1de-101">In this module you've created a .NET Core console application that creates, updates, and deletes user records, queries the users by using SQL and LINQ, and runs a stored procedure to query items in the database.</span></span>
-
-[!include[](../../../includes/azure-sandbox-cleanup.md)]

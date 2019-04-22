@@ -1,1 +1,0 @@
-<span data-ttu-id="9c5ce-101">**发现-看法-函数**</span><span class="sxs-lookup"><span data-stu-id="9c5ce-101">**discover-sentiment-function**</span></span>

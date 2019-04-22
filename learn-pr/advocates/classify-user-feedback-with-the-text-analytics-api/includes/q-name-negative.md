@@ -1,1 +1,0 @@
-<span data-ttu-id="3d2c3-101">**负反馈-队列**</span><span class="sxs-lookup"><span data-stu-id="3d2c3-101">**negative-feedback-queue**</span></span>
