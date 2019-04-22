@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.the-mojifier.3-setup
+metadata:
+  title: 安装程序
+  description: 首先, 我们需要确保使用几个帐户进行设置, 并让示例代码在本地运行。
+  author: lnyswonger
+  ms.date: 10/18/2018
+  ms.author: luken
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 8179536ddb9082a656349fb1f351b56477ad763e
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138217"
+title: 安装程序
+azureSandbox: true
+durationInMinutes: 15
+content: '[!include[](includes/3-setup.md)]'

@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.control-and-organize-with-resource-manager.3-use-tagging-to-organize-resources
+title: 使用标记来组织资源
+metadata:
+  title: 使用标记来组织资源
+  description: 在此单元中, 我们将讨论如何使用标记来组织资源
+  ms.date: 10/1/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 7b86f87036bbaee0e1a981c108bb789f940a826f
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138295"
+durationInMinutes: 8
+content: '[!include[](includes/3-use-tagging-to-organize-resources.md)]'

@@ -1,0 +1,31 @@
+### YamlMime:ModuleUnit
+uid: learn.connect-app-to-azure-storage.4-exercise-create-storage-account
+title: 练习-创建 Azure 存储帐户
+metadata:
+  title: 创建 Azure 存储帐户
+  description: 创建 Azure 存储帐户
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 3799a894e10c1b473106c0d1804f2e1f9e2ff9ab
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138196"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 5
+content: >
+  [!include[](includes/4-exercise-create-storage-account.md)]
+tasks:
+- action: exists
+  environment: azure
+  hint: 运行上面`az storage account create`的命令来创建通用的 v2 存储帐户。
+  azure:
+    resource:
+      type: Microsoft.Storage/storageAccounts
+      kind: StorageV2

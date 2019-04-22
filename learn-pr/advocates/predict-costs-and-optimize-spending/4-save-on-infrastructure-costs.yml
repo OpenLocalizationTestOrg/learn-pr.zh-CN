@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.predict-costs-and-optimize-spending.4-save-on-infrastructure-costs
+title: 在基础结构成本上保存
+metadata:
+  title: 在基础结构成本上保存
+  description: 在此单元中, 我们将讨论如何在基础结构成本方面节省成本
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 99003d3fdc148725e01b3728cf96353a8f406f96
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138233"
+durationInMinutes: 10
+content: >
+  [!include[](includes/4-save-on-infrastructure-costs.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 以下哪一项*不*是经济保存的解决方案？
+    choices:
+    - content: 在非工作时间取消分配虚拟机。
+      isCorrect: false
+      explanation: 这将减少向你的帐户收取的使用量并节省成本。
+    - content: 使用 Azure 保留的虚拟机实例。
+      isCorrect: false
+      explanation: 如果你的 vm 具有一致的工作负载并可以提交到长期服务协议, 则这比随使用付费付费的成本更低。
+    - content: 对传入邮件的虚拟机进行负载平衡。
+      isCorrect: true
+      explanation: 负载平衡用于性能优化, 而不是成本节约。
+    - content: 正确大小未充分利用的虚拟机。
+      isCorrect: false
+      explanation: 向下扩展 VM 将降低其成本。
+  - content: 'True 或 false: PaaS 的成本通常低于 IaaS。'
+    choices:
+    - content: "True"
+      isCorrect: true
+      explanation: IaaS 需要 azure 以提供专用资源, 而 PaaS 可在服务的提供方式上提供更大的灵活性。 这意味着 Azure 可以高效地填充和操作硬件, 因此可以通过在 IaaS 上节省空间来提供 PaaS 服务。
+    - content: "False"
+      isCorrect: false
+      explanation: 通常情况下, 用于 PaaS 服务的合同成本低于 IaaS 资源。

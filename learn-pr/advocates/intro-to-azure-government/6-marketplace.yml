@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-azure-government.6-marketplace
+title: Azure 政府市场
+metadata:
+  title: Azure 政府市场
+  description: 了解如何在 Azure 政府市场中查找和部署解决方案。
+  ms.date: 10/11/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 1c94b2422dac2c2c6fee0661304ea84ce6fdbeae
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138178"
+durationInMinutes: 10
+content: '[!include[](includes/6-marketplace.md)]'

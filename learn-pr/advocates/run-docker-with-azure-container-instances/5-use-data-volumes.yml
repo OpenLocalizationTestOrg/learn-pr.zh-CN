@@ -1,0 +1,38 @@
+### YamlMime:ModuleUnit
+uid: learn.run-docker-containers-aci.5-use-data-volumes
+metadata:
+  title: 使用数据卷
+  description: 使用具有 Azure 容器实例 (ACI) 的数据卷。
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 8cc6e26ac835a7bdbf3dc7f1dcebc8b7980b11a2
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138215"
+title: 使用数据卷
+interactive: bash
+azureSandbox: true
+durationInMinutes: 10
+content: >
+  [!include[](includes/5-use-data-volumes.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.ContainerInstance/containerGroups
+      name: aci-demo-files
+  hint: ''
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.Storage/storageAccounts
+      kind: Storage
+  hint: ''

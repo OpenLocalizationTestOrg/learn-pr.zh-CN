@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-compliance.2-azure-policy
+title: 定义 IT 合规性与 Azure 策略
+metadata:
+  title: 定义 IT 合规性与 Azure 策略-了解
+  description: 了解 Azure 中的调控强制实施-了解。
+  ms.date: 12/27/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 30a7fdbba64d8df745c13ae8cb1ad2833e063027
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138247"
+durationInMinutes: 8
+content: '[!include[](includes/2-azure-policy.md)]'

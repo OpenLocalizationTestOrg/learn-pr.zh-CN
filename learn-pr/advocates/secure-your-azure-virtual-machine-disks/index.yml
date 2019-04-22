@@ -1,0 +1,50 @@
+### YamlMime:Module
+uid: learn.secure-your-azure-virtual-machine-disks
+metadata:
+  title: 保护你的 Azure 虚拟机磁盘-了解
+  description: 浏览 azure 中用于静态数据加密的选项, 并将 azure 磁盘加密 (ADE) 与存储服务加密 (SSE) 进行比较。 使用 Azure 门户和 PowerShell 命令和脚本对现有虚拟机上的操作系统和数据磁盘进行加密。 使用 Azure 资源管理器模板可确保自动加密新的已部署虚拟机。
+  ms.date: 09/24/2018
+  author: adrianstevens
+  ms.author: adsteven
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 8f2c2f90b9650c1d17cfbf657c0726922ded18db
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138213"
+title: 保护您的 Azure 虚拟机磁盘
+summary: 使用 Azure 磁盘加密 (ADE) 对现有和新虚拟机上的操作系统和数据磁盘进行加密。
+abstract: >
+  在本模块中, 您将:
+
+  - 确定最适合你的 VM 的加密方法
+
+  - 使用 Azure 门户加密现有的虚拟机磁盘
+
+  - 使用 PowerShell 加密现有的虚拟机磁盘
+
+  - 修改 Azure 资源管理器模板以自动执行新虚拟机上的磁盘加密
+prerequisites: 无
+iconUrl: /learn/achievements/secure-your-azure-virtual-machine-disks.svg
+levels:
+- intermediate
+roles:
+- developer
+products:
+- azure
+- azure-virtual-machines
+- azure-storage
+- azure-resource-manager
+- azure-portal
+units:
+- learn.secure-your-azure-virtual-machine-disks.1-introduction
+- learn.secure-your-azure-virtual-machine-disks.2-encryption-options-for-protecting-windows-and-linux-vms
+- learn.secure-your-azure-virtual-machine-disks.3-encrypt-existing-vm-disks
+- learn.secure-your-azure-virtual-machine-disks.4-exercise-encrypt-existing-vm-disks
+- learn.secure-your-azure-virtual-machine-disks.5-automate-secure-vm-deployments-using-arm-templates
+- learn.secure-your-azure-virtual-machine-disks.6-exercise-use-arm-template-to-decrypt-vm
+- learn.secure-your-azure-virtual-machine-disks.7-summary
+badge:
+  uid: learn.secure-your-azure-virtual-machine-disks.badge

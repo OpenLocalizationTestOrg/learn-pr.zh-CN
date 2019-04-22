@@ -1,0 +1,78 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-azure-government.8-knowledge-check
+title: 知识检查
+metadata:
+  title: 知识检查
+  description: Azure 政府-知识检查
+  ms.date: 10/11/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 6f0c489fadabeefb32a591b4dce892f8d449788a
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138392"
+durationInMinutes: 10
+content: ''
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 全局 azure 和 Azure 政府之间的关键区别在于以下哪一项？
+    choices:
+    - content: Azure 政府有一个市场, 可以从 Microsoft 和合作伙伴部署预构建的映像。
+      isCorrect: false
+      explanation: 不. 全局 azure 和 Azure 政府都提供了一个市场
+    - content: Azure 政府有一个门户, 可以通过它管理您的资源。
+      isCorrect: false
+      explanation: 不. 全局 azure 和 azure 政府都有门户体验。
+    - content: azure 政府是 azure 的物理独立实例。
+      isCorrect: true
+      explanation: 错误! Azure 政府是一个 sovereign 云, 它在物理上独立于其自己的数据中心集。
+    - content: azure 政府使用的是全局 azure 的不同技术。
+      isCorrect: false
+      explanation: 不. Azure 政府使用与全局 Azure 相同的基础技术, 其中包括基础结构即服务 (IaaS)、平台即服务 (PaaS) 和软件即用服务 (SaaS) 的核心组件。
+  - content: 有多少 Azure 政府区域可用？
+    choices:
+    - content: "4"
+      isCorrect: false
+      explanation: 不
+    - content: "12"
+      isCorrect: false
+      explanation: 不
+    - content: 步
+      isCorrect: false
+      explanation: 不
+    - content: utf-8
+      isCorrect: true
+      explanation: 错误. Azure 政府云具有一个高级基础结构, 其中8个在美国的发布区域中提供了强大的网络。
+  - content: 'Azure 政府仅适用于三种不同类型的客户。 以下哪些客户类型是不可用的**** ？ '
+    choices:
+    - content: 政府机构中的美国政府实体, 如联邦机构。
+      isCorrect: false
+      explanation: 不. 政府实体 (如联邦代理) 将有权访问 Azure 政府云。
+    - content: 为私有部门构建云解决方案的私有实体。
+      isCorrect: true
+      explanation: 错误. 此类客户将无法访问 Azure 政府云。
+    - content: 一家使用 Azure 政府的合作伙伴, 通过直接或间接合同提供为我们政府客户提供服务或解决方案的解决方案。
+      isCorrect: false
+      explanation: 不. 在这种情况下, 合作伙伴可以使用 Azure 政府。
+    - content: 包含受政府法规约束的数据的商业实体。
+      isCorrect: false
+      explanation: 不. 允许包含政府法规的数据的商业实体。
+  - content: 以下哪一个地址是用于访问 Azure 政府门户的正确 URL？
+    choices:
+    - content: portal.azure.com
+      isCorrect: false
+      explanation: 这是用于访问全局 Azure 门户的 URL。
+    - content: portal.azure.gov
+      isCorrect: false
+      explanation: 这不是有效的 URL。
+    - content: portal.azure.us
+      isCorrect: true
+      explanation: 可以在上访问 Azure 政府门户https://portal.azure.us
+    - content: azure 馈送
+      isCorrect: false
+      explanation: 这不是有效的 URL。

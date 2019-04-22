@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.manage-secrets-with-azure-key-vault.2-what-is-key-vault
+title: 什么是 Azure 密钥存储库？
+metadata:
+  title: 什么是 Azure 密钥存储库？
+  description: 什么是 Azure 密钥存储库？
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: eaa062ce6851f1c23121d638fa0808df5c48fff7
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138238"
+durationInMinutes: 5
+content: '[!include[](includes/2-what-is-key-vault.md)]'

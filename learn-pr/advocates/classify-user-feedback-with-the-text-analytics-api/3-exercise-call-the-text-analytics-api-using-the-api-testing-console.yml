@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.classify-user-feedback-with-the-text-analytics-api.3-exercise-call-the-text-analytics-api-using-the-api-testing-console
+metadata:
+  title: 练习-从联机测试控制台调用文本分析 API
+  description: 在此单元中, 我们将对文本分析 API 的看法终结点进行实际调用, 而无需编写代码行, 这要归功于在线 API 测试控制台。
+  ms.date: 09/24/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: a35a9529d866fa36a71c3c0bde0a8e9269d03a1d
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138149"
+title: 练习-从联机测试控制台调用文本分析 API
+azureSandbox: true
+durationInMinutes: 10
+content: '[!include[](includes/3-exercise-call-the-text-analytics-api-using-the-api-testing-console.md)]'

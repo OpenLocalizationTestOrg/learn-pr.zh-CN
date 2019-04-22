@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.control-and-organize-with-resource-manager.2-principles-of-resource-groups
+title: 资源组的原则
+metadata:
+  title: 资源组的原则
+  description: 在此单位中, 我们将介绍资源组的关键原则
+  ms.date: 10/1/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 7d9cf58724bd0f97e8aaaae0f503e836ce3cf976
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138296"
+durationInMinutes: 10
+content: '[!include[](includes/2-principles-of-resource-groups.md)]'

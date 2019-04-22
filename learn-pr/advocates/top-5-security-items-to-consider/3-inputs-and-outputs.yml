@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn.top-5-security-items-to-consider.3-inputs-and-outputs
+title: 输入和输出
+metadata:
+  title: 输入和输出
+  description: 输入和输出
+  author: lnyswonger
+  ms.date: 09/24/2018
+  ms.author: luken
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 6c4e776f085790814c51fa814ef5072e329e18fa
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138324"
+durationInMinutes: 10
+content: >
+  [!include[](includes/3-inputs-and-outputs.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 需要验证以下哪些数据源？
+    choices:
+    - content: 来自第三方 API 的数据
+      isCorrect: false
+      explanation: 这只是需要验证的多个源中的一个。
+    - content: URL 参数中的数据
+      isCorrect: false
+      explanation: 这只是需要验证的多个源中的一个
+    - content: 通过输入字段从用户收集的数据
+      isCorrect: false
+      explanation: 这只是需要验证的多个源中的一个。
+    - content: 以上所有
+      isCorrect: true
+      explanation: 所有这些数据源都需要验证。 从不信任任何可能已修改的数据。
+  - content: '参数化查询 (SQL 中的存储过程) 是一种与数据库对话的安全方法, 这是因为:'
+    choices:
+    - content: 它们的组织方式比内联数据库命令更大, 因而对用户造成的混淆更小。
+      isCorrect: false
+      explanation: 代码的组织并不是参数化查询比内联 SQL 更安全的原因。
+    - content: 存储过程中的脚本有一个清晰的轮廓, 以确保更好的可见性。
+      isCorrect: false
+      explanation: '[! 注意] 清除脚本的大纲并不是参数化查询更安全的原因与内联 SQL 相比。'
+    - content: 参数化查询在运行查询前替换变量, 这意味着它避免了将代码提交到变量的机会。
+      isCorrect: true
+      explanation: 在参数化查询中使用的参数字段被视为数据, 而不是代码, 以防止注入漏洞。 有关如何实现参数化查询的详细信息, 请参阅[OWASP 查询参数]( https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet)化内容表。
+  - content: 需要对以下哪些数据进行输出编码？
+    choices:
+    - content: 保存到数据库的数据
+      isCorrect: false
+      explanation: '[! 提示] 尽管需要验证保存到数据库的数据以确保数据良好, 但不需要对其进行编码以进行输出。'
+    - content: 要输出到屏幕的数据
+      isCorrect: true
+      explanation: 发送到屏幕的数据需要进行编码以确保其永远不会被解释为代码的输出。
+    - content: 发送到第三方 API 的数据
+      isCorrect: false
+      explanation: 尽管需要验证发送到第三方 API 的数据, 以确保数据良好, 但不需要对其进行编码以进行输出。
+    - content: URL 参数中的数据
+      isCorrect: false
+      explanation: '[! 提示] 尽管 URL 参数中的数据在应用程序中使用之前需要进行验证, 但不需要对其进行编码以进行输出。'

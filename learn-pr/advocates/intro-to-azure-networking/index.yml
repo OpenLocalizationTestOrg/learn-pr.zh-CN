@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.intro-to-azure-networking
+metadata:
+  title: Core 云服务-Azure 网络简介-了解
+  description: 在云中运行您的应用程序或服务需要快速而安全的网络。 了解一些 azure 网络基础知识, 以及 azure 网络如何帮助改进恢复能力和减少延迟。
+  ms.date: 09/24/2018
+  author: tpetchel
+  ms.author: thpetche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: f53e586a72249a0683c34586f5bf3e6a6743cc09
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138253"
+title: Core 云服务-Azure 网络选项
+summary: 在云中运行您的应用程序或服务需要快速而安全的网络。 了解一些 azure 网络基础知识, 以及 azure 网络如何帮助改进恢复能力和减少延迟。
+abstract: >
+  在本模块中, 您将:
+
+  - 了解虚拟网络如何帮助隔离网络和计算资源
+
+  - 了解 Azure 负载平衡器如何帮助提高恢复能力, 或在服务关闭时进行恢复
+
+  - 了解流量管理器如何将流量路由到不同的终结点, 包括与用户的延迟最低的终结点
+prerequisites: 无
+iconUrl: /learn/achievements/intro-to-azure-networking.svg
+levels:
+- beginner
+roles:
+- developer
+- administrator
+- solution-architect
+products:
+- azure
+units:
+- learn.intro-to-azure-networking.1-introduction
+- learn.intro-to-azure-networking.2-deploy-to-azure
+- learn.intro-to-azure-networking.3-scale-load-balancer
+- learn.intro-to-azure-networking.4-reduce-latency-traffic-manager
+- learn.intro-to-azure-networking.5-summary
+badge:
+  uid: learn.intro-to-azure-networking.badge

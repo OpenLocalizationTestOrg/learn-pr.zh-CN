@@ -1,0 +1,38 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-security.3-identity-management
+title: 身份管理
+metadata:
+  title: 身份管理
+  description: 在此单元中, 我们将讨论如何保护你的身份
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 102ce98c038f1636903b33a75640387277905251
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138259"
+durationInMinutes: 10
+content: >
+  [!include[](includes/3-identity-management.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 以下哪一项不是单一登录的好处？
+    choices:
+    - content: 增加了复杂性为用户分配权限
+      isCorrect: true
+      explanation: 单一登录可以降低将权限分配给用户所需的复杂性, 因为要管理的标识较少。
+    - content: 要记住的用户的 id 和密码较少
+      isCorrect: false
+      explanation: 单一登录可以降低将权限分配给用户所需的复杂性, 因为要管理的标识较少。
+    - content: 在用户更改角色或离开组织时降低管理工作
+      isCorrect: false
+      explanation: 单一登录可以降低将权限分配给用户所需的复杂性, 因为要管理的标识较少。
+    - content: 确保各个应用程序之间的一致密码策略
+      isCorrect: false
+      explanation: 单一登录可以降低将权限分配给用户所需的复杂性, 因为要管理的标识较少。

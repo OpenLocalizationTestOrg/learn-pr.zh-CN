@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.create-computer-vision-service.6-extract-handwritten-text
+title: 检测并从图像中提取手写文本
+metadata:
+  title: 检测并从图像中提取手写文本
+  description: 检测并从图像中提取手写文本
+  ms.date: 09/24/2018
+  author: AndrewJByrne
+  ms.author: marouill
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 93e6c602847a77ae67b04eb702db724b4dee03ec
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138188"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 5
+content: '[!include[](includes/6-extract-handwritten-text.md)]'

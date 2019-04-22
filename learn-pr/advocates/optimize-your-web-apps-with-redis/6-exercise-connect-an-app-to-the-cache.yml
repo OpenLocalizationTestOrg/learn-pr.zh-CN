@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.optimize-web-app-with-redis.6-exercise-connect-an-app-to-the-cache
+title: 将应用程序连接到缓存
+metadata:
+  title: 将应用程序连接到缓存
+  description: 将应用程序连接到缓存
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: e5bc09770269d8c244f681e9b9c63c5343eefe56
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138368"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 15
+content: '[!include[](includes/6-exercise-connect-an-app-to-the-cache.md)]'

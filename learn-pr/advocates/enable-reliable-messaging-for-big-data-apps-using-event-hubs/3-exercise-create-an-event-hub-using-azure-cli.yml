@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.enable-reliable-messaging-for-big-data-applications-using-azure-event-hubs.3-exercise-create-an-event-hub-using-azure-cli
+title: 使用 Azure CLI 创建事件中心
+metadata:
+  title: 使用 Azure CLI 创建事件中心
+  description: 使用 Azure CLI 创建事件中心
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 0fb5373981afed6d09414557d19d35df5421d7ab
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138358"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 10
+content: '[!include[](includes/3-exercise-create-an-event-hub-using-azure-cli.md)]'

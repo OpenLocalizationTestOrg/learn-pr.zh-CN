@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.create-azure-account.4-azure-tenants
+title: 对 Azure Active Directory 的访问进行身份验证
+metadata:
+  title: 使用 Azure Active Directory 对访问进行身份验证-了解
+  description: 使用 Azure Active Directory 对访问进行身份验证-了解
+  ms.date: 01/1/2019
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 9929b1533c8384d7284970a8d372276de4b524e0
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138141"
+durationInMinutes: 5
+content: '[!include[](includes/4-azure-tenants.md)]'
