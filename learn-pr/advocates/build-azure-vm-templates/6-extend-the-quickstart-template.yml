@@ -1,0 +1,32 @@
+### YamlMime:ModuleUnit
+uid: learn.build-azure-vm-templates.6-extend-the-quickstart-template
+title: 扩展快速入门模板以部署一个基本网站
+metadata:
+  title: 扩展快速入门模板以部署一个基本网站
+  description: 将资源添加到你的模板并将更改部署到你的 VM
+  ms.date: 09/24/2018
+  author: tpetchel
+  ms.author: thpetche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  zone_pivot_groups: platform-cloud
+  ms.openlocfilehash: 9b859138b6d3ebfb3e58c1b71eef30a62073533b
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137362"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 7
+content: >
+  [!include[](includes/6-extend-the-quickstart-template.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.Network/virtualNetworks
+      name: MyVNET
+  hint: 按如下`az group deployment create`所示运行命令以创建你的 VM 部署。

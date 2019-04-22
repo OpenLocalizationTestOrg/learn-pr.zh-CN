@@ -1,0 +1,44 @@
+### YamlMime:ModuleUnit
+uid: learn.introduction-to-azure-virtual-machines.7-knowledge-check
+title: 知识检查
+metadata:
+  title: 知识检查
+  description: 知识检查
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 69529d40c6d5981e286aaaea1026f81c12fb63c4
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136174"
+durationInMinutes: 1
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 假设您想要在虚拟机上运行网络设备。 应选择哪个工作负荷选项？
+    choices:
+    - content: 常规用途
+      isCorrect: false
+      explanation: 计算优化的虚拟机旨在使 CPU 与内存的比率较高。 适用于中型流量 web 服务器、网络设备、批处理过程和应用程序服务器。
+    - content: 计算优化
+      isCorrect: true
+      explanation: 计算优化的虚拟机旨在使 CPU 与内存的比率较高。 适用于中型流量 web 服务器、网络设备、批处理过程和应用程序服务器。
+    - content: 内存优化
+      isCorrect: false
+      explanation: 计算优化的虚拟机旨在使 CPU 与内存的比率较高。 适用于中型流量 web 服务器、网络设备、批处理过程和应用程序服务器。
+    - content: 存储优化
+      isCorrect: false
+      explanation: 计算优化的虚拟机旨在使 CPU 与内存的比率较高。 适用于中型流量 web 服务器、网络设备、批处理过程和应用程序服务器。
+  - content: 'True 或 false: 资源管理器模板是否为 JSON 文件？'
+    choices:
+    - content: "True"
+      isCorrect: true
+      explanation: 资源管理器模板是 JSON 文件, 用于定义需要为解决方案部署的资源。 然后, 可以使用该模板轻松地重新创建多个版本的基础结构, 例如暂存和生产。
+    - content: "False"
+      isCorrect: false
+      explanation: 资源管理器模板是 JSON 文件, 用于定义需要为解决方案部署的资源。 然后, 可以使用该模板轻松地重新创建多个版本的基础结构, 例如暂存和生产。

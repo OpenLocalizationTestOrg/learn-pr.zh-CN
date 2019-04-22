@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.chain-azure-functions-data-using-input-output-bindings.4-read-data-with-input-bindings-portal-lesson
+metadata:
+  title: 使用输入绑定读取数据
+  description: 在此实际操作单元中, 我们将使用 azure Cosmos db 输入绑定在 azure 函数中读取来自 azure Cosmos db 的数据。
+  ms.date: 09/24/2018
+  author: andrewjbyrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: f9b18f8a4f33af9f21142e18efc654d967d3a41c
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137354"
+title: 使用输入绑定读取数据
+durationInMinutes: 5
+content: '[!include[](includes/4-read-data-with-input-bindings-portal-lesson.md)]'

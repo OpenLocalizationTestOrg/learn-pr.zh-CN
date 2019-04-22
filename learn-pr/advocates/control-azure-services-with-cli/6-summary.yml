@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn.control-azure-services-with-cli.6-summary
+title: 摘要
+metadata:
+  title: 摘要
+  description: 摘要
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: a5a23c1bc744cd84ff10b13d0ce2888cafcf77ce
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137220"
+durationInMinutes: 3
+content: >
+  [!include[](includes/6-summary.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 您需要在您的计算机上安装哪些内容才能让您在本地执行 Azure CLI 命令？
+    choices:
+    - content: Azure 云命令行管理程序
+      isCorrect: false
+      explanation: 云命令行管理程序允许您执行 Azure CLI 命令;但是, 在浏览器中使用云命令行管理程序, 因此不会在本地计算机上运行命令。
+    - content: azure CLI 和 azure PowerShell
+      isCorrect: false
+      explanation: 您可以从 PowerShell 提示符运行 CLI 命令;但是, 不需要 PowerShell 在本地运行 CLI。
+    - content: 仅 Azure CLI
+      isCorrect: true
+      explanation: 您只需安装 Azure CLI 即可。 您将使用命令行管理程序发出 CLI 命令, 但每个平台都有至少一个内置命令行管理程序。
+  - content: '可以在 Linux、macOS 和 Windows 上安装 Azure CLI。 True 或 false: 您使用的 CLI 命令在所有平台中都相同。'
+    choices:
+    - content: "True"
+      isCorrect: true
+      explanation: CLI 是跨平台的, 可以安装在 Linux、macOS 和 Windows 上。 安装完成后, 您运行的 CLI 命令在任何位置都相同。 这意味着您可以一次性了解这些命令, 并将其用于任何本地安装或在 Azure 云命令行管理程序中。
+    - content: "False"
+      isCorrect: false
+      explanation: CLI 提供了其所有可用命令的相同集合。
+  - content: 您可以向大多数 CLI 命令添加哪个参数以获取简明的格式化输出？
+    choices:
+    - content: 列表
+      isCorrect: false
+      explanation: list 子命令显示资源的详细信息, 它不控制输出格式。
+    - content: 型
+      isCorrect: true
+      explanation: table 参数将输出格式设置为表。 这可以使生成大量输出的命令更容易阅读。
+    - content: 该组
+      isCorrect: false
+      explanation: group 命令允许您控制资源组, 它不影响输出格式。

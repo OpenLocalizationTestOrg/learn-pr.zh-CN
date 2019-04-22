@@ -1,0 +1,35 @@
+### YamlMime:ModuleUnit
+uid: learn.build-azure-vm-templates.7-summary
+title: 摘要
+metadata:
+  title: 摘要
+  description: 查看你学习的内容并发现下一步可以执行的操作
+  ms.date: 09/24/2018
+  author: tpetchel
+  ms.author: thpetche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 2f9c64a1d2883feae7a9a135eeca1a3dfab8a392
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137361"
+durationInMinutes: 2
+content: >
+  [!include[](includes/7-summary.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 假设您想要创建一个可重用模板, 该模板使用自定义脚本扩展在虚拟机上配置 web 内容。 启用部署以指定用于配置 web 内容的脚本的最佳方法是什么？
+    choices:
+    - content: 提供指定脚本位置的参数。
+      isCorrect: true
+      explanation: 参数促进重用。 模板运行时, 它们的值将填入。
+    - content: 提供指定脚本位置的变量。
+      isCorrect: false
+      explanation: 尽管变量可帮助您更轻松地维护您的模板, 但在使模板可配置或可重用时, 它们并不是最佳选择。
+    - content: 在模板中提供一个默认的脚本位置, 然后使用嵌套模板来覆盖该位置。
+      isCorrect: false
+      explanation: 虽然您可以使用嵌套的模板替代默认值, 但它可能会使您的部署比所需的复杂。

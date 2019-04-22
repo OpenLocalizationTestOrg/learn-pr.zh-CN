@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.create-a-windows-vm-in-azure.7-exercise-manage-vm
+title: 配置虚拟机网络设置
+metadata:
+  title: 配置虚拟机网络设置
+  description: 配置虚拟机网络设置
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 9e8249e9f75ea04af56381e58bb9ca6c9e4b637f
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137959"
+durationInMinutes: 12
+azureSandbox: true
+content: '[!include[](includes/7-exercise-manage-vm.md)]'

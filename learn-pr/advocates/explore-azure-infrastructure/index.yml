@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn.explore-azure-infrastructure
+title: Core 云服务-Azure 体系结构和服务保证
+summary: Azure 提供了全球安全数据中心网络, 你可以将服务部署到中。 了解 Azure 的物理体系结构、如何提供冗余以及如何保证 Microsoft 提供的服务种类。
+metadata:
+  title: Core 云服务-探索 Azure 体系结构和服务保证-了解
+  description: Azure 提供了物理数据中心的全局安全网络, 你可以将服务部署到中。 了解 Azure 的物理体系结构、如何提供冗余以及应确保 Microsoft 提供的服务种类。
+  ms.date: 12/29/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: ff31344bf22d2305f0f71aa9438ee07d1abd2425
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136978"
+abstract: >
+  在本模块中, 您将:
+    - 浏览 Azure 基础结构的物理结构
+    - 了解 Azure 提供的服务级别协议
+    - 了解如何为你的应用提供你自己的服务级别协议
+prerequisites: 无
+iconUrl: /learn/achievements/explore-azure-infrastructure.svg
+levels:
+- beginner
+roles:
+- administrator
+- developer
+- solution-architect
+products:
+- azure
+units:
+- learn.explore-azure-infrastructure.1-introduction
+- learn.explore-azure-infrastructure.2-azure-datacenter-locations
+- learn.explore-azure-infrastructure.3-geographies
+- learn.explore-azure-infrastructure.4-availability-zones
+- learn.explore-azure-infrastructure.5-region-pairs
+- learn.explore-azure-infrastructure.6-service-level-agreements
+- learn.explore-azure-infrastructure.7-composite-sla
+- learn.explore-azure-infrastructure.8-improve-app-slas
+- learn.explore-azure-infrastructure.9-summary
+badge:
+  uid: learn.explore-azure-infrastructure.badge

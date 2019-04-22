@@ -1,2 +1,2 @@
 > [!TIP]
-> You can use the **Copy** button to copy commands to the clipboard. To paste, right click on a new line in the Cloud Shell window and select **Paste** or use the <kbd>Shift+Insert</kbd> keyboard shortcut.
+> 您可以使用 "**复制**" 按钮将命令复制到剪贴板。 若要粘贴, 请在云命令行管理器窗口中右键单击新行, 然后选择 "**粘贴**" 或 "使用<kbd>Shift + 插入</kbd>键盘快捷方式"。

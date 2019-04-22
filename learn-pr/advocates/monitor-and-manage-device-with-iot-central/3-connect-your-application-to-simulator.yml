@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.monitor-manage-device-with-iotcentral.3-connect-your-application-to-simulator
+title: 将模拟咖啡机连接到应用程序
+metadata:
+  title: 将模拟咖啡机连接到应用程序
+  description: 将模拟咖啡机连接到应用程序
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 3973e10aada6ead4b026e6fdfe0986d7764649ba
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136590"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 15
+content: '[!include[](includes/3-connect-your-application-to-simulator.md)]'

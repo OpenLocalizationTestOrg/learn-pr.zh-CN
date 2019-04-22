@@ -1,23 +1,28 @@
 ### YamlMime:LearningPath
 uid: learn.create-serverless-applications
 metadata:
-  title: Create serverless applications learning path
-  description: Azure Functions enable the creation of event driven, compute-on-demand systems that can be triggered by various external events. Learn how to leverage functions to execute server-side logic and build serverless architectures.
+  title: 创建无服务器应用程序学习路径
+  description: Azure 函数允许创建事件驱动的可由各种外部事件触发的按需计算系统。 了解如何利用函数执行服务器端逻辑并构建无服务器体系结构。
   brand: azure
   ms.date: 09/24/2018
   author: markjulmar
   ms.author: smmark
-  #ms.learn-contact: smmark
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Create serverless applications
-summary: Azure Functions enable the creation of event driven, compute-on-demand systems that can be triggered by various external events. Learn how to leverage functions to execute server-side logic and build serverless architectures.
-prerequisites: None
+  ms.openlocfilehash: c64e4cb5cbd892ffd880a5eee378443b5369243a
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136806"
+title: 创建无服务器应用程序
+summary: Azure 函数允许创建事件驱动的可由各种外部事件触发的按需计算系统。 了解如何利用函数执行服务器端逻辑并构建无服务器体系结构。
+prerequisites: 无
 iconUrl: /learn/achievements/create-serverless-applications.svg
-levels: 
+levels:
 - beginner
 - intermediate
-roles: 
+roles:
 - developer
 products:
 - azure
@@ -30,6 +35,5 @@ modules:
 - learn.create-serverless-logic-with-functions
 - learn.execute-azure-function-with-triggers
 - learn.chain-azure-functions-data-using-input-output-bindings
-#TODO: Add post-Ignite - learn.build-a-serverless-web-app
 trophy:
   uid: learn.create-serverless-applications.trophy

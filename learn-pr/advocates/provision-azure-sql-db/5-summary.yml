@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn.provision-azure-sql-db.5-summary
+title: 摘要和清理
+metadata:
+  title: 摘要和清理
+  description: 摘要和清理
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 1017eadcf79e2e6aa8224b195404f377e0f8eb4b
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136827"
+durationInMinutes: 5
+content: >
+  [!include[](includes/5-summary.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 谁负责在 Azure SQL 数据库和基础操作系统上执行软件更新？
+    choices:
+    - content: 你是。 你将由你定期登录并安装最新的安全修补程序和更新。
+      isCorrect: false
+      explanation: Azure SQL 数据库是一项平台即服务 (PaaS) 产品, 意味着维护工作的维护要少得多。
+    - content: Microsoft Azure。 Azure 为你管理硬件、软件更新和操作系统修补程序。
+      isCorrect: true
+      explanation: Azure SQL 数据库是一项服务平台即服务 (PaaS) 产品。 Azure 为你管理硬件、软件更新和操作系统修补程序。
+    - content: 没人。 您的数据库将保留其原始 OS 和软件配置。
+      isCorrect: false
+      explanation: Azure SQL 数据库是一项服务平台即服务 (PaaS) 产品。 云提供商通常会为你管理和更新 PaaS 服务。
+  - content: 什么是_Azure SQL 逻辑服务器_？
+    choices:
+    - content: 数据库的管理容器。
+      isCorrect: true
+      explanation: 您可以通过逻辑服务器控制登录、防火墙规则和安全策略。
+    - content: Azure SQL 数据库实例的另一个名称。
+      isCorrect: false
+      explanation: 请记住, 可以有多个数据库实例。 是否有办法共同管理它们？
+    - content: 定义对数据进行排序和比较的逻辑规则的服务器。
+      isCorrect: false
+      explanation: _排序_规则是指对数据进行排序和比较的规则。
+  - content: Azure SQL 数据库提供了足够的存储和计算能力。 但您会发现您需要额外的 IO 吞吐量。 您可以使用哪个性能模型？
+    choices:
+    - content: DTU
+      isCorrect: false
+      explanation: DTU 或数据库事务单位提供了简单的预配置的购买选项。 若要增加 IO 吞吐量, 需要移到更高的层, 从而增加你的存储和计算能力, 不需要的内容。
+    - content: vCore
+      isCorrect: true
+      explanation: vCore 使您可以更好地控制您为其创建和支付的计算和存储资源。 您可以增加 IO 吞吐量, 但应保留现有的计算和存储量。
+    - content: SQL 弹性池
+      isCorrect: false
+      explanation: 通过 SQL 弹性池, 您可以购买池内的所有数据库之间共享的一组计算和存储资源。 由于仅使用一个数据库, 此选项不会帮助执行 IO 性能。

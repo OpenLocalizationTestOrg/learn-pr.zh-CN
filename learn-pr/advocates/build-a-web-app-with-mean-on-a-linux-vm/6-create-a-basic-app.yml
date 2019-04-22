@@ -1,0 +1,31 @@
+### YamlMime:ModuleUnit
+uid: learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm.6-create-a-basic-app
+title: 创建基本 web 应用程序
+metadata:
+  title: 创建基本 web 应用程序
+  description: 创建基本 web 应用程序
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: a0ebd2eba8868150a91c3428b8694332cc359ea8
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137682"
+interactive: bash-editor
+azureSandbox: true
+durationInMinutes: 15
+content: >
+  [!include[](includes/6-create-a-basic-app.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.Compute/virtualMachines
+      name: MeanStack
+  hint: 确保你的 VM 存在, 并且你的 web 应用程序显示如下所示。

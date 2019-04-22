@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-access-azure-ad-multi-factor-authentication.5-test-access
+metadata:
+  title: 测试对资源的访问
+  description: 测试对 Azure 门户和 MyApps 门户的访问权限, 以确保在需要时强制实施多重身份验证。
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 6f3abaa0192f03e53134c1439f13a81012e06eff
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138006"
+title: 测试对资源的访问
+durationInMinutes: 3
+content: '[!include[](includes/5-test-access.md)]'

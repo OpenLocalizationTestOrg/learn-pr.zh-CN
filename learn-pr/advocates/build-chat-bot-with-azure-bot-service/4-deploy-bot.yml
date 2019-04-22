@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.build-azure-bot-services-bot.4-deploy-bot
+title: 使用 Visual Studio Code 部署 bot
+metadata:
+  title: 使用 Visual Studio Code 部署 bot
+  description: 使用 Visual Studio Code 部署 bot
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 8ab033c8786a5edc36e5d65b16b50856270744b3
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136785"
+labId: 46466
+durationInMinutes: 20
+content: '[!include[](includes/4-deploy-bot.md)]'

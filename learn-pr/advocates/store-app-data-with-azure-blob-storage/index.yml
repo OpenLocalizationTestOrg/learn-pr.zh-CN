@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn.store-app-data-with-azure-blob-storage
+metadata:
+  title: 将应用程序数据存储在 Azure Blob 存储中-了解
+  description: 构建一个应用程序, 用于存储 Azure Blob 存储的用户文件。
+  ms.date: 09/24/2018
+  author: nickwalkmsft
+  ms.author: nickwalk
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 8b47839c1a8d888fe50298ce78d9bbcd4606aa1e
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136153"
+title: 将应用程序数据与 Azure Blob 存储存储在一起
+summary: 构建一个应用程序, 用于存储 Azure Blob 存储的用户文件。
+abstract: >
+  在本模块中, 您将:
+    - 使用 Azure Blob 存储组织你的数据
+    - 创建存储资源以保留 blob
+    - 从 Azure Blob 存储中存储和检索数据
+prerequisites: 无
+iconUrl: /learn/achievements/store-app-data-with-azure-blob-storage.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-storage
+units:
+- learn.store-app-data-with-azure-blob-storage.1-introduction
+- learn.store-app-data-with-azure-blob-storage.2-what-are-blobs
+- learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy
+- learn.store-app-data-with-azure-blob-storage.4-create-storage-resources
+- learn.store-app-data-with-azure-blob-storage.5-configure-and-initialize-the-client-library
+- learn.store-app-data-with-azure-blob-storage.6-getting-blob-references
+- learn.store-app-data-with-azure-blob-storage.7-blob-uploads-and-downloads
+- learn.store-app-data-with-azure-blob-storage.8-cleanup-next-steps-knowledge-check
+badge:
+  uid: learn.store-app-data-with-azure-blob-storage.badge

@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-security.5-encryption
+title: 技术
+metadata:
+  title: 技术
+  description: 在此单元中, 我们将讨论如何使用加密来保护体系结构
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: cfc16bc5dcb751c8bb522a9b2ad88834a15935f8
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136605"
+durationInMinutes: 10
+content: >
+  [!include[](includes/5-encryption.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 'True 或 false: 只有 Windows 虚拟机可以使用 Azure 磁盘加密'
+    choices:
+    - content: "True"
+      isCorrect: false
+      explanation: Windows 和 Linux 虚拟机均可使用 Azure 磁盘加密。
+    - content: "False"
+      isCorrect: true
+      explanation: Windows 和 Linux 虚拟机均可使用 Azure 磁盘加密。
+  - content: 对数据进行分类时, 有以下哪种因素？
+    choices:
+    - content: 如果暴露, 为客户带来的风险级别
+      isCorrect: true
+      explanation: 对应加密的数据进行分类通常基于其暴露给客户带来的影响。
+    - content: 数据传输方法
+      isCorrect: false
+      explanation: 对应加密的数据进行分类通常基于其暴露给客户带来的影响。
+    - content: 数据是存储在虚拟机上还是存储在数据库中
+      isCorrect: false
+      explanation: 对应加密的数据进行分类通常基于其暴露给客户带来的影响。
+    - content: 存储的数据量
+      isCorrect: false
+      explanation: 对应加密的数据进行分类通常基于其暴露给客户带来的影响。

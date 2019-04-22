@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.create-azure-account.2-azure-accounts-and-subscriptions
+title: Azure 帐户和订阅
+metadata:
+  title: Azure 帐户和订阅
+  description: Azure 帐户和订阅
+  ms.date: 01/1/2019
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: b0a54c6cc787452899e190f46af2fc435ff768ff
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136566"
+durationInMinutes: 4
+content: '[!include[](includes/2-azure-accounts-and-subscriptions.md)]'

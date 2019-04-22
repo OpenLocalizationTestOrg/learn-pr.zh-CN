@@ -1,4 +1,4 @@
-The free sandbox allows you to create resources in a subset of Azure's global regions. Select a region from the following list when creating any resources:
+免费的沙盒允许您在 Azure 全局区域的子集内创建资源。 创建任何资源时, 请从以下列表中选择一个区域:
 
 :::row:::
     :::column:::

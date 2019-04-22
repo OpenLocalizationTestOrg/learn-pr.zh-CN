@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn.interactive-deep-learning.7-summary-and-knowledge-check
+title: 摘要
+metadata:
+  title: 摘要
+  description: 摘要
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 800add2fc16aa9a10205905cc31532cef886185a
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136540"
+durationInMinutes: 1
+content: >
+  [!include[](includes/7-summary-and-knowledge-check.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 以下哪一项是使用数据科学虚拟机 (DSVM) 而不是构建您自己的自定义 VM 的好处？
+    choices:
+    - content: DSVM 包含计算机学习任务所需的许多常见工具。
+      isCorrect: true
+      explanation: 使用 DSVM 的实例意味着无需花费时间安装软件。 有一些环境可在 R、Python、.net 等中开发和执行代码。
+    - content: DSVM 是创建具有多个 gpu 的 VM 实例的唯一方法。
+      isCorrect: false
+      explanation: 虽然您可以创建具有多个 gpu 的 DSVM, 但您也可以通过这种方式创建自定义虚拟机。
+    - content: 您无需等待新的虚拟机实例被分配。
+      isCorrect: false
+      explanation: 与所有虚拟机一样, 在创建新的 DSVM 实例时, 在分配它时, 会有一个短暂的等待。
+  - content: 以下哪一项描述了 CUDA？
+    choices:
+    - content: 它是一个并行计算平台和 API。
+      isCorrect: true
+      explanation: CUDA 是由 NVIDIA 创建的并行计算平台和应用程序编程接口 (API) 模型。 CUDA 平台是一个软件层, 可直接访问 GPU 的虚拟指令集和并行计算元素, 以便执行计算内核。
+    - content: 它是强大的功能强大的 CPU。
+      isCorrect: false
+      explanation: CUDA 是一个软件层, 专为 gpu 而设计。
+    - content: 它是一个用于图像分类的深入学习模型。
+      isCorrect: false
+      explanation: 在培训神经网络时, CUDA gpu 可以大大提高计算性能, 但这只是它使用的一种功能。
+  - content: 以下哪种情况描述 PyTorch
+    choices:
+    - content: 由 Python 灵感的数学编程语言。
+      isCorrect: false
+      explanation: PyTorch 不是一种编程语言。
+    - content: 用于承载 Python 应用程序的 docker 容器图像。
+      isCorrect: false
+      explanation: PyTorch 不是 docker 容器图像。
+    - content: 用于 Python 的机器学习软件库。
+      isCorrect: true
+      explanation: PyTorch 是一个库, 用于使机器学习任务在 Python 中更易于和更快速。 它包括内置 CUDA 对 gpu 上的代码执行支持。

@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.explore-azure-infrastructure.9-summary
+title: 摘要
+metadata:
+  title: 摘要
+  description: 摘要
+  ms.date: 01/1/2019
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 7f82b595bcfa72366a53fb86b289ab0fe5e1e867
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137036"
+durationInMinutes: 5
+content: >
+  [!include[](includes/9-summary.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: True 或 False。 您可以选择要将应用程序部署到的特定数据中心。
+    choices:
+    - content: "True"
+      isCorrect: false
+      explanation: Azure 围绕包含多个数据中心的_区域_组织基础结构。
+    - content: "False"
+      isCorrect: true
+      explanation: 错误. Azure 围绕包含多个数据中心的_区域_组织基础结构。 您不能选择特定数据中心, 但可以选择要部署的资源所在的区域。
+  - content: True 或 False。 每个区域都有一个可用性区域。
+    choices:
+    - content: "True"
+      isCorrect: false
+      explanation: 支持可用性区域的区域包括*美国*、北欧** 和*东南部亚洲*。
+    - content: "False"
+      isCorrect: true
+      explanation: 错误. 支持可用性区域的区域包括*美国*、北欧** 和*东南部亚洲*。
+  - content: 应用程序可用性是指什么？
+    choices:
+    - content: 相关联的资源的服务级别协议。
+      isCorrect: false
+      explanation: 服务级别协议使您能够保证资源的可用性, 而不是应用程序本身的可用性。
+    - content: 应用程序是否支持可用性区域。
+      isCorrect: false
+      explanation: 仅应用程序支持可用性区域中使用的基础资源。
+    - content: 系统正常运行和工作的总时间。
+      isCorrect: true
+      explanation: 错误. 系统正在运行的时间称为应用程序的可用性。

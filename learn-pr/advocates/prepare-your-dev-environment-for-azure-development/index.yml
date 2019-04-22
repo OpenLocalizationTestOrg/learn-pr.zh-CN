@@ -1,0 +1,49 @@
+### YamlMime:Module
+uid: learn.prepare-azure-dev-environment
+metadata:
+  title: 为 Azure 开发准备开发环境-了解
+  description: 设置具有多个常用 ide 的本地开发环境。
+  ms.date: 09/24/2018
+  author: adrianstevens
+  ms.author: adsteven
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: e2f23c025d92a6812e00549efcf23fe61e4fb1e3
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137592"
+title: 为 Azure 开发准备开发环境
+summary: 设置具有多个常用 ide 的本地开发环境。
+abstract: >
+  在本模块中, 您将:
+
+  - 设置 Visual Studio Code
+
+  - 设置 Visual Studio
+
+  - 为 Java 开发设置 Eclipse
+
+  - 为 Azure 开发准备 IDE
+prerequisites: 无
+iconUrl: /learn/achievements/prepare-your-dev-environment-for-azure-development.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- vs-code
+- azure-sdks
+units:
+- learn.prepare-azure-dev-environment.1-introduction
+- learn.prepare-azure-dev-environment.2-set-up-visual-studio-code
+- learn.prepare-azure-dev-environment.3-exercise-set-up-visual-studio-code
+- learn.prepare-azure-dev-environment.4-set-up-visual-studio
+- learn.prepare-azure-dev-environment.5-exercise-set-up-visual-studio
+- learn.prepare-azure-dev-environment.6-set-up-eclipse-ide-for-java-developers
+- learn.prepare-azure-dev-environment.7-exercise-set-up-eclipse
+- learn.prepare-azure-dev-environment.8-summary
+badge:
+  uid: learn.prepare-azure-dev-environment.badge

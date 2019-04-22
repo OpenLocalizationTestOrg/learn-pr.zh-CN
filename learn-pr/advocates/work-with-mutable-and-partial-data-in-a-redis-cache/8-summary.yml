@@ -1,0 +1,66 @@
+### YamlMime:ModuleUnit
+uid: learn.work-with-mutable-and-partial-data-in-a-redis-cache.8-summary
+title: 摘要
+metadata:
+  title: 摘要
+  description: 摘要
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 99f0848256fe54856de98984d1f544a3fbe96a8e
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137582"
+durationInMinutes: 3
+content: >
+  [!include[](includes/8-summary.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 如果 Redis 事务中的命令失败, 会发生什么情况？
+    choices:
+    - content: 如果使用错误语法对命令进行了排队, 则当您尝试执行时, 事务将自动丢弃。 如果命令在执行过程中失败, 事务将以正常方式完成。
+      isCorrect: true
+      explanation: 在 Redis 中, 执行过程中失败的命令不会停止事务。 使用错误语法排队的命令将阻止执行事务。
+    - content: "\"失败\" 命令之前的命令仍将执行, 但 \"失败\" 命令之后的命令将不会执行。"
+      isCorrect: false
+      explanation: 事务中的失败命令不会阻止执行后面的命令。
+    - content: 整个事务将回滚。
+      isCorrect: false
+      explanation: Redis 不支持事务回滚。
+    - content: 该连接将被中止。
+      isCorrect: false
+      explanation: 失败的命令不会导致 Redis 连接中止。
+  - content: 以下哪一项是用于管理数据过期的 Redis 命令？
+    choices:
+    - content: 键
+      isCorrect: false
+      explanation: DEL 用于删除密钥。
+    - content: 扔
+      isCorrect: false
+      explanation: 舍弃用于在其执行之前取消事务。
+    - content: 超时
+      isCorrect: false
+      explanation: TIMEOUT 不是有效的 Redis 命令。
+    - content: 何时
+      isCorrect: true
+      explanation: 过期用于设置密钥的过期超时 (以秒为单位)。
+  - content: 您的 Redis 缓存是使用**可变 ttl**逐出策略配置的。 如果内存不足, 并且您尝试插入一个新密钥, 则删除现有密钥？
+    choices:
+    - content: 最近使用最少的键。
+      isCorrect: false
+      explanation: 这是**allkeys**的已逐出策略的行为。
+    - content: 随机密钥。
+      isCorrect: false
+      explanation: 这是**allkeys 的随机**策略的行为。
+    - content: 下一个过期的键。
+      isCorrect: true
+      explanation: '**可变-ttl**将删除最短生存时间的密钥。'
+    - content: 从已配置为过期的项中选择的随机密钥。
+      isCorrect: false
+      explanation: 这是**易失性随机**策略的行为。

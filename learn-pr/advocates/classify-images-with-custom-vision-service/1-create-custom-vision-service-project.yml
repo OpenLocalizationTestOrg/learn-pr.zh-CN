@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.classify-images-with-custom-vision-services.1-create-custom-vision-service-project
+title: 练习-创建自定义的远景服务项目
+metadata:
+  title: 练习-创建自定义的远景服务项目
+  description: 练习-创建自定义的远景服务项目
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: b3089bf56cc3068b761dba563984542674b27cad
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136482"
+durationInMinutes: 5
+content: '[!include[](includes/1-create-custom-vision-service-project.md)]'

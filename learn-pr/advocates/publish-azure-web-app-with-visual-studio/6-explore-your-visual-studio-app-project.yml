@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn.publish-azure-web-app-with-visual-studio.6-explore-your-visual-studio-app-project
+title: 浏览 Visual Studio 应用程序项目
+metadata:
+  title: 浏览 Visual Studio 应用程序项目
+  description: 浏览 Visual Studio 应用程序项目
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 49a4a81ece42b3e84475a667821c07eb2d0302c9
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137782"
+durationInMinutes: 5
+content: '[!include[](includes/6-explore-your-visual-studio-app-project.md)]'

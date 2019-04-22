@@ -1,0 +1,52 @@
+### YamlMime:Module
+uid: learn.build-azure-bot-services-bot
+metadata:
+  title: 使用 Azure bot 服务生成聊天机器人-了解
+  description: Azure Bot 服务与 Microsoft QnA Maker 结合使用, 为开发人员提供了构建和发布与使用一系列服务的用户进行自然交互的智能 bot 所需的工具。
+  ms.date: 09/26/2018
+  author: lnyswonger
+  ms.author: luken
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 1fa4dbbbc3fef6a911e773856889e1f403f30258
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138054"
+title: 使用 Azure bot 服务生成聊天机器人
+summary: Azure Bot 服务与 Microsoft QnA Maker 结合使用, 为开发人员提供了构建和发布与使用一系列服务的用户进行自然交互的智能 bot 所需的工具。
+abstract: >
+  在本模块中, 您将:
+
+  - 创建 Azure Web 应用程序机器人以承载 Bot
+
+  - 创建知识库, 使用数据填充该知识库, 并将其连接到机器人
+
+  - 在代码中实现 bot 并调试生成的 bot
+
+  - 发布 bot 并使用持续集成使其保持最新
+
+  - 使用 Visual Studio Code 和 Microsoft Bot 框架仿真器在本地调试 bot
+prerequisites: >
+  无
+iconUrl: /learn/achievements/build-chat-bot-with-azure-bot-service.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- vs
+- vs-code
+units:
+- learn.build-azure-bot-services-bot.1-introduction
+- learn.build-azure-bot-services-bot.2-create-web-app-bot
+- learn.build-azure-bot-services-bot.3-create-qna-maker
+- learn.build-azure-bot-services-bot.4-deploy-bot
+- learn.build-azure-bot-services-bot.5-debug-bot-locally
+- learn.build-azure-bot-services-bot.6-connect-to-knowledge-base
+- learn.build-azure-bot-services-bot.7-summary
+- learn.build-azure-bot-services-bot.8-knowledge-check
+badge:
+  uid: learn.build-azure-bot-services-bot.badge

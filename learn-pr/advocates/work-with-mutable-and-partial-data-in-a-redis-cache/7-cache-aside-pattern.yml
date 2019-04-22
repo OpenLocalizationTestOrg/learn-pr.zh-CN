@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.work-with-mutable-and-partial-data-in-a-redis-cache.7-cache-aside-pattern
+title: 旁缓存模式
+metadata:
+  title: 旁缓存模式
+  description: 旁缓存模式
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: a0a3a0063d4560dda3a71f3d457668e5339e6f99
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137978"
+durationInMinutes: 10
+content: '[!include[](includes/7-cache-aside-pattern.md)]'

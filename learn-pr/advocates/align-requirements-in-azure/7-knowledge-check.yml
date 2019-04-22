@@ -1,0 +1,66 @@
+### YamlMime:ModuleUnit
+uid: learn.align-requirements-in-azure.7-knowledge-check
+title: 知识检查-IaaS、PaaS & SaaS
+metadata:
+  title: 知识检查-IaaS、PaaS & SaaS
+  description: 知识检查-IaaS、PaaS & SaaS
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 72e8ba33a74f75e588ec9106d897d40abd1070d5
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136649"
+durationInMinutes: 2
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 哪种云服务模型将是以下情况的最佳匹配？ 短期项目需要 SQL Server 数据库。 it 部门没有满足部署它所需的性能要求或资源的可用硬件。 项目将在下周开始。 项目结束后, 数据库将不再需要。
+    choices:
+    - content: IaaS
+      isCorrect: false
+      explanation: 由于即时需求和短寿命, PaaS 是最佳选择。 例如, 可以将 Azure SQL Database 用于解决方案。 由于创建虚拟机和安装 SQL Server 所需的时间和精力与使用预建的 PaaS 产品相比, IaaS 不是最佳选择。
+    - content: PaaS
+      isCorrect: true
+      explanation: 由于即时需求和短寿命, PaaS 是最佳选择。 例如, 可以将 Azure SQL Database 用于解决方案。 由于创建虚拟机和安装 SQL Server 所需的时间和精力与使用预建的 PaaS 产品相比, IaaS 不是最佳选择。
+    - content: SaaS
+      isCorrect: false
+      explanation: 由于即时需求和短寿命, PaaS 是最佳选择。 例如, 可以将 Azure SQL Database 用于解决方案。 由于创建虚拟机和安装 SQL Server 所需的时间和精力与使用预建的 PaaS 产品相比, IaaS 不是最佳选择。
+  - content: 以下方案中介绍了哪种云服务模型？ 在云中创建多个虚拟机。 使用虚拟网络将虚拟机与网络结合在一起。 虚拟机可访问云存储中的 x 光图像文件。 一台虚拟机是一台 web 服务器, 它承载向 internet 公开的网站, 以供客户访问其记录。 有一个 VPN 将解决方案连接到本地数据中心, 以供客户信息与图像文件一起显示。
+    choices:
+    - content: IaaS
+      isCorrect: true
+      explanation: 此方案中使用的所有资源均可使用 IaaS 实现。 仅可使用 PaaS 实施解决方案的一部分, 因此不是一个好的选择。 由于这是一种自定义解决方案, 我们可以假定没有提供此功能的 SaaS 产品。
+    - content: PaaS
+      isCorrect: false
+      explanation: 此方案中使用的所有资源均可使用 IaaS 实现。 仅可使用 PaaS 实施解决方案的一部分, 因此不是一个好的选择。 由于这是一种自定义解决方案, 我们可以假定没有提供此功能的 SaaS 产品。
+    - content: SaaS
+      isCorrect: false
+      explanation: 此方案中使用的所有资源均可使用 IaaS 实现。 仅可使用 PaaS 实施解决方案的一部分, 因此不是一个好的选择。 由于这是一种自定义解决方案, 我们可以假定没有提供此功能的 SaaS 产品。
+  - content: 哪种云服务模型将是以下情况的最佳匹配？ 您在启动的公司中工作, 需要进行协作的员工数量较少。 他们需要电子邮件、日历计划以及存储文档的地方。 团队是技术, 但没有实现和管理解决方案所需的时间或硬件。
+    choices:
+    - content: IaaS
+      isCorrect: false
+      explanation: SaaS 解决方案 (如 Office 365) 是协作要求的理想解决方案。
+    - content: PaaS
+      isCorrect: false
+      explanation: SaaS 解决方案 (如 Office 365) 是协作要求的理想解决方案。
+    - content: SaaS
+      isCorrect: true
+      explanation: SaaS 解决方案 (如 Office 365) 是协作要求的理想解决方案。
+  - content: 以下方案中介绍了哪种云服务模型？ 您的组织中有两个数据中心。 一个数据中心具有一个只能驻留在其中一个数据中心中的数据库, 因为存在法规要求。 您希望从其他数据中心访问数据库。 使用云提供程序创建 VPN 以连接两个数据中心。
+    choices:
+    - content: IaaS
+      isCorrect: true
+      explanation: VPN 是 iaas 资源, 因此可将其视为 iaas 解决方案。
+    - content: PaaS
+      isCorrect: false
+      explanation: VPN 是 iaas 资源, 因此可将其视为 iaas 解决方案。
+    - content: SaaS
+      isCorrect: false
+      explanation: VPN 是 iaas 资源, 因此可将其视为 iaas 解决方案。

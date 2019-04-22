@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.create-a-windows-vm-in-azure.4-connect-to-a-windows-virtual-machine
+title: 使用 RDP 连接到 Windows Azure 虚拟机
+metadata:
+  title: 使用 RDP 连接到 Windows Azure 虚拟机
+  description: 使用 RDP 连接到 Windows Azure 虚拟机
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 9e410287861bd77444527e7b2fc6837b7524b755
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137041"
+durationInMinutes: 10
+content: '[!include[](includes/4-connect-to-a-windows-virtual-machine.md)]'

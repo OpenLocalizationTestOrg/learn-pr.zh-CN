@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.run-docker-containers-aci.7-knowledge-check
+title: 知识检查
+metadata:
+  title: 知识检查
+  description: 知识检查
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 52f326962648a4292e955694b2f2ae7a9dd99c13
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138021"
+durationInMinutes: 5
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 对于服务请求的长时间运行的任务, 哪种重启策略通常是最佳选择？
+    choices:
+    - content: 都
+      isCorrect: true
+      explanation: 重新启动策略**始终**会确保必要的进程仍然可用, 即使需要重新启动也是如此。
+    - content: 永不
+      isCorrect: false
+      explanation: 重新启动策略**始终**会确保必要的进程仍然可用, 即使需要重新启动也是如此。
+    - content: OnFailure
+      isCorrect: false
+      explanation: 重新启动策略**始终**会确保必要的进程仍然可用, 即使需要重新启动也是如此。
+  - content: 'True 或 false: 默认情况下, 可以在 azure 门户和 azure CLI 输出中看到环境变量的值。'
+    choices:
+    - content: "True"
+      isCorrect: true
+      explanation: 环境变量默认情况下不受保护, 并且可以在 azure 门户和 azure CLI 输出中看到它们的值。
+    - content: "False"
+      isCorrect: false
+      explanation: 环境变量默认情况下不受保护, 并且可以在 azure 门户和 azure CLI 输出中看到它们的值。
+  - content: 哪些故障排除命令可用于查看容器启动事件？
+    choices:
+    - content: az 容器日志
+      isCorrect: false
+      explanation: 该`az container logs`命令将检查容器组中容器的日志。
+    - content: az 容器附加
+      isCorrect: true
+      explanation: 该`az container attach`命令显示容器事件和日志。 相比之下, `az container logs`仅显示日志, 而不是启动事件。
+    - content: az 容器 exec
+      isCorrect: false
+      explanation: 该`az container exec`命令从容器组的正在运行的容器中执行命令。

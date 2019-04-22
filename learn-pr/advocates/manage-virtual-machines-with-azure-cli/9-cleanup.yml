@@ -1,0 +1,56 @@
+### YamlMime:ModuleUnit
+uid: learn.manage-vms-with-azure-cli-data.9-cleanup
+title: 摘要和清理
+metadata:
+  title: 摘要和清理
+  description: 清理我们在此模块中使用的资源
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 65bf6ff448cb65428a39ec088973f9b512aeb7b8
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136409"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 2
+content: >
+  [!include[](includes/9-cleanup.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: '假设你是几个 Azure 虚拟机的管理员。 你会收到一条指示你的 vm 的一些问题的短信。 你在朋友的房子中, 并且仅拥有你的平板电脑。 True 或 false: 你仍可以使用平板电脑访问 Azure CLI, 即使你无法在其上安装 CLI 也是如此。'
+    choices:
+    - content: "True"
+      isCorrect: true
+      explanation: azure 云命令行管理程序在浏览器中可用, 并在完整的 Azure CLI 中运行。 如果你更喜欢使用 Powershell, 则 Azure 云 Shell 也会出现此情况。
+    - content: "False"
+      isCorrect: false
+      explanation: azure 云命令行管理程序在浏览器中可用, 并在完整的 Azure CLI 中运行, 因此您不需要安装软件。
+  - content: 假设您有一个用于创建多个具有不同图像的虚拟机的脚本。 当脚本发出命令以创建第一个 vm 时, 您不希望在创建 vm 时阻止脚本, 而是希望脚本立即移动到下一个命令。 执行此操作的最佳方法是什么？
+    choices:
+    - content: 将 "--async" 参数添加到您的 "创建" 命令中。
+      isCorrect: false
+      explanation: 没有 "--async" 参数作为 "azure VM 创建" 的一部分。
+    - content: 使用与号 (&) 在后台运行进程。
+      isCorrect: false
+      explanation: 这可能会在某些平台上执行操作, 但可能会比受支持的方法使用更多的系统资源。
+    - content: 将 "--无-等待" 参数添加到您的创建命令中。
+      isCorrect: true
+      explanation: 添加 "--无等待" 将导致 "azure VM 创建" 立即返回, 而不等待实际创建虚拟机。
+  - content: 默认情况下, 大多数 Azure 命令都返回 JSON。 有时, 此数据集可能非常大, 这使得在使用一个命令的结果作为另一个命令的输入时很难阅读和技巧。 您可以使用 Azure CLI 将结果筛选为仅获取所需的数据？
+    choices:
+    - content: 您可以使用 "--查询" 参数。
+      isCorrect: true
+      explanation: 所有 azure 命令都支持 "--查询" 参数, 您可以在任何 Azure 命令响应中选择有用的数据。
+    - content: 您可以使用 "--筛选器" 参数。
+      isCorrect: false
+      explanation: Azure CLI 没有 '--筛选器参数。
+    - content: 您可以通过管道将结果通过管道传递给 JSON 分析实用程序并在其中使用筛选功能。
+      isCorrect: false
+      explanation: 这可能会起作用, 但比使用 Azure CLI 的内置查询支持更复杂。

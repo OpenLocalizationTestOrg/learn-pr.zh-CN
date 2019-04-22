@@ -1,0 +1,43 @@
+### YamlMime:ModuleUnit
+uid: learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy
+title: 设计存储组织策略
+metadata:
+  title: 设计存储组织策略
+  description: 设计存储组织策略
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 9800d3cbc42f4e0297f9f9e3c2b33fb1af4c2c5b
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137760"
+durationInMinutes: 7
+content: >
+  [!include[](includes/3-design-organization-strategy.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: "假设您需要存储有关客户的配置文件和订单信息。 您需要查询数据以回答类似于 \"我的 ' 我的 ' 我的 ' 我的 ' 我的 ' 我的首要 ' 以及 \"在给定地理区域中居住的客户数是多少？\"。 True 或 false: blob 存储是此数据的理想选择吗？"
+    choices:
+    - content: "True"
+      isCorrect: false
+      explanation: blob 不适合需要频繁查询的结构化数据。 与内存和本地磁盘相比, 它们的延迟时间更长, 没有索引功能可使数据库在运行查询时效率更高。
+    - content: "False"
+      isCorrect: true
+      explanation: blob 不适合需要频繁查询的结构化数据。 与内存和本地磁盘相比, 它们的延迟时间更长, 没有索引功能可使数据库在运行查询时效率更高。
+  - content: blob 提供*非结构化*数据存储。 *非结构化*的含义是什么？
+    choices:
+    - content: 不能对 blob 进行组织或命名。
+      isCorrect: false
+      explanation: blob 不会对数据施加任何结构, 这意味着您的应用程序可以在 blob 中存储任何类型的数据。
+    - content: 对可以存储在 blob 中的数据类型没有任何限制。
+      isCorrect: true
+      explanation: blob 不会对数据施加任何结构, 这意味着您的应用程序可以在 blob 中存储任何类型的数据。
+    - content: blob 不能包含结构化数据, 如 JSON 或 XML。
+      isCorrect: false
+      explanation: blob 不会对数据施加任何结构, 这意味着您的应用程序可以在 blob 中存储任何类型的数据。

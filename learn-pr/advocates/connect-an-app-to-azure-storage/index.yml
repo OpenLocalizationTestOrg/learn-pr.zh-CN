@@ -1,0 +1,51 @@
+### YamlMime:Module
+uid: learn.connect-app-to-azure-storage
+metadata:
+  title: 将应用程序连接到 Azure 存储-了解
+  description: 创建一个简单的应用程序, 并添加配置、客户端库参考和代码以将其连接到 Azure 存储。
+  ms.date: 09/24/2018
+  author: JesseDietrichson
+  ms.author: jediet
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 20ae43957a6e7c08fab0eb6d736dc429fa6c8aee
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136617"
+title: 将应用连接到 Azure 存储
+summary: 创建一个简单的应用程序, 并添加配置、客户端库参考和代码以将其连接到 Azure 存储。
+abstract: >
+  在本模块中, 您将:
+
+  - 浏览 Azure 存储帐户支持的数据类型和服务。
+
+  - 使用 azure 门户创建新的 Azure 存储帐户。
+
+  - 创建新的应用程序, 并将应用程序连接到 Azure 存储帐户。
+prerequisites: 'c # 或 Javascript 中的一些编程 expierience'
+iconUrl: /learn/achievements/connect-an-app-to-azure-storage.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-storage
+- azure-cloud-shell
+units:
+- learn.connect-app-to-azure-storage.1-introduction
+- learn.connect-app-to-azure-storage.2-explore-azure-storage
+- learn.connect-app-to-azure-storage.3-exercise-create-your-app
+- learn.connect-app-to-azure-storage.4-exercise-create-storage-account
+- learn.connect-app-to-azure-storage.5-interact-with-azure-storage-apis
+- learn.connect-app-to-azure-storage.6-exercise-add-the-azure-storage-lib
+- learn.connect-app-to-azure-storage.7-connect-to-your-azure-storage-account
+- learn.connect-app-to-azure-storage.8-exercise-add-azure-storage-configuration-to-your-app
+- learn.connect-app-to-azure-storage.9-initialize-the-storage-account-model
+- learn.connect-app-to-azure-storage.10-exercise-connect-with-your-azure-storage-configuration
+- learn.connect-app-to-azure-storage.11-knowledge-check
+- learn.connect-app-to-azure-storage.12-summary
+badge:
+  uid: learn.connect-app-to-azure-storage.badge

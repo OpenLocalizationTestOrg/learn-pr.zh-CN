@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-azure-resources-with-rbac.6-view-activity-logs
+metadata:
+  title: 查看用于 RBAC 更改的活动日志
+  description: 了解如何使用 Azure 活动日志列出门户中的 RBAC 更改并生成简单报告。
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 96944bf6c2336dab7fd2ff42db79a3b42cfd49a9
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137771"
+title: 查看用于 RBAC 更改的活动日志
+durationInMinutes: 4
+content: '[!include[](includes/6-view-activity-logs.md)]'

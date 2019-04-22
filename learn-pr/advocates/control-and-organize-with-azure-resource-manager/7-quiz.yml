@@ -1,0 +1,72 @@
+### YamlMime:ModuleUnit
+uid: learn.control-and-organize-with-resource-manager.7-quiz
+title: 查看你的知识
+metadata:
+  title: 知识检查
+  description: 知识检查
+  ms.date: 10/1/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 54bc418f021d9cbfba322f945e631c0865f550cc
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137656"
+durationInMinutes: 5
+quiz:
+  title: 知识检查
+  questions:
+  - content: 标记可应用于 Azure 上的任何类型的资源
+    choices:
+    - content: "True"
+      explanation: 并不是所有资源都支持标记, 因此您需要确认您的资源类型支持它们。
+      isCorrect: false
+    - content: "False"
+      isCorrect: true
+  - content: 在资源组级别应用的标记 propogated 资源组中的资源。
+    choices:
+    - content: "True"
+      explanation: 不继承标记。 您需要对需要标记的每个受支持的资源应用标记。
+      isCorrect: false
+    - content: "False"
+      isCorrect: true
+  - content: 以下哪一项不是资源组的功能？
+    choices:
+    - content: 资源只能位于一个资源组中。
+      isCorrect: false
+    - content: 可以将资源从一个资源组移动到另一个资源组。
+      isCorrect: false
+    - content: 可以嵌套资源组。
+      isCorrect: true
+    - content: 基于角色的访问控制可应用于资源组。
+      isCorrect: false
+  - content: 以下哪一项可能是正确使用标记的？
+    choices:
+    - content: 使用标记将成本中心与资源关联以实现内部成本分摊
+      isCorrect: false
+    - content: 将标记与 Azure 自动化结合使用以安排维护窗口
+      isCorrect: false
+    - content: 使用标记来存储环境和部门关联
+      isCorrect: false
+    - content: 上述所有方法都是使用标记的有效方法
+      isCorrect: true
+  - content: 以下哪一项是确保在您的订阅中遵循命名约定的最有效方法？
+    choices:
+    - content: 发送包含命名约定详细信息的电子邮件, 并希望遵守
+      isCorrect: false
+    - content: 创建具有你的命名要求的策略, 并将其分配给你的订阅的范围
+      isCorrect: true
+    - content: 向所有其他用户授予除自己对订阅的只读访问权限之外的其他所有用户。 具有创建要发送给您的资源的所有请求, 以便您可以查看分配给资源的名称, 然后创建这些名称。
+      isCorrect: false
+  - content: 将资源锁定放在下面哪一项是合适的？
+    choices:
+    - content: 连接回您的本地网络的 ExpressRoute 电路
+      isCorrect: true
+    - content: 用于测试偶尔的应用程序生成的非生产虚拟机
+      isCorrect: false
+    - content: 用于临时存储在开发环境中处理的图像的存储帐户
+      isCorrect: false

@@ -1,0 +1,46 @@
+### YamlMime:LearningPath
+uid: learn.architect-great-solutions-in-azure
+metadata:
+  title: 在 Azure 学习路径中构建强大的解决方案
+  description: 了解如何在 Azure 中设计和构建安全、可扩展、高性能的解决方案, 方法是检查每个正常体系结构中发现的核心原则。
+  brand: azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 1b3cf3b1964c4e655ef5e36cda29c21af3d9095a
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137004"
+title: 在 Azure 中构建强大的解决方案
+summary: 了解如何在 Azure 中设计和构建安全、可扩展、高性能的解决方案, 方法是检查每个正常体系结构中发现的核心原则。
+prerequisites: 无
+iconUrl: /learn/achievements/architect-great-solutions-in-azure.svg
+levels:
+- beginner
+- intermediate
+roles:
+- solution-architect
+products:
+- azure
+- azure-storage
+- azure-sql-database
+- azure-cosmos-db
+- azure-cost-management
+- azure-advisor
+- azure-monitor
+- azure-application-insights
+- azure-log-analytics
+- azure-cdn
+- azure-active-directory
+modules:
+- learn.pillars-of-a-great-azure-architecture
+- learn.design-for-security
+- learn.design-for-performance-and-scalability
+- learn.design-for-efficiency-and-operations
+- learn.design-for-availability-and-recoverability
+trophy:
+  uid: learn.architect-great-solutions-in-azure.trophy

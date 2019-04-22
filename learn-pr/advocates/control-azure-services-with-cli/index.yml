@@ -1,0 +1,49 @@
+### YamlMime:Module
+uid: learn.control-azure-services-with-cli
+metadata:
+  title: 使用 CLI 控制 Azure 服务-了解
+  description: 在本地安装 azure CLI 并使用它来管理 azure 资源。
+  ms.date: 09/24/2018
+  author: marktap
+  ms.author: matapar
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: da2c5d0c68b04d7cb6beb87dc2f904c7ec79012d
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136550"
+title: 使用 CLI 控制 Azure 服务
+summary: 在本地安装 azure CLI 并使用它来管理 azure 资源。
+abstract: >
+  在本模块中, 您将:
+
+  - 在 Linux、macOS 和/或 Windows 上安装 Azure CLI
+
+  - 使用 azure CLI 连接到 azure 订阅
+
+  - 使用 azure CLI 创建 azure 资源
+prerequisites: >
+  - 使用命令行界面 (例如 PowerShell 或 Bash) 的体验
+
+  - 了解基本 Azure 概念, 如资源组
+
+  - 使用 azure 门户管理 azure 资源的体验
+iconUrl: /learn/achievements/control-azure-services-with-cli.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-clis
+units:
+- learn.control-azure-services-with-cli.1-introduction
+- learn.control-azure-services-with-cli.2-what-is-the-azure-cli
+- learn.control-azure-services-with-cli.3-exercise-install-and-run-the-azure-cli
+- learn.control-azure-services-with-cli.4-work-with-the-cli
+- learn.control-azure-services-with-cli.5-exercise-create-website-using-the-cli
+- learn.control-azure-services-with-cli.6-summary
+badge:
+  uid: learn.control-azure-services-with-cli.badge

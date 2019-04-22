@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.align-requirements-in-azure.5-paas
+title: 平台即服务
+metadata:
+  title: PaaS
+  description: 了解平台作为一种服务, 如果它可能是你的应用程序的正确选择
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: d7bdd1ed2106297e9677e66736f49be486365791
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136651"
+durationInMinutes: 4
+content: '[!include[](includes/5-paas.md)]'

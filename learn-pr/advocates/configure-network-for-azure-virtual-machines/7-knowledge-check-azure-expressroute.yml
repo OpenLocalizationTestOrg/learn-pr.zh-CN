@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.configure-the-network-for-your-virtual-machines.7-knowledge-check-azure-expressroute
+title: 知识检查
+metadata:
+  title: 知识检查
+  description: 知识检查
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: c0a9adcf5dc1c69966646fa9344440560919c99a
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136874"
+durationInMinutes: 3
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 以下哪种协议为 Azure ExpressRoute 提供动态路由？
+    choices:
+    - content: IPVPN
+      isCorrect: false
+      explanation: 边界网关协议是行业标准的动态路由协议, 可在本地网络、Azure 中的实例和 Microsoft 公用地址之间交换路由。
+    - content: PPTP
+      isCorrect: false
+      explanation: 边界网关协议是行业标准的动态路由协议, 可在本地网络、Azure 中的实例和 Microsoft 公用地址之间交换路由。
+    - content: IPsec
+      isCorrect: false
+      explanation: 边界网关协议是行业标准的动态路由协议, 可在本地网络、Azure 中的实例和 Microsoft 公用地址之间交换路由。
+    - content: 边界网关协议 (BGP)
+      isCorrect: true
+      explanation: 边界网关协议是行业标准的动态路由协议, 可在本地网络、Azure 中的实例和 Microsoft 公用地址之间交换路由。
+    - content: S 键
+      isCorrect: false
+      explanation: 边界网关协议是行业标准的动态路由协议, 可在本地网络、Azure 中的实例和 Microsoft 公用地址之间交换路由。
+  - content: 'True 或 false: Azure 公共对等: 允许你使用公用 IP 地址连接到服务, 而不会通过 internet 路由流量'
+    choices:
+    - content: "True"
+      isCorrect: true
+      explanation: 'Azure 公共对等启用与公用 IP 地址上可用的服务的专用连接。 支持的服务的一些示例包括: azure 存储和 azure SQL 数据库。'
+    - content: "False"
+      isCorrect: false
+      explanation: 'Azure 公共对等启用与公用 IP 地址上可用的服务的专用连接。 支持的服务的一些示例包括: azure 存储和 azure SQL 数据库。'

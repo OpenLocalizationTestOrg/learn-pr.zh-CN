@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.create-cosmos-db-for-scale.3-what-is-a-request-unit
+metadata:
+  title: 什么是 Azure Cosmos DB 请求单元？
+  description: 什么是 Azure Cosmos DB 请求单元？
+  ms.date: 09/24/2018
+  author: mimig1
+  ms.author: mimig
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 562f7e2ae4ab849010ff5fc546f5b0bc0ea00ea2
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137329"
+title: 什么是请求单元？
+durationInMinutes: 8
+content: "[!include[](includes/3-what-is-a-request-unit.md)] \n"
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 当您创建 Azure Cosmos DB 帐户, 并且想确保它会随着应用程序的需求而增长时, 您应将吞吐量设置到的最小值是多少？
+    choices:
+    - content: 400 RU/秒
+      isCorrect: false
+      explanation: 1000 RU/秒的吞吐量是启用数据库自动缩放的最小值。
+    - content: 1000 RU/秒
+      isCorrect: true
+      explanation: 1000 RU/秒的吞吐量是启用数据库自动缩放的最小值。
+    - content: 1400 RU/秒
+      isCorrect: false
+      explanation: 1000 RU/秒的吞吐量是启用数据库自动缩放的最小值。
+    - content: 250000 RU/秒
+      isCorrect: false
+      explanation: 1000 RU/秒的吞吐量是启用数据库自动缩放的最小值。
+  - content: 如果您计划将 4 KB 文档写入 Azure Cosmos DB 数据库每秒100次, 每秒读取500次, 则应设置多少个请求单元以确保您的帐户不受分级限制？
+    choices:
+    - content: 400 RU/秒
+      isCorrect: false
+      explanation: 您至少需要 1350 RU/秒才能支持此方案。 若要确保不会进行评级限制, 应设置 1400 ru/秒, 因为您需要 1350 ru/秒, 并且请求单位的单位为 100 (1300、1400、1500等)。
+    - content: 1000 RU/秒
+      isCorrect: false
+      explanation: 您至少需要 1350 RU/秒才能支持此方案。 若要确保不会进行评级限制, 应设置 1400 ru/秒, 因为您需要 1350 ru/秒, 并且请求单位的单位为 100 (1300、1400、1500等)。
+    - content: 1300 RU/秒
+      isCorrect: false
+      explanation: 您至少需要 1350 RU/秒才能支持此方案。 若要确保不会进行评级限制, 应设置 1400 ru/秒, 因为您需要 1350 ru/秒, 并且请求单位的单位为 100 (1300、1400、1500等)。
+    - content: 1400 RU/秒
+      isCorrect: true
+      explanation: 您至少需要 1350 RU/秒才能支持此方案。 若要确保不会进行评级限制, 应设置 1400 ru/秒, 因为您需要 1350 ru/秒, 并且请求单位的单位为 100 (1300、1400、1500等)。

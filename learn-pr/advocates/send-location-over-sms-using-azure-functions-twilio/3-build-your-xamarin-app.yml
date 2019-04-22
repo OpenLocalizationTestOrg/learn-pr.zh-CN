@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.3-build-your-xamarin-app
+title: 构建你的 Xamarin。表单 UI 和应用程序逻辑
+metadata:
+  title: 构建你的 Xamarin。表单 UI 和应用程序逻辑
+  description: 使用模型-视图-ViewModel (MVVM) 和数据绑定构建你的 Xamarin。表单 UI 和应用程序逻辑
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 449eafe351a50d4a26f8ba71788d68eabdf2dad4
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137589"
+durationInMinutes: 10
+content: '[!include[](includes/3-build-your-xamarin-app.md)]'

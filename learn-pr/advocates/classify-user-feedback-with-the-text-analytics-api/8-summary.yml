@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn.classify-user-feedback-with-the-text-analytics-api.8-summary
+title: 摘要
+metadata:
+  title: 摘要
+  description: 摘要
+  ms.date: 09/24/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 3e9474261fd240f6e6206c61d31eb70f94387924
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137333"
+durationInMinutes: 2
+content: >
+  [!include[](includes/8-summary.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 您要将文本分析 API 集成到您的解决方案中。 你转到门户并注册了 eastus 区域中的订阅密钥。 以下哪一项是访问`sentiment`资源的正确请求 URL？
+    choices:
+    - content: eastus2.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment
+      isCorrect: false
+      explanation: 你未注册访问密钥, 因此无法发出来自此区域的请求。 请记住, 终结点指定注册过程中所选的区域、服务 URL 和请求中使用的资源。
+    - content: eastus.api.cognitive.microsoft.com/text/analytics/v2.0/entities
+      isCorrect: false
+      explanation: 此 URL 向 "实体" 资源发送请求。
+    - content: eastus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment
+      isCorrect: true
+      explanation: 终结点指定注册过程中所选的区域、服务 URL 和请求中使用的资源。
+  - content: 以下哪一项是队列绑定`direction`定义上的正确设置, 才能将邮件发送到队列？
+    choices:
+    - content: 排除
+      isCorrect: true
+      explanation: 将邮件从函数输出到队列时, 方向为 "开"。
+    - content: 实时
+      isCorrect: false
+      explanation: 当函数将邮件作为输入时, 方向为。
+    - content: 北美
+      isCorrect: false
+      explanation: 值 "北部" 对绑定上的 direction 属性无效。
+  - content: 如果我向文本分析 API 发布一个请求, 其中包含一些文本, 并且响应给出的看法分数为 0.03, 则文本的主要看法是什么？
+    choices:
+    - content: 中性
+      isCorrect: false
+      explanation: API 为每个文档返回一个介于0和1之间的看法分数, 其中1是最正值。
+    - content: 负片
+      isCorrect: true
+      explanation: API 为每个文档返回一个介于0和1之间的看法分数, 其中1是最正值。 0.03 的分数接近 0, 因此为负数。
+    - content: 好
+      isCorrect: false
+      explanation: API 为每个文档返回一个介于0和1之间的看法分数, 其中1是最正值。

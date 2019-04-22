@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.execute-azure-function-with-triggers.7-blob-trigger
+title: 创建 blob 时执行 Azure 函数
+metadata:
+  title: 创建 blob 时执行 Azure 函数
+  description: 创建 blob 时执行 Azure 函数
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 87350a85478298bd2bc185f611a918dac29282c3
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136849"
+durationInMinutes: 10
+content: '[!include[](includes/7-blob-trigger.md)]'

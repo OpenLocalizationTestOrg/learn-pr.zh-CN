@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.caching-and-performance-azure-storage-and-disks.4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal
+title: 在 azure 门户中练习启用和配置 azure VM 磁盘缓存
+metadata:
+  title: 在 azure 门户中练习启用和配置 azure VM 磁盘缓存
+  description: 在 azure 门户中练习启用和配置 azure VM 磁盘缓存
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 5b5f187ea6163345c8eb562d50be7e1f9e9a1fd9
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136561"
+azureSandbox: true
+durationInMinutes: 10
+content: '[!include[](includes/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal.md)]'

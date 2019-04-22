@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-your-azure-sql-database.5-monitor-your-database
+metadata:
+  title: 监视数据库
+  description: 了解如何审核您的数据库上的操作, 并将该信息与高级威胁监控结合使用, 以报告安全风险和威胁。
+  ms.date: 11/09/2018
+  author: jboeshart
+  ms.author: jaboes
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 4823e99e10e62a23ff0ae8801cc29509fbf765de
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137126"
+interactive: bash
+azureSandbox: true
+title: 监视数据库
+durationInMinutes: 8
+content: '[!include[](includes/5-monitor-your-database.md)]'

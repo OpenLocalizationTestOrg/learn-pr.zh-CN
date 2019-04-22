@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.automate-azure-tasks-with-powershell.6-exercise-create-resource-interactively
+title: 练习-使用 azure PowerShell 中的脚本创建 Azure 资源
+metadata:
+  title: 练习-使用 azure PowerShell 中的脚本创建 Azure 资源
+  description: 练习-使用 azure PowerShell 中的脚本创建 Azure 资源
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 690d4ec41c41a2fe54e608993652b569f17c4830
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137264"
+durationInMinutes: 15
+interactive: powershell
+azureSandbox: true
+content: '[!include[](includes/6-exercise-create-resource-interactively.md)]'

@@ -1,0 +1,50 @@
+### YamlMime:Module
+uid: learn.choose-messaging-model
+metadata:
+  title: 选择 Azure 中的邮件模型以松散连接服务-了解
+  description: 如果您的应用程序由在不同计算机、服务器和移动设备上运行的组件组成, 则这些组件之间的可靠通信可能会变得困难且不可靠。 Azure 提供了几种可用于更可靠通信的技术, 其中包括存储队列、事件中心、事件网格和服务总线。 本模块向您展示了如何为您的通信任务选择最佳技术。
+  ms.date: 09/24/2018
+  author: jasallen
+  ms.author: jasdeb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 9cdf7060fad435274e0da965f2c65623f48e0f02
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136474"
+title: 选择 Azure 中的邮件模型以松散连接服务
+summary: 如果您的应用程序由在不同计算机、服务器和移动设备上运行的组件组成, 则这些组件之间的可靠通信可能会变得困难且不可靠。 Azure 提供了几种可用于更可靠通信的技术, 其中包括存储队列、事件中心、事件网格和服务总线。 本模块向您展示了如何为您的通信任务选择最佳技术。
+abstract: >
+  在本模块中, 您将:
+
+  - 描述事件和消息, 以及您可以使用它们在分布式应用程序中解决的难题
+
+  - 确定存储队列是应用程序的最佳邮件技术的应用场景
+
+  - 确定事件网格是应用程序的最佳邮件技术的情况
+
+  - 确定事件中心是应用程序的最佳邮件技术的方案
+
+  - 确定服务总线是应用程序的最佳邮件技术的情况
+prerequisites: 无
+iconUrl: /learn/achievements/choose-a-messaging-model-in-azure-to-connect-your-services.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-service-bus
+- azure-event-grid
+- azure-event-hubs
+units:
+- learn.choose-messaging-model.1-introduction
+- learn.choose-messaging-model.2-choose-whether-to-use-message-queues-or-events
+- learn.choose-messaging-model.3-choose-azure-storage-queues
+- learn.choose-messaging-model.4-choose-event-grid
+- learn.choose-messaging-model.5-choose-azure-event-hubs
+- learn.choose-messaging-model.6-summary
+badge:
+  uid: learn.choose-messaging-model.badge

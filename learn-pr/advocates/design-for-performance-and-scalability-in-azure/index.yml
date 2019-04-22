@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.design-for-performance-and-scalability
+metadata:
+  title: Azure 中的性能和可伸缩性的设计-了解
+  description: 对系统进行扩展以处理负载、识别网络瓶颈和优化存储性能, 这一点非常重要, 因为这样可确保您的用户获得最佳体验。 在本模块中, 我们将了解如何使应用程序以最佳方式运行。
+  ms.date: 09/24/2018
+  author: christianreddington
+  ms.author: chredd
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: dc26eb418efee4f0fd70d44a6a9bc0aa7b064e1a
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136433"
+title: Azure 中的性能和可伸缩性的设计
+summary: 对系统进行扩展以处理负载、识别网络瓶颈和优化存储性能, 这一点非常重要, 因为这样可确保您的用户获得最佳体验。 了解如何使应用程序以最佳方式运行。
+abstract: >
+  在本模块中, 您将:
+
+  - 根据工作负载扩展和扩展, 调整您的容量
+
+  - 优化网络性能
+
+  - 优化存储和数据库性能
+prerequisites: 无
+iconUrl: /learn/achievements/design-for-performance-and-scalability-in-azure.svg
+levels:
+- intermediate
+roles:
+- solution-architect
+products:
+- azure
+- azure-cdn
+units:
+- learn.design-for-performance-and-scalability.1-introduction
+- learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out
+- learn.design-for-performance-and-scalability.3-optimize-network-performance
+- learn.design-for-performance-and-scalability.4-optimize-storage-performance
+- learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application
+- learn.design-for-performance-and-scalability.6-summary
+badge:
+  uid: learn.design-for-performance-and-scalability.badge

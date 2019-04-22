@@ -1,0 +1,83 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-site-reliability-engineering.4-key-principles-1-virtuous-cycles
+title: '关键的 SRE 原则和做法: virtuous 周期'
+metadata:
+  title: '关键的 SRE 原则和做法: virtuous 周期'
+  description: '关键的 SRE 原则和做法: virtuous 周期'
+  ms.date: 09/26/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: da5b7bbbb4d715f6f312ffe30db9f0615e40d979
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137912"
+durationInMinutes: 10
+content: >
+  [!include[](includes/4-key-principles-1-virtuous-cycles.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: SLI 代表什么 (在 SRE 上下文中)？
+    choices:
+    - content: '标准级别指示器 '
+      isCorrect: false
+      explanation: SLI 代表服务级别指示器。
+    - content: 服务级别指示器
+      isCorrect: true
+    - content: 安全加载指示器
+      isCorrect: false
+      explanation: SLO 代表服务级别指示器。
+    - content: 系统级接口
+      isCorrect: false
+      explanation: SLO 代表服务级别指示器。
+  - content: SLO 代表什么 (在 SRE 上下文中)？
+    choices:
+    - content: 服务级别结果
+      isCorrect: false
+      explanation: SLO 代表服务级别目标。
+    - content: 标准行操作
+      isCorrect: false
+      explanation: SLO 代表服务级别目标。
+    - content: 服务加载目标
+      isCorrect: false
+      explanation: SLO 代表服务级别目标。
+    - content: 服务级别目标
+      isCorrect: true
+  - content: 如果您耗尽服务的错误预算, 您该怎么办？
+    choices:
+    - content: 立即重新启动涉及的服务, 以便可以将其恢复为合规性
+      isCorrect: false
+      explanation: "\"错误预算\" 是一种在一段时间内跟踪服务的聚合可靠性的一种方法, 因为它与您的目标相关。 请务必遵守此项, 同时了解组织将做出反应的方式是否应超过可接受的 unreliability 的 amout。 有很多可能的响应, 您需要选择并坚持使用最适合您的特定上下文的响应。 对于每个用户和每种情况, 没有一个正确的反应。"
+    - content: 在服务返回到商定的可靠性级别之前, 将保留该软件的其他版本
+      isCorrect: false
+      explanation: "\"错误预算\" 是一种在一段时间内跟踪服务的聚合可靠性的一种方法, 因为它与您的目标相关。 请务必遵守此项, 同时了解组织将做出反应的方式是否应超过可接受的 unreliability 的 amout。 有很多可能的响应, 您需要选择并坚持使用最适合您的特定上下文的响应。 对于每个用户和每种情况, 没有一个正确的反应。"
+    - content: 立即将与此服务关联的工程资源从功能开发中重定向到修复可靠性问题
+      isCorrect: false
+      explanation: "\"错误预算\" 是一种在一段时间内跟踪服务的聚合可靠性的一种方法, 因为它与您的目标相关。 请务必遵守此项, 同时了解组织将做出反应的方式是否应超过可接受的 unreliability 的 amout。 有很多可能的响应, 您需要选择并坚持使用最适合您的特定上下文的响应。 对于每个用户和每种情况, 没有一个正确的反应。"
+    - content: 在创建该错误预算时, 根据之前商定的服务或特定于组织的方式作出响应
+      isCorrect: true
+      explanation: 为服务设置错误预算时, 决定 (和记录) 组织在什么情况下应如何响应是非常重要的。 有很多可能的响应, 您需要选择并坚持使用最适合您的特定上下文的响应。 "错误预算" 是一种在一段时间内跟踪服务的聚合可靠性的一种方法。 请务必遵守此项, 同时了解组织将做出反应的方式是否应超过可接受的 unreliability 的 amout。 有很多可能的响应, 您需要选择并坚持使用最适合您的特定上下文的响应。 每种情况下都没有一个合适的反应。
+  - content: 如果超过了服务的错误预算, 您该怎么办？
+    choices:
+    - content: 加快该服务的发布节奏
+      isCorrect: false
+      explanation: 这与可能的正确答案接近, 但它会使关键组件。 如果服务的可靠性仍在所需的级别, 即使您要执行的操作可能会降低它, 也可以通过增加发布节奏来合理地使用该预留空间。 但这只是一种可能的响应。 具体要做的事情取决于具体情况。
+    - content: 重点关注该服务的功能开发, 并更快地部署这些功能
+      isCorrect: false
+      explanation: 这与可能的正确答案接近, 但它会使关键组件。 如果服务的可靠性仍在所需的级别, 即使您要执行的操作可能会降低它, 也可以通过提高功能速度来 "使用" 该预留空间, 这是合理的。 但这只是一种可能的响应。 具体要做的事情取决于具体情况。
+    - content: 这取决于
+      isCorrect: true
+      explanation: 有很多方法可以 "花费" 额外的错误预算。 提高发布 cadency 或功能速度, 部署更多测试版功能, 执行更具破坏性的测试, 等等。 它还可以正常运行 (尽管这包含自己的一组问题), 只需执行任何操作, 即可在更高的 reliabilty 级别上运行。 所有这些响应都是特定的, 并且应在您的特定上下文中做出决定。
+  - content: 当发生停机或其他事件时, 是否应立即终止涉及的人员？
+    choices:
+    - content: 是的, 发生该错误的人员或人员应始终对其操作承担责任并支付结果
+      isCorrect: false
+      explanation: 不可能触发你的可靠方法。 如果在这些情况下, 区域性的重点在于推诿扯皮, 组织将失去从事件中进行学习的能力, 并改进了在第一次实施时能够实现它的过程和技术。 如果没有此反馈循环, 组织将始终被迫对事件做出反应, 而不是将其消除。
+    - content: 否, 在某些极少数和特别的情况下除外
+      isCorrect: true
+      explanation: 反馈循环 (如 blameless postmortems 是持续改进的关键。 如果组织从事件中了解, 而不是触发相关人员 (可能了解所发生问题的人员), 它可以直接对其服务、系统和产品的可靠性进行处理。

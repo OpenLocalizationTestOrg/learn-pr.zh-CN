@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit
+uid: learn.caching-and-performance-azure-storage-and-disks.7-summary
+title: 摘要
+metadata:
+  title: 摘要
+  description: 摘要
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 047e66c118ebc38dab0967740fc7aca8589d43f6
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136766"
+durationInMinutes: 3
+content: >
+  [!include[](includes/7-summary.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 对于诸如存储日志文件这样的写入操作, 哪种缓存选项是不错的选择？
+    choices:
+    - content: 只读
+      isCorrect: false
+      explanation: 只读缓存适用于数据磁盘, 包括 TempDB 数据。 但是, 它不会提高写操作的性能, 甚至可能导致性能略有下降。
+    - content: 读/写
+      isCorrect: false
+      explanation: 如果你的应用在需要时正确处理将缓存数据写入永久性磁盘, 这是一个不错的选择。
+    - content: 无
+      isCorrect: true
+      explanation: 重写操作通常不会从缓存中受益。 "无" 可能是专用于日志文件的磁盘的最佳选择。
+  - content: 对于哪种类型的磁盘, Azure 会重新启动 VM 以更改缓存类型？
+    choices:
+    - content: 数据
+      isCorrect: false
+      explanation: 更改数据磁盘的缓存设置会分离和将目标磁盘, 但不会重新启动 VM。
+    - content: 操作系统 (OS)
+      isCorrect: true
+      explanation: 若要更改 OS 磁盘的缓存设置, 需要重新启动 VM。
+    - content: Temporary
+      isCorrect: false
+      explanation: 不能在临时磁盘上更改缓存选项。
+    - content: 区域冗余存储 (ZRS)
+      isCorrect: false
+      explanation: 高级存储帐户不支持 ZRS。
+  - content: 假设您使用的是 Azure PowerShell 来管理 VM。 您有一个代表 VM 的本地对象, 并且您已对该本地对象进行了多个更新。 你将使用哪种 PowerShell cmdlet 将这些本地更改应用于实际 VM？
+    choices:
+    - content: 更新-AzVM
+      isCorrect: true
+      explanation: 此 cmdlet 将 Azure 虚拟机的状态更新为虚拟机对象的状态。
+    - content: AzVM
+      isCorrect: false
+    - content: 新 AzVM
+      isCorrect: false

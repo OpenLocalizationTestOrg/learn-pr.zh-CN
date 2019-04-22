@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn.align-requirements-in-azure
+metadata:
+  title: 在 Azure 中将要求与云类型和服务模型相一致-了解
+  description: Azure 支持三种部署云资源的方法-公共、专用和混合云。 在两者之间进行选择将更改您在 Azure 中移动的服务的几个因素, 包括成本、维护要求和安全性。 在本模块中, 我们将介绍这三种类型, 并帮助您做出有关为您的服务使用哪种类型的有根据的决定。 我们还将快速查看 azure 支持的服务模型, 可帮助你确定在规划 Azure 部署时应开始使用的服务。
+  ms.date: 09/24/2018
+  author: PatAltimore
+  ms.author: patricka
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 5ed7f8bd8f16c332886195e6685edd30cdd5d016
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136275"
+title: 根据 Azure 中的云类型和服务模型调整要求
+summary: Azure 支持三种部署云资源的方法-公共、专用和混合云。 在两者之间进行选择将更改您在 Azure 中移动的服务的几个因素, 包括成本、维护要求和安全性。 在本模块中, 我们将介绍这三种类型, 并帮助您做出有关为您的服务使用哪种类型的有根据的决定。 我们还将快速查看 azure 支持的服务模型, 可帮助你确定在规划 Azure 部署时应开始使用的服务。
+abstract: >
+  在本模块中, 您将:
+
+  - 比较每个云计算部署模型 (公用、私有和混合)
+
+  - 了解每个云计算服务模型的优势
+
+  - 决定您的服务应使用的部署和服务模型
+prerequisites: 无
+iconUrl: /learn/achievements/align-requirements-in-azure.svg
+levels:
+- beginner
+roles:
+- solution-architect
+products:
+- azure
+units:
+- learn.align-requirements-in-azure.1-introduction
+- learn.align-requirements-in-azure.2-public-private-hybrid
+- learn.align-requirements-in-azure.3-service-models
+- learn.align-requirements-in-azure.4-iaas
+- learn.align-requirements-in-azure.5-paas
+- learn.align-requirements-in-azure.6-saas
+- learn.align-requirements-in-azure.7-knowledge-check
+- learn.align-requirements-in-azure.8-summary
+badge:
+  uid: learn.align-requirements-in-azure.badge

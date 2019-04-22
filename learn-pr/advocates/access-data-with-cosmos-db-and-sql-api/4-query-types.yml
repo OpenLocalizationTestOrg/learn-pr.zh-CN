@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.access-data-with-cosmos-db-and-sql-api.4-query-types
+metadata:
+  title: 查询类型
+  description: 了解可以在 Azure Cosmos DB 中用于检索数据的查询类型。
+  ms.date: 09/24/2018
+  author: mimig1
+  ms.author: mimig
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: c549c4999e891cfbcb509160183c6b1c3a4eb87d
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136904"
+title: 查询类型
+durationInMinutes: 5
+content: >
+  [!include[](includes/4-query-types.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: SQL 查询中唯一的必需子句是什么？
+    choices:
+    - content: 选定
+      isCorrect: true
+      explanation: 选择是查询中唯一的必需子句。
+    - content: 从
+      isCorrect: false
+      explanation: FROM 是 SQL 查询中的可选子句。
+    - content: 此处
+      isCorrect: false
+      explanation: 其中, 是 SQL 查询中的可选子句。
+  - content: 哪个查询将获取产品 id 和说明的已排序列表, 从最大产品 id 开始, 以最小产品 id 为结束？
+    choices:
+    - content: 从 "产品" p ORDER BY p 中选择 "p. productid ASC"
+      isCorrect: false
+      explanation: 这将仅返回以升序排序的产品 id。
+    - content: 从 "产品" p ORDER BY p 中选择 "p.id"。 productId DESC
+      isCorrect: false
+      explanation: 这将仅返回以降序排列的 ID
+    - content: 从产品 p ORDER BY p. productid DESC 中选择 "第一版" 和 "第一版" 说明
+      isCorrect: true
+      explanation: 这将同时返回产品 ID 和说明, 但以升序的顺序返回。

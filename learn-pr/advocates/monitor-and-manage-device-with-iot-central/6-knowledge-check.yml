@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn.monitor-manage-device-with-iotcentral.6-knowledge-check
+metadata:
+  title: 知识检查
+  description: 知识检查
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 125c9c5185e455780ee90d091d7f6153d1281219
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136847"
+title: 查看你的知识
+durationInMinutes: 11
+content: >
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 哪种陈述最贴切地描述了设备模板中的信息？
+    choices:
+    - content: 连接到应用程序的设备的硬件规格。
+      isCorrect: false
+      explanation: 设备模板不会捕获硬件详细信息。
+    - content: 设备可以与应用程序交换的数据和命令。
+      isCorrect: true
+      explanation: 模板是一个规范, 用于捕获可在代码和物理设备之间交换的所有潜在信息和命令。
+    - content: 用于与设备通信的线间协议。
+      isCorrect: false
+      explanation: 通信协议不是设备模板的一部分。
+  - content: 'True 或 false: 必须具有物理设备才能测试 IoT 中心应用程序。'
+    choices:
+    - content: "True"
+      isCorrect: false
+      explanation: 您可以使用模拟设备进行测试。
+    - content: "False"
+      isCorrect: true
+      explanation: 当您创建设备模板时, IoT 中心会自动为您创建模拟的设备。 您还可以对自定义软件模拟进行编码。 这些选项允许您在连接物理设备之前全面测试应用程序。
+  - content: 假设有五个物理设备与 IoT Central 通信。 您有多少个连接字符串？
+    choices:
+    - content: '一种: 连接字符串由所有连接的设备共享。'
+      isCorrect: false
+      explanation: 共享连接字符串不允许 IoT 中心唯一标识每个设备。
+    - content: '两个: 一种是主动使用, 另一种是在主受到威胁时进行备份。'
+      isCorrect: false
+      explanation: 共享连接字符串不允许 IoT 中心唯一标识每个设备。
+    - content: '五: 每个设备都需要一个唯一的连接字符串。'
+      isCorrect: true
+      explanation: 连接字符串将设备标识为 IoT Central, 因此每个设备都需要自己的设备。

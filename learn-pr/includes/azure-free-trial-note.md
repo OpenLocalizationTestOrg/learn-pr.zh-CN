@@ -1,2 +1,2 @@
 > [!NOTE]
-> If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/?azure-portal=true) before you begin.
+> 如果你没有 Azure 订阅, 请先创建[免费帐户](https://azure.microsoft.com/free/?azure-portal=true), 然后再开始。

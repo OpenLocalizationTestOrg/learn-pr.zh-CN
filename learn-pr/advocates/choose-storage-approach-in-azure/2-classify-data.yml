@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.choose-storage-approach-in-azure.2-classify-data
+metadata:
+  title: 知识检查
+  description: 知识检查
+  ms.date: 09/24/2018
+  author: mimig1
+  ms.author: mimig
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: d99d4a53b395496e07556ea32e2998f1710951e3
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137231"
+title: 对数据进行分类
+durationInMinutes: 10
+content: >
+  [!include[](includes/2-classify-data.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: JSON 文件是哪种类型的数据的示例？
+    choices:
+    - content: 方式
+      isCorrect: false
+      explanation: 半结构化数据包含标记, 这些标记使数据的组织和层次结构一目了然。
+    - content: 半结构化
+      isCorrect: true
+      explanation: 半结构化数据包含标记, 这些标记使数据的组织和层次结构一目了然。
+    - content: 化
+      isCorrect: false
+      explanation: 半结构化数据包含标记, 这些标记使数据的组织和层次结构一目了然。
+  - content: 视频是哪种类型的数据的示例？
+    choices:
+    - content: 方式
+      isCorrect: false
+      explanation: 非结构化数据通常在文件中进行传递。 视频可能具有整体结构, 但组成视频本身的数据是非结构化的。
+    - content: 半结构化
+      isCorrect: false
+      explanation: 非结构化数据通常在文件中进行传递。 视频可能具有整体结构, 但组成视频本身的数据是非结构化的。
+    - content: 化
+      isCorrect: true
+      explanation: 非结构化数据通常在文件中进行传递。 视频可能具有整体结构, 但组成视频本身的数据是非结构化的。

@@ -1,0 +1,31 @@
+### YamlMime:ModuleUnit
+uid: learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm.3-create-a-vm
+title: 创建虚拟机以托管你的 web 应用程序
+metadata:
+  title: 创建虚拟机以托管你的 web 应用程序
+  description: 创建虚拟机以托管你的 web 应用程序
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 95bb16c20bef5cda2d4d9cd02f39f49704df04e0
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137536"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 10
+content: >
+  [!include[](includes/3-create-a-vm.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.Compute/virtualMachines
+      name: MeanStack
+  hint: 按如下`az vm create`所示运行命令以创建虚拟机。

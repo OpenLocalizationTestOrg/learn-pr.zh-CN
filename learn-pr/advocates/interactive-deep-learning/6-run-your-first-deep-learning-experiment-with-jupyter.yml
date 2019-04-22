@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.interactive-deep-learning.6-run-your-first-deep-learning-experiment-with-jupyter
+title: 练习-使用 Jupyter 运行您的第一次深入学习体验
+metadata:
+  title: 练习-使用 Jupyter 运行您的第一次深入学习体验
+  description: 练习-使用 Jupyter 运行您的第一次深入学习体验
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: b6e398783cd12aee77033279ebb7e84dbe5d6f3e
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137320"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 30
+content: '[!include[](includes/6-run-your-first-deep-learning-experiment-with-jupyter.md)]'

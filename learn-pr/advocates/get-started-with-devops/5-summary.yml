@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.get-started-with-devops.5-summary
+metadata:
+  title: 摘要
+  description: 摘要
+  ms.openlocfilehash: 9cc6164705e2d22ebe685f6182fba08ff6a8a121
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137476"
+title: 摘要
+durationInMinutes: 3
+content: '[!include[](includes/5-summary.md)]'

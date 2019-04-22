@@ -1,18 +1,23 @@
 ### YamlMime:LearningPath
 uid: learn.secure-your-cloud-data
 metadata:
-  title: Secure your cloud data in Azure learning path
-  description: Azure was designed for security and compliance. Learn how to leverage the built-in services to store your app data securely to ensure that only authorized services and clients have access to it.
+  title: 在 Azure 学习路径中保护你的云数据
+  description: Azure 旨在实现安全性和合规性。 了解如何利用内置服务安全地存储应用程序数据, 以确保只有授权服务和客户端才有权访问它。
   brand: azure
   ms.date: 09/24/2018
   author: markjulmar
   ms.author: smmark
-  #ms.learn-contact: smmark
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Secure your cloud data
-summary: Azure was designed for security and compliance. Learn how to leverage the built-in services to store your app data securely to ensure that only authorized services and clients have access to it.
-prerequisites: None
+  ms.openlocfilehash: 1706acca2f5adf76c53937f05f78519d6199cfb8
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136095"
+title: 保护你的云数据的安全
+summary: Azure 旨在实现安全性和合规性。 了解如何利用内置服务安全地存储应用程序数据, 以确保只有授权服务和客户端才有权访问它。
+prerequisites: 无
 iconUrl: /learn/achievements/secure-your-cloud-data.svg
 levels:
 - beginner
@@ -29,9 +34,6 @@ modules:
 - learn.design-for-security
 - learn.top-5-security-items-to-consider
 - learn.manage-secrets-with-azure-key-vault
-#TODO: Add - secure/protect resources with azure security center (POST-IGNITE)
-#TODO: Add - learn.auth-apps-with-app-services (POST-IGNITE)
 - learn.secure-access-azure-ad-multi-factor-authentication
-#- learn.secure-azure-resources-with-rbac
 trophy:
   uid: learn.secure-your-cloud-data.trophy

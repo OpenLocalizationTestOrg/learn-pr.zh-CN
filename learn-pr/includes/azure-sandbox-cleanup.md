@@ -1,5 +1,5 @@
-## Clean up
+## <a name="clean-up"></a>清理
 
-The sandbox will clean up your resources automatically for you when you are finished with this module. 
+使用此模块后, 沙盒将自动清除你的资源。 
 
-However, when you're working in your own subscription it is best practice at the end of a project to identify whether or not you still need the resources you created. Resources left running can cost you money. You can  delete resources one by one, or just delete the resource group to get rid of the entire set.
+但是, 当您在自己的订阅中工作时, 最佳做法是在项目结束时确定是否仍需要您创建的资源。 保留运行的资源可能会花费您的资金。 您可以逐个删除资源, 也可以只删除资源组以删除整个集。

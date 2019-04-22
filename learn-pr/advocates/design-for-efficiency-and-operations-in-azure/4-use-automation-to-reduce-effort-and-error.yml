@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-efficiency-and-operations.4-use-automation-to-reduce-effort-and-error
+title: 使用自动化来减少工作量和错误
+metadata:
+  title: 使用自动化来减少工作量和错误
+  description: 在此单元中, 我们将讨论如何使用自动化来减少工作量和错误
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: dfc047613138b046907ebad6ab5173356afc94b6
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136199"
+durationInMinutes: 12
+content: >
+  [!include[](includes/4-use-automation-to-reduce-effort-and-error.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 以下哪一项无法用于自动执行基础结构部署？
+    choices:
+    - content: Azure PowerShell
+      isCorrect: false
+      explanation: 使用 Azure PowerShell, 可以创建脚本以自动部署基础结构。
+    - content: Azure CLI
+      isCorrect: false
+      explanation: 使用 Azure CLI, 可以创建脚本以自动部署基础结构。
+    - content: 资源管理器模板
+      isCorrect: false
+      explanation: 使用资源管理器模板, 可以完全自动化基础结构的部署。
+    - content: application Insights
+      isCorrect: true
+      explanation: application Insights 可帮助您监视和分析应用程序, 它不提供自动化功能。
+  - content: 'True: false: Azure 自动化可用于自动完成虚拟机的启动/停止工作。'
+    choices:
+    - content: "True"
+      isCorrect: true
+      explanation: Azure 自动化是在非工作时间自动执行虚拟机启动/停止的一种极好的方法。
+    - content: "False"
+      isCorrect: false
+      explanation: Azure 自动化可以按计划自动执行虚拟机的启动/停止。

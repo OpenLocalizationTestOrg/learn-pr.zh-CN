@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.optimize-web-app-with-redis.4-exercise-create-redis-cache
+title: 在 Azure 中创建 Redis 缓存实例
+metadata:
+  title: 在 Azure 中创建 Redis 缓存实例
+  description: 在 Azure 中创建 Redis 缓存实例
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: c069f08528e826c6e11497c282fc7d29eeb12e58
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136842"
+azureSandbox: true
+durationInMinutes: 15
+content: >
+  [!include[](includes/4-exercise-create-redis-cache.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.Cache/Redis
+  hint: 使用上面的说明创建 Redis 缓存。

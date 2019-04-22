@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.create-azure-db-for-postgresql.server-security-considerations
+title: 服务器安全注意事项
+metadata:
+  title: 服务器安全注意事项
+  description: 您可以使用多种方法来限制对 PostgreSQL 服务器和数据库的 Azure 数据库的访问。 请参阅 how to configure the Azure Database for PostgreSQL connection security settings。
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: cad88505f2c9cf623d7c06b96f3355cdd51f7149
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137506"
+durationInMinutes: 7
+content: '[!include[](includes/6-server-security-considerations.md)]'

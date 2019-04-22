@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-compliance.4-management-groups
+title: 企业治理管理
+metadata:
+  title: 企业治理管理-了解
+  description: 使用管理组的企业治理管理-了解
+  ms.date: 12/28/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 5c40f5de07f1ad0bc8dc7183fd659759bec5beaf
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137842"
+durationInMinutes: 5
+content: '[!include[](includes/4-management-groups.md)]'

@@ -1,0 +1,31 @@
+### YamlMime:ModuleUnit
+uid: learn.run-docker-containers-aci.3-restart-policy
+metadata:
+  title: 控制 Azure 容器实例重启行为
+  description: 控件容器实例重启行为。
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: e0407e1e39a0a8ffe11a449b17e3740e294d869c
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137885"
+title: 控制重启行为
+interactive: bash
+azureSandbox: true
+durationInMinutes: 6
+content: >
+  [!include[](includes/3-restart-policy.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.ContainerInstance/containerGroups
+      name: mycontainer-restart-demo
+  hint: ''

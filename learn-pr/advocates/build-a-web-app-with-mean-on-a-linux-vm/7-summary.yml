@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm.7-summary
+title: 摘要
+metadata:
+  title: 摘要
+  description: 摘要
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: b39f8b6050f777823296269129b1b7f3a373dc31
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137877"
+durationInMinutes: 3
+content: >
+  [!include[](includes/7-summary.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 为您的开发堆栈选取均值的最佳理由是什么？
+    choices:
+    - content: 您使用的是高度结构化的关系数据。
+      isCorrect: false
+      explanation: MongoDB 中, 平均堆栈中的 "M" 是一个 NoSQL 数据库。 NoSQL 数据库是非关系的, 这意味着它不需要像 SQL Server 或其他关系数据库那样构造数据。
+    - content: 平均应用程序运行速度比使用其他开发堆栈创建的应用程序更快。
+      isCorrect: false
+      explanation: 这里有许多开发堆栈。 任何人都不一定比其他更快或更好。 每个都是在创建特定类型的应用和开发人员技能时创建的。
+    - content: 开发团队中的每个人都是一个具有 JavaScript 的专家。
+      isCorrect: true
+      explanation: 平均堆栈很大程度上依赖于 JavaScript。 JavaScript 同时显示在客户端和 web 应用程序的服务器端。
+  - content: 什么是 NoSQL 数据库？
+    choices:
+    - content: 它是用于描述任何免费的开放源代码数据库软件的术语。
+      isCorrect: false
+      explanation: 虽然许多数据库是免费和开放源代码, 但 NoSQL 描述了数据的结构。
+    - content: 它是一个不需要以预定义的方式构造数据的数据库。
+      isCorrect: true
+      explanation: 例如, MongoDB 将数据存储在类似 JSON 的文档中, 这些文档不需要 MySQL 或其他关系数据库所需的严格数据结构。
+    - content: 它是一种关系数据库, 但不使用 SQL 语言访问和操作数据。
+      isCorrect: false
+      explanation: NoSQL 数据库是非关系的, 这意味着它不需要以预定义的方式来构建数据。
+  - content: AngularJS 在均值堆栈中的作用是什么？
+    choices:
+    - content: AngularJS 实现 HTML 和 JavaScript 的数据绑定。 例如, 可以使用 AngularJS 检索数据库中的项目, 并在 UI 中显示这些项目。
+      isCorrect: true
+      explanation: 数据绑定有助于保持 HTML 整洁和最小。 当基础数据发生更改时, AngularJS 会立即向用户显示更新。
+    - content: 它是安装在用户计算机上的浏览器插件。
+      isCorrect: false
+      explanation: 您不会从技术&mdash;角度安装 AngularJS 它只是您在 HTML 页面的脚本标记中引用的 JavaScript 代码。
+    - content: 它有助于从服务器端运行 web 应用程序。
+      isCorrect: false
+      explanation: node.js (而不是 AngularJS) 是从服务器端承载平均 web 应用的。

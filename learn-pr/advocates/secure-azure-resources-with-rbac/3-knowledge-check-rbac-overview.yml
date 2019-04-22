@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-azure-resources-with-rbac.3-knowledge-check-rbac-overview
+metadata:
+  title: 知识检查-什么是 RBAC？
+  description: 知识检查-什么是 RBAC？
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 237532bc290ea7cf2d8d5e2c8f87c3042e8979fc
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136099"
+title: 知识检查-什么是 RBAC？
+durationInMinutes: 2
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 'True 或 false: Azure 中的角色定义是权限的集合。'
+    choices:
+    - content: "True"
+      isCorrect: true
+      explanation: Azure 中的角色定义是具有可分配给用户、组或应用程序的名称的权限的集合。
+    - content: "False"
+      isCorrect: false
+      explanation: Azure 中的角色定义是具有可分配给用户、组或应用程序的名称的权限集。
+  - content: 假设您要分配角色以允许用户创建和管理 Azure 资源, 但不能向其他人授予访问权限。 以下哪些内置角色将支持此功能？
+    choices:
+    - content: Owner
+      isCorrect: false
+      explanation: 所有者可以创建和管理所有类型的 Azure 资源;但是, 他们可以向其他用户授予访问权限。
+    - content: 参与者
+      isCorrect: true
+      explanation: 参与者可以创建和管理所有类型的 Azure 资源, 但不能向其他用户授予访问权限。
+    - content: Reader
+      isCorrect: false
+      explanation: 读者只能查看现有的 Azure 资源。
+    - content: 用户访问管理员
+      isCorrect: false
+      explanation: 用户访问管理员只能管理 Azure 资源的访问权限。
+  - content: 在 Azure 中作用域的继承顺序是什么？
+    choices:
+    - content: 管理组、资源组、订阅、资源
+      isCorrect: false
+      explanation: 作用域的继承顺序为管理组、订阅、资源组和资源。 例如, 如果在订阅作用域级别向某个组分配了一个参与者角色, 则所有资源组和资源将继承该角色。
+    - content: 管理组、订阅、资源组、资源
+      isCorrect: true
+      explanation: 作用域的继承顺序为管理组、订阅、资源组和资源。 例如, 如果在订阅作用域级别向某个组分配了一个参与者角色, 则所有资源组和资源将继承该角色。
+    - content: 订阅、管理组、资源组、资源
+      isCorrect: false
+      explanation: 作用域的继承顺序为管理组、订阅、资源组和资源。 例如, 如果在订阅作用域级别向某个组分配了一个参与者角色, 则所有资源组和资源将继承该角色。
+    - content: 订阅、资源组、管理组、资源
+      isCorrect: false
+      explanation: 作用域的继承顺序为管理组、订阅、资源组和资源。 例如, 如果在订阅作用域级别向某个组分配了一个参与者角色, 则所有资源组和资源将继承该角色。

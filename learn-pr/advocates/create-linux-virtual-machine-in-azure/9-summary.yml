@@ -1,0 +1,55 @@
+### YamlMime:ModuleUnit
+uid: learn.create-linux-vm-in-azure.9-summary
+title: 摘要
+metadata:
+  title: 摘要
+  description: 摘要
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 701c4b91515de7ec85b67c54e45132052b40e797
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136117"
+azureSandbox: true
+durationInMinutes: 3
+content: >
+  [!include[](includes/9-summary.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 'True 或 false: 出于安全考虑, 在创建新的虚拟机时, 必须使用官方 Azure Marketplace 的映像。'
+    choices:
+    - content: "True"
+      isCorrect: false
+      explanation: Azure 允许你配置虚拟机以满足你的需求。 这包括支持使用自己的 VM 映像。
+    - content: "False"
+      isCorrect: true
+      explanation: Azure 允许你配置虚拟机以满足你的需求。 这包括支持使用自己的 VM 映像。
+  - content: 默认网络安全设置对新虚拟机的影响是什么？
+    choices:
+    - content: 既不允许使用出站请求, 也不允许入站请求。
+      isCorrect: false
+      explanation: 出站请求被认为是低风险的, 因此默认情况下允许这些请求。
+    - content: 允许出站请求。 仅允许从虚拟网络内进行入站流量。
+      isCorrect: true
+      explanation: 出站请求被认为是低风险的, 因此默认情况下允许这些请求。 允许来自虚拟网络中的入站流量。 通过在虚拟网络中放置 vm, vm 所有者将隐式选择加入虚拟网络中的资源之间的通信。
+    - content: '不受限制: 允许所有出站和入站请求。'
+      isCorrect: false
+      explanation: 由于默认行为, 无限制入站流量太危险。
+  - content: 假设您在 Azure 中托管多个 Linux 虚拟机。 你将通过 SSH 从公司总部的三台专用计算机远程管理这些 vm。 在这种情况下, 通常认为以下哪种身份验证方法是最佳做法？
+    choices:
+    - content: 用户名和密码
+      isCorrect: false
+      explanation: 密码易受强力攻击。 仅当需要来自多个位置的远程访问时, 才建议使用此方法。
+    - content: 专用密钥
+      isCorrect: false
+      explanation: 私钥访问比密码更安全, 并且在需要有限数量的位置进行访问时是一个很好的选择。 但是, 如果攻击者获取了你的私钥, 则可以使用它来访问你的 vm。
+    - content: 带有密码短语的私钥
+      isCorrect: true
+      explanation: 使用密码的私钥访问是最安全的选项。 即使攻击者获取了你的私钥, 他们也无法在没有密码的情况下使用它。

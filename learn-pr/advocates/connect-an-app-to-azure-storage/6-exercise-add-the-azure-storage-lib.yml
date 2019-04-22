@@ -1,0 +1,23 @@
+### YamlMime:ModuleUnit
+uid: learn.connect-app-to-azure-storage.6-exercise-add-the-azure-storage-lib
+title: 练习-将存储客户端库添加到应用程序
+metadata:
+  title: 将存储客户端库添加到您的应用程序
+  description: 将存储客户端库添加到您的应用程序
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  zone_pivot_groups: dev-lang-csharp-javascript
+  ms.openlocfilehash: 3d0484b7afd22933eb2550822cb08bbbd48d5386
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136628"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 5
+content: '[!include[](includes/6-exercise-add-the-azure-storage-lib.md)]'

@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.introduction-to-azure-virtual-machines.5-high-availability
+title: 管理 Azure 虚拟机的可用性
+metadata:
+  title: 管理 Azure 虚拟机的可用性
+  description: 管理 Azure 虚拟机的可用性
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 6e2aa220805d48e34675f09a7ab34f558ebfbcfa
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136175"
+durationInMinutes: 10
+content: '[!include[](includes/5-high-availability.md)]'

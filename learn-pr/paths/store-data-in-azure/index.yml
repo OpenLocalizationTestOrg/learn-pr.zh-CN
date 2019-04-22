@@ -1,18 +1,23 @@
 ### YamlMime:LearningPath
 uid: learn.store-data-in-azure
 metadata:
-  title: Store data in Azure learning path
-  description: "Azure provides a variety of ways to store data: unstructured, archival, relational, and more. Learn the basics of storage management in Azure, how to create a Storage Account, and how to choose the right model for the data you want to store in the cloud."
+  title: 在 Azure 学习路径中存储数据
+  description: 'Azure 提供多种存储数据的方法: 非结构化、存档、关系等。 了解 Azure 中的存储管理基础知识, 如何创建存储帐户, 以及如何为要存储在云中的数据选择正确的模型。'
   brand: azure
   ms.date: 09/24/2018
   author: markjulmar
   ms.author: smmark
-  #ms.learn-contact: smmark
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Store data in Azure
-summary: "Azure provides a variety of ways to store data: unstructured, archival, relational, and more. Learn the basics of storage management in Azure, how to create a Storage Account, and how to choose the right model for the data you want to store in the cloud."
-prerequisites: None
+  ms.openlocfilehash: e24612373e9fff3dac4d48951bc6d948802fd278
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136097"
+title: 在 Azure 中存储数据
+summary: 'Azure 提供多种存储数据的方法: 非结构化、存档、关系等。 了解 Azure 中的存储管理基础知识, 如何创建存储帐户, 以及如何为要存储在云中的数据选择正确的模型。'
+prerequisites: 无
 iconUrl: /learn/achievements/store-data-in-azure.svg
 levels:
 - beginner

@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.azure-container-registry.build-image
+metadata:
+  title: 练习-使用 Azure 容器注册表生成容器图像
+  description: 使用 Azure 容器注册表生成容器映像
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: a788eabeda384839cbce3cbcf4433e2e72c9758a
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136483"
+title: 使用 Azure 容器注册表生成容器映像
+interactive: bash
+azureSandbox: true
+durationInMinutes: 15
+content: '[!include[](includes/3-build-images.md)]'

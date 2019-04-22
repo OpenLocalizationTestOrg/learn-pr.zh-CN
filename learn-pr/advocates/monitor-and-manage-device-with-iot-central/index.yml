@@ -1,0 +1,49 @@
+### YamlMime:Module
+uid: learn.monitor-manage-device-with-iotcentral
+metadata:
+  title: 使用 Azure IoT 管理中心监视和管理你的咖啡机-了解
+  description: 了解如何创建 Azure iot 中心应用程序以监视和管理 IoT 设备。
+  ms.date: 09/24/2018
+  author: lnyswonger
+  ms.author: luken
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 88ac09153827feb01c6f109e53556ef98501248e
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136845"
+title: 使用 Azure IoT Central 监视和管理咖啡机
+summary: 了解如何创建 Azure iot 中心应用程序以监视和管理 IoT 设备。
+abstract: >
+  在本模块中, 您将:
+
+  - 创建 Azure IoT 中心自定义应用程序
+
+  - 创建和定义设备模板
+
+  - 将咖啡机模拟器连接到 Azure IoT Central 中的应用程序
+
+  - 验证连接和数据流
+
+  - 配置维护通知的规则
+prerequisites: >
+  无
+iconUrl: /learn/achievements/monitor-and-manage-device-with-iot-central.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- azure
+- azure-iot-central
+units:
+- learn.monitor-manage-device-with-iotcentral.1-create-azure-iot-central-application
+- learn.monitor-manage-device-with-iotcentral.2-define-coffee-machine-with-device-template
+- learn.monitor-manage-device-with-iotcentral.3-connect-your-application-to-simulator
+- learn.monitor-manage-device-with-iotcentral.4-validate-your-connection
+- learn.monitor-manage-device-with-iotcentral.5-configure-rules-and-actions
+- learn.monitor-manage-device-with-iotcentral.6-knowledge-check
+badge:
+  uid: learn.monitor-manage-device-with-iotcentral.badge

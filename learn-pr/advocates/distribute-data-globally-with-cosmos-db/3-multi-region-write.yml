@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.distribute-data-globally-with-cosmos-db.3-multi-region-write
+metadata:
+  title: 写入多个区域
+  description: 了解如何使用 Azure Cosmos DB 将您的数据同时写入多个区域。
+  ms.date: 09/24/2018
+  author: mimig1
+  ms.author: mimig
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 0652ed48416bd63ba8dd46d5e4378c17dfbdec7d
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137949"
+title: 写入多个区域
+durationInMinutes: 5
+content: >
+  [!include[](includes/3-multi-region-write.md)]
+quiz:
+  title: 知识检查
+  questions:
+  - content: 'True 或 false: 写入到多个区域的好处降低了延迟、无限制的扩展可能性和改进的可用性。'
+    choices:
+    - content: "True"
+      isCorrect: true
+      explanation: 对多个区域的写入具有许多性能优势。 例如, 写入操作的延迟时间比非多主机帐户中的延迟要少。
+    - content: "False"
+      isCorrect: false
+      explanation: 对多个区域的写入具有许多性能优势。 例如, 写入操作的延迟时间比非多主机帐户中的延迟要少。
+  - content: 多主机帐户中的默认冲突解决策略是什么？
+    choices:
+    - content: 上次编写者-Wins
+      isCorrect: true
+      explanation: 冲突解决方案内置于 Cosmos DB 中, 并在服务器上的数据库引擎内执行。 "上次编写者-Wins" 是默认策略。
+    - content: 自定义用户定义的过程
+      isCorrect: false
+      explanation: 支持用户定义的过程, 但它们不是处理冲突的默认机制。

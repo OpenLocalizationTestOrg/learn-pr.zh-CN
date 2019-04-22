@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.work-with-mutable-and-partial-data-in-a-redis-cache.3-create-a-transaction
+title: 在 Azure 缓存中为 Redis 创建事务
+metadata:
+  title: 在 Azure 缓存中为 Redis 创建事务
+  description: 在 Azure 缓存中为 Redis 创建事务
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 948741777c5e55d8003eb59385b6da7e896a3747
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137982"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 15
+content: '[!include[](includes/3-create-a-transaction.md)]'

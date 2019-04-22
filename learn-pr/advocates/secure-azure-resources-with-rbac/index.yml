@@ -1,0 +1,48 @@
+### YamlMime:Module
+uid: learn.secure-azure-resources-with-rbac
+metadata:
+  title: 使用基于角色的访问控制 (RBAC) 保护 Azure 资源-了解
+  description: 基于角色的访问控制 (RBAC) 是一种系统, 可在 Azure 中提供对资源的细化访问管理。 使用 RBAC, 可以在团队中隔离职责, 并只向用户授予执行其工作所需的访问量。 此模块介绍如何使用 RBAC 管理对 Azure 中资源的访问权限。
+  ms.date: 09/26/2018
+  author: rolyon
+  ms.author: rolyon
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 23488b34b39c1bc74a6ec6e30bf90818bd320b58
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137068"
+title: 使用基于角色的访问控制 (RBAC) 保护 Azure 资源
+summary: 了解如何使用 RBAC 管理对 Azure 中资源的访问权限。
+abstract: >
+  在本模块中, 您将:
+
+  - 验证对自己和他人的资源的访问权限
+
+  - 授予对资源的访问权限
+
+  - 查看 RBAC 更改的活动日志
+prerequisites: >
+  - 了解基本 azure 概念, 如 azure 门户和资源组
+iconUrl: /learn/achievements/secure-azure-resources-with-rbac.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- azure
+- azure-portal
+- azure-active-directory
+units:
+- learn.secure-azure-resources-with-rbac.1-introduction
+- learn.secure-azure-resources-with-rbac.2-rbac-overview
+- learn.secure-azure-resources-with-rbac.3-knowledge-check-rbac-overview
+- learn.secure-azure-resources-with-rbac.4-list-access
+- learn.secure-azure-resources-with-rbac.5-grant-access
+- learn.secure-azure-resources-with-rbac.6-view-activity-logs
+- learn.secure-azure-resources-with-rbac.7-knowledge-check-rbac
+- learn.secure-azure-resources-with-rbac.8-summary
+badge:
+  uid: learn.secure-azure-resources-with-rbac.badge

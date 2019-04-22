@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.explore-azure-infrastructure.2-azure-datacenter-locations
+title: Azure 中的数据中心和区域
+metadata:
+  title: Azure 中的数据中心和区域-了解
+  description: Azure 中的数据中心和区域-了解
+  ms.date: 01/1/2019
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 031f0ba6fa94043dad40f59443110d86f2251624
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136548"
+durationInMinutes: 5
+content: '[!include[](includes/2-azure-datacenter-locations.md)]'

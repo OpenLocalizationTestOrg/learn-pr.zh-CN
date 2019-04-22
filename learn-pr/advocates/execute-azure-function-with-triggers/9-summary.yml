@@ -1,0 +1,60 @@
+### YamlMime:ModuleUnit
+uid: learn.execute-azure-function-with-triggers.9-summary
+title: 摘要
+metadata:
+  title: 摘要
+  description: 摘要
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: d17229e4906e4d8aaf2f17110a842524b88301b0
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137941"
+durationInMinutes: 2
+content: >
+  [!include[](includes/9-summary.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 'CRON 表达式是一个由表示一组时间的六个字段组成的字符串。 Azure 中的6个字段的顺序为: {second} {分} {小时} {day} {month} {星期几}。 假设您需要一个表示 "每天" 的 CRON 表达式, 您将在 "一周的 {一天"} 位置中放置什么特殊字符？'
+    choices:
+    - content: /
+      isCorrect: false
+      explanation: 斜线指定增量。 例如, {秒} 字段中的 */5 意味着每5秒。
+    - content: '*'
+      isCorrect: true
+      explanation: 星号指定应选择每个可能的值。 如果在 "一周的 {星期几}" 字段中有星号, 则表示应选择每天。
+    - content: ','
+      isCorrect: false
+      explanation: 列表中的项以逗号分隔。 例如, {month} 字段中的1、2、3表示选择 "一月"、"二月" 和 "三月"。
+    - content: '-'
+      isCorrect: false
+      explanation: 连字符指定一个区域。 例如, "{month}" 字段中的 "1-3" 表示选择 "一月"、"二月" 和 "三月"。
+  - content: 假设您的 Azure 函数有一个与其关联的 blob 触发器, 并且您希望它仅在上载图像时执行。 应使用以下哪个 blob 触发*路径*值？
+    choices:
+    - content: 示例-工作项/{名称}
+      isCorrect: false
+      explanation: 该路径将告知 blob 触发器应监视其更改的位置, 以及是否应用了任何筛选器。 向路径添加文件扩展名指定上载的文件必须具有该文件扩展名, 触发器才能调用该函数。
+    - content: 示例-工作项/{名称}/png
+      isCorrect: false
+      explanation: 该路径将告知 blob 触发器应监视其更改的位置, 以及是否应用了任何筛选器。 向路径添加文件扩展名指定上载的文件必须具有该文件扩展名, 触发器才能调用该函数。
+    - content: 示例-工作项/{名称}？ png
+      isCorrect: false
+      explanation: 该路径将告知 blob 触发器应监视其更改的位置, 以及是否应用了任何筛选器。 向路径添加文件扩展名指定上载的文件必须具有该文件扩展名, 触发器才能调用该函数。
+    - content: 示例-工作项/{名称} .png
+      isCorrect: true
+      explanation: 该路径将告知 blob 触发器应监视其更改的位置, 以及是否应用了任何筛选器。 向路径添加文件扩展名指定上载的文件必须具有该文件扩展名, 触发器才能调用该函数。
+  - content: 'True 或 false: Azure 函数可以有多个与之关联的触发器？'
+    choices:
+    - content: "True"
+      isCorrect: false
+      explanation: 每个 Azure 函数必须刚好有一个与其关联的触发器。 如果要使用多个触发器, 则必须创建多个函数。
+    - content: "False"
+      isCorrect: true
+      explanation: 每个 Azure 函数必须刚好有一个与其关联的触发器。 如果要使用多个触发器, 则必须创建多个函数。

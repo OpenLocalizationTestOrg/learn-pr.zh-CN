@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.chain-azure-functions-data-using-input-output-bindings.3-explore-input-and-output-binding-types-portal-lab
+metadata:
+  title: 练习-浏览输入和输出绑定类型
+  description: 在此单元中, 我们将使用 Azure 门户来浏览和了解绑定以及受支持的绑定的数组。
+  ms.date: 09/24/2018
+  author: andrewjbyrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 173b05a91d5d81732fae15c2a1817ccf07eea997
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137245"
+title: 练习-浏览输入和输出绑定类型
+durationInMinutes: 10
+azureSandbox: true
+content: >
+  [!include[](includes/3-explore-input-and-output-binding-types-portal-lab.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.Web/sites
+      kind: functionapp
+  hint: 使用此门户, 按照上面的说明创建函数应用程序和函数。

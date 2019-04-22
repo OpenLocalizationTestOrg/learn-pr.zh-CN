@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.enable-reliable-messaging-for-big-data-applications-using-azure-event-hubs.7-exercise-evaluate-the-performance-of-the-deployed-event-hub-using-the-azure-portal
+title: 练习-使用 Azure 门户评估已部署的事件中心的性能
+metadata:
+  title: 练习-使用 Azure 门户评估已部署的事件中心的性能
+  description: 使用 Azure 门户评估已部署事件中心的性能
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 9e70706a5747971d26519caf568e4a84e483d0d2
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136195"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 10
+content: '[!include[](includes/7-exercise-evaluate-the-performance-of-the-deployed-event-hub-using-the-azure-portal.md)]'

@@ -1,0 +1,66 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out
+title: 向上扩展和向之外扩展
+metadata:
+  title: 向上扩展和向之外扩展
+  description: 在此单元中, 我们将讨论如何在体系结构中充分利用扩展和扩展功能
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 4eda7822ab8ad78cb78aa32397c72c21a4f743ab
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137484"
+durationInMinutes: 15
+content: >
+  [!include[](includes/2-scaling-up-and-scaling-out.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 这是向之外扩展的最准确说明。
+    choices:
+    - content: 增加分配给实例的资源量
+      isCorrect: false
+      explanation: 增加单个实例的资源量是向上扩展的说明
+    - content: 增加请求服务的实例数
+      isCorrect: true
+      explanation: 向之外扩展增加了实例服务请求的数量。
+    - content: 向虚拟机添加额外的存储
+      isCorrect: false
+      explanation: 添加额外的存储不是向外扩展的一个示例。
+    - content: 达到应用程序的最大规模水平
+      isCorrect: false
+      explanation: 可以通过向外扩展来解决应用程序的最大扩展级别, 但不是向外扩展的准确说明。
+  - content: 哪种说明是向下扩展的最准确说明？
+    choices:
+    - content: 减少为请求提供服务的实例数
+      isCorrect: false
+      explanation: 减少请求服务的实例数将在中放大
+    - content: 获取应用程序扩展的所有权
+      isCorrect: false
+      explanation: 不向下扩展应用程序缩放的所有权。
+    - content: 减少分配给实例的资源量
+      isCorrect: true
+      explanation: 向下扩展是指减少单个实例可用的资源。
+    - content: 低于应用程序的最大缩放级别
+      isCorrect: false
+      explanation: 这不是向下扩展的说明。
+  - content: 在应用程序中构建扩展策略时, 以下哪一项是不需要考虑的？
+    choices:
+    - content: 您的实例的备份保留策略
+      isCorrect: true
+      explanation: 虽然定义备份保留策略非常重要, 但它与应用程序的扩展能力无关。
+    - content: 应用程序的状态管理
+      isCorrect: false
+      explanation: 在构建缩放策略时, 必须考虑状态管理。 缩放需要将用户状态存储在单个实例之外, 以确保在添加和删除实例时不会破坏用户体验。
+    - content: 您的实例的启动时间
+      isCorrect: false
+      explanation: 在缩放策略中, 启动时间是一个重要的考虑因素。 随着实例启动时间的减少, 应用程序可以更快地响应增加的需求。
+    - content: 根据指标或计划自动执行实例缩放
+      isCorrect: false
+      explanation: 扩展自动化是扩展策略的重要部分。 在自动化扩展功能时, 您将能够更好地处理用户负载波动, 而无需手动干预或降低用户体验。

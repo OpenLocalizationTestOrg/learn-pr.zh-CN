@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.control-azure-services-with-cli.3-exercise-install-and-run-the-azure-cli
+title: 安装和运行 Azure CLI
+metadata:
+  title: 安装和运行 Azure CLI
+  description: 在各种平台上安装 Azure CLI
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  zone_pivot_groups: platform
+  ms.openlocfilehash: 9212084faf98d9c4a57ada3478cb48c1785cf874
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137509"
+durationInMinutes: 10
+content: '[!include[](includes/3-exercise-install-and-run-the-azure-cli.md)]'

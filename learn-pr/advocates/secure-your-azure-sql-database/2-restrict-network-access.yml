@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-your-azure-sql-database.2-restrict-network-access
+metadata:
+  title: 限制网络访问
+  description: 了解如何限制对 Azure SQL Server 数据库的网络访问。
+  ms.date: 11/09/2018
+  author: jboeshart
+  ms.author: jaboes
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: de719cbc75b79aa924e07b4cf10c6bf0cdd8d750
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136587"
+interactive: bash
+azureSandbox: true
+title: 限制网络访问
+durationInMinutes: 25
+content: '[!include[](includes/2-restrict-network-access.md)]'

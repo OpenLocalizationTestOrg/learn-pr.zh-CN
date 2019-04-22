@@ -1,2 +1,2 @@
 > [!NOTE]
-> Make sure you have activated the sandbox before proceeding with these instructions.
+> 在继续执行这些说明之前, 请确保已激活沙盒。

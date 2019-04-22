@@ -1,0 +1,58 @@
+### YamlMime:Module
+uid: learn.work-with-mutable-and-partial-data-in-a-redis-cache
+metadata:
+  title: 在 Azure 缓存中使用可变和部分数据进行 Redis-了解
+  description: 了解如何创建事务处理, 管理内存, 以及对 Redis 使用带旁缓存的模式和 Azure 缓存
+  ms.date: 09/24/2018
+  author: JesseDietrichson
+  ms.author: jediet
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: bb7d483610eaa5f032574831e63f45a07201de73
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137685"
+title: 使用 Redis 的 Azure 缓存中的可变和部分数据
+summary: 使用适用于 Redis 的 Azure 缓存来存储频繁访问的数据。 了解如何创建事务、管理内存和使用旁缓存模式。
+abstract: >
+  在本模块中, 您将:
+
+  - 将多个操作组合到一个事务中
+
+  - 设置数据的过期时间
+
+  - 管理内存不足的情况
+
+  - 使用旁缓存模式
+
+  - 在 .net Core 控制台应用程序中使用 Redis 程序包 ServiceStack
+prerequisites: >
+  - 应用程序开发体验
+
+  - 在应用程序中使用数据的经验
+
+  - 基本了解 Redis 的 Azure 缓存
+
+  - 基本 .net 知识
+iconUrl: /learn/achievements/work-with-mutable-and-partial-data-in-a-redis-cache.svg
+levels:
+- intermediate
+roles:
+- developer
+products:
+- azure
+- azure-redis-cache
+- azure-cloud-shell
+units:
+- learn.work-with-mutable-and-partial-data-in-a-redis-cache.1-introduction
+- learn.work-with-mutable-and-partial-data-in-a-redis-cache.2-transactions-in-redis
+- learn.work-with-mutable-and-partial-data-in-a-redis-cache.3-create-a-transaction
+- learn.work-with-mutable-and-partial-data-in-a-redis-cache.4-data-expiration
+- learn.work-with-mutable-and-partial-data-in-a-redis-cache.5-implement-data-expiration
+- learn.work-with-mutable-and-partial-data-in-a-redis-cache.6-eviction-policies
+- learn.work-with-mutable-and-partial-data-in-a-redis-cache.7-cache-aside-pattern
+- learn.work-with-mutable-and-partial-data-in-a-redis-cache.8-summary
+badge:
+  uid: learn.work-with-mutable-and-partial-data-in-a-redis-cache.badge

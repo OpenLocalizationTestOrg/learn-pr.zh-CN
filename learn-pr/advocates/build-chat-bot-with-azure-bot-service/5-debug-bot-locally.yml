@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.build-azure-bot-services-bot.5-debug-bot-locally
+title: 在本地调试机器人
+metadata:
+  title: 在本地调试机器人
+  description: 在本地调试机器人
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 805778b4d675c2bde6f9fb2a119f6f404720a1ee
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137259"
+labId: 46466
+durationInMinutes: 20
+content: '[!include[](includes/5-debug-bot-locally.md)]'

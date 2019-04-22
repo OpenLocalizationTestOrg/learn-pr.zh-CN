@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.communicate-between-applications-with-azure-queue-storage.1-introduction
+title: 简介
+metadata:
+  title: 简介
+  description: 简介
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 9d91d1314bbe2110a19282e0884a93a181d8f6ef
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137872"
+durationInMinutes: 3
+content: '[!include[](includes/1-introduction.md)]'

@@ -1,0 +1,41 @@
+### YamlMime:ModuleUnit
+uid: learn.keep-your-virtual-machines-updated.6-knowledge-check
+title: 知识检查
+metadata:
+  title: 知识检查
+  description: 知识检查
+  ms.date: 12/21/2018
+  author: adrianstevens
+  ms.author: adsteven
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 0b52ae24b861e3081066f35f45897ed4cbd6717b
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136511"
+durationInMinutes: 2
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 假设您要确保在不登录到 vm 的情况下更新 vm。 哪种更新管理操作有助于实现此目标？
+    choices:
+    - content: 复制策略
+      isCorrect: false
+      explanation: 复制策略是存储帐户的一个特征。 存储帐户中的每个成员都必须使用相同的策略。 如果您需要一些数据来使用 geo 复制策略, 而其他数据使用本地复制策略, 则需要两个存储帐户。
+    - content: 合规性扫描
+      isCorrect: true
+      explanation: 默认情况下, 合规性扫描在 Windows 计算机上每12小时执行一次, 在 Linux 计算机上每3小时执行一次。
+    - content: 计划更新
+      isCorrect: false
+      explanation: 您可以指定要批准的计划, 并指定可在其中安装更新的时段。
+  - content: 'True 或 false: Microsoft Monitoring Agent 是更新管理用于执行评估和更新部署的组件。'
+    choices:
+    - content: "True"
+      isCorrect: true
+      explanation: MMA 代理将合规性扫描信息批量转发到 Azure 日志分析。
+    - content: "False"
+      isCorrect: false
+      explanation: MMA 代理将合规性扫描信息批量转发到 Azure 日志分析。

@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn.cosmos-db-app-with-vscode.7-summary
+metadata:
+  title: 摘要
+  description: 摘要
+  ms.date: 09/24/2018
+  author: mimig1
+  ms.author: mimig
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: d8b5a187e9c4353b2b27407c2a3264e1b032bed7
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137531"
+title: 摘要
+durationInMinutes: 3
+content: >
+  [!include[](includes/7-summary.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 假设您要使用 Visual Studio 代码来开发访问 Azure Cosmos DB 的 .net Core 应用程序。 您需要在应用程序配置中包含数据库的连接字符串。 在您的项目中获取此信息的最简便方法是什么？
+    choices:
+    - content: 直接从 Visual Studio Code
+      isCorrect: true
+      explanation: 借助 azure Cosmos DB 扩展, 可以在 Visual Studio Code 中管理和创建 Azure Cosmos DB 帐户和数据库。
+    - content: 从 Azure 门户
+      isCorrect: false
+      explanation: Azure 门户不提供此信息, 但如果您已经在 Visual Studio Code 中, 转到门户并不可能是最方便的选择。
+    - content: 使用 Azure CLI
+      isCorrect: false
+      explanation: 虽然这是一个很好的选择, 但由于 Visual Studio Code 具有内置的终端, 因此它需要了解必需的命令。 这可能不像 Visual Studio Code extension 那样方便。
+  - content: 使用 Azure Cosmos DB 的 SQL API 时, 哪些可用于执行 CRUD 操作？
+    choices:
+    - content: 一些
+      isCorrect: true
+      explanation: LINQ 和 SQL 是用于查询 SQL API 的两种有效方法。
+    - content: Apache Cassandra 客户端库
+      isCorrect: false
+      explanation: Apache Cassandra 库可用于 Azure Cosmos DB 的 Cassandra API, 但不能与 SQL api 配合使用。
+    - content: Azure 表存储库
+      isCorrect: false
+      explanation: azure 表存储库可以使用 azure Cosmos DB 的 Table API, 但不能与 SQL API 配合使用。
+  - content: 在使用 Azure Cosmos DB Client SDK 的 DocumentClient 类时, 使用了 NOSQL 模型。 如何使用此类将 Person 文档的 FirstName 字段从 ' 王小姐 ' 更改为 ' Fran '？
+    choices:
+    - content: 使用 FirstName 调用 UpdateDocumentAsync = Fran
+      isCorrect: false
+      explanation: DocumentClient 类不具有 UpdateDocumentAsync 方法。 更新单个字段与文档样式的 NOSQL 方法不一致。
+    - content: 使用更新的 Person 对象调用 UpsertDocumentAsync
+      isCorrect: false
+      explanation: 虽然这是可行的, 但并不是满足我们要求的最低访问权限。 如果文档的键已存在, 则 Upsert 操作将替换该文档, 或添加新文档 (如果没有)。 我们不想添加一个新的, 因此, 使用此方法会带来细微的困难, 难以跟踪 bug。
+    - content: 使用更新的 Person 对象调用 ReplaceDocumentAsync
+      isCorrect: true
+      explanation: ReplaceDocumentAsync 将使用新文档替换现有文档。 在这种情况下, 我们打算将旧的和新的作为 FirstName 而不是名字。

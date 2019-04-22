@@ -1,10 +1,10 @@
-- West US 2
-- South Central US
-- Central US
-- East US
-- West Europe
-- Southeast Asia
-- Japan East
-- Brazil South
-- Australia Southeast
-- Central India
+- 美国西部2
+- 美国中南部
+- 美国中部
+- 美国东部
+- 西欧
+- 东南亚
+- 日本东部
+- 巴西南部
+- 澳大利亚东南部
+- 印度中部

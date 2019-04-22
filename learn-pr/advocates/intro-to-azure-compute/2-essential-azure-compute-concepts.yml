@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-compute.2-essential-azure-compute-concepts
+title: 基本 Azure 计算概念
+metadata:
+  title: 基本 Azure 计算概念
+  description: 基本 Azure 计算概念
+  ms.date: 12/21/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 7e596de679decac22ee0fc267ca5b110ddc9b0a7
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136183"
+durationInMinutes: 7
+content: '[!include[](includes/2-essential-azure-compute-concepts.md)]'

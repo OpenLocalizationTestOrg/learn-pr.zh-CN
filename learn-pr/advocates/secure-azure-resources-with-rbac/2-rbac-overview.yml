@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-azure-resources-with-rbac.2-rbac-overview
+metadata:
+  title: RBAC 是什么？
+  description: 了解什么是基于角色的访问控制 (RBAC) 及其工作方式。
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 13ecc79c95a73ee02c956300dbdd51c5b92a1a8f
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136100"
+title: RBAC 是什么？
+durationInMinutes: 8
+content: '[!include[](includes/2-rbac-overview.md)]'

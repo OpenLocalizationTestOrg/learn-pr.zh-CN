@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn.pillars-of-a-great-azure-architecture.5-design-for-availability-and-recoverability
+title: 可用性和可恢复性设计
+metadata:
+  title: 可用性和可恢复性设计
+  description: 可用性和可恢复性设计
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: adcaf2db84e665207f521b6c12f0748e339fbf51
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136383"
+durationInMinutes: 10
+content: >
+  [!include[](includes/5-design-for-availability-and-recoverability.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 假设您想要提高系统的可用性, 以向客户提供更好的服务级别协议 (SLA)。 下面哪一项是可以使用的指导原则？
+    choices:
+    - content: 将目标降低为可接受数据丢失的最长持续时间。
+      isCorrect: false
+      explanation: 这样可以提高可恢复性, 而不是可用性。
+    - content: 加密静态的所有数据
+      isCorrect: false
+      explanation: 这可能会提高安全性, 不适用于可用性。
+    - content: 消除单一故障点
+      isCorrect: true
+      explanation: 设计可用性重点在于维护服务, 而不管临时条件和本地化故障。 添加冗余以消除单个故障点是改进可用性的核心策略。
+  - content: 以下哪一项将受定义的恢复点目标 (RPO) 的影响？
+    choices:
+    - content: 数据库备份的频率
+      isCorrect: true
+      explanation: 由于恢复点目标与可承受的数据丢失量相关, 因此备份的频率需要在此时间段内, 并且直接受定义的 RPO 的影响。
+    - content: 数据复制到的区域数量
+      isCorrect: false
+      explanation: 数据复制到的区域数量是一个重要的考虑因素, 但不受定义的 RPO 的影响。
+    - content: 数据库群集中的实例数
+      isCorrect: false
+      explanation: 数据库群集中的实例数可以是一项重要决定, 但不受定义的 RPO 的影响。
+    - content: 应用程序中使用的负载平衡技术的类型
+      isCorrect: false
+      explanation: 应用程序中使用的负载平衡技术的类型是一项重要决定, 但不受定义的 RPO 的影响。

@@ -1,0 +1,45 @@
+### YamlMime:ModuleUnit
+uid: learn.n-tier-architecture.2-what-is-n-tier-architecture
+metadata:
+  title: 什么是 N 层体系结构？
+  description: 什么是 N 层体系结构？
+  ms.date: 01/15/2019
+  author: jboeshart
+  ms.author: jaboes
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: ba52fb4863ad2664caacf802dd38ebcf7d39d78b
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136113"
+title: 什么是 N 层体系结构？
+durationInMinutes: 7
+content: >
+  [!include[](includes/2-what-is-n-tier-architecture.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 需要更新三层应用程序以与合作伙伴 API 集成。 应将此功能添加到哪个层？
+    choices:
+    - content: 表示层
+      isCorrect: false
+      explanation: 此层的责任应侧重于向用户提供应用程序的方式。
+    - content: 应用层
+      isCorrect: true
+      explanation: 对其他系统的 API 调用最适用于应用层, 其中返回的数据可以轻松地与新的或现有的业务逻辑集成。
+    - content: 数据层
+      isCorrect: false
+      explanation: 数据层将重点放在数据存储上。 添加与 API 的集成并不最好放置在应用程序层上。
+  - content: 在哪一层可接受对用户的访问？
+    choices:
+    - content: 表示层
+      isCorrect: true
+      explanation: '此层处理与最终用户的交互, 并且应是最终用户访问的层。 '
+    - content: 应用层
+      isCorrect: false
+      explanation: '此层包含业务逻辑、数据处理和其他可能的敏感详细信息, 不应向最终用户公开。 '
+    - content: 数据层
+      isCorrect: false
+      explanation: 数据层处理数据存储, 永远不应直接向用户公开。 数据的使用者应使用更高的层提供的功能。

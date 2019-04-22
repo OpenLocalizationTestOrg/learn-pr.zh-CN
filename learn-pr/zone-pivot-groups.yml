@@ -2,157 +2,164 @@
 groups:
 - id: supportfaq
   title: SupportFAQ
-  prompt: What do you have questions about?
+  prompt: 你有什么问题？
   pivots:
   - id: general
-    title: General
+    title: 常规
   - id: profile
-    title: Profile & Dashboard
+    title: Profile & 仪表板
   - id: sandbox
-    title: Sandbox
+    title: 沙盒
   - id: support
-    title: Support
+    title: 支持
 - id: os
-  title: Operating system
-  prompt: Choose your operating system
+  title: 操作系统
+  prompt: 选择你的操作系统
   pivots:
-    - id: linux
-      title: Linux
-    - id: macos
-      title: Mac
-    - id: windows
-      title: Windows
+  - id: linux
+    title: Linux
+  - id: macos
+    title: Mac
+  - id: windows
+    title: Windows
 - id: os-windows-mac
-  title: Operating system
-  prompt: Choose your operating system
+  title: 操作系统
+  prompt: 选择你的操作系统
   pivots:
-    - id: macos
-      title: Mac
-    - id: windows
-      title: Windows
+  - id: macos
+    title: Mac
+  - id: windows
+    title: Windows
 - id: platform
-  title: Platform
-  prompt: Choose your platform
+  title: 平台
+  prompt: 选择你的平台
   pivots:
-    - id: linux
-      title: Linux
-    - id: macos
-      title: Mac
-    - id: windows
-      title: Windows
+  - id: linux
+    title: Linux
+  - id: macos
+    title: Mac
+  - id: windows
+    title: Windows
 - id: platform-windows-mac
-  title: Platform
-  prompt: Choose your platform
+  title: 平台
+  prompt: 选择你的平台
   pivots:
-    - id: macos
-      title: Mac
-    - id: windows
-      title: Windows
+  - id: macos
+    title: Mac
+  - id: windows
+    title: Windows
 - id: azure-interface
-  title: Shell
-  prompt: Choose your shell
+  title: 经典
+  prompt: 选择您的命令行管理程序
   pivots:
-    - id: bash
-      title: Bash
-    - id: powershell
-      title: PowerShell
-    - id: portal
-      title: Azure Portal
+  - id: bash
+    title: Bash
+  - id: powershell
+    title: PowerShell
+  - id: portal
+    title: Azure 门户
 - id: dev-lang-csharp-javascript
-  title: Development language
-  prompt: Choose your development language
+  title: 开发语言
+  prompt: 选择你的开发语言
   pivots:
-    - id: csharp
-      title: C#
-    - id: javascript
-      title: JavaScript
+  - id: csharp
+    title: 语言
+  - id: javascript
+    title: JavaScript
 - id: dev-lang-csharp-java
-  title: Development language
-  prompt: Choose your development language
+  title: 开发语言
+  prompt: 选择你的开发语言
   pivots:
-    - id: csharp
-      title: C#
-    - id: java
-      title: Java
+  - id: csharp
+    title: 语言
+  - id: java
+    title: Java
 - id: dev-lang-csharp-java-node
-  title: Development language
-  prompt: Choose your development language
+  title: 开发语言
+  prompt: 选择你的开发语言
   pivots:
-    - id: csharp
-      title: C#
-    - id: java
-      title: Java
-    - id: node
-      title: Node.js
+  - id: csharp
+    title: 语言
+  - id: java
+    title: Java
+  - id: node
+    title: node.js
 - id: platform-cloud
-  title: Platform
-  prompt: Choose which platform you want to run in the cloud
+  title: 平台
+  prompt: 选择要在云中运行的平台
   pivots:
-    - id: windows-cloud
-      title: Windows
-    - id: linux-cloud
-      title: Linux
+  - id: windows-cloud
+    title: Windows
+  - id: linux-cloud
+    title: Linux
 - id: platform-apps
-  title: Platform
-  prompt: Choose your app development platform
+  title: 平台
+  prompt: 选择应用程序开发平台
   pivots:
-    - id: uwp
-      title: UWP
-    - id: wpf
-      title: WPF
-    - id: windowsforms
-      title: Windows Forms
+  - id: uwp
+    title: UWP
+  - id: wpf
+    title: WPF
+  - id: windowsforms
+    title: Windows 窗体
 - id: platform-apps-uwp-wpf
-  title: Platform
-  prompt: Choose your app development platform
+  title: 平台
+  prompt: 选择应用程序开发平台
   pivots:
-    - id: uwp
-      title: UWP
-    - id: wpf
-      title: WPF
+  - id: uwp
+    title: UWP
+  - id: wpf
+    title: WPF
 - id: cognitive-services
-  title: Azure Cognitive Services
-  prompt: Choose the Azure Cognitive Services category you want to see
+  title: Azure 认知服务
+  prompt: 选择您想要查看的 Azure 认知服务类别
   pivots:
   - id: vision
-    title: Vision
+    title: 愿景
   - id: speech
     title: Speech
   - id: language
     title: Language
   - id: knowledge
-    title: Knowledge
+    title: 察觉
   - id: search
-    title: Search
+    title: 搜索
 - id: bot-services
-  title: Azure Bot Services
-  prompt: Explore the Azure Bot Service scenarios below
+  title: Azure Bot 服务
+  prompt: 浏览以下 Azure Bot 服务方案
   pivots:
-    - id: commerce
-      title: Commerce
-    - id: information
-      title: Information
-    - id: enterprise
-      title: Enterprise Productivity
+  - id: commerce
+    title: 商务
+  - id: information
+    title: Information
+  - id: enterprise
+    title: 企业工作效率
 - id: com-strategy
-  title: COM-Strategy
-  prompt: Select each of the below buttons to learn more about the strategies.
+  title: COM 策略
+  prompt: 选择以下每个按钮以了解有关策略的详细信息。
   pivots:
-    - id: business-strategy
-      title: Business Strategy
-    - id: people-strategy
-      title: People Strategy
-    - id: technology-strategy
-      title: Technology Strategy
-- id: migration-strategy  
-  title: Migration-Strategy
-  prompt: Click on each of the buttons to learn more about each migration strategy.
+  - id: business-strategy
+    title: 业务策略
+  - id: people-strategy
+    title: 人员策略
+  - id: technology-strategy
+    title: 技术战略
+- id: migration-strategy
+  title: 迁移-策略
+  prompt: 单击每个按钮以了解有关每个迁移策略的详细信息。
   pivots:
-    - id: rehost
-      title: Rehost
-    - id: refractor
-      title: Refractor
-    - id: rearchitect
-      title: Rearchitect
-    - id: rebuild
-      title: Rebuild
+  - id: rehost
+    title: Rehost
+  - id: refractor
+    title: Refractor
+  - id: rearchitect
+    title: Rearchitect
+  - id: rebuild
+    title: 重新生成
+metadata:
+  ms.openlocfilehash: 4c822dc631b0d6163cc8a388d79a21ad2ac7ee6e
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137001"

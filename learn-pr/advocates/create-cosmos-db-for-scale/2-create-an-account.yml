@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.create-cosmos-db-for-scale.2-create-an-account
+metadata:
+  title: 创建 Azure Cosmos DB 帐户
+  description: 创建 Azure Cosmos DB 帐户
+  ms.date: 09/24/2018
+  author: mimig1
+  ms.author: mimig
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 898904eda7c5c3a16b1b855b3395bba7fee3ead9
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137639"
+title: 在 azure 门户中创建 azure Cosmos DB 帐户
+azureSandbox: true
+durationInMinutes: 6
+content: >
+  [!include[](includes/2-create-an-account.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.DocumentDB/databaseAccounts
+  hint: 按照说明创建 Cosmos DB 帐户。

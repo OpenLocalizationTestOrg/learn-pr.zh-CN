@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn.align-requirements-in-azure.2-public-private-hybrid
+title: 适用于公共、私有和混合云的 Azure 解决方案
+metadata:
+  title: 适用于公共、私有和混合云的 Azure 解决方案
+  description: 适用于公共、私有和混合云的 Azure 解决方案
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: c41541e0cab107911ceafebb8d9ef706a51906ad
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136656"
+durationInMinutes: 15
+content: >
+  [!include[](includes/2-public-private-hybrid.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 哪种云部署模型将是以下情况的最佳匹配？ 短期项目需要 SQL server 数据库。 it 部门没有满足部署它所需的性能要求或资源的可用硬件。 项目将在下周开始。 项目结束后, 数据库将不再需要。
+    choices:
+    - content: 公共云
+      explanation: 快速部署和 SQL 数据库的简短生命周期的需求使公共云成为最佳选择。
+      isCorrect: true
+    - content: 私有云
+      isCorrect: false
+      explanation: 快速部署和 SQL 数据库的简短生命周期的需求使公共云成为最佳选择。
+    - content: 混合云
+      isCorrect: false
+      explanation: 快速部署和 SQL 数据库的简短生命周期的需求使公共云成为最佳选择。
+  - content: 以下方案中介绍了哪种云部署模型？ 在云中创建多个虚拟机。 使用虚拟网络将虚拟机与网络结合在一起。 虚拟机可访问云存储中的 x 光图像文件。 其中一个虚拟机是一台 web 服务器, 它承载向 Internet 公开的网站, 以供客户访问其记录。 有一个 VPN 将解决方案连接到本地数据中心, 以供客户信息与图像文件一起显示。
+    choices:
+    - content: 公共云
+      isCorrect: false
+      explanation: 此方案同时使用公共和私有云以及两者之间的连接。 因此, 它是混合云部署。
+    - content: 私有云
+      isCorrect: false
+      explanation: 此方案同时使用公共和私有云以及两者之间的连接。 因此, 它是混合云部署。
+    - content: 混合云
+      explanation: 此方案同时使用公共和私有云以及两者之间的连接。 因此, 它是混合云部署。
+      isCorrect: true
+  - content: 以下方案中介绍了哪种云部署模型？ 您的组织中有两个数据中心。 一个数据中心具有一个只能驻留在其中一个数据中心中的数据库, 因为存在法规要求。 您希望从其他数据中心访问数据库。 使用云提供程序创建 VPN 以连接两个数据中心。
+    choices:
+    - content: 公共云
+      isCorrect: false
+      explanation: VPN 是公共云资源;但是, 由于 VPN 是两个专用数据中心之间的专用连接, 因此这是私有云部署。
+    - content: 私有云
+      explanation: VPN 是公共云资源;但是, 由于 VPN 是两个专用数据中心之间的专用连接, 因此这是私有云部署。
+      isCorrect: true
+    - content: 混合云
+      isCorrect: false
+      explanation: VPN 是公共云资源;但是, 由于 VPN 是两个专用数据中心之间的专用连接, 因此这是私有云部署。

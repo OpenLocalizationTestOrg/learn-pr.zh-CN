@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.principles-cloud-computing.4-cloud-deployment-models
+title: 云部署模型
+metadata:
+  title: 云部署模型
+  description: 云部署模型
+  ms.date: 12/20/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 613b8965e3ef142b84f9dc3a54af87a3794a679a
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137894"
+durationInMinutes: 10
+content: '[!include[](includes/4-cloud-deployment-models.md)]'

@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn.host-a-web-application-with-azure-web-apps
+metadata:
+  title: 使用 Azure 应用服务托管 web 应用程序-了解
+  description: 通过 Azure 应用服务中托管的 web 应用平台创建网站。
+  ms.date: 12/12/2018
+  author: nickwalkmsft
+  ms.author: nickwalk
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 09b29c890a60d0ce7485cbee399e6bb9592d7e3c
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137795"
+title: 使用 Azure 应用服务托管 web 应用程序
+summary: 借助 Azure 应用服务, 您无需管理基础结构即可在所选的编程语言中构建和托管 web 应用程序。 了解如何通过 Azure 应用服务中的托管 web 应用平台创建网站。
+abstract: >
+  在本模块中, 您将:
+
+  - 使用 azure 门户创建 azure 应用服务 web 应用
+
+  - 使用开发人员工具为初学者 web 应用程序创建代码
+
+  - 将您的代码部署到 Azure 应用服务
+prerequisites: 无
+iconUrl: /learn/achievements/host-a-web-app-with-azure-app-service.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-portal
+units:
+- learn.host-a-web-application-with-azure-web-apps.1-introduction
+- learn.host-a-web-application-with-azure-web-apps.2-create-a-web-app-in-the-azure-portal
+- learn.host-a-web-application-with-azure-web-apps.3-exercise-create-a-web-app-in-the-azure-portal
+- learn.host-a-web-application-with-azure-web-apps.4-exercise-implement-a-web-application
+- learn.host-a-web-application-with-azure-web-apps.5-deploying-code-to-app-service
+- learn.host-a-web-application-with-azure-web-apps.6-exercise-deploy-your-code-to-app-service
+- learn.host-a-web-application-with-azure-web-apps.7-summary
+badge:
+  uid: learn.host-a-web-application-with-azure-web-apps.badge

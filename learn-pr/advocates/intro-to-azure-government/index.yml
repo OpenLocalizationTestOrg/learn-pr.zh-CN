@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn.intro-to-azure-government
+metadata:
+  title: Azure 政府简介
+  description: Azure 政府简介
+  ms.date: 10/11/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: f21714d31012e790ee1a8a2e07496386733ec3f4
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137608"
+title: Azure 政府简介
+summary: 美国政府机构目前面临着诸多挑战。 满足每个机构各自的任务意味着不仅仅是提供服务。 这意味着跨机构进行协作, 以实现更好的服务、数字化劳动密集型、基于纸面的流程、管理扩展的数据量、满足安全性、隐私和管理法规要求, 等等。 本模块向美国政府机构或其合作伙伴提供了对满足政府安全和合规性要求的云服务感兴趣的 Azure 政府。
+abstract: "在本模块中, 您将:\n- 了解 Azure 政府的安全性和合规性功能以及优点。\n- 了解通过 Azure 政府市场提供的服务的范围。\n- 确定 Azure 政府是否适合作为政府机构或合作伙伴。 \n- 了解如何访问 Azure 政府。\n"
+prerequisites: >
+  - 了解基本的云计算术语和概念
+
+  - 熟悉 azure 和 azure 门户
+iconUrl: /learn/achievements/intro-to-azure-government.svg
+levels:
+- beginner
+roles:
+- developer
+- administrator
+products:
+- azure
+units:
+- learn.intro-to-azure-government.1-introduction
+- learn.intro-to-azure-government.2-what-is-azure-government
+- learn.intro-to-azure-government.3-security-on-azure-government
+- learn.intro-to-azure-government.4-compliance-on-azure-government
+- learn.intro-to-azure-government.5-connect-to-azure-government
+- learn.intro-to-azure-government.6-marketplace
+- learn.intro-to-azure-government.7-purchase-azure-government
+- learn.intro-to-azure-government.8-knowledge-check
+- learn.intro-to-azure-government.9-summary
+badge:
+  uid: learn.intro-to-azure-government.badge

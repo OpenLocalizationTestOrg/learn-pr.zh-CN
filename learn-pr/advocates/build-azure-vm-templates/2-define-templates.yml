@@ -1,0 +1,35 @@
+### YamlMime:ModuleUnit
+uid: learn.build-azure-vm-templates.2-define-templates
+title: 定义 Azure 资源管理器模板
+metadata:
+  title: 定义 Azure 资源管理器模板
+  description: 了解资源管理器模板中的内容以及模板如何帮助您更快、更可靠地部署
+  ms.date: 09/24/2018
+  author: tpetchel
+  ms.author: thpetche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: a610fd407d46df69f23da41e475a6e238c7d4a5e
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137819"
+durationInMinutes: 7
+content: >
+  [!include[](includes/2-define-templates.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: '_声明性自动化_意味着:'
+    choices:
+    - content: 您可以定义所需的资源以及创建它们所需的步骤。
+      isCorrect: false
+      explanation: 请考虑资源管理器模板中的内容, 例如。 资源管理器模板仅定义结束状态, 但不定义如何获取该结束状态。
+    - content: 您可以定义所需的资源, 但不_是_创建_方式_。
+      isCorrect: true
+      explanation: 在资源管理器模板的情况下, 资源管理器会为你处理这些详细信息。
+    - content: 您可以定义所需的资源, 系统可确保这些资源始终可用。
+      isCorrect: false
+      explanation: 在资源管理器模板的情况下, 在编写完模板之后, 您仍可以部署和管理资源。

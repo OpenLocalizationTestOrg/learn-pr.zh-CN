@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn.create-computer-vision-service.7-summary
+title: 摘要和知识检查
+metadata:
+  title: 摘要和知识检查
+  description: 摘要和知识检查
+  ms.date: 09/24/2018
+  author: AndrewJByrne
+  ms.author: marouill
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 761117024c7ad6d75435627cb4e04d9d4de7ac0b
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136752"
+durationInMinutes: 5
+content: >
+  [!include[](includes/7-summary.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 使用计算机远景 API 分析图像时, 可以指定要返回的可视功能类型。  在调用 "分析" 操作时, 以下哪一项是有效的可视功能类型？
+    choices:
+    - content: '动画 '
+      isCorrect: false
+      explanation: 影片不是有效的可视化功能类型。
+    - content: 动物
+      isCorrect: false
+      explanation: "\"动物\" 不是有效的可视化功能类型。"
+    - content: Celebrities
+      isCorrect: true
+      explanation: 您可以指定的两种可视化功能类型为 Celebrities 和使。
+  - content: 以下哪一项介绍了在使用`generateThumbnail`操作生成缩略图时*智能裁剪*的功能？
+    choices:
+    - content: 从左上角裁剪图像。
+      isCorrect: false
+      explanation: 从左上角裁剪图像可能会导致删除图像的重要部分 (也称为感兴趣的区域)。
+    - content: 它将缩略图居中放置在 "感兴趣的地区" 上。
+      isCorrect: true
+      explanation: 如果参数 "smartCropping" 为 true, 则 API 应用智能裁剪以将缩略图居中在 "感兴趣的地区" 上。 否则, 它会裁剪到中心。
+  - content: 您要将计算机远景 API 集成到您的解决方案中。 您为 eastus 区域中的计算机远景服务创建了一个认知服务帐户。 以下哪一项是您访问该`ocr`操作的正确地址？
+    choices:
+    - content: eastus2.api.cognitive.microsoft.com/vision/v2.0/ocr
+      isCorrect: false
+      explanation: 你未注册访问密钥, 因此无法发出来自此区域的请求。 请记住, 终结点指定在注册过程中选择的区域、服务 URL 和请求中使用的资源。
+    - content: eastus.api.cognitive.microsoft.com/vision/v2.0/describe
+      isCorrect: false
+      explanation: 此地址将请求发送到 "实体" 资源。
+    - content: eastus.api.cognitive.microsoft.com/vision/v2.0/ocr
+      isCorrect: true
+      explanation: 终结点指定在注册过程中选择的区域、服务 URL 和请求中使用的资源。

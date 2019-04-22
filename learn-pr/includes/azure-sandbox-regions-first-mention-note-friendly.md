@@ -1,18 +1,18 @@
-The free sandbox allows you to create resources in a subset of Azure's global regions. Select a region from the following list when creating any resources:
+免费的沙盒允许您在 Azure 全局区域的子集内创建资源。 创建任何资源时, 请从以下列表中选择一个区域:
 
 :::row:::
     :::column:::
-        - West US 2
-        - South Central US
-        - Central US
-        - East US
-        - West Europe
+        - 美国西部2
+        - 美国中南部
+        - 美国中部
+        - 美国东部
+        - 西欧
     :::column-end:::
     :::column:::
-        - Southeast Asia
-        - Japan East
-        - Brazil South
-        - Australia Southeast
-        - Central India
+        - 东南亚
+        - 日本东部
+        - 巴西南部
+        - 澳大利亚东南部
+        - 印度中部
     :::column-end:::
 :::row-end:::

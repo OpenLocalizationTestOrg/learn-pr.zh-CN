@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn.configure-the-network-for-your-virtual-machines.2-describe-azure-virtual-networking
+title: 浏览 Azure 虚拟网络
+metadata:
+  title: 浏览 Azure 虚拟网络
+  description: 浏览 Azure 虚拟网络
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 382584b2562b73f262218854d583f99585a15d68
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137227"
+durationInMinutes: 10
+content: '[!include[](includes/2-describe-azure-virtual-networking.md)]'

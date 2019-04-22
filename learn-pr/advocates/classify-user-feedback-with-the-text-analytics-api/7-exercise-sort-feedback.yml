@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.classify-user-feedback-with-the-text-analytics-api.7-exercise-sort-feedback
+title: 根据看法分数将邮件排序到不同的队列中
+metadata:
+  title: 根据看法分数将邮件排序到不同的队列中
+  description: 在我们的实验室的最后部分, 我们将向函数中添加代码和绑定, 以便通过看法对邮件进行排序, 并将其转发到输出队列以进行进一步处理。
+  ms.date: 09/24/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 5598bc72473a86d9da766b2133837aaad2a7f37d
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137335"
+azureSandbox: true
+durationInMinutes: 8
+content: '[!include[](includes/7-exercise-sort-feedback.md)]'

@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-site-reliability-engineering.2-what-is-sre-and-why-does-it-matter
+title: 什么是 SRE, 为什么它很重要？
+metadata:
+  title: 什么是 SRE, 为什么它很重要？
+  description: 什么是 SRE, 为什么它很重要？
+  ms.date: 09/26/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: ff963bbdb894e086e17154f576eca93f666d8f84
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137918"
+durationInMinutes: 10
+content: >
+  [!include[](includes/2-what-is-sre-and-why-does-it-matter.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 服务、系统或产品的哪种属性主要侧重于什么？
+    choices:
+    - content: 安全性
+      isCorrect: false
+      explanation: 在 SRE 中, 安全性无疑是非常重要的, 但可靠性是此工程规范的主要重点。
+    - content: 要运行的成本
+      isCorrect: false
+      explanation: 在 SRE 中, 费用和资源使用率无疑很重要, 但可靠性是此工程学科的主要重点。
+    - content: 原因
+      isCorrect: true
+      explanation: SRE 的主要焦点确实在可靠性上。
+    - content: 性
+      isCorrect: false
+      explanation: 在 SRE 中, 创建可维护的服务、系统或产品无疑很重要, 但可靠性是此工程规范的主要重点。
+  - content: 对于几乎所有服务、系统和产品, SRE 要尽力实现什么级别的可靠性？
+    choices:
+    - content: 100% 是目标
+      isCorrect: false
+      explanation: 在大多数环境中, 不可能命中 100% 的可靠性。 即使是, 成本和资源的承受成本也不高 (这两者都是浪费)。
+    - content: 应尽可能可靠
+      isCorrect: false
+      explanation: 由于工作的重要性和资源不是一种浪费, 因此为此目标查找相应的可靠性是非常重要的。 加 "越好" 太含糊, 无法发挥作用。
+    - content: 由主要利益干系人适当确定的特定级别
+      isCorrect: true
+      explanation: 设置服务的目标是 SRE、开发资源和业务决策者之间的协作工作。

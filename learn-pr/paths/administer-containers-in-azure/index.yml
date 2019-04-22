@@ -1,30 +1,33 @@
 ### YamlMime:LearningPath
 uid: learn.administer-containers-in-azure
 metadata:
-  title: Administer containers in Azure learning path
-  description: Azure Container Instances are the quickest and easiest way to run containers in Azure. This learning path will teach you how to create and manage your containers, and how ACI can be used to provide elastic scale for Kubernetes.
+  title: 在 Azure 学习路径中管理容器
+  description: azure 容器实例是在 Azure 中运行容器的最快捷和最简单的方法。 本学习途径将教您如何创建和管理您的容器, 以及如何使用 ACI 为 Kubernetes 提供弹性扩展。
   brand: azure
   author: markjulmar
   ms.author: smmark
-  #ms.learn-contact: smmark
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Administer containers in Azure
-summary: Azure Container Instances are the quickest and easiest way to run containers in Azure. This learning path will teach you how to create and manage your containers, and how ACI can be used to provide elastic scale for Kubernetes.
-prerequisites: None
+  ms.openlocfilehash: 843f5bf4707d7fa6fff716deaf233b2f3538e211
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137008"
+title: 在 Azure 中管理容器
+summary: azure 容器实例是在 Azure 中运行容器的最快捷和最简单的方法。 本学习途径将教您如何创建和管理您的容器, 以及如何使用 ACI 为 Kubernetes 提供弹性扩展。
+prerequisites: 无
 iconUrl: /learn/achievements/administer-containers-in-azure.svg
-levels: 
+levels:
 - beginner
-roles: 
+roles:
 - administrator
-products: 
+products:
 - azure
 - azure-container-instances
 - azure-container-registry
 modules:
-#- learn.intro-to-containers
 - learn.azure-container-registry
 - learn.run-docker-containers-aci
-#TODO: Add - Orchestrate containerized application (POST-IGNITE)
 trophy:
   uid: learn.administer-containers-in-azure.trophy

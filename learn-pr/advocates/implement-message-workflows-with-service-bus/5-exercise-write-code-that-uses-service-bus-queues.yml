@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.implement-message-workflows-with-service-bus.5-exercise-write-code-that-uses-service-bus-queues
+title: 练习-编写使用服务总线队列的代码
+metadata:
+  title: 练习-编写使用服务总线队列的代码
+  description: 练习-编写使用服务总线队列的代码
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 694e714a89b705e0c8ad108a69d7252ba46953f8
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136533"
+interactive: bash-editor
+azureSandbox: true
+durationInMinutes: 10
+content: '[!include[](includes/5-exercise-write-code-that-uses-service-bus-queues.md)]'

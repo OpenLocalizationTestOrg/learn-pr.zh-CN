@@ -1,18 +1,23 @@
 ### YamlMime:LearningPath
 uid: learn.work-with-relational-data-in-azure
 metadata:
-  title: Work with relational data in Azure learning path
-  description: Azure supports several popular SQL-based database solutions including SQL Server, PostgreSQL, and MySQL. Learn how to use these enterprise data solutions in Azure to store and retrieve your app's data in the cloud.
+  title: 在 Azure 学习路径中处理关系数据
+  description: Azure 支持多种流行的基于 sql 的数据库解决方案, 包括 sql Server、PostgreSQL 和 MySQL。 了解如何使用 Azure 中的企业数据解决方案在云中存储和检索应用程序的数据。
   brand: azure
   ms.date: 09/24/2018
   author: markjulmar
   ms.author: smmark
-  #ms.learn-contact: smmark
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Work with relational data in Azure
-summary: Azure supports several popular SQL-based database solutions including SQL Server, PostgreSQL, and MySQL. Learn how to use these enterprise data solutions in Azure to store and retrieve your app's data in the cloud.
-prerequisites: None 
+  ms.openlocfilehash: 20f2d3aa2daf8b855e88de5a786291c168151e31
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136143"
+title: 在 Azure 中处理关系数据
+summary: Azure 支持多种流行的基于 sql 的数据库解决方案, 包括 sql Server、PostgreSQL 和 MySQL。 了解如何使用 Azure 中的企业数据解决方案在云中存储和检索应用程序的数据。
+prerequisites: 无
 iconUrl: /learn/achievements/work-with-relational-data-in-azure.svg
 levels:
 - intermediate
@@ -25,7 +30,6 @@ products:
 - azure-clis
 modules:
 - learn.provision-azure-sql-db
-#TODO - learn.migrate-sql-server-relational-data  (POST-IGNITE)
 - learn.create-azure-db-for-postgresql
 trophy:
   uid: learn.work-with-relational-data-in-azure.trophy

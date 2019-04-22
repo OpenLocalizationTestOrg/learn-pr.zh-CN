@@ -1,24 +1,29 @@
 ### YamlMime:LearningPath
 uid: learn.deploy-a-website-with-azure-app-service
 metadata:
-  title: Deploy a website to Azure with Azure App Service learning path
-  description: Web apps in Azure allow you to publish and manage your website easily without having to work with the underlying servers, storage, or network assets. Instead, you can focus on your website features and rely on the robust Azure platform to provide secure access to your site.
+  title: 使用 azure 应用服务学习路径将网站部署到 azure
+  description: Azure 中的 Web 应用允许你轻松发布和管理网站, 而无需使用基础服务器、存储或网络资产。 相反, 您可以重点关注您的网站功能, 并依靠强大的 Azure 平台来提供对网站的安全访问。
   brand: azure
   ms.date: 09/24/2018
   author: markjulmar
   ms.author: smmark
-  #ms.learn-contact: smmark
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Deploy a website to Azure with Azure App Service
-summary: Web apps in Azure allow you to publish and manage your website easily without having to work with the underlying servers, storage, or network assets. Instead, you can focus on your website features and rely on the robust Azure platform to provide secure access to your site.
-prerequisites: None
+  ms.openlocfilehash: 0d1126eba72a2331380496672edfe2217a354eca
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137182"
+title: 使用 azure 应用服务将网站部署到 azure
+summary: Azure 中的 Web 应用允许你轻松发布和管理网站, 而无需使用基础服务器、存储或网络资产。 相反, 您可以重点关注您的网站功能, 并依靠强大的 Azure 平台来提供对网站的安全访问。
+prerequisites: 无
 iconUrl: /learn/achievements/deploy-a-website-with-azure-app-service.svg
-levels: 
+levels:
 - beginner
-roles: 
+roles:
 - developer
-products: 
+products:
 - azure
 - azure-portal
 modules:

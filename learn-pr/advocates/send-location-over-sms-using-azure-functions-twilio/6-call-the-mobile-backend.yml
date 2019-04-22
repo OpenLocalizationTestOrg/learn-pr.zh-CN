@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.6-call-the-mobile-backend
+title: 从移动应用程序调用函数
+metadata:
+  title: 从移动应用程序调用函数
+  description: 从移动应用程序中调用函数, 并传递用户的位置和电话号码列表
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 4596de0910bc4ff43de53de6d89dfd5699fddc07
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136912"
+durationInMinutes: 7
+content: '[!include[](includes/6-call-the-mobile-backend.md)]'

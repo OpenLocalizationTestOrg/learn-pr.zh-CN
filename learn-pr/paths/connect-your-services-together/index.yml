@@ -1,25 +1,30 @@
 ### YamlMime:LearningPath
 uid: learn.connect-your-services-together
 metadata:
-  title: Connect your services together learning path
-  description: "Azure lets you create applications composed of various components: web site front-ends, back-end services, and triggered functions that perform compute-on-demand services. Azure also includes various communication strategies to let these various components pass data to each other. Learn how to leverage these communication services to create scalable, efficient solutions out of testable components."
+  title: 将服务连接在一起学习路径
+  description: 'Azure 允许您创建由各种组件组成的应用程序: 网站前端、后端服务和执行按需计算的服务的触发函数。 Azure 还包括各种通信策略, 可让这些不同的组件相互传递数据。 了解如何利用这些通信服务创建可扩展、高效的解决方案, 使其脱离可测试组件。'
   brand: azure
   ms.date: 09/24/2018
   author: markjulmar
   ms.author: smmark
-  #ms.learn-contact: smmark
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Connect your services together
-summary: "Azure lets you create applications composed of various components: web site front-ends, back-end services, and triggered functions that perform compute-on-demand services. Azure also includes various communication strategies to let these various components pass data to each other. Learn how to leverage these communication services to create scalable, efficient solutions out of testable components."
-prerequisites: None 
+  ms.openlocfilehash: e2984c9a7f578655e41743754d7f04448a7e44a2
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137003"
+title: 将服务连接在一起
+summary: 'Azure 允许您创建由各种组件组成的应用程序: 网站前端、后端服务和执行按需计算的服务的触发函数。 Azure 还包括各种通信策略, 可让这些不同的组件相互传递数据。 了解如何利用这些通信服务创建可扩展、高效的解决方案, 使其脱离可测试组件。'
+prerequisites: 无
 iconUrl: /learn/achievements/connect-your-services-together.svg
-levels: 
+levels:
 - beginner
 - intermediate
-roles: 
+roles:
 - developer
-products: 
+products:
 - azure
 - azure-service-bus
 - azure-event-grid

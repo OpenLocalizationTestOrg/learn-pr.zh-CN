@@ -1,24 +1,29 @@
 ### YamlMime:LearningPath
 uid: learn.deploy-a-website-with-azure-virtual-machines
 metadata:
-  title: Deploy a website with Azure virtual machines learning path
-  description: Web apps in Azure allow you to publish and manage your website easily without having to work with the underlying servers, storage, or network assets. Instead, you can focus on your website features and rely on the robust Azure platform to provide secure access to your site.
+  title: 使用 Azure 虚拟机学习路径部署网站
+  description: Azure 中的 Web 应用允许你轻松发布和管理网站, 而无需使用基础服务器、存储或网络资产。 相反, 您可以重点关注您的网站功能, 并依靠强大的 Azure 平台来提供对网站的安全访问。
   brand: azure
   ms.date: 09/24/2018
   author: markjulmar
   ms.author: smmark
-  #ms.learn-contact: smmark
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Deploy a website with Azure virtual machines
-summary: If your web hosting requirements aren't directly supported by the Azure Web app platform, you can leverage virtual machines to customize and control every aspect of the web server. Learn how to create, configure, and manage virtual machines on Linux and Windows that host web apps.
-prerequisites: None
+  ms.openlocfilehash: f4d5794ad77f8aa0cd66b5240fc29cbf16873315
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137181"
+title: 使用 Azure 虚拟机部署网站
+summary: 如果 Azure web 应用程序平台不直接支持您的 web 托管要求, 则可以利用虚拟机来自定义和控制 web 服务器的各个方面。 了解如何在托管 web 应用程序的 Linux 和 Windows 上创建、配置和管理虚拟机。
+prerequisites: 无
 iconUrl: /learn/achievements/deploy-a-website-with-azure-virtual-machines.svg
-levels: 
+levels:
 - beginner
-roles: 
+roles:
 - developer
-products: 
+products:
 - azure
 - azure-virtual-machines
 - azure-portal

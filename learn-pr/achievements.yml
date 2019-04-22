@@ -1,22 +1,24 @@
 ### YamlMime:Achievements
 achievements:
-# - uid: learn.module-template.badge #sample achievement badge for module template.
-#  type: badge
-#  title: Module template
-#  summary: Module template badge.
-#  iconUrl: http://via.placeholder.com/120x120
 - uid: learn.make-your-virtual-machines-highly-available.badge
   type: badge
-  title: Make your virtual machines highly available
-  summary: Make your virtual machines highly available
+  title: 使虚拟机高度可用
+  summary: 使虚拟机高度可用
   iconUrl: /learn/achievements/make-your-virtual-machines-highly-available.svg
 - uid: learn.intro-to-containers.badge
   type: badge
-  title: Introduction to Containers badge
-  summary: Badge for the 'Introduction to Containers' module.
+  title: 容器徽章简介
+  summary: "\"对容器的简介\" 模块的标记。"
   iconUrl: /learn/achievements/intro-to-containers.svg
 - uid: learn.scale-and-size-virtual-machines.badge
   type: badge
-  title: Scale and size Virtual Machines in Azure
-  summary: Scale and size Virtual Machines in Azure
+  title: 扩展 Azure 中的虚拟机并调整其大小
+  summary: 扩展 Azure 中的虚拟机并调整其大小
   iconUrl: /learn/achievements/scale-and-size-virtual-machines.svg
+metadata:
+  ms.openlocfilehash: 24560bd389ddf409093ee65e25caa0c7afa52c72
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136909"

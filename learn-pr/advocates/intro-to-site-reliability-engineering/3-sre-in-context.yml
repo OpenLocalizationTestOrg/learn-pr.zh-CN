@@ -1,0 +1,66 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-site-reliability-engineering.3-sre-in-context
+title: 在上下文中的 SRE
+metadata:
+  title: 在上下文中的 SRE
+  description: 在上下文中的 SRE
+  ms.date: 09/26/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 3c795ae1fff79f9a8c48d8c189ac5c6fb3486dd4
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137916"
+durationInMinutes: 10
+content: >
+  [!include[](includes/3-sre-in-context.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 给定 SRE 的起源, 这种纪律对它有最大影响？
+    choices:
+    - content: 客户服务
+      isCorrect: false
+      explanation: 与以客户为中心的思维的工作是对 SRE 至关重要, 但客户服务不是其起源的一部分。
+    - content: 大型机操作
+      isCorrect: false
+      explanation: 尽管我们可以从其他操作专业中了解, SRE 也不会从这一开始。
+    - content: 软件工程
+      isCorrect: true
+      explanation: SRE 是通过软件工程思维方式启动的。
+    - content: 体系结构
+      isCorrect: false
+      explanation: 体系结构 (尤其是软件体系结构) 肯定是 SRE 工作的一个组件, 但它不是其起源的一部分。
+  - content: 第一个是, DevOps 还是 SRE？
+    choices:
+    - content: DevOps
+      isCorrect: false
+      explanation: 它们是以并行方式开发的。
+    - content: SRE
+      isCorrect: false
+      explanation: 它们是以并行方式开发的。
+    - content: 它们都不是并行开发的。
+      isCorrect: true
+  - content: 是否为 SRE 从 DevOps 中的下一个演化步骤？
+    choices:
+    - content: 是的, SRE 是未来的 DevOps。 DevOps 人员应尽力成为 SREs
+      isCorrect: false
+      explanation: DevOps 和 SRE 是尝试解决类似难题的不同操作做法。
+    - content: 否, SRE 和 DevOps 是独立的操作实践
+      isCorrect: true
+      explanation: DevOps 和 SRE 确实是独立的, 即使他们尝试解决类似的挑战也是如此。
+  - content: DevOps 和 SRE 中的两个最佳实践是什么？
+    choices:
+    - content: 自动化和监控/observability
+      isCorrect: true
+    - content: 编码和票证系统
+      isCorrect: false
+      explanation: 虽然编码非常重要 (在 SRE 中如此), 但票证系统并不是 SRE 的核心。
+    - content: 技术支持自动化和 bug 跟踪
+      isCorrect: false
+      explanation: 虽然有用, 但技术支持自动化并不是一种操作实践的核心。

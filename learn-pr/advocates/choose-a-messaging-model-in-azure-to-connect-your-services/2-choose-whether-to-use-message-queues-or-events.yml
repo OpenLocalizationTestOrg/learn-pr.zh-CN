@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.choose-messaging-model.2-choose-whether-to-use-message-queues-or-events
+title: 选择是否使用消息或事件
+metadata:
+  title: 选择是否使用消息或事件
+  description: 选择是否使用消息或事件
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 0a064621b9b821ded00ffd7db76f3697a84e9cf6
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137235"
+durationInMinutes: 10
+content: >
+  [!include[](includes/2-choose-whether-to-use-message-queues-or-events.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 假设您有一个包含 web 服务的分布式应用程序, 可对用户进行身份验证。 当用户登录时, web 服务会通知所有客户端应用程序, 以便可以将该用户的状态显示为 "联机"。 登录通知是否是邮件或事件的示例？
+    choices:
+    - content: 消息
+      isCorrect: false
+      explanation: '登录通知是一个事件: 它只包含一个简单的状态数据, 而客户端应用程序的 authenication 服务不期望以任何特定方式对通知做出响应。'
+    - content: 事件
+      isCorrect: true
+      explanation: '登录通知是一个事件: 它只包含一个简单的状态数据, 而客户端应用程序的 authenication 服务不期望以任何特定方式对通知做出响应。'
+  - content: 假设您有一个包含 web 服务的分布式应用程序, 允许用户管理其帐户。 用户可以注册、编辑其配置文件, 并删除其帐户。 当用户删除帐户时, web 服务会通知您的数据层, 以便将从数据库中删除用户的数据。 删除帐户通知是邮件或事件的示例？
+    choices:
+    - content: 消息
+      isCorrect: true
+      explanation: "\"删除帐户\" 通知是一条消息。 关键因素是 web 服务对数据层处理邮件的方式有一个预期: 数据层必须从数据库中删除用户的数据, 才能正常运行。 请注意, 邮件本身只包含简单的信息, 因此通信的这一方面可能被视为事件;但是, web 服务要求数据层以特定方式处理通知就足够了, 这样就足以使邮件成为邮件。"
+    - content: 事件
+      isCorrect: false
+      explanation: "\"删除帐户\" 通知是一条消息。 关键因素是 web 服务对数据层处理邮件的方式有一个预期: 数据层必须从数据库中删除用户的数据, 才能正常运行。 请注意, 邮件本身只包含简单的信息, 因此通信的这一方面可能被视为事件;但是, web 服务要求数据层以特定方式处理通知就足够了, 这样就足以使邮件成为邮件。"
