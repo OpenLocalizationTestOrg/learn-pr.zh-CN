@@ -1,10 +1,12 @@
-您要构建的应用程序是一个跨平台的移动应用程序, 它与 Azure 功能进行交互以共享您的位置。 在此单元中, 将使用 Visual Studio 创建空白移动应用程序, 并安装包含用于获取用户位置的 API 的 NuGet 包。
+您要构建的应用程序是与 Azure 功能交互的跨平台移动应用程序, 用于共享您的位置。 在此单元中, 将使用 Visual Studio 创建一个空白移动应用程序, 并安装包含用于获取用户位置的 API 的 NuGet 包。
+
+若要完成此单元中的步骤, 您需要安装在 Visual Studio 中的 Xamarin 交叉平台 UI 工具包。 如果尚未安装, 请访问[安装 Xamarin](https://docs.microsoft.com/xamarin/get-started/installation/?tabs=windows)。
 
 ## <a name="create-the-xamarinforms-project"></a>创建 Xamarin. Forms 项目
 
-1. 在 Visual Studio 中, 选择 "*文件"-">New->Project ...*"。
+1. 在 Visual Studio 中, 选择 " *File > 新建 > 项目 ...*"。
 
-1. 从左侧的树中, 选择 " *Visual c #->Cross* ", 然后从中央面板中选择 "*移动应用程序 (Xamarin. Forms)* "。
+1. 从左侧的树中, 选择 " *Visual c # > 跨平台*", 然后从中央面板中选择 "*移动应用程序 (Xamarin. Forms)* "。
 
 1. 将解决方案命名为 "ImHere"。
 
@@ -24,7 +26,16 @@
 
     !["配置新解决方案" 对话框](../media/2-configure-solution-dialog.png)
 
-Visual Studio 将为您创建两个项目: 一个名`ImHere.UWP`为的 UWP 应用程序和一个`ImHere`.net 标准库。 Xamarin. Forms 应用程序由两部分组成-一个或多个平台特定的应用程序项目以及一个 (或多个) .net 标准库。 特定于平台的应用程序项目包含在相关平台上运行应用程序所需的特定于平台的代码。 然后, 这些项目启动跨平台 .net 标准库中定义的 Xamarin 应用程序。 在跨平台代码中构建应用程序, 在运行时, 您创建的任何用户界面都将转换为相关的特定于平台的 UI 组件。
+Visual Studio 将为您创建两个项目
+
+   - 名为的 UWP 应用`ImHere.UWP`
+   - 一个 .net 标准库,`ImHere`
+
+Xamarin. Forms 应用由两部分组成
+    - 一个或多个特定于平台的应用程序项目, 并且
+    - 一个 (或多个) .net 标准库。
+
+特定于平台的应用程序项目包含在相关平台上运行应用程序所需的特定于平台的代码。 然后, 这些项目启动跨平台 .net 标准库中定义的 Xamarin 应用程序。 在跨平台代码中构建应用程序, 在运行时, 您创建的任何用户界面都将转换为相关的特定于平台的 UI 组件。
 
 ## <a name="adding-xamarinessentials"></a>添加 Xamarin
 

@@ -10,11 +10,11 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
   ROBOTS: NOINDEX
-  ms.openlocfilehash: fb7a65d5e50fb587ec485d702a722441b0f54ada
-  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.openlocfilehash: 0807c30623d1daf21414519dcf3c420afa584a5a
+  ms.sourcegitcommit: 1865f0bda8a03c92aea2b6d718d9fa9890fdcf4f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/21/2019
-  ms.locfileid: "2136913"
+  ms.lasthandoff: 04/22/2019
+  ms.locfileid: "2138520"
 durationInMinutes: 7
 content: '[!include[](includes/5-create-an-azure-functions-mobile-backend.md)]'

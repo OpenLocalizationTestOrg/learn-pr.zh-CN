@@ -2,18 +2,10 @@
 
 此存储库包含 microsoft Azure 的 microsoft 学习模块和学习路径。 查看此自述文件, 了解如何帮助您参与 Microsoft 学习培训内容。
 
-若要查看 Microsoft 了解其他产品的存储库, 请单击下面的链接:
+## <a name="other-learn-repos"></a>其他了解存储库  
 
-* [Microsoft 了解-Azure 内容存储库](https://github.com/MicrosoftDocs/learn-pr)
-* [Microsoft 学习-业务应用程序内容存储库](https://github.com/MicrosoftDocs/learn-bizapps-pr)
-* [Microsoft 了解-Windows 内容存储库](https://github.com/MicrosoftDocs/learn-windows-pr)
-* [Microsoft 了解-M365 内容存储库](https://github.com/MicrosoftDocs/learn-m365-pr)
-* [Microsoft 了解-SQL Server 内容存储库](https://github.com/MicrosoftDocs/learn-sqlserver-pr)
-* [Microsoft 了解-全球学习 (WWL) 内容存储库](https://github.com/MicrosoftDocs/learn-wwl-pr)
-* [Microsoft 了解-Xamarin 内容存储库](https://github.com/MicrosoftDocs/learn-xamarin-pr)
-* [Microsoft 学习-Dynamics 内容存储库](https://github.com/MicrosoftDocs/learn-dynamics-pr)
-
-针对单个模块的代码存储库遵循的https://github.com/MicrosoftDocs/mslearn-module-name命名约定。 若要查找全部, 请在 GitHub 中搜索 MicrosoftDocs GitHub 组织中所有以 "mslearn-" 开头的存储库。
+* **内容存储库:** 若要查看所有学习内容存储库的列表, 请查看 LearnDocs 中的 " [Microsoft 学习存储库](https://review.docs.microsoft.com/en-us/learn-docs/docs/repos-msft-learn)" 一文。
+* **代码存储库:** 针对单个模块的代码存储库遵循的https://github.com/MicrosoftDocs/mslearn-module-name命名约定。 若要查找全部, 请在 GitHub 中搜索 MicrosoftDocs GitHub 组织中所有以 "mslearn-" 开头的存储库。
 
 ## <a name="content-author-and-learner-experience"></a>内容作者和学习者体验
 
@@ -52,6 +44,6 @@ Microsoft 学习存储库中的内容的开发、组织和显示方式不同于�
 
 ## <a name="questions"></a>提
 
-查看[Microsoft 学习常见问题解答](https://review.docs.microsoft.com/en-us/learn-docs/docs/microsoftlearn-faq?branch=master)。
+查看[Microsoft 学习常见问题解答](https://review.docs.microsoft.com/learn-docs/docs/microsoftlearn-faq?branch=master)。
 
 有关与存储库和生成问题相关的问题, 请联系: [learn-repo-managers@microsoft.com](mailto:learn-repo-managers@microsoft.com)

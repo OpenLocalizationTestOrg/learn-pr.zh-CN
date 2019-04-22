@@ -83,9 +83,9 @@ azure CLI 包含用于管理`cognitiveservices` Azure 中的认知服务帐户�
 | 参数 | 说明 |
 |-----------|-------------|
 | `resource-group` | 将拥有认知服务帐户的资源组。 在此交互式沙盒会话中, 将使用<rgn>[沙盒资源组名称]</rgn> |
-| `kind` | 认知服务帐户的 API 名称。 |
+| `kind` | 认知服务帐户的 API 名称。 对于此练习计算机愿景, 但可以基于内容审阅者、面对面 API 等。|
 | `name` | 认知服务帐户名称。 |
-| `sku` | 认知服务帐户的 Sku。|
+| `sku` | 认知服务帐户的 Sku (库存单位)。 在此练习 S1 中, 但可以是 F0 (free 层)、S1、S2、S3 或 S4。 |
 | `location` | 要从中调用此 API 的位置或区域。 从以下列表中选择一个位置。 |
 
 [!include[](../../../includes/azure-sandbox-regions-first-mention-note.md)] 

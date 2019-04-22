@@ -1,10 +1,10 @@
-此时, 应用正在努力获取用户的位置, 并准备将其发送到 Azure 功能。 在此单位中, 将生成 Azure 函数。
+此时, 应用正在努力获取用户的位置, 并准备将其发送到 Azure 功能。 在此单位中, 您将构建自己的 Azure 函数。
 
 ## <a name="create-an-azure-functions-project"></a>创建 Azure 函数项目
 
-1. 通过右键单击解决方案并选择`ImHere` " *>New 项目 ...*", 将新项目添加到解决方案中。
+1. 右键单击该解决方案, `ImHere`然后选择 "*添加 > 新建项目 ...*"。
 
-1. 从左侧的树中, 选择 " *Visual c #->Cloud*", 然后从中心的面板中选择 " *Azure 函数*"。
+1. 从左侧的树中, 选择 " *Visual c # > 云*", 然后从中心的面板中选择 " *Azure 函数*"。
 
 1. 将项目命名为 "ImHere", 然后单击 **"确定**"。
 
@@ -16,7 +16,7 @@
 
 1. 在 "**新建项目**配置" 对话框中, 确保 "函数版本" 设置为 " *Azure 函数 v2 (.net Standard)* (**不**是_v1 (.net Framework)_")。 选择 " *Http 触发器*", 将存储帐户设置为 "*存储仿真程序*", 并将访问权限设置为 "*匿名*"。 然后单击 **"确定"**。
 
-    ![Azure 函数项目配置对话框](../media/5-configure-trigger.png)
+    !["Azure 函数项目配置" 对话框](../media/5-configure-trigger.png)
 
     将创建新项目, 并调用`Function1`一个默认函数。
 
@@ -51,9 +51,9 @@ Azure 函数项目是通过调用`Function1`的单个 HTTP 触发器函数创建
 
 将数据发送到 Azure 函数时, 它将以 JSON 的形式发送。 移动应用程序会将数据序列化为 json, 并且函数将从 JSON 反序列化。 若要使该数据在移动应用程序和功能之间保持一致, 请创建一个新项目, 其中包含一个用于保存位置和电话号码数据的类。 然后, 应用程序和功能将引用此项目。
 
-1. 右键单击解决方案并选择 " `ImHere` *>New 项目 ...*", 在解决方案下创建一个新项目。
+1. 右键单击解决方案, 然后选择`ImHere` "*添加 > 新建项目 ...*", 在解决方案下创建一个新项目。
 
-1. 从左侧的树中, 选择 " *Visual c #-> Standard*", 然后从中央面板中选择 "类库 *(.net Standard)* "。
+1. 从左侧的树中, 选择 " *Visual c # > .net Standard*", 然后从中央面板中选择 "类库 *(.net standard)* "。
 
 1. 将项目命名为 "ImHere", 然后单击 **"确定**"。
 
@@ -61,7 +61,9 @@ Azure 函数项目是通过调用`Function1`的单个 HTTP 触发器函数创建
 
 1. 删除自动生成的 "Class1.cs" 文件。
 
-1. 在`ImHere.Data`项目中创建一个新类, `PostData`方法是右键单击该项目, 然后选择 "*添加->Class ...*"。将新类命名为 "PostData", 然后单击 **"确定**"。 将此新类标记`public`为。
+1. 右键单击该项目, `ImHere.Data`然后选择 "*添加 > 类 ...* " 以创建一个新类。
+
+1. 将新类命名为 "PostData", 然后单击 **"确定**"。 将此新类标记`public`为。
 
 1. 添加`double`纬度和经度的属性, 以及要发送到的`string[]`电话号码的属性。
 
@@ -74,7 +76,7 @@ Azure 函数项目是通过调用`Function1`的单个 HTTP 触发器函数创建
     }
     ```
 
-1. 通过右键单击项目, 然后选择 " `ImHere.Functions` *添加->Reference ...*", 将对此项目的引用添加到项目和`ImHere`项目中。从左侧的树中选择 "*项目*", 然后选中 " *ImHere*" 旁边的框。
+1. 在和`ImHere`项目中添加对此项目的`ImHere.Functions`引用, 方法是右键单击该项目, 然后选择 "*添加->Reference ...*"。从左侧的树中选择 "*项目*", 然后选中 " *ImHere*" 旁边的框。
 
     ![配置项目引用](../media/5-configure-project-references.png)
 
@@ -111,23 +113,39 @@ Azure 函数项目是通过调用`Function1`的单个 HTTP 触发器函数创建
 
 完整的函数如下所示。
 
-```cs
-[FunctionName("SendLocation")]
-public static async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Anonymous,
-                                                                "get", "post",
-                                                         Route = null)]HttpRequest req,
-                                                    ILogger log)
-{
-    log.LogInformation("C# HTTP trigger function processed a request.");
-    string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-    PostData data = JsonConvert.DeserializeObject<PostData>(requestBody);
-    string url = $"https://www.google.com/maps/search/?api=1&query={data.Latitude},{data.Longitude}";
-    log.LogInformation($"URL created - {url}");
-    return new OkResult();
-}
-```
+  ```cs 
 
-## <a name="run-the-azure-function-locally"></a>在本地运行 Azure 函数
+    using System.IO;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.Azure.WebJobs;
+    using Microsoft.Azure.WebJobs.Extensions.Http;
+    using Microsoft.AspNetCore.Http;
+    using ImHere.Data;
+    using System.Threading.Tasks;
+    using Microsoft.Extensions.Logging;
+    using Newtonsoft.Json;
+
+    namespace ImHere.Functions
+    {
+        public static class SendLocation
+        {
+            [FunctionName("SendLocation")]
+            public static async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post",
+                                                             Route = null)]HttpRequest req, ILogger log)
+            {
+                log.LogInformation("C# HTTP trigger function processed a request.");
+                string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
+                PostData data = JsonConvert.DeserializeObject<PostData>(requestBody);
+                string url = $"https://www.google.com/maps/search/?api=1&query={data.Latitude},{data.Longitude}";
+                log.LogInformation($"URL created - {url}");
+                return new OkResult();
+            }
+        }
+    }
+
+ ```
+
+## <a name="run-the-azure-functions-locally"></a>在本地运行 Azure 函数
 
 可以使用本地存储帐户和本地 Azure 函数运行时在本地运行函数。 此本地运行时允许你先测试函数, 然后再将其部署到 Azure。
 

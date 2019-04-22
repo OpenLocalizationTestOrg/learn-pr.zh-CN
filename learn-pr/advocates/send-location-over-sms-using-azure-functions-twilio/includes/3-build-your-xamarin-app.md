@@ -1,9 +1,9 @@
-在这种情况下, 移动应用是一个简单的 "Hello World" 应用。 在此单元中, 添加 UI 和一些基本的应用程序逻辑。
+在这种情况下, 移动应用是一个简单的 "Hello World" 应用。 在此单元中, 你将添加 UI 和一些基本的应用程序逻辑。
 
 应用程序的 UI 将包含以下内容:
 
 - 一个用于输入一些电话号码的文本输入控件。
-- 一个按钮, 用于使用 Azure 函数将你的位置发送给这些号码。
+- 使用 Azure 功能将你的位置发送给这些号码的按钮。
 - 将向当前状态的用户显示邮件的标签, 如发送的位置和成功发送的位置。
 
 Xamarin 支持称为 "模型-视图-ViewModel (MVVM)" 的设计模式。 您可以在[Xamarin MVVM 文档](https://docs.microsoft.com/xamarin/xamarin-forms/enterprise-application-patterns/mvvm?azure-portal=true)中了解有关 MVVM 的更多信息, 但它的本质是, 每个页面 (视图) 都有一个公开属性和行为的 ViewModel。
@@ -14,11 +14,24 @@ ViewModel 行为公开为命令属性, 该命令是一个包装在调用命令�
 
 ## <a name="create-a-base-viewmodel"></a>创建基本 ViewModel
 
-ViewModels 所有实现`INotifyPropertyChanged`接口。 此接口具有单个事件`PropertyChanged`, 用于通知 UI 的任何更新。 此事件具有事件参数, 其中包含已更改的属性的名称。 常见的做法是创建基 ViewModel 类来实现此接口并提供一些帮助程序方法。
+ViewModels 实现`INotifyPropertyChanged`接口。 此接口具有单个事件`PropertyChanged`, 用于通知 UI 的任何更新。 此事件具有事件参数, 其中包含已更改的属性的名称。 常见的做法是创建基 ViewModel 类来实现此接口并提供一些帮助程序方法。
 
-1. 在`ImHere` .net 标准项目中创建一个新类, `BaseViewModel`方法是右键单击该项目, 然后选择 "*添加->Class ...*"。将新类命名为 "BaseViewModel", 然后单击 "**添加**"。
+1. 右键单击 "ImHere 项目", 然后选择 "_添加_ > _类_"。
 
-1. 生成类`public`并从中派生`INotifyPropertyChanged`。 您需要为添加 using 指令`System.ComponentModel`。
+1. 将新类命名为 "BaseViewModel", 然后单击 "**添加**"。
+
+1. 为`System.ComponentModel`和`System.Runtime.CompilerServices`添加 using 指令。
+
+   ```cs
+    using System.ComponentModel;
+    using System.Runtime.CompilerServices;
+    ```
+
+1. 生成类`public`并从中派生`INotifyPropertyChanged`。
+
+   ```cs
+     public class BaseViewModel : INotifyPropertyChanged
+   ```
 
 1. 通过添加`INotifyPropertyChanged` `PropertyChanged`事件来实现接口:
 
@@ -26,7 +39,7 @@ ViewModels 所有实现`INotifyPropertyChanged`接口。 此接口具有单个�
     public event PropertyChangedEventHandler PropertyChanged;
     ```
 
-1. ViewModel 属性的常见模式是, 有一个具有私有支持字段的公共属性。 在属性 setter 中, 针对新值检查支持字段。 如果新值不同于支持字段, 则更新了支持字段, 并引发了`PropertyChanged`事件。 此逻辑易于分解为方法, 因此请添加`Set`方法。 您需要为`System.Runtime.CompilerServices`命名空间添加 using 指令。
+1. 添加`Set`触发事件的`PropertyChanged`方法。
 
     ```cs
     protected void Set<T>(ref T field, T value, [CallerMemberName] string propertyName = null)
@@ -37,7 +50,7 @@ ViewModels 所有实现`INotifyPropertyChanged`接口。 此接口具有单个�
     }
     ```
 
-    此方法获取对支持字段、新值和属性名称的引用。 如果该字段尚未更改, 则此方法返回, 否则, 将更新该字段并`PropertyChanged`引发事件。 方法上的`propertyName`参数是默认参数, 并使用`CallerMemberName`属性进行标记。 `Set` 从属性 setter 调用此方法时, 通常将此参数保留为默认值。 然后, 编译器会自动将参数值设置为调用属性的名称。
+    此方法引用了支持字段、新值和属性名称。 如果该字段尚未更改, 则此方法返回, 否则, 将更新该字段并`PropertyChanged`引发事件。 方法上的`propertyName`参数是默认参数, 并使用`CallerMemberName`属性进行标记。 `Set` 从属性 setter 调用此方法时, 通常将此参数保留为默认值。 然后, 编译器会自动将参数值设置为调用属性的名称。
 
 此类的完整代码如下所示。
 
@@ -67,8 +80,17 @@ namespace ImHere
 
 1. 创建一个在`ImHere` .net `MainViewModel` Standard 项目中调用的类。
 
-1. 将此类设为公共, `BaseViewModel`并从中派生。
+1. 为`Xamarin.Forms`和`System.Threading.Tasks`添加 using 指令。
 
+    ```cs
+      using Xamarin.Forms;
+      using System.Threading.Tasks;
+     ```
+
+1. 将此类设为公共, `BaseViewModel`并从中派生。
+    ```cs
+       public class MainViewModel : BaseViewModel
+    ```
 1. 添加两`string`个属性`PhoneNumbers` , `Message`每个都有一个支持字段。 在属性 setter 中, 使用基类`Set`方法更新值并引发`PropertyChanged`事件。
 
    ```cs
@@ -93,7 +115,7 @@ namespace ImHere
     public ICommand SendLocationCommand { get; }
     ```
 
-1. 向类中添加构造函数, 在此构造函数中, 将`SendLocationCommand`构造函数初始化为新的`Command`Xamarin。 您将需要为`Xamarin.Forms`命名空间添加 using 指令。 此命令`Action`的构造函数将在调用命令时运行, 因此, 请创建一个`async`名`SendLocation`为的方法, 并将此调用`await`的 lambda 函数传递给构造函数。 将在此模块`SendLocation`的更高单位中实现方法的主体。 您需要为`System.Threading.Tasks`命名空间添加 using 指令, 以便能够返回`Task`。
+1. 向类中添加构造函数, 在此构造函数中, 将`SendLocationCommand`构造函数初始化为新的`Command`Xamarin。
 
     ```cs
     public MainViewModel()
@@ -101,12 +123,15 @@ namespace ImHere
         SendLocationCommand = new Command(async () => await SendLocation());
     }
 
+1. Create a `async` method called `SendLocation` and pass a lambda function that `await`s call to the constructor. The body of this method will be updated later in this module.
+
+    ```cs
     async Task SendLocation()
     {
     }
     ```
 
-此类的代码如下所示。
+此类的完整代码如下所示。
 
 ```cs
 using System.Threading.Tasks;
@@ -154,7 +179,7 @@ namespace ImHere
     > [!NOTE]
     >  该`ImHere.UWP`项目还包含一个名`MainPage.xaml`为的文件。 请确保您正在编辑 .net 标准库中的一个。
 
-1. 在可以将控件绑定到 ViewModel 上的属性之前, 必须将 ViewModel 的实例设置为页面的绑定上下文。 在顶级中添加以下 XAML `ContentPage`。
+1. 在顶级中添加以下 XAML `ContentPage` , 以将 ViewModel 的实例设置为页面的绑定上下文。
 
     ```xml
     <ContentPage.BindingContext>
@@ -170,11 +195,9 @@ namespace ImHere
         <Editor Text="{Binding PhoneNumbers}" HeightRequest="100"/>
     </StackLayout>
     ```
-    - 该`Editor`控件将用于添加电话号码, `Label`以上将介绍此字段对用户的用途。 
-    - `StackLayout`的堆叠子控件按添加控件的顺序水平或垂直排列, 因此添加`Label`第一项会将其置于。 `Editor`
+    - 该`Editor`控件将用于添加电话号码, `Label`以上将介绍此字段对用户的用途。
+    - `StackLayout`子控件以添加控件的顺序水平或垂直堆叠, 因此添加`Label`第一个会将其置于`Editor`。
     - `Editor`控件是多行输入控件, 允许用户输入多个电话号码, 每行一个。
-
-   
 
     上`Text` `Editor`的属性绑定到上的`PhoneNumbers`属性。 `MainViewModel` 绑定的语法是将属性值设置为`"{Binding <property name>}"`。 大括号将告知 XAML 编译器此值是特殊的, 应与简单`string`的处理方式不同。
 
@@ -226,4 +249,4 @@ namespace ImHere
 
 ## <a name="summary"></a>摘要
 
-在此单元中, 您学习了如何使用 XAML 创建应用程序的 UI, 并使用 ViewModel 来处理应用程序逻辑。 此外, 还学习了如何将 ViewModel 绑定到 UI。 在下一个单元中, 将 "位置查找" 添加到 ViewModel。
+在此单元中, 您学习了如何使用 XAML 创建应用程序的 UI, 并使用 ViewModel 来处理应用程序的逻辑。 此外, 还学习了如何将 ViewModel 绑定到 UI。 在下一个单元中, 您将向 ViewModel 添加位置查找。

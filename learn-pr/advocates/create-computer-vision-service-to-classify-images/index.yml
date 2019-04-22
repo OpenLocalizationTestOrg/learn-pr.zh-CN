@@ -1,19 +1,19 @@
 ### YamlMime:Module
 uid: learn.create-computer-vision-service
 metadata:
-  title: 使用计算机远景服务处理图像-了解
+  title: 使用计算机远景服务处理图像
   description: 使用计算机远景 API 分析图像的见解, 从图像中提取文本, 并生成高质量的缩略图。
   ms.date: 09/24/2018
   author: MaximRouiller
   ms.author: marouill
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-  ms.openlocfilehash: ca28348c64c9f0f9491bc047ca7c996b66e439a8
-  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.openlocfilehash: 1d46b29b6bc2dc5961cf1e0c2acaeffb78b6da4d
+  ms.sourcegitcommit: 1865f0bda8a03c92aea2b6d718d9fa9890fdcf4f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/21/2019
-  ms.locfileid: "2137217"
+  ms.lasthandoff: 04/22/2019
+  ms.locfileid: "2138550"
 title: 使用计算机远景服务处理图像
 summary: 使用计算机远景 API 分析图像的见解, 从图像中提取文本, 并生成高质量的缩略图。
 abstract: >
@@ -34,9 +34,11 @@ levels:
 - beginner
 roles:
 - developer
+- ai-engineer
 products:
 - azure
 - azure-clis
+- azure-cognitive-services
 units:
 - learn.create-computer-vision-service.1-intro
 - learn.create-computer-vision-service.2-create-service

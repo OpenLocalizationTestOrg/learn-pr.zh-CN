@@ -9,12 +9,12 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
   ROBOTS: NOINDEX
-  ms.openlocfilehash: a1deeee9a273d59078ee2d6ed25ffc3b4d5414c4
-  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.openlocfilehash: f87c6a650f504437f3b3f8f6b345ea7c26f9c7f9
+  ms.sourcegitcommit: 1865f0bda8a03c92aea2b6d718d9fa9890fdcf4f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/21/2019
-  ms.locfileid: "2138022"
+  ms.lasthandoff: 04/22/2019
+  ms.locfileid: "2138549"
 title: (可选) 校准表情符号
 durationInMinutes: 10
 content: '[!include[](includes/9-optionally-calibrate-emojis.md)]'

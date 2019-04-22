@@ -9,12 +9,12 @@ metadata:
   ms.author: smmark
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-  ms.openlocfilehash: 20f2d3aa2daf8b855e88de5a786291c168151e31
-  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.openlocfilehash: f15a80379a68f7974f10556de9c5f0b7f2cfeec4
+  ms.sourcegitcommit: 1865f0bda8a03c92aea2b6d718d9fa9890fdcf4f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/21/2019
-  ms.locfileid: "2136143"
+  ms.lasthandoff: 04/22/2019
+  ms.locfileid: "2138556"
 title: 在 Azure 中处理关系数据
 summary: Azure 支持多种流行的基于 sql 的数据库解决方案, 包括 sql Server、PostgreSQL 和 MySQL。 了解如何使用 Azure 中的企业数据解决方案在云中存储和检索应用程序的数据。
 prerequisites: 无
@@ -23,6 +23,7 @@ levels:
 - intermediate
 roles:
 - developer
+- data-engineer
 products:
 - azure
 - azure-sql-database
@@ -31,5 +32,6 @@ products:
 modules:
 - learn.provision-azure-sql-db
 - learn.create-azure-db-for-postgresql
+- learn.secure-your-azure-sql-database
 trophy:
   uid: learn.work-with-relational-data-in-azure.trophy

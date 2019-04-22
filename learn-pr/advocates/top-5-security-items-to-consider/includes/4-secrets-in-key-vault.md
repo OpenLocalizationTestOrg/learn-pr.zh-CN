@@ -18,7 +18,7 @@ Azure Key Vault 是一个*秘密存储*: 用于存储应用程序机密的集中
 
 密钥存储库允许用户存储连接字符串、密码、密码、证书、访问策略、文件锁定 (使 Azure 中的项目成为只读的) 和自动化脚本。  此外, 它还记录访问和活动, 使您可以监视订阅中的访问控制 (IAM), 此外还提供了诊断、指标、警报和故障排除工具, 以确保您具有所需的访问权限。
 
-了解有关使用 azure key vault 的详细信息, 请参阅在[使用 azure key vault 的服务器应用程序中管理密码](../../manage-secrets-with-azure-key-vault/index.yml)。
+了解有关使用 azure key vault 的详细信息, 请参阅在[使用 azure key vault 的服务器应用程序中管理密码](/learn/modules/manage-secrets-with-azure-key-vault/)。
 
 ## <a name="summary"></a>摘要
 

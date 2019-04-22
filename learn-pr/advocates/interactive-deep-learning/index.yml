@@ -1,19 +1,19 @@
 ### YamlMime:Module
 uid: learn.interactive-deep-learning
 metadata:
-  title: 交互式深入学习, 在数据科学虚拟机上使用 Jupyter、Docker 和 PyTorch-了解
+  title: 交互式深入学习, 在数据科学虚拟机上使用 Jupyter、Docker 和 PyTorch
   description: 了解如何使用 Jupyter、PyTorch 和数据科学虚拟机培训深入学习模型。
   ms.date: 09/24/2018
   author: aribornstein
   ms.author: abornst
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-  ms.openlocfilehash: 668a791f8e513c24ddc5eab533199755e1a37861
-  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.openlocfilehash: ab092bcd96616be6f9312dfed9fce7062573f924
+  ms.sourcegitcommit: 1865f0bda8a03c92aea2b6d718d9fa9890fdcf4f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/21/2019
-  ms.locfileid: "2137549"
+  ms.lasthandoff: 04/22/2019
+  ms.locfileid: "2138558"
 title: 交互式深入学习, 在数据科学虚拟机上使用 Jupyter、Docker 和 PyTorch
 summary: 了解如何使用 Jupyter、PyTorch 和数据科学虚拟机培训深入学习模型。
 abstract: >

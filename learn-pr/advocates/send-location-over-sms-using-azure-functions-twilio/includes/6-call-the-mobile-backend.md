@@ -1,10 +1,18 @@
-移动应用程序将运行, 并且已创建 Azure 函数的初始版本。 在此单位中, 从移动应用程序调用 Azure 函数, 传入用户的位置以及用户要向其发送短信的电话号码列表。
+你的移动应用现已启动并且正在运行, 并且你已创建的初始版本。 在此单位中, 您将从移动应用程序调用 Azure 功能, 传入用户的位置和用户要发送短信的电话号码列表。
 
-## <a name="calling-the-azure-function-from-the-mobile-app"></a>从移动应用程序调用 Azure 函数
+## <a name="call-the-azure-functions-from-the-mobile-app"></a>从移动应用程序调用 Azure 函数
 
-1. 打开`MainViewModel`。
+1. `MainViewModel`在 "ImHere" 项目中打开。
 
-1. 在此类中, 添加一个`HttpClient`名`client`为的私有字段。 您需要添加对命名空间的`System.Net.Http`引用。
+1. 为`System.Net.Http`、 `Newtonsoft.Json`和`ImHere.Data`添加 using 指令。
+
+    ```cs
+    using System.Net.Http;
+    using ImHere.Data;
+    using Newtonsoft.Json;
+    ```
+
+1. 在此类中, 添加一个`HttpClient`名`client`为的私有字段。 
 
     ```cs
     HttpClient client = new HttpClient();
@@ -16,7 +24,7 @@
     const string baseUrl = "http://localhost:7071";
     ```
 
-1. 在`SendLocation`方法中, 找到位置之后, `PostData`使用用户输入的位置和电话号码列表创建一个新实例。 您需要为`ImHere.Data`命名空间添加 using 指令。
+1. 在`SendLocation`方法中, 创建一个`PostData`使用位置和用户输入的电话号码列表的新实例。
 
     ```cs
     PostData postData = new PostData
@@ -30,10 +38,12 @@
     > [!NOTE]
     > 这假定电话号码是以正确的格式 (每个行在`Editor`控件中一个) 输入的。 在生产质量的应用程序中, 将针对此进行验证, 以确保输入一个或多个电话号码并采用正确的格式。    
  
+1. 若要将`PostData`作为 json 序列化, 最简单的方法是使用 newtonsoft.json NuGet 包。 将此 NuGet 包添加到`ImHere`。
 
-1. 若要将`PostData`作为 json 序列化, 最简单的方法是使用 newtonsoft.json NuGet 包。 将此 NuGet 包添加到`ImHere`项目中, 就像在前面的单元中添加 Xamarin 一样。
+     - 右键单击 "ImHere" 项目下的 "**依赖项**", 然后选择 "_管理 NuGet 程序包 ..._"。
+     - 在 "**浏览**" 选项卡中, 搜索 "newtonsoft.json" 包并单击 "**安装**"。 NuGet 包将添加到您的项目中。
 
-1. `string`使用`JsonConvert`静态类`PostData`将对进行序列化。 您需要为`Newtonsoft.Json`命名空间添加 using 指令。 将此字符串编码为`StringContent`类, 以便可以将其作为 JSON 传递给 Azure 函数。
+1. `string`使用`JsonConvert`静态类`PostData`将对进行序列化。 将此字符串编码为`StringContent`类, 以便可以将其作为 JSON 传递给 Azure 函数。
 
     ```cs
     string data = JsonConvert.SerializeObject(postData);
@@ -58,43 +68,80 @@
         Message = $"Error - {result.ReasonPhrase}";
     ```
 
-新字段和`SendLocation`方法的完整代码如下所示。
+以下是 MainViewModel 的完整代码, 包括`SendLocation`方法的新字段。
 
 ```cs
-HttpClient client = new HttpClient();
-const string baseUrl = "http://localhost:7071";
+using System.Threading.Tasks;
+using System.Windows.Input;
+using System.Text;
+using Xamarin.Essentials;
+using ImHere.Data;
+using Newtonsoft.Json;
+using System.Net.Http;
+using Xamarin.Forms;
 
-async Task SendLocation()
+
+namespace ImHere
 {
-    Location location = await Geolocation.GetLastKnownLocationAsync();
-
-    if (location != null)
+    public class MainViewModel : BaseViewModel
     {
-        Message = $"Location found: {location.Latitude}, {location.Longitude}.";
-
-        PostData postData = new PostData
+        string message = "";
+        public string Message
         {
-            Latitude = location.Latitude,
-            Longitude = location.Longitude,
-            ToNumbers = PhoneNumbers.Split('\n')
-        };
+            get => message;
+            set => Set(ref message, value);
+        }
 
-        string data = JsonConvert.SerializeObject(postData);
-        StringContent content = new StringContent(data, Encoding.UTF8, "application/json");
-        HttpResponseMessage result = await client.PostAsync($"{baseUrl}/api/SendLocation",
-                                                            content);
+        string phoneNumbers = "";
+        public string PhoneNumbers
+        {
+            get => phoneNumbers;
+            set => Set(ref phoneNumbers, value);
+        }
 
-        if (result.IsSuccessStatusCode)
-            Message = "Location sent successfully";
-        else
-            Message = $"Error - {result.ReasonPhrase}";
+        public MainViewModel()
+        {
+            SendLocationCommand = new Command(async () => await SendLocation());
+        }
+
+        public ICommand SendLocationCommand { get; }
+
+        HttpClient client = new HttpClient();
+        const string baseUrl = "http://localhost:7071";
+
+        async Task SendLocation()
+        {
+            Location location = await Geolocation.GetLastKnownLocationAsync();
+
+            if (location != null)
+            {
+                Message = $"Location found: {location.Latitude}, {location.Longitude}.";
+
+                PostData postData = new PostData
+                {
+                    Latitude = location.Latitude,
+                    Longitude = location.Longitude,
+                    ToNumbers = PhoneNumbers.Split('\n')
+                };
+
+                string data = JsonConvert.SerializeObject(postData);
+                StringContent content = new StringContent(data, Encoding.UTF8, "application/json");
+                HttpResponseMessage result = await client.PostAsync($"{baseUrl}/api/SendLocation",
+                                                                    content);
+
+                if (result.IsSuccessStatusCode)
+                    Message = "Location sent successfully";
+                else
+                    Message = $"Error - {result.ReasonPhrase}";
+            }
+        }
     }
 }
 ```
 
 ## <a name="testing-it-out"></a>测试
 
-1. 请确保 Azure 函数仍在本地运行, 并且端口与`SendLocation`方法相匹配。
+1. 请确保您的函数仍在本地运行, 并且端口与`SendLocation`方法相匹配。
 
 1. 将 UWP 应用程序设置为启动应用程序并运行它。 单击 "**发送位置**" 按钮。 您将在函数运行时控制台窗口中看到输出, 其中显示了所调用的函数以及显示生成的 URL 的日志记录。
 
@@ -107,4 +154,4 @@ async Task SendLocation()
 
 ## <a name="summary"></a>摘要
 
-在此单元中, 你学习了如何从移动应用程序调用 Azure 函数。 此呼叫已传递给用户的位置和其输入为 JSON 的电话号码。 在下一个单元中, 您将 Azure 函数绑定到 Twilio 以将此位置作为 SMS 消息发送。
+在此单元中, 你学习了如何从移动应用程序调用 Azure 函数。 此呼叫已传递给用户的位置和其输入为 JSON 的电话号码。 在下一个单元中, 将您的函数绑定到 Twilio 以将此位置作为 SMS 消息发送。

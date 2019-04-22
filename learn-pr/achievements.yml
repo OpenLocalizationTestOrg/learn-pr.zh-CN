@@ -5,20 +5,15 @@ achievements:
   title: 使虚拟机高度可用
   summary: 使虚拟机高度可用
   iconUrl: /learn/achievements/make-your-virtual-machines-highly-available.svg
-- uid: learn.intro-to-containers.badge
-  type: badge
-  title: 容器徽章简介
-  summary: "\"对容器的简介\" 模块的标记。"
-  iconUrl: /learn/achievements/intro-to-containers.svg
 - uid: learn.scale-and-size-virtual-machines.badge
   type: badge
   title: 扩展 Azure 中的虚拟机并调整其大小
   summary: 扩展 Azure 中的虚拟机并调整其大小
   iconUrl: /learn/achievements/scale-and-size-virtual-machines.svg
 metadata:
-  ms.openlocfilehash: 24560bd389ddf409093ee65e25caa0c7afa52c72
-  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.openlocfilehash: 792c5e4b469444e32af9d948af282a73f63da6d6
+  ms.sourcegitcommit: 1865f0bda8a03c92aea2b6d718d9fa9890fdcf4f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/21/2019
-  ms.locfileid: "2136909"
+  ms.lasthandoff: 04/22/2019
+  ms.locfileid: "2138465"

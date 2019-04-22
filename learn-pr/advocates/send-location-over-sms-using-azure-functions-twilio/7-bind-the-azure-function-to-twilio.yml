@@ -10,11 +10,11 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
   ROBOTS: NOINDEX
-  ms.openlocfilehash: c1884a18bf90c75c73a18102b6c5b1223f9ad9e3
-  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.openlocfilehash: 318d86d286f8c8266c9b315f781064689935fd7e
+  ms.sourcegitcommit: 1865f0bda8a03c92aea2b6d718d9fa9890fdcf4f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/21/2019
-  ms.locfileid: "2137999"
+  ms.lasthandoff: 04/22/2019
+  ms.locfileid: "2138518"
 durationInMinutes: 11
 content: '[!include[](includes/7-bind-the-azure-function-to-twilio.md)]'
