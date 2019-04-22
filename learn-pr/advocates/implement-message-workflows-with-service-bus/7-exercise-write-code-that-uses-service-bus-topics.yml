@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.implement-message-workflows-with-service-bus.7-exercise-write-code-that-uses-service-bus-topics
+title: 练习-编写使用服务总线主题的代码
+metadata:
+  title: 练习-编写使用服务总线主题的代码
+  description: 练习-编写使用服务总线主题的代码
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 1fa72f940cf1249a10f459075266e1e1368f905e
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138406"
+interactive: bash-editor
+azureSandbox: true
+durationInMinutes: 10
+content: '[!include[](includes/7-exercise-write-code-that-uses-service-bus-topics.md)]'

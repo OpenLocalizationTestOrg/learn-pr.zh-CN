@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-security.2-defense-in-depth
+title: 深度纵深防御
+metadata:
+  title: 深度纵深防御
+  description: 在此单元中, 我们将讨论如何深入实践防护
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 6d1c2dde70997a63236480b3fce16a2202a0a75f
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138420"
+durationInMinutes: 10
+content: >
+  [!include[](includes/2-defense-in-depth.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: True 或 false:*纵深防御*是一项策略, 旨在保护你免受尝试访问你的信息的攻击的策略？
+    choices:
+    - content: "True"
+      isCorrect: true
+      explanation: '*纵深防御*是一个分层系统, 可防止未经授权的访问。 如果一个层被破坏, 则会有另一个层存在, 以防止进一步暴露。'
+    - content: "False"
+      isCorrect: false
+      explanation: '*纵深防御*是一个分层系统, 可防止未经授权的访问。 如果一个层被破坏, 则会有另一个层存在, 以防止进一步暴露。'
+  - content: 'True 或 false: 通过迁移到云, 我的体系结构是完全安全的, 我可以将所有安全职责交给我的云提供商？'
+    choices:
+    - content: "True"
+      isCorrect: false
+      explanation: 移动到云确实会分担云提供商的一些职责, 但共享责任的模型仍然有效。
+    - content: "False"
+      isCorrect: true
+      explanation: 移动到云确实会分担云提供商的一些职责, 但共享责任的模型仍然有效。

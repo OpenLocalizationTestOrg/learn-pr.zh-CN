@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.implement-message-workflows-with-service-bus.8-summary
+title: 摘要
+metadata:
+  title: 摘要
+  description: 摘要
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: adfa3d31df0d8a7f51b4e947faf85025eaa03f10
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138405"
+durationInMinutes: 3
+content: >
+  [!include[](includes/8-summary.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: 如果需要第一次订单并支持事务, 应使用下列队列中的哪一项？
+    choices:
+    - content: Azure 服务总线队列
+      isCorrect: true
+      explanation: Azure 服务总线队列按其添加顺序处理邮件, 同时还支持事务。 这意味着, 如果事务中的一封邮件未能添加到队列中, 则不会添加事务中的所有邮件。
+    - content: Azure 存储队列
+      isCorrect: false
+      explanation: 尽管队列是一种先入先出的数据结构, 但 Azure 存储队列并不能保证它。
+  - content: 假设您正在使用 Azure 服务总线发送一封邮件, 并且您希望多个组件接收它。 应使用哪种 Azure 服务总线 exchange 功能？
+    choices:
+    - content: 列队
+      isCorrect: false
+      explanation: 队列一次只能有一个目标组件, 这意味着队列中的每封邮件只传递给一个接收器。
+    - content: 主题
+      isCorrect: true
+      explanation: 主题允许多个目标组件进行订阅。 这意味着每个邮件可传递给多个收件人。
+    - content: 转接
+      isCorrect: false
+      explanation: 中继用于双向通信, 它提供跨网络边界的双向连接。
+  - content: 'True 或 false: 您可以将邮件添加到大小为 2 MB 的 Azure 服务总线队列。'
+    choices:
+    - content: "True"
+      isCorrect: false
+      explanation: Azure 服务总线队列消息必须大于 64 kb, 但小于 256 kb。
+    - content: "False"
+      isCorrect: true
+      explanation: Azure 服务总线队列消息必须大于 64 kb, 但小于 256 kb。

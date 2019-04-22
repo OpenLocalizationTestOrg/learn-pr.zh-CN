@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-security.6-network-security
+title: 网络安全
+metadata:
+  title: 网络安全
+  description: 在此单元中, 我们将讨论如何保护您的网络基础结构
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 8fde997a82820ae9dd9ad4e49d2e61a87f2a1199
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138418"
+durationInMinutes: 10
+content: >
+  [!include[](includes/6-network-security.md)]
+quiz:
+  title: 查看你的知识
+  questions:
+  - content: Azure 网络安全组可用于保护以下各项之间的通信安全？
+    choices:
+    - content: Azure 虚拟机与 internet 之间的通信
+      isCorrect: false
+      explanation: 网络安全组可用于保护此通信流, 但这并不是唯一的正确选择。
+    - content: VNet 中的 Azure 虚拟机之间的通信
+      isCorrect: false
+      explanation: 网络安全组可用于保护此通信流, 但这并不是唯一的正确选择。
+    - content: 本地网络中的 Azure 虚拟机和系统之间的通信
+      isCorrect: false
+      explanation: 网络安全组可用于保护此通信流, 但这并不是唯一的正确选择。
+    - content: 以上所有
+      isCorrect: true
+      explanation: 网络安全组可完全自定义, 并使您能够完全锁定与虚拟机之间的网络通信。
+  - content: 以下哪一项不是保护面向 internet 的服务对网络攻击的方法？
+    choices:
+    - content: Azure DDoS
+      isCorrect: false
+      explanation: 'Azure DDoS 可用于保护面向 internet 的服务免受 DoS 攻击。 '
+    - content: Azure 应用程序网关 WAF
+      isCorrect: false
+      explanation: 应用程序网关 WAF 可用于保护面向 internet 的服务免受 XSS 和 SQL 注入等攻击。
+    - content: Azure 磁盘加密
+      isCorrect: true
+      explanation: Azure 磁盘加密可保护虚拟机 vhd 不暴露, 但不会对基于网络的攻击提供保护。
+    - content: 网络虚拟设备
+      isCorrect: false
+      explanation: 网络虚拟设备可以为面向 internet 的资源提供自定义的网络保护。

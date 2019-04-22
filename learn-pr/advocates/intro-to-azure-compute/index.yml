@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn.intro-to-compute
+metadata:
+  title: Core 云服务-Azure 计算简介-了解
+  description: 查看 Azure 计算服务, 并了解如何解决常见的业务需求。
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: cc7cfeae2a739c603a594bb7764b101dc015adba
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138394"
+title: Core 云服务-Azure 计算选项
+summary: 查看 Azure 计算服务, 并了解如何解决常见的业务需求。
+abstract: >
+  在本模块中, 您将:
+
+  - 确定 Azure 计算选项
+
+  - 选择可解决特定业务需求的计算选项
+prerequisites: 无
+iconUrl: /learn/achievements/intro-to-azure-compute.svg
+levels:
+- beginner
+roles:
+- developer
+- solution-architect
+- administrator
+products:
+- azure
+- azure-virtual-machines
+units:
+- learn.intro-to-compute.1-introduction
+- learn.intro-to-compute.2-essential-azure-compute-concepts
+- learn.intro-to-compute.3-virtual-machines
+- learn.intro-to-compute.4-containers
+- learn.intro-to-compute.5-appservice
+- learn.intro-to-compute.6-serverless-computing
+- learn.intro-to-compute.7-summary
+badge:
+  uid: learn.intro-to-compute.badge
