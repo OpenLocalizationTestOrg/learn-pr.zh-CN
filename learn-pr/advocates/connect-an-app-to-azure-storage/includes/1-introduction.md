@@ -1,0 +1,15 @@
+<span data-ttu-id="c8578-101">假设您正在构建一个照片共享应用程序。</span><span class="sxs-lookup"><span data-stu-id="c8578-101">Imagine you're building a photo-sharing application.</span></span> <span data-ttu-id="c8578-102">每天, 成千上万的用户都会拍摄照片并依赖您的应用程序来保护它们的安全, 并使它们在所有设备上都可访问。</span><span class="sxs-lookup"><span data-stu-id="c8578-102">Every day, thousands of users take pictures and rely on your application to keep them safe and make them accessible across all their devices.</span></span> <span data-ttu-id="c8578-103">存储这些照片对你的业务至关重要, 你希望确保应用程序中使用的系统速度快、可靠性和安全性。</span><span class="sxs-lookup"><span data-stu-id="c8578-103">Storing these photos is critical to your business, and you would like to ensure that the system used in your application is fast, reliable, and secure.</span></span> <span data-ttu-id="c8578-104">理想情况下, 无需在应用程序中构建所有这些方面, 即可完成此操作。</span><span class="sxs-lookup"><span data-stu-id="c8578-104">Ideally, this would be done without you having to build all these aspects into the app.</span></span>
+
+<span data-ttu-id="c8578-105">Azure 存储在云中提供了这样的电源、恢复能力和性能。</span><span class="sxs-lookup"><span data-stu-id="c8578-105">Azure Storage provides such power, resiliency, and performance in the cloud.</span></span> <span data-ttu-id="c8578-106">本模块将向你提供知识, 以便能够利用 Azure 存储的强大功能实现你所需的应用程序的可靠性和性能。</span><span class="sxs-lookup"><span data-stu-id="c8578-106">This module will provide you with the knowledge to be able to utilize the power of Azure Storage to achieve the reliability and performance in your app that you require.</span></span> <span data-ttu-id="c8578-107">然后, 可以将此知识应用于任何应用程序。</span><span class="sxs-lookup"><span data-stu-id="c8578-107">This knowledge can then be applied to any application.</span></span>
+
+## <a name="learning-objectives"></a><span data-ttu-id="c8578-108">学习目标</span><span class="sxs-lookup"><span data-stu-id="c8578-108">Learning objectives</span></span>
+
+<span data-ttu-id="c8578-109">在本模块中, 您将:</span><span class="sxs-lookup"><span data-stu-id="c8578-109">In this module, you will:</span></span>
+
+- <span data-ttu-id="c8578-110">浏览 Azure 存储帐户支持的数据类型和服务。</span><span class="sxs-lookup"><span data-stu-id="c8578-110">Explore the data types and services supported by an Azure storage account.</span></span>
+- <span data-ttu-id="c8578-111">使用 azure 门户创建新的 Azure 存储帐户。</span><span class="sxs-lookup"><span data-stu-id="c8578-111">Create a new Azure storage account using the Azure portal.</span></span>
+- <span data-ttu-id="c8578-112">创建新的应用程序, 并将应用程序连接到 Azure 存储帐户。</span><span class="sxs-lookup"><span data-stu-id="c8578-112">Create a new application and connect the app to an Azure Storage account.</span></span>
+ 
+## <a name="prequesites"></a><span data-ttu-id="c8578-113">Prequesites</span><span class="sxs-lookup"><span data-stu-id="c8578-113">Prequesites</span></span>
+ 
+<span data-ttu-id="c8578-114">假定在 c # 或 Java 中有一些编程体验。</span><span class="sxs-lookup"><span data-stu-id="c8578-114">Some programming experience in either C# or Java is assumed.</span></span>

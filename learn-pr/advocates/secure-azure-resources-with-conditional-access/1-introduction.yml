@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-access-azure-ad-multi-factor-authentication.1-introduction
+metadata:
+  title: <span data-ttu-id="18a34-101">简介</span><span class="sxs-lookup"><span data-stu-id="18a34-101">Introduction</span></span>
+  description: <span data-ttu-id="18a34-102">使用 azure AD、条件访问和 Azure 多重身份验证来保护对资源的访问</span><span class="sxs-lookup"><span data-stu-id="18a34-102">Secure access to resources using Azure AD, conditional access, and Azure Multi-Factor Authentication</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: d3f8812c2a554d5191c6932a65d07a08cbeb4c51
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136372"
+title: <span data-ttu-id="18a34-103">简介</span><span class="sxs-lookup"><span data-stu-id="18a34-103">Introduction</span></span>
+durationInMinutes: 3
+content: '[!include[](includes/1-introduction.md)]'

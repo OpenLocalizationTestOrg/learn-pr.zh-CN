@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm.5-install-nodejs
+title: <span data-ttu-id="4fca1-101">安装 node.js</span><span class="sxs-lookup"><span data-stu-id="4fca1-101">Install Node.js</span></span>
+metadata:
+  title: <span data-ttu-id="4fca1-102">安装 node.js</span><span class="sxs-lookup"><span data-stu-id="4fca1-102">Install Node.js</span></span>
+  description: <span data-ttu-id="4fca1-103">安装 node.js</span><span class="sxs-lookup"><span data-stu-id="4fca1-103">Install Node.js</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: a79675f5695e85568ac2b9fa5e36b23b3a304c3d
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137172"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 5
+content: '[!include[](includes/5-install-nodejs.md)]'

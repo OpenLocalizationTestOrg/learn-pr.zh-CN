@@ -1,0 +1,58 @@
+### YamlMime:Module
+uid: learn.send-location-over-sms-from-mobile-using-azure-functions-twilio
+metadata:
+  title: 使用 Azure 函数和 Twilio 以短信的形式共享你的位置-了解
+  description: 了解如何在你的手机上使用位置跟踪与 Azure 功能和 Twilio 共享你的朋友作为短信的位置。
+  ms.date: 09/24/2018
+  author: jimbobbennett
+  ms.author: jabenn
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 84825a884eb036564825cfe8cb4f5a3915cc91cf
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137291"
+title: 使用 Azure 函数和 Twilio 将您的位置共享为短信
+summary: 了解如何在你的手机上使用位置跟踪与 Azure 功能和 Twilio 共享你的朋友作为短信的位置。
+abstract: >
+  在本模块中, 您将:
+
+  - 创建跨平台 xamarin. 使用 Xamarin 的表单应用
+
+  - 在 ViewModel 中使用 XAML 和应用程序逻辑创建跨平台 UI, 并将 ViewModel 中的属性绑定到 UI
+
+  - 检测用户位置
+
+  - 使用 HTTP 触发器创建 Azure 函数并在本地运行
+
+  - 从移动应用程序中调用 Azure 函数, 并将数据作为 JSON 传递
+
+  - 将 Azure 函数绑定到 Twilio 以发送短信消息
+
+  - 将 Azure 函数发布到 azure
+prerequisites: 无
+iconUrl: /learn/achievements/send-location-over-sms-from-mobile-using-azure-functions-twilio.svg
+levels:
+- intermediate
+roles:
+- developer
+products:
+- azure
+- vs
+- azure-functions
+- azure-portal
+units:
+- learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.1-create-twilio-account-launch-vs
+- learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.2-create-your-xamarin-forms-app-with-xamarin-essentials
+- learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.3-build-your-xamarin-app
+- learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.4-detect-the-users-location
+- learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.5-create-an-azure-functions-mobile-backend
+- learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.6-call-the-mobile-backend
+- learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.7-bind-the-azure-function-to-twilio
+- learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.8-publish-to-azure
+- learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.9-summary-and-cleanup
+- learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check
+badge:
+  uid: learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.badge

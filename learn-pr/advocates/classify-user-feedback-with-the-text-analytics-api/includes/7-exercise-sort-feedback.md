@@ -1,0 +1,81 @@
+<span data-ttu-id="ae91f-101">让我们再次看一下我们的解决方案体系结构。</span><span class="sxs-lookup"><span data-stu-id="ae91f-101">Let's look at our solution architecture again.</span></span>
+
+![反馈排序体系结构的概念图。](../media/proposed-solution.PNG)
+
+<span data-ttu-id="ae91f-103">正如您可以在此图的右侧看到的那样, 我们想要将邮件发送到三个队列。</span><span class="sxs-lookup"><span data-stu-id="ae91f-103">As you can see on the right side of this diagram, we want to send messages to three queues.</span></span> <span data-ttu-id="ae91f-104">因此, 我们会将这些连接定义为函数中的输出绑定。</span><span class="sxs-lookup"><span data-stu-id="ae91f-104">So, we'll define those connections as output bindings in our function.</span></span> <span data-ttu-id="ae91f-105">我们可以通过**输出绑定**UI 创建这些绑定。</span><span class="sxs-lookup"><span data-stu-id="ae91f-105">We could create those bindings through the **Output binding** UI.</span></span> <span data-ttu-id="ae91f-106">但是, 为了节省时间, 我们将直接编辑配置文件。</span><span class="sxs-lookup"><span data-stu-id="ae91f-106">However, to save time, we'll edit the config file directly.</span></span>
+
+## <a name="add-output-bindings-to-functionjson"></a><span data-ttu-id="ae91f-107">将输出绑定添加到函数 json</span><span class="sxs-lookup"><span data-stu-id="ae91f-107">Add output bindings to function.json</span></span>
+
+1. <span data-ttu-id="ae91f-108">在 "函数应用[!INCLUDE [func-name-discover](./func-name-discover.md)]门户" 中选择我们的函数。</span><span class="sxs-lookup"><span data-stu-id="ae91f-108">Select our function, [!INCLUDE [func-name-discover](./func-name-discover.md)], in the Function Apps portal.</span></span>
+
+1. <span data-ttu-id="ae91f-109">展开屏幕右侧的 "**查看文件**" 菜单。</span><span class="sxs-lookup"><span data-stu-id="ae91f-109">Expand the **View files** menu on the right of the screen.</span></span>
+
+1. <span data-ttu-id="ae91f-110">在 "**查看文件**" 选项卡下, 选择**函数. json**以在编辑器中打开配置文件。</span><span class="sxs-lookup"><span data-stu-id="ae91f-110">Under the **View files** tab, select **function.json** to open the config file in the editor.</span></span>
+
+1. <span data-ttu-id="ae91f-111">将**函数 json**的全部内容替换为以下 json 并选择 "**保存**"。</span><span class="sxs-lookup"><span data-stu-id="ae91f-111">Replace the entire contents of **function.json** with the following JSON and select **Save**.</span></span>
+
+[!code-json[](../code/function.json)]
+
+<span data-ttu-id="ae91f-112">我们已向 config 添加了三个新绑定。</span><span class="sxs-lookup"><span data-stu-id="ae91f-112">We've added three new bindings to the config.</span></span>
+
+- <span data-ttu-id="ae91f-113">每个新绑定的类型`queue`为。</span><span class="sxs-lookup"><span data-stu-id="ae91f-113">Each new binding is of type `queue`.</span></span> <span data-ttu-id="ae91f-114">这些绑定适用于三个队列, 我们会在你知道反馈的看法后向我们填充反馈邮件。</span><span class="sxs-lookup"><span data-stu-id="ae91f-114">These bindings are for the three queues that we'll populate with our feedback messages once we know the sentiment of the feedback.</span></span>
+- <span data-ttu-id="ae91f-115">每个绑定的方向定义为`out`, 因为我们会将邮件发布到这些队列。</span><span class="sxs-lookup"><span data-stu-id="ae91f-115">Each binding has a direction defined as `out`, since we'll post messages to these queues.</span></span>
+- <span data-ttu-id="ae91f-116">每个绑定对存储帐户使用相同的连接。</span><span class="sxs-lookup"><span data-stu-id="ae91f-116">Each binding uses the same connection to our storage account.</span></span>
+- <span data-ttu-id="ae91f-117">每个绑定都有`queueName`唯一`name`的和。</span><span class="sxs-lookup"><span data-stu-id="ae91f-117">Each binding has a unique `queueName` and `name`.</span></span>
+
+<span data-ttu-id="ae91f-118">将邮件发布到队列就像说一样简单, 例如`context.bindings.negativeFeedbackQueueItem = "<message>"`。</span><span class="sxs-lookup"><span data-stu-id="ae91f-118">Posting a message to a queue is as easy as saying, for example,  `context.bindings.negativeFeedbackQueueItem = "<message>"`.</span></span>
+
+## <a name="update-the-function-implementation-to-sort-feedback-into-queues-based-on-sentiment-score"></a><span data-ttu-id="ae91f-119">更新函数实现以根据看法分数将反馈排序到队列中</span><span class="sxs-lookup"><span data-stu-id="ae91f-119">Update the function implementation to sort feedback into queues based on sentiment score</span></span>
+
+<span data-ttu-id="ae91f-120">我们的反馈分类器的目标是将反馈分类为三个存储桶: 正数、中性和负数。</span><span class="sxs-lookup"><span data-stu-id="ae91f-120">The goal of our feedback sorter is to sort feedback into three buckets: positive, neutral, and negative.</span></span> <span data-ttu-id="ae91f-121">到目前为止, 我们已提供了输入队列, 我们的代码可以调用文本分析 API, 并已定义了输出队列。</span><span class="sxs-lookup"><span data-stu-id="ae91f-121">So far, we have our input queue, our code to call the Text Analytics API, and we've defined our output queues.</span></span> <span data-ttu-id="ae91f-122">在本节中, 我们将添加逻辑, 以根据看法将邮件移动到这些队列中。</span><span class="sxs-lookup"><span data-stu-id="ae91f-122">In this section, we'll add the logic to move messages into those queues based on sentiment.</span></span>
+
+1. <span data-ttu-id="ae91f-123">导航到我们的函数[!INCLUDE [func-name-discover](./func-name-discover.md)], 并再次`index.js`在代码编辑器中打开。</span><span class="sxs-lookup"><span data-stu-id="ae91f-123">Navigate to our function, [!INCLUDE [func-name-discover](./func-name-discover.md)], and open `index.js` in the code editor again.</span></span>
+
+1. <span data-ttu-id="ae91f-124">将实现替换为以下代码。</span><span class="sxs-lookup"><span data-stu-id="ae91f-124">Replace the implementation with the following code.</span></span>
+
+[!code-javascript[](../code/discover-sentiment+sort.js?highlight=26-48)]
+
+<span data-ttu-id="ae91f-125">我们已将突出显示的代码添加到实现中。</span><span class="sxs-lookup"><span data-stu-id="ae91f-125">We've added the highlighted code to our implementation.</span></span> <span data-ttu-id="ae91f-126">该代码分析来自文本分析 API 认知服务的响应。</span><span class="sxs-lookup"><span data-stu-id="ae91f-126">The code parses the response from the Text Analytics API cognitive service.</span></span> <span data-ttu-id="ae91f-127">根据看法分数, 邮件将被转发到我们的三个输出队列中的一个。</span><span class="sxs-lookup"><span data-stu-id="ae91f-127">Based on the sentiment score, the message is forwarded to one of our three output queues.</span></span> <span data-ttu-id="ae91f-128">发布邮件的代码只是设置正确的绑定参数。</span><span class="sxs-lookup"><span data-stu-id="ae91f-128">The code to post the message is just setting the correct binding parameter.</span></span>
+
+## <a name="try-it-out"></a><span data-ttu-id="ae91f-129">试用</span><span class="sxs-lookup"><span data-stu-id="ae91f-129">Try it out</span></span>
+
+<span data-ttu-id="ae91f-130">若要测试更新后的实现, 我们将转到存储资源管理器。</span><span class="sxs-lookup"><span data-stu-id="ae91f-130">To test the updated implementation, we'll head back to the Storage Explorer.</span></span>
+
+1. <span data-ttu-id="ae91f-131">导航到门户的 "**资源组**" 部分中的资源组。</span><span class="sxs-lookup"><span data-stu-id="ae91f-131">Navigate to your resource group in the **Resource Groups** section of the portal.</span></span>
+
+1. <span data-ttu-id="ae91f-132">选择<rgn>[沙盒资源组名称]</rgn>, 在本课中使用的资源组。</span><span class="sxs-lookup"><span data-stu-id="ae91f-132">Select <rgn>[sandbox resource group name]</rgn>, the resource group used in this lesson.</span></span>
+
+1. <span data-ttu-id="ae91f-133">在打开的 "**资源组**" 面板中, 找到存储帐户条目并选择它。</span><span class="sxs-lookup"><span data-stu-id="ae91f-133">In the **Resource group** panel that opens, locate the Storage Account entry and select it.</span></span>
+    <span data-ttu-id="ae91f-134">![在 "资源组" 窗口中选择的存储帐户的屏幕截图。](../media/select-storage-account.png)</span><span class="sxs-lookup"><span data-stu-id="ae91f-134">![Screenshot of storage account selected in the Resource Group window.](../media/select-storage-account.png)</span></span>
+
+1. <span data-ttu-id="ae91f-135">从 "存储帐户" 主窗口的左侧菜单中选择 "**存储资源管理器 (预览)** "。</span><span class="sxs-lookup"><span data-stu-id="ae91f-135">Select **Storage Explorer (preview)** from the left menu of the Storage Account main window.</span></span> <span data-ttu-id="ae91f-136">此操作将在门户中打开 Azure 存储资源管理器。</span><span class="sxs-lookup"><span data-stu-id="ae91f-136">This action opens the Azure Storage Explorer inside the portal.</span></span>
+
+    ![显示存储资源管理器的屏幕截图, 其中当前有一个队列。](../media/storage-explorer-menu-inputq.png)
+
+    <span data-ttu-id="ae91f-138">我们有一个队列列在 "**队列**" 集合下。</span><span class="sxs-lookup"><span data-stu-id="ae91f-138">We have one queue listed under the **Queues** collection.</span></span> <span data-ttu-id="ae91f-139">此队列是[!INCLUDE [input-q](./q-name-input.md)]在模块的前面的 "测试" 部分中定义的输入队列。</span><span class="sxs-lookup"><span data-stu-id="ae91f-139">This queue is [!INCLUDE [input-q](./q-name-input.md)], the input queue we defined in the preceding test section of the module.</span></span>        
+
+1. <span data-ttu-id="ae91f-140">在[!INCLUDE [input-q](./q-name-input.md)]左侧菜单中选择, 以查看此队列的数据资源管理器。</span><span class="sxs-lookup"><span data-stu-id="ae91f-140">Select [!INCLUDE [input-q](./q-name-input.md)] in the left-hand menu to see the data explorer for this queue.</span></span> <span data-ttu-id="ae91f-141">正如预期的那样, 队列没有数据。</span><span class="sxs-lookup"><span data-stu-id="ae91f-141">As expected, the queue had no data.</span></span> <span data-ttu-id="ae91f-142">让我们使用窗口顶部的 "**添加消息**" 命令向队列中添加一条消息。</span><span class="sxs-lookup"><span data-stu-id="ae91f-142">Let's add a message to the queue using the **Add Message** command at the top of the window.</span></span>
+
+1. <span data-ttu-id="ae91f-143">在 "**添加消息**" 对话框中, 输入 "我在此练习中遇到了乐趣!"</span><span class="sxs-lookup"><span data-stu-id="ae91f-143">In the **Add Message** dialog, enter "I'm having fun with this exercise!"</span></span> <span data-ttu-id="ae91f-144">放在 "**消息" 文本**字段中, 然后单击对话框底部的 **"确定"** 。</span><span class="sxs-lookup"><span data-stu-id="ae91f-144">into the **Message text** field, and click **OK** at the bottom of the dialog.</span></span>
+
+1. <span data-ttu-id="ae91f-145">将在的数据窗口中显示该消息[!INCLUDE [input-q](./q-name-input.md)]。</span><span class="sxs-lookup"><span data-stu-id="ae91f-145">The message is displayed in the data window for [!INCLUDE [input-q](./q-name-input.md)].</span></span> <span data-ttu-id="ae91f-146">几秒钟后, 单击数据视图顶部的 "**刷新**" 以刷新队列视图。</span><span class="sxs-lookup"><span data-stu-id="ae91f-146">After a few seconds, click **Refresh** at the top of the data view to refresh the view of the queue.</span></span> <span data-ttu-id="ae91f-147">观察邮件在一段时间后消失。</span><span class="sxs-lookup"><span data-stu-id="ae91f-147">Observe that the message disappears after a while.</span></span> <span data-ttu-id="ae91f-148">那么, 它会在什么位置？</span><span class="sxs-lookup"><span data-stu-id="ae91f-148">So, where did it go?</span></span>
+
+1. <span data-ttu-id="ae91f-149">右键单击左侧菜单中的 "**队列**" 集合。</span><span class="sxs-lookup"><span data-stu-id="ae91f-149">Right-click on the **QUEUES** collection in the left-hand menu.</span></span> <span data-ttu-id="ae91f-150">观察*新*队列是否已出现。</span><span class="sxs-lookup"><span data-stu-id="ae91f-150">Observe that a *new* queue has appeared.</span></span>
+    <span data-ttu-id="ae91f-151">![存储资源管理器的屏幕截图, 显示已在集合中创建新的队列。</span><span class="sxs-lookup"><span data-stu-id="ae91f-151">![Screenshot of Storage Explorer showing that a new queue has been created in the collection.</span></span> <span data-ttu-id="ae91f-152">队列包含一封邮件。](../media/sa-new-output-q.png)</span><span class="sxs-lookup"><span data-stu-id="ae91f-152">The queue has one message.](../media/sa-new-output-q.png)</span></span>
+
+    <span data-ttu-id="ae91f-153">队列[!INCLUDE [positive-q](./q-name-positive.md)]是在首次发布邮件时自动创建的。</span><span class="sxs-lookup"><span data-stu-id="ae91f-153">The queue [!INCLUDE [positive-q](./q-name-positive.md)] was automatically created when a message was posted to it for the first time.</span></span> <span data-ttu-id="ae91f-154">使用 Azure 函数队列输出绑定, 无需在发布之前手动创建输出队列!</span><span class="sxs-lookup"><span data-stu-id="ae91f-154">With Azure Functions queue output bindings, you don't have to manually create the output queue before posting to it!</span></span> <span data-ttu-id="ae91f-155">现在[!INCLUDE [positive-q](./q-name-positive.md)], 我们看到传入的邮件已被我们的函数分类, 我们来看看以下邮件位于何处。</span><span class="sxs-lookup"><span data-stu-id="ae91f-155">Now that we see an incoming message has been sorted by our function into [!INCLUDE [positive-q](./q-name-positive.md)], let's see where the following messages land.</span></span>    
+
+1. <span data-ttu-id="ae91f-156">使用上述相同步骤, 将以下消息添加到[!INCLUDE [input-q](./q-name-input.md)]。</span><span class="sxs-lookup"><span data-stu-id="ae91f-156">Using the same steps as above, add the following messages to [!INCLUDE [input-q](./q-name-input.md)].</span></span>
+
+    - <span data-ttu-id="ae91f-157">"我不讨厌 broccoli!"</span><span class="sxs-lookup"><span data-stu-id="ae91f-157">"I hate broccoli!"</span></span>
+    - <span data-ttu-id="ae91f-158">"Microsoft 是公司"</span><span class="sxs-lookup"><span data-stu-id="ae91f-158">"Microsoft is a company"</span></span>
+
+1. <span data-ttu-id="ae91f-159">再次\*\*\*\* 单击 " [!INCLUDE [input-q](./q-name-input.md)]刷新", 直到再次清空。</span><span class="sxs-lookup"><span data-stu-id="ae91f-159">Click **Refresh** until [!INCLUDE [input-q](./q-name-input.md)] is empty once again.</span></span> <span data-ttu-id="ae91f-160">此过程可能需要几分钟时间, 并且需要进行多次刷新。</span><span class="sxs-lookup"><span data-stu-id="ae91f-160">This process might take a few moments and require several refreshes.</span></span>
+
+1. <span data-ttu-id="ae91f-161">右键单击 "**队列**" 集合并观察出现的两个队列。</span><span class="sxs-lookup"><span data-stu-id="ae91f-161">Right-click on the **QUEUES** collection and observe two more queues appearing.</span></span> <span data-ttu-id="ae91f-162">队列名为[!INCLUDE [neutral-q](./q-name-neutral.md)]和[!INCLUDE [negative-q](./q-name-negative.md)]。</span><span class="sxs-lookup"><span data-stu-id="ae91f-162">The queues are named [!INCLUDE [neutral-q](./q-name-neutral.md)] and [!INCLUDE [negative-q](./q-name-negative.md)].</span></span> <span data-ttu-id="ae91f-163">这可能需要几秒钟时间, 因此继续刷新**队列**集合, 直到出现新的队列。</span><span class="sxs-lookup"><span data-stu-id="ae91f-163">This might take a few seconds, so continue refreshing the **QUEUES** collection until new queues appear.</span></span> <span data-ttu-id="ae91f-164">完成后, 您的队列列表应如下所示。</span><span class="sxs-lookup"><span data-stu-id="ae91f-164">When complete, your queue list should look like the following.</span></span>
+
+    ![显示队列集合中的四个队列的存储资源管理器菜单的屏幕截图。](../media/sa-final-q-list.png)
+
+1. <span data-ttu-id="ae91f-166">单击列表中的每个队列以查看是否有邮件。</span><span class="sxs-lookup"><span data-stu-id="ae91f-166">Click on each queue in the list to see whether they have messages.</span></span> <span data-ttu-id="ae91f-167">如果添加了建议的邮件, 您应该会在[!INCLUDE [positive-q](./q-name-positive.md)]、 [!INCLUDE [neutral-q](./q-name-neutral.md)]和[!INCLUDE [negative-q](./q-name-negative.md)]中看到一个。</span><span class="sxs-lookup"><span data-stu-id="ae91f-167">If you added the suggested messages, you should see one in [!INCLUDE [positive-q](./q-name-positive.md)], [!INCLUDE [neutral-q](./q-name-neutral.md)], and [!INCLUDE [negative-q](./q-name-negative.md)].</span></span>
+
+<span data-ttu-id="ae91f-168">!!</span><span class="sxs-lookup"><span data-stu-id="ae91f-168">Congratulations!</span></span> <span data-ttu-id="ae91f-169">现在, 我们有一个工作反馈分类器!</span><span class="sxs-lookup"><span data-stu-id="ae91f-169">We now have a working feedback sorter!</span></span> <span data-ttu-id="ae91f-170">当邮件到达输入队列时, 我们的函数使用文本分析 API 服务来获取看法分数。</span><span class="sxs-lookup"><span data-stu-id="ae91f-170">As messages arrive in the input queue, our function uses the Text Analytics API service to get a sentiment score.</span></span> <span data-ttu-id="ae91f-171">根据该分数, 该函数将邮件转发到相应的队列。</span><span class="sxs-lookup"><span data-stu-id="ae91f-171">Based on that score, the function forwards the messages to the appropriate queue.</span></span> <span data-ttu-id="ae91f-172">尽管函数似乎一次只处理一个队列项, Azure 函数运行时实际上会读取队列项的批处理, 并加速函数的其他实例以并行方式进行处理。</span><span class="sxs-lookup"><span data-stu-id="ae91f-172">While it seems like the function processes only one queue item at a time, the Azure Functions runtime will actually read batches of queue items and spin up other instances of our function to process them in parallel.</span></span>

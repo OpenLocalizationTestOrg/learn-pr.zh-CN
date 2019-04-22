@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application
+title: <span data-ttu-id="587d3-101">确定应用程序中的性能瓶颈</span><span class="sxs-lookup"><span data-stu-id="587d3-101">Identify performance bottlenecks in your application</span></span>
+metadata:
+  title: <span data-ttu-id="587d3-102">确定应用程序中的性能瓶颈</span><span class="sxs-lookup"><span data-stu-id="587d3-102">Identify performance bottlenecks in your application</span></span>
+  description: <span data-ttu-id="587d3-103">在此单元中, 我们将讨论如何识别应用程序中的性能瓶颈</span><span class="sxs-lookup"><span data-stu-id="587d3-103">In this unit we'll discuss how to identify performance bottlenecks in your application</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: f301ea82e48b457408ddfe5f168239b2840fe86a
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138070"
+durationInMinutes: 9
+content: >
+  [!include[](includes/5-identify-performance-bottlenecks-in-your-application.md)]
+quiz:
+  title: <span data-ttu-id="587d3-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="587d3-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="587d3-105">以下哪一项最恰当地介绍了 Application Insights？</span><span class="sxs-lookup"><span data-stu-id="587d3-105">Which of the following best describes Application Insights?</span></span>
+    choices:
+    - content: <span data-ttu-id="587d3-106">在 Azure 中实现所有监控需求的单一视图</span><span class="sxs-lookup"><span data-stu-id="587d3-106">A single view for all your monitoring needs in Azure</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="587d3-107">虽然 application Insights 可以提供大量的应用程序性能数据, 但它并不是一个全面的 Azure 监视解决方案。</span><span class="sxs-lookup"><span data-stu-id="587d3-107">While Application Insights can provide a wealth of data on your application performance, is it not a comprehensive Azure monitoring solution.</span></span>
+    - content: <span data-ttu-id="587d3-108">运行状况终结点监视模式的实现</span><span class="sxs-lookup"><span data-stu-id="587d3-108">An implementation of the health endpoint monitoring pattern</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="587d3-109">运行状况终结点监视模式侧重于监视由应用程序公开的用于整体运行状况的终结点。</span><span class="sxs-lookup"><span data-stu-id="587d3-109">The health endpoint monitoring pattern focuses on monitoring endpoints exposed by your application for overall health.</span></span>
+    - content: <span data-ttu-id="587d3-110">启用跨基础结构和应用程序收集日志的工作区</span><span class="sxs-lookup"><span data-stu-id="587d3-110">A workspace to enable collection of logs across infrastructure and applications</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="587d3-111">日志分析是一个可跨基础结构和应用程序收集日志的工作区。</span><span class="sxs-lookup"><span data-stu-id="587d3-111">Log Analytics is a workspace that enables the collection of logs across infrastructure and applications.</span></span>
+    - content: <span data-ttu-id="587d3-112">用于监视 web 应用程序的可用性、性能和使用情况的服务</span><span class="sxs-lookup"><span data-stu-id="587d3-112">A service to monitor availability, performance, and usage of web applications</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="587d3-113">Application Insights 是一种用于监视 web 应用程序的可用性、性能和使用情况的服务。</span><span class="sxs-lookup"><span data-stu-id="587d3-113">Application Insights is a service to monitor availability, performance, and usage of web applications.</span></span>
+  - content: '<span data-ttu-id="587d3-114">True 或 false: Log Analytics 跟踪自定义日志和指标。</span><span class="sxs-lookup"><span data-stu-id="587d3-114">True or false: Log Analytics tracks custom logs and metrics.</span></span>'
+    choices:
+    - content: <span data-ttu-id="587d3-115">True</span><span class="sxs-lookup"><span data-stu-id="587d3-115">True</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="587d3-116">对于自定义日志和指标, 可以使用 HTTP 数据收集器 API 将数据写入来自任何 REST API 客户端或 Azure 逻辑应用程序的 Log Analytics, 以从自定义工作流中写入数据。</span><span class="sxs-lookup"><span data-stu-id="587d3-116">For custom logs and metrics, you can use the HTTP Data Collector API to write data to Log Analytics from any REST API client or an Azure Logic App to write data from a custom workflow.</span></span>
+    - content: <span data-ttu-id="587d3-117">False</span><span class="sxs-lookup"><span data-stu-id="587d3-117">False</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="587d3-118">对于自定义日志和指标, 可以使用 HTTP 数据收集器 API 将数据写入来自任何 REST API 客户端或 Azure 逻辑应用程序的 Log Analytics, 以从自定义工作流中写入数据。</span><span class="sxs-lookup"><span data-stu-id="587d3-118">For custom logs and metrics, you can use the HTTP Data Collector API to write data to Log Analytics from any REST API client or an Azure Logic App to write data from a custom workflow.</span></span>

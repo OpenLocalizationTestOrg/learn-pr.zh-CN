@@ -1,0 +1,1 @@
+<span data-ttu-id="bf31d-101">**func--了解-db**</span><span class="sxs-lookup"><span data-stu-id="bf31d-101">**func-io-learn-db**</span></span>

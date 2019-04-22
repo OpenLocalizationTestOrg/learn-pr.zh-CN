@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-efficiency-and-operations.3-use-monitoring-and-analytics-to-gain-operational-insights
+title: <span data-ttu-id="32b7e-101">使用监控和分析获取 operational insights</span><span class="sxs-lookup"><span data-stu-id="32b7e-101">Use monitoring and analytics to gain operational insights</span></span>
+metadata:
+  title: <span data-ttu-id="32b7e-102">使用监控和分析获取 operational insights</span><span class="sxs-lookup"><span data-stu-id="32b7e-102">Use monitoring and analytics to gain operational insights</span></span>
+  description: <span data-ttu-id="32b7e-103">在此单元中, 我们将讨论如何使用监控和分析来获取 operational insights</span><span class="sxs-lookup"><span data-stu-id="32b7e-103">In this unit, we'll discuss how to use monitoring and analytics to gain operational insights</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: daff3766d6cc4128c1660a056c2de2a2ee874b1f
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137852"
+durationInMinutes: 8
+content: >
+  [!include[](includes/3-use-monitoring-and-analytics-to-gain-operational-insights.md)]
+quiz:
+  title: <span data-ttu-id="32b7e-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="32b7e-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="32b7e-105">您可以使用以下哪一项来解决应用程序中的 API 调用的性能问题？</span><span class="sxs-lookup"><span data-stu-id="32b7e-105">Which of the following would you use to troubleshoot the performance of API calls in your application?</span></span>
+    choices:
+    - content: <span data-ttu-id="32b7e-106">服务运行状况</span><span class="sxs-lookup"><span data-stu-id="32b7e-106">Service Health</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="32b7e-107">azure 服务运行状况将使你了解 Azure 服务的运行状况, 但不会对你的应用程序提供见解。</span><span class="sxs-lookup"><span data-stu-id="32b7e-107">Azure Service Health will give you insight into the health of Azure services, but will not provide insight into your application.</span></span>
+    - content: <span data-ttu-id="32b7e-108">网络观察程序</span><span class="sxs-lookup"><span data-stu-id="32b7e-108">Network Watcher</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="32b7e-109">Azure 网络观察程序将帮助您解决网络性能问题, 但不能深入了解你的应用程序。</span><span class="sxs-lookup"><span data-stu-id="32b7e-109">Azure Network Watcher will help you troubleshoot network performance issues, but will not provide insight into your application.</span></span>
+    - content: <span data-ttu-id="32b7e-110">活动日志</span><span class="sxs-lookup"><span data-stu-id="32b7e-110">Activity Log</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="32b7e-111">azure 活动日志将记录已在 Azure 平台上对你的资源执行的事件, 但不会对你的应用程序提供见解。</span><span class="sxs-lookup"><span data-stu-id="32b7e-111">Azure Activity Log will log events that have been performed on your resources on the Azure platform, but will not provide insight into your application.</span></span>
+    - content: <span data-ttu-id="32b7e-112">application Insights</span><span class="sxs-lookup"><span data-stu-id="32b7e-112">Application Insights</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="32b7e-113">application Insights 将帮助您检测和诊断问题, 并了解应用程序中的 web 应用程序和服务、API 调用的使用情况。</span><span class="sxs-lookup"><span data-stu-id="32b7e-113">Application Insights will help you detect and diagnose issues and understand usage for your web apps and services, API calls in your application.</span></span>
+  - content: <span data-ttu-id="32b7e-114">您可以使用下列服务中的哪一项来确定谁删除了虚拟机？</span><span class="sxs-lookup"><span data-stu-id="32b7e-114">Which of the following services would you use to identify who deleted a virtual machine?</span></span>
+    choices:
+    - content: <span data-ttu-id="32b7e-115">服务运行状况</span><span class="sxs-lookup"><span data-stu-id="32b7e-115">Service Health</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="32b7e-116">azure 服务运行状况将让你深入了解 Azure 服务的运行状况, 但不会对对你的资源执行的操作提供深入了解。</span><span class="sxs-lookup"><span data-stu-id="32b7e-116">Azure Service Health will give you insight into the health of Azure services, but will not provide insight into actions performed on your resources.</span></span>
+    - content: <span data-ttu-id="32b7e-117">网络观察程序</span><span class="sxs-lookup"><span data-stu-id="32b7e-117">Network Watcher</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="32b7e-118">Azure 网络观察程序将帮助您对网络性能问题进行故障排除, 但不会对对您的资源执行的操作提供深入了解。</span><span class="sxs-lookup"><span data-stu-id="32b7e-118">Azure Network Watcher will help you troubleshoot network performance issues, but will not provide insight into actions performed on your resources.</span></span>
+    - content: <span data-ttu-id="32b7e-119">活动日志</span><span class="sxs-lookup"><span data-stu-id="32b7e-119">Activity Log</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="32b7e-120">azure 活动日志记录在 Azure 平台上对你的资源执行的所有事件, 包括删除资源。</span><span class="sxs-lookup"><span data-stu-id="32b7e-120">Azure Activity Log records all events that have been performed on your resources on the Azure platform, including deletion of resources.</span></span>
+    - content: <span data-ttu-id="32b7e-121">application Insights</span><span class="sxs-lookup"><span data-stu-id="32b7e-121">Application Insights</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="32b7e-122">application Insights 将帮助您检测和诊断问题并了解 web 应用和服务的使用情况, 但不会对对您的资源执行的操作提供深入见解。</span><span class="sxs-lookup"><span data-stu-id="32b7e-122">Application Insights will help you detect and diagnose issues and understand usage for your web apps and services, but will not provide insight into actions performed on your resources.</span></span>

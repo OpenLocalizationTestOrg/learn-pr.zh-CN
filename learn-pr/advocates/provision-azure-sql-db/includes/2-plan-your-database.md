@@ -1,0 +1,45 @@
+<span data-ttu-id="ca645-101">Azure 提供了 PaaS 服务, 可帮助您管理所有类型的数据 (从高度结构化的关系数据到非结构化数据)。</span><span class="sxs-lookup"><span data-stu-id="ca645-101">Azure provides PaaS services to help you manage all kinds of data, from highly structured relational data to unstructured data.</span></span>
+
+<span data-ttu-id="ca645-102">在这里, 你将了解为什么 Azure SQL 数据库是托管关系数据库的一种便利、经济划算且安全的方式。</span><span class="sxs-lookup"><span data-stu-id="ca645-102">Here you'll learn why Azure SQL Database is a convenient, cost-effective, and secure way to host your relational databases.</span></span>
+
+## <a name="why-choose-azure-sql-database"></a><span data-ttu-id="ca645-103">为什么选择 Azure SQL 数据库？</span><span class="sxs-lookup"><span data-stu-id="ca645-103">Why choose Azure SQL Database?</span></span>
+
+<span data-ttu-id="ca645-104">您的运输物流应用程序需要运行基本 CRUD (**创建**、**读取**、**更新**和**删除**) 操作的存储过程。</span><span class="sxs-lookup"><span data-stu-id="ca645-104">Your transportation logistics application requires stored procedures that run basic CRUD (**create**, **read**, **update**, and **delete**) operations.</span></span> <span data-ttu-id="ca645-105">您有使用 SQL Server 和其他关系数据库的经验。</span><span class="sxs-lookup"><span data-stu-id="ca645-105">You have experience working with SQL Server and other relational databases.</span></span>
+
+<span data-ttu-id="ca645-106">为您的数据库考虑两个选项:</span><span class="sxs-lookup"><span data-stu-id="ca645-106">You consider two choices for your database:</span></span>
+
+1. <span data-ttu-id="ca645-107">本地承载 SQL Server。</span><span class="sxs-lookup"><span data-stu-id="ca645-107">Host SQL Server on-premises.</span></span> <span data-ttu-id="ca645-108">IT 团队运行一个小型的内部数据中心, 以支持财务部门和其他几个团队。</span><span class="sxs-lookup"><span data-stu-id="ca645-108">Your IT team runs a small in-house data center to support the finance department and a few other teams.</span></span> <span data-ttu-id="ca645-109">您可以使用它在其数据中心中承载 SQL Server 部署。</span><span class="sxs-lookup"><span data-stu-id="ca645-109">You can work with IT to host a SQL Server deployment in their data center.</span></span>
+
+1. <span data-ttu-id="ca645-110">在云中承载 Azure SQL 数据库。</span><span class="sxs-lookup"><span data-stu-id="ca645-110">Host Azure SQL Database in the cloud.</span></span> <span data-ttu-id="ca645-111">Azure sql 数据库基于 SQL Server, 并提供所需的关系数据库功能。</span><span class="sxs-lookup"><span data-stu-id="ca645-111">Azure SQL Database is based on SQL Server and provides the relational database functionality you need.</span></span>
+
+<span data-ttu-id="ca645-112">你已决定在 Azure 上为你的物流应用构建 web 和应用程序层。</span><span class="sxs-lookup"><span data-stu-id="ca645-112">You've decided to build the web and application tiers for your logistics app on Azure.</span></span> <span data-ttu-id="ca645-113">因此, 在该处承载数据库也是有意义的。</span><span class="sxs-lookup"><span data-stu-id="ca645-113">So it makes sense to also host your database there.</span></span> <span data-ttu-id="ca645-114">但还有一些其他原因是为什么 Azure SQL 数据库是一个智能选择, 为什么它更易于使用虚拟机。</span><span class="sxs-lookup"><span data-stu-id="ca645-114">But there are some other reasons why Azure SQL Database is a smart choice, and why it's even easier than using virtual machines.</span></span>
+
+- <span data-ttu-id="ca645-115">**带来**</span><span class="sxs-lookup"><span data-stu-id="ca645-115">**Convenience**</span></span>
+
+    <span data-ttu-id="ca645-116">若要在 VM 或物理硬件上设置 SQL Server, 需要了解硬件和软件要求。</span><span class="sxs-lookup"><span data-stu-id="ca645-116">Setting up SQL Server on a VM or on physical hardware requires you to know about hardware and software requirements.</span></span> <span data-ttu-id="ca645-117">您需要了解最新的安全最佳做法, 并定期管理操作系统和 SQL Server 修补程序。</span><span class="sxs-lookup"><span data-stu-id="ca645-117">You'll need to understand the latest security best practices and manage operating system and SQL Server patches on a routine basis.</span></span> <span data-ttu-id="ca645-118">您还需要自己管理备份和数据保留问题。</span><span class="sxs-lookup"><span data-stu-id="ca645-118">You also need to manage backup and data retention issues yourself.</span></span>
+
+    <span data-ttu-id="ca645-119">使用 Azure SQL Database, 我们将为你管理硬件、软件更新和操作系统修补程序。</span><span class="sxs-lookup"><span data-stu-id="ca645-119">With Azure SQL Database, we manage the hardware, software updates, and OS patches for you.</span></span> <span data-ttu-id="ca645-120">您指定的全部是您的数据库的名称和几个选项。</span><span class="sxs-lookup"><span data-stu-id="ca645-120">All you specify is the name of your database and a few options.</span></span> <span data-ttu-id="ca645-121">你将有几分钟的运行 SQL 数据库。</span><span class="sxs-lookup"><span data-stu-id="ca645-121">You'll have a running SQL database in minutes.</span></span>
+
+    <span data-ttu-id="ca645-122">你可以在方便时打开和弹出 Azure SQL 数据库实例。</span><span class="sxs-lookup"><span data-stu-id="ca645-122">You can bring up and tear down Azure SQL Database instances at your convenience.</span></span> <span data-ttu-id="ca645-123">Azure SQL 数据库提供快速且易于配置的情况。</span><span class="sxs-lookup"><span data-stu-id="ca645-123">Azure SQL Database comes up fast and is easy to configure.</span></span> <span data-ttu-id="ca645-124">您在配置软件方面的注意力更少, 对使应用变得非常大。</span><span class="sxs-lookup"><span data-stu-id="ca645-124">You can focus less on configuring software and more on making your app great.</span></span>
+
+- <span data-ttu-id="ca645-125">**低廉**</span><span class="sxs-lookup"><span data-stu-id="ca645-125">**Cost**</span></span>
+
+    <span data-ttu-id="ca645-126">由于我们为你管理内容, 因此没有供你购买的系统, 无法提供电源或以其他方式维护。</span><span class="sxs-lookup"><span data-stu-id="ca645-126">Because we manage things for you, there are no systems for you to buy, provide power for, or otherwise maintain.</span></span>
+
+    <span data-ttu-id="ca645-127">Azure SQL 数据库有几个定价选项。</span><span class="sxs-lookup"><span data-stu-id="ca645-127">Azure SQL Database has several pricing options.</span></span> <span data-ttu-id="ca645-128">利用这些定价选项, 您可以平衡性能与成本。</span><span class="sxs-lookup"><span data-stu-id="ca645-128">These pricing options enable you to balance performance versus cost.</span></span> <span data-ttu-id="ca645-129">您可以每月仅开始几美元。</span><span class="sxs-lookup"><span data-stu-id="ca645-129">You can start for just a few dollars a month.</span></span>
+
+- <span data-ttu-id="ca645-130">**放大**</span><span class="sxs-lookup"><span data-stu-id="ca645-130">**Scale**</span></span>
+
+    <span data-ttu-id="ca645-131">您发现每年必须存储一倍的运输物流数据量。</span><span class="sxs-lookup"><span data-stu-id="ca645-131">You find that the amount of transportation logistics data you must store doubles every year.</span></span> <span data-ttu-id="ca645-132">在本地运行时, 您应该规划多少额外的容量？</span><span class="sxs-lookup"><span data-stu-id="ca645-132">When running on-premises, how much excess capacity should you plan for?</span></span>
+
+    <span data-ttu-id="ca645-133">使用 Azure SQL Database, 您可以在需要更改时随时调整数据库的性能和大小。</span><span class="sxs-lookup"><span data-stu-id="ca645-133">With Azure SQL Database, you can adjust the performance and size of your database on the fly when your needs change.</span></span>
+
+- <span data-ttu-id="ca645-134">**安全性**</span><span class="sxs-lookup"><span data-stu-id="ca645-134">**Security**</span></span>
+
+    <span data-ttu-id="ca645-135">Azure SQL 数据库附带了一个自动配置为限制从 Internet 的连接的防火墙。</span><span class="sxs-lookup"><span data-stu-id="ca645-135">Azure SQL Database comes with a firewall that's automatically configured to restrict connections from the Internet.</span></span>
+
+    <span data-ttu-id="ca645-136">您可以 "白名单" IP 地址是您信任的。</span><span class="sxs-lookup"><span data-stu-id="ca645-136">You can "whitelist" IP addresses you trust.</span></span> <span data-ttu-id="ca645-137">白名单允许您使用 Visual studio、SQL Server Management Studio 或其他工具来管理 Azure SQL 数据库。</span><span class="sxs-lookup"><span data-stu-id="ca645-137">Whitelisting lets you use Visual Studio, SQL Server Management Studio, or other tools to manage your Azure SQL database.</span></span>
+
+<span data-ttu-id="ca645-138">使用 Azure SQL Database, 我们将为你管理硬件、软件更新和操作系统修补程序。</span><span class="sxs-lookup"><span data-stu-id="ca645-138">With Azure SQL Database, we manage the hardware, software updates, and OS patches for you.</span></span> <span data-ttu-id="ca645-139">我们提供的购买选项可帮助你以可预测的成本实现所需的性能。</span><span class="sxs-lookup"><span data-stu-id="ca645-139">We provide buying options to help you get the performance you need at a predictable cost.</span></span> <span data-ttu-id="ca645-140">Azure SQL 数据库也附带防火墙, 以便您可以控制对数据的访问。</span><span class="sxs-lookup"><span data-stu-id="ca645-140">Azure SQL Database also comes with a firewall so that you can control access to your data.</span></span>
+
+<span data-ttu-id="ca645-141">[! 注意] 尽管不需要是 DBA 即可使用 Azure SQL 数据库, 但在开始之前, 您应该了解以下几个概念。</span><span class="sxs-lookup"><span data-stu-id="ca645-141">Although you don't need to be a DBA to use Azure SQL Database, there are a few concepts you should understand before you start.</span></span> <span data-ttu-id="ca645-142">我们将在下一步介绍这些概念。</span><span class="sxs-lookup"><span data-stu-id="ca645-142">We'll cover these concepts next.</span></span>

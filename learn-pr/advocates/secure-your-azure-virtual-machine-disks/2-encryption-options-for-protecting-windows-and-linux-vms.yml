@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-your-azure-virtual-machine-disks.2-encryption-options-for-protecting-windows-and-linux-vms
+title: <span data-ttu-id="89a00-101">用于保护 Windows 和 Linux 虚拟机的加密选项</span><span class="sxs-lookup"><span data-stu-id="89a00-101">Encryption options for protecting Windows and Linux VMs</span></span>
+metadata:
+  title: <span data-ttu-id="89a00-102">用于保护 Windows 和 Linux 虚拟机的加密选项</span><span class="sxs-lookup"><span data-stu-id="89a00-102">Encryption options for protecting Windows and Linux VMs</span></span>
+  description: <span data-ttu-id="89a00-103">用于保护 Windows 和 Linux 虚拟机的加密选项</span><span class="sxs-lookup"><span data-stu-id="89a00-103">Encryption options for protecting Windows and Linux VMs</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: d42600065227fe4de8d437fc5b6936a1597c570c
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137883"
+durationInMinutes: 8
+content: '[!include[](includes/2-encryption-options-for-protecting-windows-and-linux-vms.md)]'

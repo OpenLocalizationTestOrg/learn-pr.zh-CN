@@ -1,0 +1,23 @@
+### YamlMime:ModuleUnit
+uid: learn.host-a-web-application-with-azure-web-apps.6-exercise-deploy-your-code-to-app-service
+title: <span data-ttu-id="72591-101">练习-将您的代码部署到应用服务</span><span class="sxs-lookup"><span data-stu-id="72591-101">Exercise - Deploy your code to App Service</span></span>
+metadata:
+  title: <span data-ttu-id="72591-102">练习-将您的代码部署到应用服务</span><span class="sxs-lookup"><span data-stu-id="72591-102">Exercise - Deploy your code to App Service</span></span>
+  description: <span data-ttu-id="72591-103">练习-将您的代码部署到应用服务</span><span class="sxs-lookup"><span data-stu-id="72591-103">Exercise - Deploy your code to App Service</span></span>
+  ms.date: 12/12/2018
+  author: nickwalkmsft
+  ms.author: nickwalk
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  zone_pivot_groups: dev-lang-csharp-java-node
+  ms.openlocfilehash: db607b6e0d5d899240aa3e6caef5d09cafa358b5
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137933"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 20
+content: '[!include[](includes/6-exercise-deploy-your-code-to-app-service.md)]'

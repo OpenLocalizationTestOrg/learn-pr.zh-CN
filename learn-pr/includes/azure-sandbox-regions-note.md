@@ -1,0 +1,10 @@
+- <span data-ttu-id="6a9cb-101">westus2</span><span class="sxs-lookup"><span data-stu-id="6a9cb-101">westus2</span></span>
+- <span data-ttu-id="6a9cb-102">southcentralus</span><span class="sxs-lookup"><span data-stu-id="6a9cb-102">southcentralus</span></span>
+- <span data-ttu-id="6a9cb-103">centralus</span><span class="sxs-lookup"><span data-stu-id="6a9cb-103">centralus</span></span>
+- <span data-ttu-id="6a9cb-104">eastus</span><span class="sxs-lookup"><span data-stu-id="6a9cb-104">eastus</span></span>
+- <span data-ttu-id="6a9cb-105">westeurope</span><span class="sxs-lookup"><span data-stu-id="6a9cb-105">westeurope</span></span>
+- <span data-ttu-id="6a9cb-106">southeastasia</span><span class="sxs-lookup"><span data-stu-id="6a9cb-106">southeastasia</span></span>
+- <span data-ttu-id="6a9cb-107">japaneast</span><span class="sxs-lookup"><span data-stu-id="6a9cb-107">japaneast</span></span>
+- <span data-ttu-id="6a9cb-108">brazilsouth</span><span class="sxs-lookup"><span data-stu-id="6a9cb-108">brazilsouth</span></span>
+- <span data-ttu-id="6a9cb-109">australiasoutheast</span><span class="sxs-lookup"><span data-stu-id="6a9cb-109">australiasoutheast</span></span>
+- <span data-ttu-id="6a9cb-110">centralindia</span><span class="sxs-lookup"><span data-stu-id="6a9cb-110">centralindia</span></span>

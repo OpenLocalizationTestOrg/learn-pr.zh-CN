@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.get-started-with-devops.2-what-is-devops
+metadata:
+  title: <span data-ttu-id="cd6db-101">什么是 DevOps？</span><span class="sxs-lookup"><span data-stu-id="cd6db-101">What is DevOps?</span></span>
+  description: <span data-ttu-id="cd6db-102">什么是 DevOps？</span><span class="sxs-lookup"><span data-stu-id="cd6db-102">What is DevOps?</span></span>
+  ms.openlocfilehash: a89a2f4c2bc05cb1676e15713e1bd406061a4bf3
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137409"
+title: <span data-ttu-id="cd6db-103">什么是 DevOps？</span><span class="sxs-lookup"><span data-stu-id="cd6db-103">What is DevOps?</span></span>
+durationInMinutes: 10
+content: '[!include[](includes/2-what-is-devops.md)]'

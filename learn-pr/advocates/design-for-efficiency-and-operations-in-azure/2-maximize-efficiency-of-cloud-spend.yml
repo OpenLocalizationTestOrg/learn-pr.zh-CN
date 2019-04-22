@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend
+title: <span data-ttu-id="c38a9-101">最大限度地提高云支出的效率</span><span class="sxs-lookup"><span data-stu-id="c38a9-101">Maximize efficiency of cloud spend</span></span>
+metadata:
+  title: <span data-ttu-id="c38a9-102">最大限度地提高云支出的效率</span><span class="sxs-lookup"><span data-stu-id="c38a9-102">Maximize efficiency of cloud spend</span></span>
+  description: <span data-ttu-id="c38a9-103">在此单元中, 我们将讨论如何最大限度地提高云支出的效率</span><span class="sxs-lookup"><span data-stu-id="c38a9-103">In this unit, we'll discuss how to maximize the efficiency of your cloud expenditures</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: c572cefaffbcea1799897fa60f4b8cfd06bcedd3
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136200"
+durationInMinutes: 15
+content: >
+  [!include[](includes/2-maximize-efficiency-of-cloud-spend.md)]
+quiz:
+  title: <span data-ttu-id="c38a9-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="c38a9-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="c38a9-105">以下哪一项是保留实例的最佳候选项？</span><span class="sxs-lookup"><span data-stu-id="c38a9-105">Which of the following is the best candidate for a reserved instance?</span></span>
+    choices:
+    - content: <span data-ttu-id="c38a9-106">在 Azure 应用服务上部署的 web 应用程序。</span><span class="sxs-lookup"><span data-stu-id="c38a9-106">A web application deployed on Azure App Service.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="c38a9-107">Azure 应用服务是 PaaS 服务, 保留实例是选择计算服务的功能。</span><span class="sxs-lookup"><span data-stu-id="c38a9-107">Azure App Service is a PaaS service, reserved instances are a feature for select compute services.</span></span>
+    - content: <span data-ttu-id="c38a9-108">在不使用时自动关闭的非生产虚拟机 (以小时为单位)。</span><span class="sxs-lookup"><span data-stu-id="c38a9-108">A non-production virtual machine that is automatically shut down in off-hours when not in use.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="c38a9-109">由于此虚拟机在大多数情况下不会完全利用实例预留, 因此不是保留实例的理想候选。</span><span class="sxs-lookup"><span data-stu-id="c38a9-109">Since this virtual machine will not be running the majority of the time it will not fully utilize the instance reservation, and is not a good candidate for a reserved instance.</span></span>
+    - content: <span data-ttu-id="c38a9-110">ExpressRoute 电路。</span><span class="sxs-lookup"><span data-stu-id="c38a9-110">An ExpressRoute circuit.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="c38a9-111">ExpressRoute 是一种网络服务, 而保留的实例是选择计算服务的一项功能。</span><span class="sxs-lookup"><span data-stu-id="c38a9-111">ExpressRoute is a network service, reserved instances are a feature for select compute services.</span></span>
+    - content: <span data-ttu-id="c38a9-112">适用于全球企业的 HR 系统的数据库服务器。</span><span class="sxs-lookup"><span data-stu-id="c38a9-112">A database server for an HR system for a global business.</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="c38a9-113">由于此系统的关键程度和全局性质, 很可能会在大多数时间运行, 使其成为保留实例的理想候选项。</span><span class="sxs-lookup"><span data-stu-id="c38a9-113">Because of the criticality and global nature of this system, it is likely that it would be running the majority of the time, making it a great candidate for a reserved instance.</span></span>
+  - content: <span data-ttu-id="c38a9-114">何时计算与 VM 停止相关的成本？</span><span class="sxs-lookup"><span data-stu-id="c38a9-114">When do compute costs associated with a VM stop accruing?</span></span>
+    choices:
+    - content: <span data-ttu-id="c38a9-115">在 OS 中关闭虚拟机时。</span><span class="sxs-lookup"><span data-stu-id="c38a9-115">When you shut down the virtual machine from inside the OS.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="c38a9-116">如果关闭虚拟机的操作系统, 它仍在 Azure 平台上分配, 并将继续累积计算成本。</span><span class="sxs-lookup"><span data-stu-id="c38a9-116">If you shut down the OS of the virtual machine, it is still allocated on the Azure platform and will continue to accrue compute costs.</span></span>
+    - content: <span data-ttu-id="c38a9-117">当您单击 Azure 门户中的 "停止" 按钮时。</span><span class="sxs-lookup"><span data-stu-id="c38a9-117">When you click the Stop button in the Azure portal.</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="c38a9-118">单击 "停止" 按钮将从 Azure 平台取消分配虚拟机, 它将不再会累算计算成本。</span><span class="sxs-lookup"><span data-stu-id="c38a9-118">Clicking the Stop button will deallocate the virtual machine from the Azure platform and it will no longer accrue compute costs.</span></span>

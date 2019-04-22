@@ -1,0 +1,18 @@
+<span data-ttu-id="329e0-101">Azure 容器注册表是基于开放源代码 Docker 注册表2.0 的托管 Docker 注册表服务。</span><span class="sxs-lookup"><span data-stu-id="329e0-101">Azure Container Registry is a managed Docker registry service based on the open-source Docker Registry 2.0.</span></span> <span data-ttu-id="329e0-102">容器注册表是私有的, 托管在 Azure 中, 允许您生成、存储和管理所有类型的容器部署的图像。</span><span class="sxs-lookup"><span data-stu-id="329e0-102">Container Registry is private, hosted in Azure, and allows you to build, store, and manage images for all types of container deployments.</span></span>
+
+<span data-ttu-id="329e0-103">可以使用 Docker cli 或 Azure cli 将容器映像推送和提取到容器注册表中。</span><span class="sxs-lookup"><span data-stu-id="329e0-103">Container images can be pushed and pulled with Container Registry using the Docker CLI or the Azure CLI.</span></span> <span data-ttu-id="329e0-104">Azure 门户集成允许你直观地检查容器注册表中的容器图像。</span><span class="sxs-lookup"><span data-stu-id="329e0-104">Azure portal integration allows you to visually inspect the container images in your container registry.</span></span> <span data-ttu-id="329e0-105">在分布式环境中, 容器注册表地域复制功能可用于将容器映像分发到多个 Azure 数据中心以用于本地化的分发。</span><span class="sxs-lookup"><span data-stu-id="329e0-105">In distributed environments, the Container Registry geo-replication feature can be used to distribute container images to multiple Azure datacenters for localized distribution.</span></span>
+
+<span data-ttu-id="329e0-106">除了存储容器图像之外, azure 容器注册表任务还可以在 azure 中构建容器映像。</span><span class="sxs-lookup"><span data-stu-id="329e0-106">In addition to storing container images, Azure Container Registry Tasks can build container images in Azure.</span></span> <span data-ttu-id="329e0-107">任务使用标准 Dockerfile 在 Azure 容器注册表中创建和存储容器图像, 而无需本地 Docker 工具。</span><span class="sxs-lookup"><span data-stu-id="329e0-107">Tasks use a standard Dockerfile to create and store a container image in Azure Container Registry without the need for local Docker tooling.</span></span> <span data-ttu-id="329e0-108">使用 Azure 容器注册表任务, 您可以根据需要生成或完全自动化使用 DevOps 过程和工具生成的容器映像。</span><span class="sxs-lookup"><span data-stu-id="329e0-108">With Azure Container Registry Tasks, you can build on demand or fully automate container image builds using DevOps processes and tooling.</span></span>
+
+## <a name="learning-objectives"></a><span data-ttu-id="329e0-109">学习目标</span><span class="sxs-lookup"><span data-stu-id="329e0-109">Learning objectives</span></span>
+
+<span data-ttu-id="329e0-110">在本模块中, 您将:</span><span class="sxs-lookup"><span data-stu-id="329e0-110">In this module, you will:</span></span>
+
+- <span data-ttu-id="329e0-111">部署 Azure 容器注册表</span><span class="sxs-lookup"><span data-stu-id="329e0-111">Deploy an Azure container registry</span></span>
+- <span data-ttu-id="329e0-112">使用 Azure 容器注册表任务生成容器映像</span><span class="sxs-lookup"><span data-stu-id="329e0-112">Build a container image using Azure Container Registry Tasks</span></span>
+- <span data-ttu-id="329e0-113">将容器部署到 Azure 容器实例</span><span class="sxs-lookup"><span data-stu-id="329e0-113">Deploy the container to an Azure container instance</span></span>
+- <span data-ttu-id="329e0-114">将容器映像复制到多个 Azure 数据中心</span><span class="sxs-lookup"><span data-stu-id="329e0-114">Replicate the container image to multiple Azure datacenters</span></span>
+
+## <a name="prerequisites"></a><span data-ttu-id="329e0-115">先决条件</span><span class="sxs-lookup"><span data-stu-id="329e0-115">Prerequisites</span></span>  
+
+- <span data-ttu-id="329e0-116">无</span><span class="sxs-lookup"><span data-stu-id="329e0-116">None</span></span>

@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.introduction-to-azure-virtual-machines.2-compile-a-checklist-for-creating-a-vm
+title: <span data-ttu-id="a8e87-101">编译用于创建 Azure 虚拟机的清单</span><span class="sxs-lookup"><span data-stu-id="a8e87-101">Compiling a checklist for creating an Azure Virtual Machine</span></span>
+metadata:
+  title: <span data-ttu-id="a8e87-102">编译用于创建 Azure 虚拟机的清单</span><span class="sxs-lookup"><span data-stu-id="a8e87-102">Compiling a checklist for creating an Azure Virtual Machine</span></span>
+  description: <span data-ttu-id="a8e87-103">编译用于创建 Azure 虚拟机的清单</span><span class="sxs-lookup"><span data-stu-id="a8e87-103">Compile a checklist for creating an Azure Virtual Machine</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 1ec6ea85887589be065a0306327460068a2d6702
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136970"
+durationInMinutes: 15
+content: '[!include[](includes/2-compile-a-checklist-for-creating-a-vm.md)]'

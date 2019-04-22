@@ -1,0 +1,39 @@
+### YamlMime:LearningPath
+uid: learn.manage-resources-in-azure
+metadata:
+  title: 在 Azure 学习路径中管理资源
+  description: 了解如何使用 Azure 命令行和 web 门户创建、管理和控制基于云的资源。
+  brand: azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: aa89aec9ba84ea9c3bf0fb9ba34ebeb63ee0b6b0
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137002"
+title: 在 Azure 中管理资源
+summary: 了解如何使用 Azure 命令行和 web 门户创建、管理和控制基于云的资源。
+prerequisites: 无
+iconUrl: /learn/achievements/manage-resources-in-azure.svg
+levels:
+- beginner
+roles:
+- developer
+- solution-architect
+- administrator
+products:
+- azure
+- azure-clis
+- azure-portal
+- azure-cost-management
+modules:
+- learn.align-requirements-in-azure
+- learn.control-azure-services-with-cli
+- learn.automate-azure-tasks-with-powershell
+- learn.predict-costs-and-optimize-spending
+trophy:
+  uid: learn.manage-resources-in-azure.trophy

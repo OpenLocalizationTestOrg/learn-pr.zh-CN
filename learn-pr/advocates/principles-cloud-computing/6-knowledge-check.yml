@@ -1,0 +1,55 @@
+### YamlMime:ModuleUnit
+uid: learn.principles-cloud-computing.6-knowledge-check
+metadata:
+  title: <span data-ttu-id="4e8bf-101">知识检查</span><span class="sxs-lookup"><span data-stu-id="4e8bf-101">Knowledge Check</span></span>
+  description: <span data-ttu-id="4e8bf-102">知识检查</span><span class="sxs-lookup"><span data-stu-id="4e8bf-102">Knowledge Check</span></span>
+  ms.date: 12/20/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 1d7f31a393253df7f707341d7b417d5dda0f4186
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136237"
+title: <span data-ttu-id="4e8bf-103">知识检查</span><span class="sxs-lookup"><span data-stu-id="4e8bf-103">Knowledge Check</span></span>
+durationInMinutes: 3
+quiz:
+  title: <span data-ttu-id="4e8bf-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="4e8bf-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="4e8bf-105">下面列表中的哪一项将作为使用云服务的好处进行查看？</span><span class="sxs-lookup"><span data-stu-id="4e8bf-105">Which term from the list below would be viewed as benefits of using cloud services?</span></span>
+    choices:
+    - content: <span data-ttu-id="4e8bf-106">无法预测成本</span><span class="sxs-lookup"><span data-stu-id="4e8bf-106">Unpredictable costs</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="4e8bf-107">云计算通常具有极具可预测的 "即点即用" 的成本核算模型。</span><span class="sxs-lookup"><span data-stu-id="4e8bf-107">Cloud computing typically has very predictable 'pay-as-you-go' costing models.</span></span>
+    - content: <span data-ttu-id="4e8bf-108">弹性</span><span class="sxs-lookup"><span data-stu-id="4e8bf-108">Elasticity</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="4e8bf-109">弹性、灵活性和规模经济效益是正确的答案, 并且将作为您可以使用云服务获得的好处进行查看。</span><span class="sxs-lookup"><span data-stu-id="4e8bf-109">Elasticity, Agility and Economies of scale are the correct answers, and would be seen as benefits that you can gain from using cloud services.</span></span>
+    - content: <span data-ttu-id="4e8bf-110">仅本地访问</span><span class="sxs-lookup"><span data-stu-id="4e8bf-110">Local reach only</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="4e8bf-111">虽然您可以隔离云资源并将其设为专用资源, 但大多数情况下, 这些服务是公开的, 并且可以通过 internet 访问。</span><span class="sxs-lookup"><span data-stu-id="4e8bf-111">While you can isolate cloud resources and make them private, most of the time the services are public facing and reachable over the internet.</span></span>
+  - content: '<span data-ttu-id="4e8bf-112">假设您有两种类型的应用程序: 需要专用的大型机硬件和可在商品硬件上运行的较新应用程序的旧版应用程序。</span><span class="sxs-lookup"><span data-stu-id="4e8bf-112">Suppose you have two types of applications: legacy applications that require specialized mainframe hardware and newer applications that can run on commodity hardware.</span></span> <span data-ttu-id="4e8bf-113">哪种云部署模型最适合你？</span><span class="sxs-lookup"><span data-stu-id="4e8bf-113">Which cloud deployment model would be best for you?</span></span>'
+    choices:
+    - content: <span data-ttu-id="4e8bf-114">公共云</span><span class="sxs-lookup"><span data-stu-id="4e8bf-114">Public cloud</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="4e8bf-115">混合云是结合使用的公共云和私有云。</span><span class="sxs-lookup"><span data-stu-id="4e8bf-115">A hybrid cloud is a public and private cloud combined.</span></span> <span data-ttu-id="4e8bf-116">您可以在从公共云出租的商品硬件上运行新的应用程序, 并维护 premeses 的专用大型机硬件。</span><span class="sxs-lookup"><span data-stu-id="4e8bf-116">You can run your new applications on commodity hardware you rent from the public cloud and maintain your specialized mainframe hardware on-premeses.</span></span>
+    - content: <span data-ttu-id="4e8bf-117">私有云</span><span class="sxs-lookup"><span data-stu-id="4e8bf-117">Private cloud</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="4e8bf-118">混合云是结合使用的公共云和私有云。</span><span class="sxs-lookup"><span data-stu-id="4e8bf-118">A hybrid cloud is a public and private cloud combined.</span></span> <span data-ttu-id="4e8bf-119">您可以在从公共云出租的商品硬件上运行新的应用程序, 并维护 premeses 的专用大型机硬件。</span><span class="sxs-lookup"><span data-stu-id="4e8bf-119">You can run your new applications on commodity hardware you rent from the public cloud and maintain your specialized mainframe hardware on-premeses.</span></span>
+    - content: <span data-ttu-id="4e8bf-120">混合云</span><span class="sxs-lookup"><span data-stu-id="4e8bf-120">Hybrid cloud</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="4e8bf-121">混合云是结合使用的公共云和私有云。</span><span class="sxs-lookup"><span data-stu-id="4e8bf-121">A hybrid cloud is a public and private cloud combined.</span></span> <span data-ttu-id="4e8bf-122">您可以在从公共云出租的商品硬件上运行新的应用程序, 并维护 premeses 的专用大型机硬件。</span><span class="sxs-lookup"><span data-stu-id="4e8bf-122">You can run your new applications on commodity hardware you rent from the public cloud and maintain your specialized mainframe hardware on-premeses.</span></span>
+  - content: <span data-ttu-id="4e8bf-123">您正在开发应用程序, 并希望将重点放在生成、测试和部署上。</span><span class="sxs-lookup"><span data-stu-id="4e8bf-123">You're developing an application and want to focus on building, testing, and deploying.</span></span> <span data-ttu-id="4e8bf-124">您不想担心管理基础硬件或软件。</span><span class="sxs-lookup"><span data-stu-id="4e8bf-124">You don't want to worry about managing the underlying hardware or software.</span></span> <span data-ttu-id="4e8bf-125">哪种云服务类型最适合你？</span><span class="sxs-lookup"><span data-stu-id="4e8bf-125">Which cloud service type is best for you?</span></span>
+    choices:
+    - content: <span data-ttu-id="4e8bf-126">基础结构即服务</span><span class="sxs-lookup"><span data-stu-id="4e8bf-126">Infrastructure-as-a-service</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="4e8bf-127">在这里, 平台即服务是最佳选择, 因为 PaaS 服务可为您处理 IT 管理任务, 因此您可以将重点放在编写代码上。</span><span class="sxs-lookup"><span data-stu-id="4e8bf-127">Platform-as-a-service is the best choice here because the PaaS services handle the IT management tasks for you, so you can focus on writing code.</span></span>
+    - content: <span data-ttu-id="4e8bf-128">平台即服务</span><span class="sxs-lookup"><span data-stu-id="4e8bf-128">Platform-as-a-service</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="4e8bf-129">在这里, 平台即服务是最佳选择, 因为 PaaS 服务可为您处理 IT 管理任务, 因此您可以将重点放在编写代码上。</span><span class="sxs-lookup"><span data-stu-id="4e8bf-129">Platform-as-a-service is the best choice here because the PaaS services handle the IT management tasks for you, so you can focus on writing code.</span></span>
+    - content: <span data-ttu-id="4e8bf-130">软件即服务</span><span class="sxs-lookup"><span data-stu-id="4e8bf-130">Software-as-a-service</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="4e8bf-131">在这里, 平台即服务是最佳选择, 因为 PaaS 服务可为您处理 IT 管理任务, 因此您可以将重点放在编写代码上。</span><span class="sxs-lookup"><span data-stu-id="4e8bf-131">Platform-as-a-service is the best choice here because the PaaS services handle the IT management tasks for you, so you can focus on writing code.</span></span>

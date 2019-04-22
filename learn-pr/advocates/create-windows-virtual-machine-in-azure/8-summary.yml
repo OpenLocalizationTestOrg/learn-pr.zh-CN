@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit
+uid: learn.create-a-windows-vm-in-azure.8-summary
+title: <span data-ttu-id="30d2f-101">摘要</span><span class="sxs-lookup"><span data-stu-id="30d2f-101">Summary</span></span>
+metadata:
+  title: <span data-ttu-id="30d2f-102">摘要</span><span class="sxs-lookup"><span data-stu-id="30d2f-102">Summary</span></span>
+  description: <span data-ttu-id="30d2f-103">摘要</span><span class="sxs-lookup"><span data-stu-id="30d2f-103">Summary</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: e8d60a1ec762fc11a915aa731ed44c6594cd57d3
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137958"
+durationInMinutes: 3
+azureSandbox: true
+content: >
+  [!include[](includes/8-summary.md)]
+quiz:
+  title: <span data-ttu-id="30d2f-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="30d2f-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="30d2f-105">在 Azure 中创建 Windows 虚拟机时, 使用入站端口规则打开哪个端口, 以便允许远程桌面访问？</span><span class="sxs-lookup"><span data-stu-id="30d2f-105">When creating a Windows virtual machine in Azure, which port would you open using the INBOUND PORT RULES in order to allow remote-desktop access?</span></span>
+    choices:
+    - content: <span data-ttu-id="30d2f-106">ip-https</span><span class="sxs-lookup"><span data-stu-id="30d2f-106">HTTPS</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="30d2f-107">远程桌面连接不使用 HTTPS 协议。</span><span class="sxs-lookup"><span data-stu-id="30d2f-107">The remote-desktop connection does not use the HTTPS protocol.</span></span>
+    - content: <span data-ttu-id="30d2f-108">SSH (22)</span><span class="sxs-lookup"><span data-stu-id="30d2f-108">SSH (22)</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="30d2f-109">远程桌面连接不使用 SSH。</span><span class="sxs-lookup"><span data-stu-id="30d2f-109">The remote-desktop connection does not use SSH.</span></span>
+    - content: <span data-ttu-id="30d2f-110">RDP (3389)</span><span class="sxs-lookup"><span data-stu-id="30d2f-110">RDP (3389)</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="30d2f-111">默认情况下, 远程桌面协议 (RDP) 使用端口 3389, 因此, 如果你想要使用 RDP 客户端管理 Windows 虚拟机, 则会打开该标准端口。</span><span class="sxs-lookup"><span data-stu-id="30d2f-111">The Remote Desktop Protocol (RDP) uses port 3389 by default so this is the standard port you would open if you wanted to use an RDP client to administer your Windows virtual machines.</span></span>
+  - content: <span data-ttu-id="30d2f-112">假设您的应用程序在 Azure 中的 Windows 虚拟机上运行。</span><span class="sxs-lookup"><span data-stu-id="30d2f-112">Suppose you have an application running on a Windows virtual machine in Azure.</span></span> <span data-ttu-id="30d2f-113">有关应用程序应存储数据文件的位置的最佳实践指南是什么？</span><span class="sxs-lookup"><span data-stu-id="30d2f-113">What is the best-practice guidance on where the app should store data files?</span></span>
+    choices:
+    - content: <span data-ttu-id="30d2f-114">OS 磁盘 (C:)</span><span class="sxs-lookup"><span data-stu-id="30d2f-114">The OS disk (C:)</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="30d2f-115">您可以将数据文件存储在 OS 磁盘上;但是, 您可能希望通过选择高级 SSD 类型 (这可能是存储数据的成本较高的方法) 来优化磁盘的 OS 性能。</span><span class="sxs-lookup"><span data-stu-id="30d2f-115">You can store data files on the OS disk; however, you may want to optimize that disk for OS performance by selecting a Premium SSD type which could be an expensive way to store your data.</span></span>
+    - content: <span data-ttu-id="30d2f-116">临时磁盘 (D:)</span><span class="sxs-lookup"><span data-stu-id="30d2f-116">The Temporary disk (D:)</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="30d2f-117">临时磁盘不是永久性的。</span><span class="sxs-lookup"><span data-stu-id="30d2f-117">The temporary disk is not persistent.</span></span> <span data-ttu-id="30d2f-118">不应将重要数据写入此磁盘。</span><span class="sxs-lookup"><span data-stu-id="30d2f-118">You should not write important data to this disk.</span></span>
+    - content: <span data-ttu-id="30d2f-119">附加的数据磁盘</span><span class="sxs-lookup"><span data-stu-id="30d2f-119">An attached data disk</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="30d2f-120">专用数据磁盘通常被认为是存储应用程序数据文件的最佳位置。</span><span class="sxs-lookup"><span data-stu-id="30d2f-120">Dedicated data disks are generally considered the best place to store application data files.</span></span> <span data-ttu-id="30d2f-121">它们可以大于 OS 磁盘, 并且可以针对适合您的数据的成本和性能特征对其进行优化。</span><span class="sxs-lookup"><span data-stu-id="30d2f-121">They can be larger than OS disks and you can optimize them for the cost and performance characteristics appropriate for your data.</span></span>
+  - content: <span data-ttu-id="30d2f-122">在每个网络安全组中应用的最终规则是什么？</span><span class="sxs-lookup"><span data-stu-id="30d2f-122">What is the final rule that is applied in every Network Security Group?</span></span>
+    choices:
+    - content: <span data-ttu-id="30d2f-123">全部允许</span><span class="sxs-lookup"><span data-stu-id="30d2f-123">Allow All</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="30d2f-124">如果您的规则配置不正确, 这将允许不必要的流量来获得访问权限。</span><span class="sxs-lookup"><span data-stu-id="30d2f-124">This could allow unwanted traffic to gain access if your rules are not configured correctly.</span></span>
+    - content: <span data-ttu-id="30d2f-125">全部拒绝</span><span class="sxs-lookup"><span data-stu-id="30d2f-125">Deny All</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="30d2f-126">这是一种安全选择。</span><span class="sxs-lookup"><span data-stu-id="30d2f-126">This is a safe choice.</span></span> <span data-ttu-id="30d2f-127">它将阻止你不会明确允许的所有流量。</span><span class="sxs-lookup"><span data-stu-id="30d2f-127">It will block all traffic that you don't specifically allow.</span></span>
+    - content: <span data-ttu-id="30d2f-128">将最终规则配置为您的需求</span><span class="sxs-lookup"><span data-stu-id="30d2f-128">You configure the final rule to your needs</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="30d2f-129">在创建安全组时, 将自动添加最后一个规则, 并且您无法更改该规则。</span><span class="sxs-lookup"><span data-stu-id="30d2f-129">The final rule is added automatically when the security group is created, and you cannot change it.</span></span>

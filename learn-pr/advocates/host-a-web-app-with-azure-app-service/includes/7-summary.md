@@ -1,0 +1,5 @@
+<span data-ttu-id="6a1bf-101">你已成功创建并将 web 应用程序部署到 Azure 应用服务。</span><span class="sxs-lookup"><span data-stu-id="6a1bf-101">You've successfully created and deployed a web application to Azure App Service.</span></span>
+
+<span data-ttu-id="6a1bf-102">应用服务简化了与传统托管选项的比较, 从而简化了 web 应用程序的管理和控制。</span><span class="sxs-lookup"><span data-stu-id="6a1bf-102">App Service simplifies managing and controlling your web app in comparison to traditional hosting options.</span></span> <span data-ttu-id="6a1bf-103">应用服务可帮助您减少运行和管理 web 应用程序所用的时间和工作, 并提供高级云功能, 如自动缩放和 Git 集成。</span><span class="sxs-lookup"><span data-stu-id="6a1bf-103">App Service can help you reduce the time and effort spent running and managing your web app, and provide advanced cloud features such as auto scaling and Git integration.</span></span>
+
+[!include[](../../../includes/azure-sandbox-cleanup.md)]

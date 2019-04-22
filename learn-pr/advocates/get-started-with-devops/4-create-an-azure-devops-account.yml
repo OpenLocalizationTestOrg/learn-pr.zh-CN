@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.get-started-with-devops.4-create-an-azure-devops-account
+metadata:
+  title: <span data-ttu-id="db4db-101">练习-创建 Azure DevOps 帐户</span><span class="sxs-lookup"><span data-stu-id="db4db-101">Exercise - Create an Azure DevOps account</span></span>
+  description: <span data-ttu-id="db4db-102">创建 Azure DevOps 帐户</span><span class="sxs-lookup"><span data-stu-id="db4db-102">Create an Azure DevOps account</span></span>
+  ms.openlocfilehash: 1e0b3500656690ea5c35f257e9edec702a8a44f1
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137611"
+title: <span data-ttu-id="db4db-103">练习-创建 Azure DevOps 帐户</span><span class="sxs-lookup"><span data-stu-id="db4db-103">Exercise - Create an Azure DevOps account</span></span>
+durationInMinutes: 10
+content: '[!include[](includes/4-create-an-azure-devops-account.md)]'

@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn.control-azure-services-with-cli.6-summary
+title: <span data-ttu-id="3edeb-101">摘要</span><span class="sxs-lookup"><span data-stu-id="3edeb-101">Summary</span></span>
+metadata:
+  title: <span data-ttu-id="3edeb-102">摘要</span><span class="sxs-lookup"><span data-stu-id="3edeb-102">Summary</span></span>
+  description: <span data-ttu-id="3edeb-103">摘要</span><span class="sxs-lookup"><span data-stu-id="3edeb-103">Summary</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: a5a23c1bc744cd84ff10b13d0ce2888cafcf77ce
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137220"
+durationInMinutes: 3
+content: >
+  [!include[](includes/6-summary.md)]
+quiz:
+  title: <span data-ttu-id="3edeb-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="3edeb-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="3edeb-105">您需要在您的计算机上安装哪些内容才能让您在本地执行 Azure CLI 命令？</span><span class="sxs-lookup"><span data-stu-id="3edeb-105">What do you need to install on your machine to let you execute Azure CLI commands locally?</span></span>
+    choices:
+    - content: <span data-ttu-id="3edeb-106">Azure 云命令行管理程序</span><span class="sxs-lookup"><span data-stu-id="3edeb-106">The Azure cloud shell</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="3edeb-107">云命令行管理程序允许您执行 Azure CLI 命令;但是, 在浏览器中使用云命令行管理程序, 因此不会在本地计算机上运行命令。</span><span class="sxs-lookup"><span data-stu-id="3edeb-107">The cloud shell does let you execute Azure CLI commands; however, you use the Cloud Shell in a browser, so you are not running the commands on your local machine.</span></span>
+    - content: <span data-ttu-id="3edeb-108">azure CLI 和 azure PowerShell</span><span class="sxs-lookup"><span data-stu-id="3edeb-108">The Azure CLI and Azure PowerShell</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="3edeb-109">您可以从 PowerShell 提示符运行 CLI 命令;但是, 不需要 PowerShell 在本地运行 CLI。</span><span class="sxs-lookup"><span data-stu-id="3edeb-109">You can run CLI commands from a PowerShell prompt; however, PowerShell is not required to run the CLI locally.</span></span>
+    - content: <span data-ttu-id="3edeb-110">仅 Azure CLI</span><span class="sxs-lookup"><span data-stu-id="3edeb-110">Only the Azure CLI</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="3edeb-111">您只需安装 Azure CLI 即可。</span><span class="sxs-lookup"><span data-stu-id="3edeb-111">You only need to install the Azure CLI.</span></span> <span data-ttu-id="3edeb-112">您将使用命令行管理程序发出 CLI 命令, 但每个平台都有至少一个内置命令行管理程序。</span><span class="sxs-lookup"><span data-stu-id="3edeb-112">You will use a shell to issue the CLI commands, but every platform has at least one built-in shell.</span></span>
+  - content: '<span data-ttu-id="3edeb-113">可以在 Linux、macOS 和 Windows 上安装 Azure CLI。</span><span class="sxs-lookup"><span data-stu-id="3edeb-113">The Azure CLI can be installed on Linux, macOS, and Windows.</span></span> <span data-ttu-id="3edeb-114">True 或 false: 您使用的 CLI 命令在所有平台中都相同。</span><span class="sxs-lookup"><span data-stu-id="3edeb-114">True or false: the CLI commands you use are the same in all platforms.</span></span>'
+    choices:
+    - content: <span data-ttu-id="3edeb-115">True</span><span class="sxs-lookup"><span data-stu-id="3edeb-115">True</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="3edeb-116">CLI 是跨平台的, 可以安装在 Linux、macOS 和 Windows 上。</span><span class="sxs-lookup"><span data-stu-id="3edeb-116">The CLI is cross-platform and can be installed on Linux, macOS, and Windows.</span></span> <span data-ttu-id="3edeb-117">安装完成后, 您运行的 CLI 命令在任何位置都相同。</span><span class="sxs-lookup"><span data-stu-id="3edeb-117">After installation, the CLI commands that you run are the same everywhere.</span></span> <span data-ttu-id="3edeb-118">这意味着您可以一次性了解这些命令, 并将其用于任何本地安装或在 Azure 云命令行管理程序中。</span><span class="sxs-lookup"><span data-stu-id="3edeb-118">This means you can learn the commands once and use them with any local installation or in the Azure Cloud Shell.</span></span>
+    - content: <span data-ttu-id="3edeb-119">False</span><span class="sxs-lookup"><span data-stu-id="3edeb-119">False</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="3edeb-120">CLI 提供了其所有可用命令的相同集合。</span><span class="sxs-lookup"><span data-stu-id="3edeb-120">The CLI provides the same set of commands everywhere it is available.</span></span>
+  - content: <span data-ttu-id="3edeb-121">您可以向大多数 CLI 命令添加哪个参数以获取简明的格式化输出？</span><span class="sxs-lookup"><span data-stu-id="3edeb-121">Which parameter can you add to most CLI commands to get concise, formatted output?</span></span>
+    choices:
+    - content: <span data-ttu-id="3edeb-122">列表</span><span class="sxs-lookup"><span data-stu-id="3edeb-122">list</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="3edeb-123">list 子命令显示资源的详细信息, 它不控制输出格式。</span><span class="sxs-lookup"><span data-stu-id="3edeb-123">The list subcommand displays the details of a resource, it does not control output format.</span></span>
+    - content: <span data-ttu-id="3edeb-124">型</span><span class="sxs-lookup"><span data-stu-id="3edeb-124">table</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="3edeb-125">table 参数将输出格式设置为表。</span><span class="sxs-lookup"><span data-stu-id="3edeb-125">The table parameter formats the output as a table.</span></span> <span data-ttu-id="3edeb-126">这可以使生成大量输出的命令更容易阅读。</span><span class="sxs-lookup"><span data-stu-id="3edeb-126">This can make things much more readable for commands that produce a large amount of output.</span></span>
+    - content: <span data-ttu-id="3edeb-127">该组</span><span class="sxs-lookup"><span data-stu-id="3edeb-127">group</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="3edeb-128">group 命令允许您控制资源组, 它不影响输出格式。</span><span class="sxs-lookup"><span data-stu-id="3edeb-128">The group command lets you control resource groups, it does not influence output format.</span></span>

@@ -1,0 +1,35 @@
+### YamlMime:ModuleUnit
+uid: learn.build-azure-vm-templates.2-define-templates
+title: <span data-ttu-id="9f144-101">定义 Azure 资源管理器模板</span><span class="sxs-lookup"><span data-stu-id="9f144-101">Define Azure Resource Manager templates</span></span>
+metadata:
+  title: <span data-ttu-id="9f144-102">定义 Azure 资源管理器模板</span><span class="sxs-lookup"><span data-stu-id="9f144-102">Define Azure Resource Manager templates</span></span>
+  description: <span data-ttu-id="9f144-103">了解资源管理器模板中的内容以及模板如何帮助您更快、更可靠地部署</span><span class="sxs-lookup"><span data-stu-id="9f144-103">Learn what's in a Resource Manager template and how templates can help you deploy faster and more reliably</span></span>
+  ms.date: 09/24/2018
+  author: tpetchel
+  ms.author: thpetche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: a610fd407d46df69f23da41e475a6e238c7d4a5e
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137819"
+durationInMinutes: 7
+content: >
+  [!include[](includes/2-define-templates.md)]
+quiz:
+  title: <span data-ttu-id="9f144-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="9f144-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="9f144-105">_声明性自动化_意味着:</span><span class="sxs-lookup"><span data-stu-id="9f144-105">_Declarative automation_ means that:</span></span>
+    choices:
+    - content: <span data-ttu-id="9f144-106">您可以定义所需的资源以及创建它们所需的步骤。</span><span class="sxs-lookup"><span data-stu-id="9f144-106">You define both what resources you need as well as the steps needed to create them.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="9f144-107">请考虑资源管理器模板中的内容, 例如。</span><span class="sxs-lookup"><span data-stu-id="9f144-107">Think about what's in a Resource Manager template, for example.</span></span> <span data-ttu-id="9f144-108">资源管理器模板仅定义结束状态, 但不定义如何获取该结束状态。</span><span class="sxs-lookup"><span data-stu-id="9f144-108">A Resource Manager template defines only the end state, but not how to get to that end state.</span></span>
+    - content: <span data-ttu-id="9f144-109">您可以定义所需的资源, 但不_是_创建_方式_。</span><span class="sxs-lookup"><span data-stu-id="9f144-109">You define _what_ resources you need but not _how_ to create them.</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="9f144-110">在资源管理器模板的情况下, 资源管理器会为你处理这些详细信息。</span><span class="sxs-lookup"><span data-stu-id="9f144-110">In the case of Resource Manager templates, Resource Manager takes care of these details for you.</span></span>
+    - content: <span data-ttu-id="9f144-111">您可以定义所需的资源, 系统可确保这些资源始终可用。</span><span class="sxs-lookup"><span data-stu-id="9f144-111">You define what resources you need, and the system ensures that those resources are always available.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="9f144-112">在资源管理器模板的情况下, 在编写完模板之后, 您仍可以部署和管理资源。</span><span class="sxs-lookup"><span data-stu-id="9f144-112">In the case of Resource Manager templates, it's still up to you to deploy and manage your resources once you've written your template.</span></span>

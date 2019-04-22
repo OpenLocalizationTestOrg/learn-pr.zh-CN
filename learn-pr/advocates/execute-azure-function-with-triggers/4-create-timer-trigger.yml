@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.execute-azure-function-with-triggers.4-create-timer-trigger
+title: <span data-ttu-id="4953b-101">创建计时器触发器</span><span class="sxs-lookup"><span data-stu-id="4953b-101">Create a timer trigger</span></span>
+metadata:
+  title: <span data-ttu-id="4953b-102">创建计时器触发器</span><span class="sxs-lookup"><span data-stu-id="4953b-102">Create a timer trigger</span></span>
+  description: <span data-ttu-id="4953b-103">创建计时器触发器</span><span class="sxs-lookup"><span data-stu-id="4953b-103">Create a timer trigger</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 23cc968d124c05fba962bcba0213bb37fe392025
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136196"
+azureSandbox: true
+durationInMinutes: 15
+content: >
+  [!include[](includes/4-create-timer-trigger.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.Web/sites
+      kind: functionapp
+  hint: <span data-ttu-id="4953b-104">使用此门户, 使用上述说明创建函数应用程序和计时器触发的函数。</span><span class="sxs-lookup"><span data-stu-id="4953b-104">Use the portal to create your function app and timer-triggered function using the instructions above.</span></span>

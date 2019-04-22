@@ -1,0 +1,49 @@
+### YamlMime:Module
+uid: learn.create-azure-storage-account
+metadata:
+  title: 创建 Azure 存储帐户-了解
+  description: Azure 存储帐户为你提供了一种强大的方法来组织云中的数据。 您可以创建相关数据的逻辑组, 并对组中的所有项目应用单个策略 (针对帐单、访问、存储位置等)。 在这里, 你将使用 azure 存储帐户对你的 azure blob、文件、队列和表进行分组和管理。
+  ms.date: 09/24/2018
+  author: marktap
+  ms.author: matapar
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 60f15553c40dd56a6c6be2c2bb3454b7c7fdd3b7
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136709"
+title: 创建 Azure 存储帐户
+summary: 创建具有正确选项的 Azure 存储帐户, 以满足你的业务需求。
+abstract: >
+  在本模块中, 您将:
+
+  - 确定您的项目需要多少个存储帐户
+
+  - 确定每个存储帐户的相应设置
+
+  - 使用 Azure 门户创建存储帐户
+prerequisites: >
+  - Azure 门户体验
+
+  - 熟悉 Azure 数据服务 blob、文件、队列和表
+iconUrl: /learn/achievements/create-azure-storage-account.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-storage
+- azure-portal
+units:
+- learn.create-azure-storage-account.1-introduction
+- learn.create-azure-storage-account.2-decide-how-many-storage-accounts-you-need
+- learn.create-azure-storage-account.3-choose-your-account-settings
+- learn.create-azure-storage-account.4-choose-an-account-creation-tool
+- learn.create-azure-storage-account.5-exercise-create-a-storage-account
+- learn.create-azure-storage-account.6-knowledge-check
+- learn.create-azure-storage-account.7-summary
+badge:
+  uid: learn.create-azure-storage-account.badge

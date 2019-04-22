@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-azure-government.9-summary
+title: <span data-ttu-id="37cc2-101">摘要</span><span class="sxs-lookup"><span data-stu-id="37cc2-101">Summary</span></span>
+metadata:
+  title: <span data-ttu-id="37cc2-102">摘要</span><span class="sxs-lookup"><span data-stu-id="37cc2-102">Summary</span></span>
+  description: <span data-ttu-id="37cc2-103">Azure 政府-模块摘要</span><span class="sxs-lookup"><span data-stu-id="37cc2-103">Azure Government - module summary</span></span>
+  ms.date: 10/11/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: ab62cacd1973013066bc68d4e4c472f182f9815a
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136310"
+durationInMinutes: 10
+content: '[!include[](includes/9-summary.md)]'

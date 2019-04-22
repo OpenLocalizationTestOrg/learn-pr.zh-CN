@@ -1,0 +1,165 @@
+### YamlMime:ZonePivotGroups
+groups:
+- id: supportfaq
+  title: <span data-ttu-id="241e2-101">SupportFAQ</span><span class="sxs-lookup"><span data-stu-id="241e2-101">SupportFAQ</span></span>
+  prompt: <span data-ttu-id="241e2-102">你有什么问题？</span><span class="sxs-lookup"><span data-stu-id="241e2-102">What do you have questions about?</span></span>
+  pivots:
+  - id: general
+    title: <span data-ttu-id="241e2-103">常规</span><span class="sxs-lookup"><span data-stu-id="241e2-103">General</span></span>
+  - id: profile
+    title: <span data-ttu-id="241e2-104">Profile & 仪表板</span><span class="sxs-lookup"><span data-stu-id="241e2-104">Profile & Dashboard</span></span>
+  - id: sandbox
+    title: <span data-ttu-id="241e2-105">沙盒</span><span class="sxs-lookup"><span data-stu-id="241e2-105">Sandbox</span></span>
+  - id: support
+    title: <span data-ttu-id="241e2-106">支持</span><span class="sxs-lookup"><span data-stu-id="241e2-106">Support</span></span>
+- id: os
+  title: <span data-ttu-id="241e2-107">操作系统</span><span class="sxs-lookup"><span data-stu-id="241e2-107">Operating system</span></span>
+  prompt: <span data-ttu-id="241e2-108">选择你的操作系统</span><span class="sxs-lookup"><span data-stu-id="241e2-108">Choose your operating system</span></span>
+  pivots:
+  - id: linux
+    title: <span data-ttu-id="241e2-109">Linux</span><span class="sxs-lookup"><span data-stu-id="241e2-109">Linux</span></span>
+  - id: macos
+    title: <span data-ttu-id="241e2-110">Mac</span><span class="sxs-lookup"><span data-stu-id="241e2-110">Mac</span></span>
+  - id: windows
+    title: <span data-ttu-id="241e2-111">Windows</span><span class="sxs-lookup"><span data-stu-id="241e2-111">Windows</span></span>
+- id: os-windows-mac
+  title: <span data-ttu-id="241e2-112">操作系统</span><span class="sxs-lookup"><span data-stu-id="241e2-112">Operating system</span></span>
+  prompt: <span data-ttu-id="241e2-113">选择你的操作系统</span><span class="sxs-lookup"><span data-stu-id="241e2-113">Choose your operating system</span></span>
+  pivots:
+  - id: macos
+    title: <span data-ttu-id="241e2-114">Mac</span><span class="sxs-lookup"><span data-stu-id="241e2-114">Mac</span></span>
+  - id: windows
+    title: <span data-ttu-id="241e2-115">Windows</span><span class="sxs-lookup"><span data-stu-id="241e2-115">Windows</span></span>
+- id: platform
+  title: <span data-ttu-id="241e2-116">平台</span><span class="sxs-lookup"><span data-stu-id="241e2-116">Platform</span></span>
+  prompt: <span data-ttu-id="241e2-117">选择你的平台</span><span class="sxs-lookup"><span data-stu-id="241e2-117">Choose your platform</span></span>
+  pivots:
+  - id: linux
+    title: <span data-ttu-id="241e2-118">Linux</span><span class="sxs-lookup"><span data-stu-id="241e2-118">Linux</span></span>
+  - id: macos
+    title: <span data-ttu-id="241e2-119">Mac</span><span class="sxs-lookup"><span data-stu-id="241e2-119">Mac</span></span>
+  - id: windows
+    title: <span data-ttu-id="241e2-120">Windows</span><span class="sxs-lookup"><span data-stu-id="241e2-120">Windows</span></span>
+- id: platform-windows-mac
+  title: <span data-ttu-id="241e2-121">平台</span><span class="sxs-lookup"><span data-stu-id="241e2-121">Platform</span></span>
+  prompt: <span data-ttu-id="241e2-122">选择你的平台</span><span class="sxs-lookup"><span data-stu-id="241e2-122">Choose your platform</span></span>
+  pivots:
+  - id: macos
+    title: <span data-ttu-id="241e2-123">Mac</span><span class="sxs-lookup"><span data-stu-id="241e2-123">Mac</span></span>
+  - id: windows
+    title: <span data-ttu-id="241e2-124">Windows</span><span class="sxs-lookup"><span data-stu-id="241e2-124">Windows</span></span>
+- id: azure-interface
+  title: <span data-ttu-id="241e2-125">经典</span><span class="sxs-lookup"><span data-stu-id="241e2-125">Shell</span></span>
+  prompt: <span data-ttu-id="241e2-126">选择您的命令行管理程序</span><span class="sxs-lookup"><span data-stu-id="241e2-126">Choose your shell</span></span>
+  pivots:
+  - id: bash
+    title: <span data-ttu-id="241e2-127">Bash</span><span class="sxs-lookup"><span data-stu-id="241e2-127">Bash</span></span>
+  - id: powershell
+    title: <span data-ttu-id="241e2-128">PowerShell</span><span class="sxs-lookup"><span data-stu-id="241e2-128">PowerShell</span></span>
+  - id: portal
+    title: <span data-ttu-id="241e2-129">Azure 门户</span><span class="sxs-lookup"><span data-stu-id="241e2-129">Azure Portal</span></span>
+- id: dev-lang-csharp-javascript
+  title: <span data-ttu-id="241e2-130">开发语言</span><span class="sxs-lookup"><span data-stu-id="241e2-130">Development language</span></span>
+  prompt: <span data-ttu-id="241e2-131">选择你的开发语言</span><span class="sxs-lookup"><span data-stu-id="241e2-131">Choose your development language</span></span>
+  pivots:
+  - id: csharp
+    title: <span data-ttu-id="241e2-132">语言</span><span class="sxs-lookup"><span data-stu-id="241e2-132">C#</span></span>
+  - id: javascript
+    title: <span data-ttu-id="241e2-133">JavaScript</span><span class="sxs-lookup"><span data-stu-id="241e2-133">JavaScript</span></span>
+- id: dev-lang-csharp-java
+  title: <span data-ttu-id="241e2-134">开发语言</span><span class="sxs-lookup"><span data-stu-id="241e2-134">Development language</span></span>
+  prompt: <span data-ttu-id="241e2-135">选择你的开发语言</span><span class="sxs-lookup"><span data-stu-id="241e2-135">Choose your development language</span></span>
+  pivots:
+  - id: csharp
+    title: <span data-ttu-id="241e2-136">语言</span><span class="sxs-lookup"><span data-stu-id="241e2-136">C#</span></span>
+  - id: java
+    title: <span data-ttu-id="241e2-137">Java</span><span class="sxs-lookup"><span data-stu-id="241e2-137">Java</span></span>
+- id: dev-lang-csharp-java-node
+  title: <span data-ttu-id="241e2-138">开发语言</span><span class="sxs-lookup"><span data-stu-id="241e2-138">Development language</span></span>
+  prompt: <span data-ttu-id="241e2-139">选择你的开发语言</span><span class="sxs-lookup"><span data-stu-id="241e2-139">Choose your development language</span></span>
+  pivots:
+  - id: csharp
+    title: <span data-ttu-id="241e2-140">语言</span><span class="sxs-lookup"><span data-stu-id="241e2-140">C#</span></span>
+  - id: java
+    title: <span data-ttu-id="241e2-141">Java</span><span class="sxs-lookup"><span data-stu-id="241e2-141">Java</span></span>
+  - id: node
+    title: <span data-ttu-id="241e2-142">node.js</span><span class="sxs-lookup"><span data-stu-id="241e2-142">Node.js</span></span>
+- id: platform-cloud
+  title: <span data-ttu-id="241e2-143">平台</span><span class="sxs-lookup"><span data-stu-id="241e2-143">Platform</span></span>
+  prompt: <span data-ttu-id="241e2-144">选择要在云中运行的平台</span><span class="sxs-lookup"><span data-stu-id="241e2-144">Choose which platform you want to run in the cloud</span></span>
+  pivots:
+  - id: windows-cloud
+    title: <span data-ttu-id="241e2-145">Windows</span><span class="sxs-lookup"><span data-stu-id="241e2-145">Windows</span></span>
+  - id: linux-cloud
+    title: <span data-ttu-id="241e2-146">Linux</span><span class="sxs-lookup"><span data-stu-id="241e2-146">Linux</span></span>
+- id: platform-apps
+  title: <span data-ttu-id="241e2-147">平台</span><span class="sxs-lookup"><span data-stu-id="241e2-147">Platform</span></span>
+  prompt: <span data-ttu-id="241e2-148">选择应用程序开发平台</span><span class="sxs-lookup"><span data-stu-id="241e2-148">Choose your app development platform</span></span>
+  pivots:
+  - id: uwp
+    title: <span data-ttu-id="241e2-149">UWP</span><span class="sxs-lookup"><span data-stu-id="241e2-149">UWP</span></span>
+  - id: wpf
+    title: <span data-ttu-id="241e2-150">WPF</span><span class="sxs-lookup"><span data-stu-id="241e2-150">WPF</span></span>
+  - id: windowsforms
+    title: <span data-ttu-id="241e2-151">Windows 窗体</span><span class="sxs-lookup"><span data-stu-id="241e2-151">Windows Forms</span></span>
+- id: platform-apps-uwp-wpf
+  title: <span data-ttu-id="241e2-152">平台</span><span class="sxs-lookup"><span data-stu-id="241e2-152">Platform</span></span>
+  prompt: <span data-ttu-id="241e2-153">选择应用程序开发平台</span><span class="sxs-lookup"><span data-stu-id="241e2-153">Choose your app development platform</span></span>
+  pivots:
+  - id: uwp
+    title: <span data-ttu-id="241e2-154">UWP</span><span class="sxs-lookup"><span data-stu-id="241e2-154">UWP</span></span>
+  - id: wpf
+    title: <span data-ttu-id="241e2-155">WPF</span><span class="sxs-lookup"><span data-stu-id="241e2-155">WPF</span></span>
+- id: cognitive-services
+  title: <span data-ttu-id="241e2-156">Azure 认知服务</span><span class="sxs-lookup"><span data-stu-id="241e2-156">Azure Cognitive Services</span></span>
+  prompt: <span data-ttu-id="241e2-157">选择您想要查看的 Azure 认知服务类别</span><span class="sxs-lookup"><span data-stu-id="241e2-157">Choose the Azure Cognitive Services category you want to see</span></span>
+  pivots:
+  - id: vision
+    title: <span data-ttu-id="241e2-158">愿景</span><span class="sxs-lookup"><span data-stu-id="241e2-158">Vision</span></span>
+  - id: speech
+    title: <span data-ttu-id="241e2-159">Speech</span><span class="sxs-lookup"><span data-stu-id="241e2-159">Speech</span></span>
+  - id: language
+    title: <span data-ttu-id="241e2-160">Language</span><span class="sxs-lookup"><span data-stu-id="241e2-160">Language</span></span>
+  - id: knowledge
+    title: <span data-ttu-id="241e2-161">察觉</span><span class="sxs-lookup"><span data-stu-id="241e2-161">Knowledge</span></span>
+  - id: search
+    title: <span data-ttu-id="241e2-162">搜索</span><span class="sxs-lookup"><span data-stu-id="241e2-162">Search</span></span>
+- id: bot-services
+  title: <span data-ttu-id="241e2-163">Azure Bot 服务</span><span class="sxs-lookup"><span data-stu-id="241e2-163">Azure Bot Services</span></span>
+  prompt: <span data-ttu-id="241e2-164">浏览以下 Azure Bot 服务方案</span><span class="sxs-lookup"><span data-stu-id="241e2-164">Explore the Azure Bot Service scenarios below</span></span>
+  pivots:
+  - id: commerce
+    title: <span data-ttu-id="241e2-165">商务</span><span class="sxs-lookup"><span data-stu-id="241e2-165">Commerce</span></span>
+  - id: information
+    title: <span data-ttu-id="241e2-166">Information</span><span class="sxs-lookup"><span data-stu-id="241e2-166">Information</span></span>
+  - id: enterprise
+    title: <span data-ttu-id="241e2-167">企业工作效率</span><span class="sxs-lookup"><span data-stu-id="241e2-167">Enterprise Productivity</span></span>
+- id: com-strategy
+  title: <span data-ttu-id="241e2-168">COM 策略</span><span class="sxs-lookup"><span data-stu-id="241e2-168">COM-Strategy</span></span>
+  prompt: <span data-ttu-id="241e2-169">选择以下每个按钮以了解有关策略的详细信息。</span><span class="sxs-lookup"><span data-stu-id="241e2-169">Select each of the below buttons to learn more about the strategies.</span></span>
+  pivots:
+  - id: business-strategy
+    title: <span data-ttu-id="241e2-170">业务策略</span><span class="sxs-lookup"><span data-stu-id="241e2-170">Business Strategy</span></span>
+  - id: people-strategy
+    title: <span data-ttu-id="241e2-171">人员策略</span><span class="sxs-lookup"><span data-stu-id="241e2-171">People Strategy</span></span>
+  - id: technology-strategy
+    title: <span data-ttu-id="241e2-172">技术战略</span><span class="sxs-lookup"><span data-stu-id="241e2-172">Technology Strategy</span></span>
+- id: migration-strategy
+  title: <span data-ttu-id="241e2-173">迁移-策略</span><span class="sxs-lookup"><span data-stu-id="241e2-173">Migration-Strategy</span></span>
+  prompt: <span data-ttu-id="241e2-174">单击每个按钮以了解有关每个迁移策略的详细信息。</span><span class="sxs-lookup"><span data-stu-id="241e2-174">Click on each of the buttons to learn more about each migration strategy.</span></span>
+  pivots:
+  - id: rehost
+    title: <span data-ttu-id="241e2-175">Rehost</span><span class="sxs-lookup"><span data-stu-id="241e2-175">Rehost</span></span>
+  - id: refractor
+    title: <span data-ttu-id="241e2-176">Refractor</span><span class="sxs-lookup"><span data-stu-id="241e2-176">Refractor</span></span>
+  - id: rearchitect
+    title: <span data-ttu-id="241e2-177">Rearchitect</span><span class="sxs-lookup"><span data-stu-id="241e2-177">Rearchitect</span></span>
+  - id: rebuild
+    title: <span data-ttu-id="241e2-178">重新生成</span><span class="sxs-lookup"><span data-stu-id="241e2-178">Rebuild</span></span>
+metadata:
+  ms.openlocfilehash: 4c822dc631b0d6163cc8a388d79a21ad2ac7ee6e
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137001"

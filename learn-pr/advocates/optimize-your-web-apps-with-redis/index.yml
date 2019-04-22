@@ -1,0 +1,52 @@
+### YamlMime:Module
+uid: learn.optimize-web-app-with-redis
+metadata:
+  title: 通过使用 Redis 缓存只读数据来优化 web 应用程序-了解
+  description: 在 Azure 中使用 Redis 缓存可减少数据库上的负载。 应用不同的缓存体系结构, 以在分布式和高容量环境中支持更大的负载。
+  ms.date: 09/24/2018
+  author: kphillpotts
+  ms.author: kyphi
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 57468b41c45f72285df5ae83e2ab197382ef5613
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136679"
+title: 通过使用 Redis 缓存只读数据来优化 web 应用程序
+summary: 在 Azure 中使用 Redis 缓存可减少数据库上的负载。 应用不同的缓存体系结构, 以在分布式和高容量环境中支持更大的负载。
+abstract: >
+  在本模块中, 您将:
+
+  - 描述 Redis 缓存是什么以及如何将其用于满足业务需求
+
+  - 创建设计并规划使用 Redis 缓存
+
+  - 在 Azure 中预配 Redis 缓存
+
+  - 将 web 应用程序连接到缓存
+prerequisites: >
+  - 应用程序开发体验
+
+  - 在应用程序中使用数据的经验
+
+  - 基本 .net 知识
+iconUrl: /learn/achievements/optimize-web-apps-with-redis.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-redis-cache
+units:
+- learn.optimize-web-app-with-redis.1-introduction
+- learn.optimize-web-app-with-redis.2-decide-if-you-want-use-redis-in-azure
+- learn.optimize-web-app-with-redis.3-configure-redis-cache
+- learn.optimize-web-app-with-redis.4-exercise-create-redis-cache
+- learn.optimize-web-app-with-redis.5-execute-redis-commands
+- learn.optimize-web-app-with-redis.6-exercise-connect-an-app-to-the-cache
+- learn.optimize-web-app-with-redis.7-summary
+badge:
+  uid: learn.optimize-web-app-with-redis.badge

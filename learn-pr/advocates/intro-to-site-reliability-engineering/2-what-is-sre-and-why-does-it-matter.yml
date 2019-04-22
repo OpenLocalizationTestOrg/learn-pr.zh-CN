@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-site-reliability-engineering.2-what-is-sre-and-why-does-it-matter
+title: <span data-ttu-id="50540-101">什么是 SRE, 为什么它很重要？</span><span class="sxs-lookup"><span data-stu-id="50540-101">What is SRE and why does it matter?</span></span>
+metadata:
+  title: <span data-ttu-id="50540-102">什么是 SRE, 为什么它很重要？</span><span class="sxs-lookup"><span data-stu-id="50540-102">What is SRE and why does it matter?</span></span>
+  description: <span data-ttu-id="50540-103">什么是 SRE, 为什么它很重要？</span><span class="sxs-lookup"><span data-stu-id="50540-103">What is SRE and why does it matter?</span></span>
+  ms.date: 09/26/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: ff963bbdb894e086e17154f576eca93f666d8f84
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137918"
+durationInMinutes: 10
+content: >
+  [!include[](includes/2-what-is-sre-and-why-does-it-matter.md)]
+quiz:
+  title: <span data-ttu-id="50540-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="50540-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="50540-105">服务、系统或产品的哪种属性主要侧重于什么？</span><span class="sxs-lookup"><span data-stu-id="50540-105">Which property of a service, system or product does SRE primarily focus on?</span></span>
+    choices:
+    - content: <span data-ttu-id="50540-106">安全性</span><span class="sxs-lookup"><span data-stu-id="50540-106">Security</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="50540-107">在 SRE 中, 安全性无疑是非常重要的, 但可靠性是此工程规范的主要重点。</span><span class="sxs-lookup"><span data-stu-id="50540-107">Security is definitely important in SRE, but reliability is the primary focus of this engineering discipline.</span></span>
+    - content: <span data-ttu-id="50540-108">要运行的成本</span><span class="sxs-lookup"><span data-stu-id="50540-108">Cost to run</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="50540-109">在 SRE 中, 费用和资源使用率无疑很重要, 但可靠性是此工程学科的主要重点。</span><span class="sxs-lookup"><span data-stu-id="50540-109">Expenses and resource usage are definitely important in SRE, but reliability is the primary focus of this engineering discipline.</span></span>
+    - content: <span data-ttu-id="50540-110">原因</span><span class="sxs-lookup"><span data-stu-id="50540-110">Reliability</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="50540-111">SRE 的主要焦点确实在可靠性上。</span><span class="sxs-lookup"><span data-stu-id="50540-111">SRE's primary focus is indeed on reliability.</span></span>
+    - content: <span data-ttu-id="50540-112">性</span><span class="sxs-lookup"><span data-stu-id="50540-112">Maintainability</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="50540-113">在 SRE 中, 创建可维护的服务、系统或产品无疑很重要, 但可靠性是此工程规范的主要重点。</span><span class="sxs-lookup"><span data-stu-id="50540-113">The creation of maintainable services, systems or products is definitely important in SRE, but reliability is the primary focus of this engineering discipline.</span></span>
+  - content: <span data-ttu-id="50540-114">对于几乎所有服务、系统和产品, SRE 要尽力实现什么级别的可靠性？</span><span class="sxs-lookup"><span data-stu-id="50540-114">For almost all services, systems and products, what level of reliability does an SRE strive for?</span></span>
+    choices:
+    - content: <span data-ttu-id="50540-115">100% 是目标</span><span class="sxs-lookup"><span data-stu-id="50540-115">100% is the goal</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="50540-116">在大多数环境中, 不可能命中 100% 的可靠性。</span><span class="sxs-lookup"><span data-stu-id="50540-116">For most contexts, it is not possible to hit 100% reliable.</span></span> <span data-ttu-id="50540-117">即使是, 成本和资源的承受成本也不高 (这两者都是浪费)。</span><span class="sxs-lookup"><span data-stu-id="50540-117">Even if it was, it would be cost and resource prohibitive (an as waste of both).</span></span>
+    - content: <span data-ttu-id="50540-118">应尽可能可靠</span><span class="sxs-lookup"><span data-stu-id="50540-118">It should be as reliable as possible</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="50540-119">由于工作的重要性和资源不是一种浪费, 因此为此目标查找相应的可靠性是非常重要的。</span><span class="sxs-lookup"><span data-stu-id="50540-119">It is important to find the appropriate level of reliability for a goal since efforts and resources beyond that are a waste.</span></span> <span data-ttu-id="50540-120">加 "越好" 太含糊, 无法发挥作用。</span><span class="sxs-lookup"><span data-stu-id="50540-120">Plus "as possible" is too vague to be useful.</span></span>
+    - content: <span data-ttu-id="50540-121">由主要利益干系人适当确定的特定级别</span><span class="sxs-lookup"><span data-stu-id="50540-121">A specific level identified as appropriate by the key stakeholders</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="50540-122">设置服务的目标是 SRE、开发资源和业务决策者之间的协作工作。</span><span class="sxs-lookup"><span data-stu-id="50540-122">Setting a goal for a service is a collaborative effort between SRE, development resources and the business decision makers.</span></span>

@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-performance-and-scalability.3-optimize-network-performance
+title: <span data-ttu-id="a9379-101">优化网络性能</span><span class="sxs-lookup"><span data-stu-id="a9379-101">Optimize network performance</span></span>
+metadata:
+  title: <span data-ttu-id="a9379-102">优化网络性能</span><span class="sxs-lookup"><span data-stu-id="a9379-102">Optimize network performance</span></span>
+  description: <span data-ttu-id="a9379-103">在此单元中, 我们将讨论如何为你的体系结构优化网络性能</span><span class="sxs-lookup"><span data-stu-id="a9379-103">In this unit we'll discuss how to optimize network performance for your architecture</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 7df38c005f7b9035921851a3f4f4973205b75393
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138073"
+durationInMinutes: 10
+content: >
+  [!include[](includes/3-optimize-network-performance.md)]
+quiz:
+  title: <span data-ttu-id="a9379-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="a9379-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="a9379-105">术语 "网络延迟" 的定义如下:</span><span class="sxs-lookup"><span data-stu-id="a9379-105">which of the following is the definition of the term network latency?</span></span>
+    choices:
+    - content: <span data-ttu-id="a9379-106">网络上可用的吞吐量量</span><span class="sxs-lookup"><span data-stu-id="a9379-106">The amount of throughput available on the network</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="a9379-107">网络吞吐量是网络容量的衡量指标。</span><span class="sxs-lookup"><span data-stu-id="a9379-107">Network throughput is a measure of network capacity.</span></span>
+    - content: <span data-ttu-id="a9379-108">将信息从源发送到目标所需的时间量</span><span class="sxs-lookup"><span data-stu-id="a9379-108">The amount of time it takes for information to be sent from a source to a destination</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="a9379-109">延迟是对网络传输时间的衡量。</span><span class="sxs-lookup"><span data-stu-id="a9379-109">Latency is a measure of network transit time.</span></span>
+    - content: <span data-ttu-id="a9379-110">内容传递网络中的资产的 TTL</span><span class="sxs-lookup"><span data-stu-id="a9379-110">The TTL of an asset in a content delivery network</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="a9379-111">内容传递网络上的资产的 TTL 与从原始源刷新的频率相关。</span><span class="sxs-lookup"><span data-stu-id="a9379-111">The TTL of an asset on a content delivery network relates to how often it is refreshed from the original source.</span></span>
+    - content: <span data-ttu-id="a9379-112">本地网络与 Azure 之间的专用电路</span><span class="sxs-lookup"><span data-stu-id="a9379-112">A private circuit between an on-premises network and Azure</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="a9379-113">ExpressRoute 是本地网络与 Azure 之间的专用电路, 但它可以提高延迟, 而不是术语的定义。</span><span class="sxs-lookup"><span data-stu-id="a9379-113">ExpressRoute is a private circuit between an on-premises network and Azure, and while it can improve latency, it is not a defintion of the term.</span></span>
+  - content: <span data-ttu-id="a9379-114">假设您的 web 应用程序托管在美国东部。</span><span class="sxs-lookup"><span data-stu-id="a9379-114">Suppose your web application is hosted in East US.</span></span> <span data-ttu-id="a9379-115">以下哪一项是为世界各地的用户优化网络延迟的最经济高效的方法？</span><span class="sxs-lookup"><span data-stu-id="a9379-115">Which of the following would be the most cost-effective way to optimize network latency for users around the world?</span></span>
+    choices:
+    - content: <span data-ttu-id="a9379-116">将 ExpressRoute 部署到每个用户</span><span class="sxs-lookup"><span data-stu-id="a9379-116">Deploy ExpressRoute to each of your users</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="a9379-117">为网络位置 (而不是按用户) 设置 ExpressRoute。</span><span class="sxs-lookup"><span data-stu-id="a9379-117">ExpressRoute is provisioned for a network location, not per user.</span></span>
+    - content: <span data-ttu-id="a9379-118">使用内容传递网络放置资产和内容以使其更接近用户</span><span class="sxs-lookup"><span data-stu-id="a9379-118">Use a content delivery network to place assets and content closer to your users</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="a9379-119">通过使用内容传递网络, 资产在物理上更接近最终用户的位置进行缓存, 并将减少加载它们的时间量。</span><span class="sxs-lookup"><span data-stu-id="a9379-119">By using a content delivery network, assets are cached at locations that are physically closer to end users and will reduce the amount of time to load them.</span></span> <span data-ttu-id="a9379-120">这将为全球用户经济高效地提高网络延迟。</span><span class="sxs-lookup"><span data-stu-id="a9379-120">This will cost-effectively improve network latency for users around the globe.</span></span>
+    - content: <span data-ttu-id="a9379-121">使用性能路由模式中的流量管理器</span><span class="sxs-lookup"><span data-stu-id="a9379-121">Use Traffic Manager in performance routing mode</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="a9379-122">流量管理器是一种 DNS 负载平衡器, 它可以帮助缩短连接资源的时间, 但也需要在多个位置查找 web 服务, 而不是解决此问题的最经济的方法。</span><span class="sxs-lookup"><span data-stu-id="a9379-122">Traffic Manager is a DNS load balancer that can help improve the time to connect to resources, but would also require locating web services in multiple locations and is not the most cost-effective way to address this problem.</span></span>
+    - content: <span data-ttu-id="a9379-123">将美国东部的更多实例部署到服务器额外的用户负载</span><span class="sxs-lookup"><span data-stu-id="a9379-123">Deploy more instances in East US to server the extra user load</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="a9379-124">添加更多实例将增加美国东部服务可以处理的负载量, 但不会为全球分布的用户解决网络延迟。</span><span class="sxs-lookup"><span data-stu-id="a9379-124">Adding more instances will increase the amount of load the service in East US can handle, but will not address the network latency for users distributed globally.</span></span>

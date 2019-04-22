@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn.keep-your-virtual-machines-updated.1-introduction
+title: <span data-ttu-id="23187-101">简介</span><span class="sxs-lookup"><span data-stu-id="23187-101">Introduction</span></span>
+metadata:
+  title: <span data-ttu-id="23187-102">简介</span><span class="sxs-lookup"><span data-stu-id="23187-102">Introduction</span></span>
+  description: <span data-ttu-id="23187-103">简介</span><span class="sxs-lookup"><span data-stu-id="23187-103">Introduction</span></span>
+  ms.date: 12/21/2018
+  author: adrianstevens
+  ms.author: adsteven
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 71b28e089470c64eb0a4da6139309199c95a4494
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137205"
+durationInMinutes: 3
+content: '[!include[](includes/1-introduction.md)]'

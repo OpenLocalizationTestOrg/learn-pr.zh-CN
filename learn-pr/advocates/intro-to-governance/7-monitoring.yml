@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-compliance.7-monitoring
+title: <span data-ttu-id="d99a9-101">监视服务运行状况</span><span class="sxs-lookup"><span data-stu-id="d99a9-101">Monitor your service health</span></span>
+metadata:
+  title: <span data-ttu-id="d99a9-102">监视服务运行状况-了解</span><span class="sxs-lookup"><span data-stu-id="d99a9-102">Monitor your service health - Learn</span></span>
+  description: <span data-ttu-id="d99a9-103">浏览 Azure 监视器和服务运行状况-了解。</span><span class="sxs-lookup"><span data-stu-id="d99a9-103">Explore Azure Monitor and Service Health - Learn.</span></span>
+  ms.date: 12/27/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 65a60bd2b76184ce76f38dc19955624b47c2f613
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137603"
+durationInMinutes: 8
+content: '[!include[](includes/7-monitoring.md)]'

@@ -1,0 +1,43 @@
+### YamlMime:ModuleUnit
+uid: learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy
+title: <span data-ttu-id="57fb5-101">设计存储组织策略</span><span class="sxs-lookup"><span data-stu-id="57fb5-101">Design a storage organization strategy</span></span>
+metadata:
+  title: <span data-ttu-id="57fb5-102">设计存储组织策略</span><span class="sxs-lookup"><span data-stu-id="57fb5-102">Design a storage organization strategy</span></span>
+  description: <span data-ttu-id="57fb5-103">设计存储组织策略</span><span class="sxs-lookup"><span data-stu-id="57fb5-103">Design a storage organization strategy</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 9800d3cbc42f4e0297f9f9e3c2b33fb1af4c2c5b
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137760"
+durationInMinutes: 7
+content: >
+  [!include[](includes/3-design-organization-strategy.md)]
+quiz:
+  title: <span data-ttu-id="57fb5-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="57fb5-104">Check your knowledge</span></span>
+  questions:
+  - content: "<span data-ttu-id=\"57fb5-105\">假设您需要存储有关客户的配置文件和订单信息。</span><span class=\"sxs-lookup\"><span data-stu-id=\"57fb5-105\">Suppose you need to store profile and order information about your customers.</span></span> <span data-ttu-id=\"57fb5-106\">您需要查询数据以回答类似于 \"我的 ' 我的 ' 我的 ' 我的 ' 我的 ' 我的首要 '</span><span class=\"sxs-lookup\"><span data-stu-id=\"57fb5-106\">You need to query the data to answer questions like \"who are my top 100 customers?\"</span></span> <span data-ttu-id=\"57fb5-107\">以及 \"在给定地理区域中居住的客户数是多少？\"。</span><span class=\"sxs-lookup\"><span data-stu-id=\"57fb5-107\">and \"how many customers live in a given geographic region?\".</span></span> <span data-ttu-id=\"57fb5-108\">True 或 false: blob 存储是此数据的理想选择吗？</span><span class=\"sxs-lookup\"><span data-stu-id=\"57fb5-108\">True or false: blob storage is a good choice for this data?</span></span>"
+    choices:
+    - content: <span data-ttu-id="57fb5-109">True</span><span class="sxs-lookup"><span data-stu-id="57fb5-109">True</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="57fb5-110">blob 不适合需要频繁查询的结构化数据。</span><span class="sxs-lookup"><span data-stu-id="57fb5-110">Blobs are not appropriate for structured data that needs to be queried frequently.</span></span> <span data-ttu-id="57fb5-111">与内存和本地磁盘相比, 它们的延迟时间更长, 没有索引功能可使数据库在运行查询时效率更高。</span><span class="sxs-lookup"><span data-stu-id="57fb5-111">They have higher latency than memory and local disk and don't have the indexing features that make databases efficient at running queries.</span></span>
+    - content: <span data-ttu-id="57fb5-112">False</span><span class="sxs-lookup"><span data-stu-id="57fb5-112">False</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="57fb5-113">blob 不适合需要频繁查询的结构化数据。</span><span class="sxs-lookup"><span data-stu-id="57fb5-113">Blobs are not appropriate for structured data that needs to be queried frequently.</span></span> <span data-ttu-id="57fb5-114">与内存和本地磁盘相比, 它们的延迟时间更长, 没有索引功能可使数据库在运行查询时效率更高。</span><span class="sxs-lookup"><span data-stu-id="57fb5-114">They have higher latency than memory and local disk and don't have the indexing features that make databases efficient at running queries.</span></span>
+  - content: <span data-ttu-id="57fb5-115">blob 提供*非结构化*数据存储。</span><span class="sxs-lookup"><span data-stu-id="57fb5-115">Blobs provide *unstructured* data storage.</span></span> <span data-ttu-id="57fb5-116">*非结构化*的含义是什么？</span><span class="sxs-lookup"><span data-stu-id="57fb5-116">What does *unstructured* mean?</span></span>
+    choices:
+    - content: <span data-ttu-id="57fb5-117">不能对 blob 进行组织或命名。</span><span class="sxs-lookup"><span data-stu-id="57fb5-117">Blobs can't be organized or named.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="57fb5-118">blob 不会对数据施加任何结构, 这意味着您的应用程序可以在 blob 中存储任何类型的数据。</span><span class="sxs-lookup"><span data-stu-id="57fb5-118">Blobs do not impose any structure on your data, meaning your application can store any type of data in a blob.</span></span>
+    - content: <span data-ttu-id="57fb5-119">对可以存储在 blob 中的数据类型没有任何限制。</span><span class="sxs-lookup"><span data-stu-id="57fb5-119">There are no restrictions on the type of data you can store in blobs.</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="57fb5-120">blob 不会对数据施加任何结构, 这意味着您的应用程序可以在 blob 中存储任何类型的数据。</span><span class="sxs-lookup"><span data-stu-id="57fb5-120">Blobs do not impose any structure on your data, meaning your application can store any type of data in a blob.</span></span>
+    - content: <span data-ttu-id="57fb5-121">blob 不能包含结构化数据, 如 JSON 或 XML。</span><span class="sxs-lookup"><span data-stu-id="57fb5-121">Blobs can't contain structured data, like JSON or XML.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="57fb5-122">blob 不会对数据施加任何结构, 这意味着您的应用程序可以在 blob 中存储任何类型的数据。</span><span class="sxs-lookup"><span data-stu-id="57fb5-122">Blobs do not impose any structure on your data, meaning your application can store any type of data in a blob.</span></span>

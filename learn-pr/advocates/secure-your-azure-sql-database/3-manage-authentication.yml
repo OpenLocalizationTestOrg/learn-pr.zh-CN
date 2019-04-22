@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-your-azure-sql-database.3-manage-authentication
+metadata:
+  title: <span data-ttu-id="14670-101">控制谁可以访问您的数据库</span><span class="sxs-lookup"><span data-stu-id="14670-101">Control who can access your database</span></span>
+  description: <span data-ttu-id="14670-102">了解如何通过创建已特意减少访问权限的用户来控制对数据库的访问。</span><span class="sxs-lookup"><span data-stu-id="14670-102">Learn to control access to the database by creating users with deliberately reduced access.</span></span>
+  ms.date: 11/09/2018
+  author: jboeshart
+  ms.author: jaboes
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: a421a5798cb42848406ca4e7997a20e4aef9ac5b
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138001"
+interactive: bash
+azureSandbox: true
+title: <span data-ttu-id="14670-103">控制谁可以访问您的数据库</span><span class="sxs-lookup"><span data-stu-id="14670-103">Control who can access your database</span></span>
+durationInMinutes: 6
+content: '[!include[](includes/3-manage-authentication.md)]'

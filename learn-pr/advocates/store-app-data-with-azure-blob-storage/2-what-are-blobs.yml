@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.store-app-data-with-azure-blob-storage.2-what-are-blobs
+title: <span data-ttu-id="813a7-101">什么是 blob？</span><span class="sxs-lookup"><span data-stu-id="813a7-101">What are blobs?</span></span>
+metadata:
+  title: <span data-ttu-id="813a7-102">什么是 blob？</span><span class="sxs-lookup"><span data-stu-id="813a7-102">What are blobs?</span></span>
+  description: <span data-ttu-id="813a7-103">什么是 blob？</span><span class="sxs-lookup"><span data-stu-id="813a7-103">What are blobs?</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: aa9b439e9291effe161e0485ae6575092a0be8a1
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137761"
+durationInMinutes: 3
+content: '[!include[](includes/2-what-are-blobs.md)]'

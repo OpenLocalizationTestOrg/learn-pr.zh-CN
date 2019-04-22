@@ -1,0 +1,10 @@
+- <span data-ttu-id="9b0eb-101">美国西部2</span><span class="sxs-lookup"><span data-stu-id="9b0eb-101">West US 2</span></span>
+- <span data-ttu-id="9b0eb-102">美国中南部</span><span class="sxs-lookup"><span data-stu-id="9b0eb-102">South Central US</span></span>
+- <span data-ttu-id="9b0eb-103">美国中部</span><span class="sxs-lookup"><span data-stu-id="9b0eb-103">Central US</span></span>
+- <span data-ttu-id="9b0eb-104">美国东部</span><span class="sxs-lookup"><span data-stu-id="9b0eb-104">East US</span></span>
+- <span data-ttu-id="9b0eb-105">西欧</span><span class="sxs-lookup"><span data-stu-id="9b0eb-105">West Europe</span></span>
+- <span data-ttu-id="9b0eb-106">东南亚</span><span class="sxs-lookup"><span data-stu-id="9b0eb-106">Southeast Asia</span></span>
+- <span data-ttu-id="9b0eb-107">日本东部</span><span class="sxs-lookup"><span data-stu-id="9b0eb-107">Japan East</span></span>
+- <span data-ttu-id="9b0eb-108">巴西南部</span><span class="sxs-lookup"><span data-stu-id="9b0eb-108">Brazil South</span></span>
+- <span data-ttu-id="9b0eb-109">澳大利亚东南部</span><span class="sxs-lookup"><span data-stu-id="9b0eb-109">Australia Southeast</span></span>
+- <span data-ttu-id="9b0eb-110">印度中部</span><span class="sxs-lookup"><span data-stu-id="9b0eb-110">Central India</span></span>

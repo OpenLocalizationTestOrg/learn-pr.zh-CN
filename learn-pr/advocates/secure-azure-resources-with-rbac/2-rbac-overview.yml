@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-azure-resources-with-rbac.2-rbac-overview
+metadata:
+  title: <span data-ttu-id="17105-101">RBAC 是什么？</span><span class="sxs-lookup"><span data-stu-id="17105-101">What is RBAC?</span></span>
+  description: <span data-ttu-id="17105-102">了解什么是基于角色的访问控制 (RBAC) 及其工作方式。</span><span class="sxs-lookup"><span data-stu-id="17105-102">Learn what role-based access control (RBAC) is and how it works.</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 13ecc79c95a73ee02c956300dbdd51c5b92a1a8f
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136100"
+title: <span data-ttu-id="17105-103">RBAC 是什么？</span><span class="sxs-lookup"><span data-stu-id="17105-103">What is RBAC?</span></span>
+durationInMinutes: 8
+content: '[!include[](includes/2-rbac-overview.md)]'

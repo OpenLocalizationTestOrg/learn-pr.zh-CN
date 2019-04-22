@@ -1,0 +1,35 @@
+### YamlMime:ModuleUnit
+uid: learn.choose-messaging-model.3-choose-azure-storage-queues
+title: <span data-ttu-id="f9ef7-101">选择带队列的基于邮件的传递</span><span class="sxs-lookup"><span data-stu-id="f9ef7-101">Choose a message-based delivery with queues</span></span>
+metadata:
+  title: <span data-ttu-id="f9ef7-102">选择带队列的基于邮件的传递</span><span class="sxs-lookup"><span data-stu-id="f9ef7-102">Choose a message-based delivery with queues</span></span>
+  description: <span data-ttu-id="f9ef7-103">选择带队列的基于邮件的传递</span><span class="sxs-lookup"><span data-stu-id="f9ef7-103">Choose a message-based delivery with queues</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: a32ae0472ac6795a990d24dbb23052da37efc39f
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136762"
+durationInMinutes: 10
+content: >
+  [!include[](includes/3-choose-azure-storage-queues.md)]
+quiz:
+  title: <span data-ttu-id="f9ef7-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="f9ef7-104">Check your knowledge</span></span>
+  questions:
+  - content: '<span data-ttu-id="f9ef7-105">假设您要构建一个应用程序, 以便在大学保留学生记录功能。</span><span class="sxs-lookup"><span data-stu-id="f9ef7-105">Suppose you are building an application to automate student record keeping functions at a university.</span></span> <span data-ttu-id="f9ef7-106">您需要实施的业务规则之一如下: 当学生完成课程时, 必须将评分添加到其成绩单中, 必须检查他们的财务助理资格, 并且必须通知学生。</span><span class="sxs-lookup"><span data-stu-id="f9ef7-106">One of the business rules you need to implement is the following: when a student completes a course, the grade must be added to their transcript, their financial aid eligibility must be reviewed, and the student must be notified.</span></span> <span data-ttu-id="f9ef7-107">这三种情况都应立即发生。</span><span class="sxs-lookup"><span data-stu-id="f9ef7-107">All three should happen immediately.</span></span> <span data-ttu-id="f9ef7-108">在此系统中存储邮件的最佳选择是哪种 Azure 服务？</span><span class="sxs-lookup"><span data-stu-id="f9ef7-108">Which Azure service would be a good choice to store the messages in this system?</span></span>'
+    choices:
+    - content: <span data-ttu-id="f9ef7-109">Azure 队列存储</span><span class="sxs-lookup"><span data-stu-id="f9ef7-109">Azure Queue Storage</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="f9ef7-110">Azure 队列存储不支持多个订阅者。</span><span class="sxs-lookup"><span data-stu-id="f9ef7-110">Azure Queue Storage does not support multiple subscribers.</span></span>
+    - content: <span data-ttu-id="f9ef7-111">Azure 服务总线队列</span><span class="sxs-lookup"><span data-stu-id="f9ef7-111">Azure Service Bus Queues</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="f9ef7-112">Azure 服务总线队列不支持多个订阅者。</span><span class="sxs-lookup"><span data-stu-id="f9ef7-112">Azure Service Bus Queues do not support multiple subscribers.</span></span>
+    - content: <span data-ttu-id="f9ef7-113">Azure 服务总线主题</span><span class="sxs-lookup"><span data-stu-id="f9ef7-113">Azure Service Bus Topics</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="f9ef7-114">支持多个订阅者的要求使 Azure 服务总线主题成为此系统的最佳选择。</span><span class="sxs-lookup"><span data-stu-id="f9ef7-114">The requirement to support multiple subscribers makes Azure Service Bus Topics the best choice for this system.</span></span>

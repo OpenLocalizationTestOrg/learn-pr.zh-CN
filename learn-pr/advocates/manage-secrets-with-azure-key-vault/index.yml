@@ -1,0 +1,47 @@
+### YamlMime:Module
+uid: learn.manage-secrets-with-azure-key-vault
+metadata:
+  title: 使用 Azure Key Vault 管理服务器应用程序中的机密-了解
+  description: 在本模块中, 您将了解如何创建一个密钥存储库并在其中存储密码。 您将了解如何将 web 应用程序配置为使用托管标识来启用对保管库的安全访问, 而无需进行任何配置, 最后, 您将实现一个从保管库中检索机密的 ASP.NET 核心 web 应用程序。
+  ms.date: 09/24/2018
+  author: nickwalkmsft
+  ms.author: nickwalk
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 7ba42a9cf28cb82635af268af51d2d7cdee3c04c
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137072"
+title: 使用 Azure Key Vault 管理服务器应用程序中的密码
+summary: 您的应用程序需要服务密码、连接字符串和其他机密配置值才能执行其作业。 存储和处理机密值是危险的, 每种用法都会引入可能泄露的情况。 azure Key Vault 与 azure 资源的托管标识结合使用, 使您的 azure web 应用能够轻松且安全地访问机密配置值, 而无需在源代码管理或配置中存储任何机密。
+abstract: >
+  在本模块中, 您将:
+
+  - 了解哪些类型的信息可以存储在 Azure Key Vault 中
+
+  - 创建 Azure Key Vault 并使用它来存储机密配置值
+
+  - 允许从具有托管标识的 azure 应用服务 web 应用对保管库进行安全访问, 并使用 azure 资源
+
+  - 实现从保管库检索机密的 web 应用程序
+prerequisites: 无
+iconUrl: /learn/achievements/manage-secrets-with-azure-key-vault.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-key-vault
+units:
+- learn.manage-secrets-with-azure-key-vault.1-introduction
+- learn.manage-secrets-with-azure-key-vault.2-what-is-key-vault
+- learn.manage-secrets-with-azure-key-vault.3-creating-vaults-storing-secrets
+- learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources
+- learn.manage-secrets-with-azure-key-vault.5-access-secrets-from-web-app
+- learn.manage-secrets-with-azure-key-vault.6-configure-deploy-run-azure
+- learn.manage-secrets-with-azure-key-vault.7-summary
+badge:
+  uid: learn.manage-secrets-with-azure-key-vault.badge

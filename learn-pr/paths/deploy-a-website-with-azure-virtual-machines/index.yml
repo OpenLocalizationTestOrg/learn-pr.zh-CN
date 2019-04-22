@@ -1,0 +1,37 @@
+### YamlMime:LearningPath
+uid: learn.deploy-a-website-with-azure-virtual-machines
+metadata:
+  title: 使用 Azure 虚拟机学习路径部署网站
+  description: Azure 中的 Web 应用允许你轻松发布和管理网站, 而无需使用基础服务器、存储或网络资产。 相反, 您可以重点关注您的网站功能, 并依靠强大的 Azure 平台来提供对网站的安全访问。
+  brand: azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: f4d5794ad77f8aa0cd66b5240fc29cbf16873315
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137181"
+title: 使用 Azure 虚拟机部署网站
+summary: 如果 Azure web 应用程序平台不直接支持您的 web 托管要求, 则可以利用虚拟机来自定义和控制 web 服务器的各个方面。 了解如何在托管 web 应用程序的 Linux 和 Windows 上创建、配置和管理虚拟机。
+prerequisites: 无
+iconUrl: /learn/achievements/deploy-a-website-with-azure-virtual-machines.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-virtual-machines
+- azure-portal
+- azure-cloud-shell
+modules:
+- learn.introduction-to-azure-virtual-machines
+- learn.create-linux-vm-in-azure
+- learn.create-a-windows-vm-in-azure
+- learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm
+trophy:
+  uid: learn.deploy-a-website-with-azure-virtual-machines.trophy

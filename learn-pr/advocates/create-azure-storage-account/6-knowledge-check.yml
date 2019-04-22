@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.create-azure-storage-account.6-knowledge-check
+title: '<span data-ttu-id="7bcc3-101">知识检查: 创建存储帐户</span><span class="sxs-lookup"><span data-stu-id="7bcc3-101">Knowledge check: Create a storage account</span></span>'
+durationInMinutes: 3
+metadata:
+  title: '<span data-ttu-id="7bcc3-102">知识检查: 创建存储帐户</span><span class="sxs-lookup"><span data-stu-id="7bcc3-102">Knowledge check: Create a storage account</span></span>'
+  description: <span data-ttu-id="7bcc3-103">有关存储帐户属性和创建的问题。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-103">Questions about storage account properties and creation.</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 0b88fe144fb4fcf29f304ce2d8f16362c9f18906
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137644"
+quiz:
+  title: <span data-ttu-id="7bcc3-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="7bcc3-104">Check your knowledge</span></span>
+  questions:
+  - content: '<span data-ttu-id="7bcc3-105">假设您有两个视频文件存储为 blob。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-105">Suppose you have two video files stored as blobs.</span></span> <span data-ttu-id="7bcc3-106">其中一个视频是业务关键型的, 需要在地理位置不同的数据中心之间创建多个副本的复制策略。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-106">One of the videos is business-critical and requires a replication policy that creates multiple copies across geographically diverse datacenters.</span></span> <span data-ttu-id="7bcc3-107">其他视频并不重要, 本地复制策略就足够了。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-107">The other video is non-critical, and a local replication policy is sufficient.</span></span> <span data-ttu-id="7bcc3-108">True 或 false: 若要满足这些限制, 两个 blob 需要位于单独的存储帐户中。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-108">True or false: To satisfy these constraints, the two blobs will need to be in separate storage accounts.</span></span>'
+    choices:
+    - content: <span data-ttu-id="7bcc3-109">True</span><span class="sxs-lookup"><span data-stu-id="7bcc3-109">True</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="7bcc3-110">复制策略是存储帐户的一个特征。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-110">Replication policy is a characteristic of a storage account.</span></span> <span data-ttu-id="7bcc3-111">存储帐户中的每个成员都必须使用相同的策略。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-111">Every member in the storage account must use the same policy.</span></span> <span data-ttu-id="7bcc3-112">如果您需要一些数据来使用 geo 复制策略, 而其他数据使用本地复制策略, 则需要两个存储帐户。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-112">If you need some data to use the geo-replication strategy and other data to use the local replication strategy, then you will need two storage accounts.</span></span>
+    - content: <span data-ttu-id="7bcc3-113">False</span><span class="sxs-lookup"><span data-stu-id="7bcc3-113">False</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="7bcc3-114">复制策略是存储帐户的一个特征。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-114">Replication policy is a characteristic of a storage account.</span></span> <span data-ttu-id="7bcc3-115">存储帐户中的每个成员都必须使用相同的策略。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-115">Every member in the storage account must use the same policy.</span></span> <span data-ttu-id="7bcc3-116">如果您需要一些数据来使用 geo 复制策略, 而其他数据使用本地复制策略, 则需要两个存储帐户。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-116">If you need some data to use the geo-replication strategy and other data to use the local replication strategy, then you will need two storage accounts.</span></span>
+  - content: <span data-ttu-id="7bcc3-117">存储帐户的名称必须为:</span><span class="sxs-lookup"><span data-stu-id="7bcc3-117">The name of a storage account must be:</span></span>
+    choices:
+    - content: <span data-ttu-id="7bcc3-118">在包含资源组中是唯一的。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-118">Unique within the containing resource group.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="7bcc3-119">存储帐户名称作为 API 访问的 URI 的一部分使用, 因此它必须全局唯一。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-119">The storage account name is used as part of the URI for API access, so it must be globally unique.</span></span>
+    - content: <span data-ttu-id="7bcc3-120">在 Azure 订阅中是唯一的。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-120">Unique within your Azure subscription.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="7bcc3-121">存储帐户名称作为 API 访问的 URI 的一部分使用, 因此它必须全局唯一。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-121">The storage account name is used as part of the URI for API access, so it must be globally unique.</span></span>
+    - content: <span data-ttu-id="7bcc3-122">全局唯一。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-122">Globally unique.</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="7bcc3-123">存储帐户名称作为 API 访问的 URI 的一部分使用, 因此它必须全局唯一。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-123">The storage account name is used as part of the URI for API access, so it must be globally unique.</span></span>
+  - content: <span data-ttu-id="7bcc3-124">在典型的项目中, 您何时创建存储帐户？</span><span class="sxs-lookup"><span data-stu-id="7bcc3-124">In a typical project, when would you create your storage account(s)?</span></span>
+    choices:
+    - content: <span data-ttu-id="7bcc3-125">在项目设置期间的开始。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-125">At the beginning, during project setup.</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="7bcc3-126">存储帐户在项目的生存期内通常是稳定的。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-126">Storage accounts are usually stable for the lifetime of a project.</span></span> <span data-ttu-id="7bcc3-127">通常在项目开始时创建它们。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-127">It is common to create them at the start of a project.</span></span>
+    - content: <span data-ttu-id="7bcc3-128">在部署后, 在项目运行时。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-128">After deployment, when the project is running.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="7bcc3-129">存储帐户在项目的生存期内通常是稳定的。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-129">Storage accounts are usually stable for the lifetime of a project.</span></span> <span data-ttu-id="7bcc3-130">通常在项目开始时创建它们。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-130">It is common to create them at the start of a project.</span></span>
+    - content: <span data-ttu-id="7bcc3-131">结束时, 在资源清理过程中。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-131">At the end, during resource cleanup.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="7bcc3-132">存储帐户在项目的生存期内通常是稳定的。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-132">Storage accounts are usually stable for the lifetime of a project.</span></span> <span data-ttu-id="7bcc3-133">通常在项目开始时创建它们。</span><span class="sxs-lookup"><span data-stu-id="7bcc3-133">It is common to create them at the start of a project.</span></span>

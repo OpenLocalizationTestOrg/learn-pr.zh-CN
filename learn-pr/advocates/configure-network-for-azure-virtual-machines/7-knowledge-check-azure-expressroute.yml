@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.configure-the-network-for-your-virtual-machines.7-knowledge-check-azure-expressroute
+title: <span data-ttu-id="59c02-101">知识检查</span><span class="sxs-lookup"><span data-stu-id="59c02-101">Knowledge check</span></span>
+metadata:
+  title: <span data-ttu-id="59c02-102">知识检查</span><span class="sxs-lookup"><span data-stu-id="59c02-102">Knowledge check</span></span>
+  description: <span data-ttu-id="59c02-103">知识检查</span><span class="sxs-lookup"><span data-stu-id="59c02-103">Knowledge check</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: c0a9adcf5dc1c69966646fa9344440560919c99a
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136874"
+durationInMinutes: 3
+quiz:
+  title: <span data-ttu-id="59c02-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="59c02-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="59c02-105">以下哪种协议为 Azure ExpressRoute 提供动态路由？</span><span class="sxs-lookup"><span data-stu-id="59c02-105">Which of the following protocols provides dynamic routing for Azure ExpressRoute?</span></span>
+    choices:
+    - content: <span data-ttu-id="59c02-106">IPVPN</span><span class="sxs-lookup"><span data-stu-id="59c02-106">IPVPN</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="59c02-107">边界网关协议是行业标准的动态路由协议, 可在本地网络、Azure 中的实例和 Microsoft 公用地址之间交换路由。</span><span class="sxs-lookup"><span data-stu-id="59c02-107">Border Gateway Protocol is an industry-standard dynamic routing protocol that can exchange routes between your on-premises network, your instances in Azure, and Microsoft public addresses.</span></span>
+    - content: <span data-ttu-id="59c02-108">PPTP</span><span class="sxs-lookup"><span data-stu-id="59c02-108">PPTP</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="59c02-109">边界网关协议是行业标准的动态路由协议, 可在本地网络、Azure 中的实例和 Microsoft 公用地址之间交换路由。</span><span class="sxs-lookup"><span data-stu-id="59c02-109">Border Gateway Protocol is an industry-standard dynamic routing protocol that can exchange routes between your on-premises network, your instances in Azure, and Microsoft public addresses.</span></span>
+    - content: <span data-ttu-id="59c02-110">IPsec</span><span class="sxs-lookup"><span data-stu-id="59c02-110">IPsec</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="59c02-111">边界网关协议是行业标准的动态路由协议, 可在本地网络、Azure 中的实例和 Microsoft 公用地址之间交换路由。</span><span class="sxs-lookup"><span data-stu-id="59c02-111">Border Gateway Protocol is an industry-standard dynamic routing protocol that can exchange routes between your on-premises network, your instances in Azure, and Microsoft public addresses.</span></span>
+    - content: <span data-ttu-id="59c02-112">边界网关协议 (BGP)</span><span class="sxs-lookup"><span data-stu-id="59c02-112">Border Gateway Protocol (BGP)</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="59c02-113">边界网关协议是行业标准的动态路由协议, 可在本地网络、Azure 中的实例和 Microsoft 公用地址之间交换路由。</span><span class="sxs-lookup"><span data-stu-id="59c02-113">Border Gateway Protocol is an industry-standard dynamic routing protocol that can exchange routes between your on-premises network, your instances in Azure, and Microsoft public addresses.</span></span>
+    - content: <span data-ttu-id="59c02-114">S 键</span><span class="sxs-lookup"><span data-stu-id="59c02-114">S-key</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="59c02-115">边界网关协议是行业标准的动态路由协议, 可在本地网络、Azure 中的实例和 Microsoft 公用地址之间交换路由。</span><span class="sxs-lookup"><span data-stu-id="59c02-115">Border Gateway Protocol is an industry-standard dynamic routing protocol that can exchange routes between your on-premises network, your instances in Azure, and Microsoft public addresses.</span></span>
+  - content: '<span data-ttu-id="59c02-116">True 或 false: Azure 公共对等: 允许你使用公用 IP 地址连接到服务, 而不会通过 internet 路由流量</span><span class="sxs-lookup"><span data-stu-id="59c02-116">True or false: Azure public peering allows you to connect to services with public IP addresses without your traffic being routed over the internet</span></span>'
+    choices:
+    - content: <span data-ttu-id="59c02-117">True</span><span class="sxs-lookup"><span data-stu-id="59c02-117">True</span></span>
+      isCorrect: true
+      explanation: '<span data-ttu-id="59c02-118">Azure 公共对等启用与公用 IP 地址上可用的服务的专用连接。</span><span class="sxs-lookup"><span data-stu-id="59c02-118">Azure public peering enables private connections to services that are available on public IP addresses.</span></span> <span data-ttu-id="59c02-119">支持的服务的一些示例包括: azure 存储和 azure SQL 数据库。</span><span class="sxs-lookup"><span data-stu-id="59c02-119">Some examples of services that support this are: Azure Storage, and Azure SQL databases.</span></span>'
+    - content: <span data-ttu-id="59c02-120">False</span><span class="sxs-lookup"><span data-stu-id="59c02-120">False</span></span>
+      isCorrect: false
+      explanation: '<span data-ttu-id="59c02-121">Azure 公共对等启用与公用 IP 地址上可用的服务的专用连接。</span><span class="sxs-lookup"><span data-stu-id="59c02-121">Azure public peering enables private connections to services that are available on public IP addresses.</span></span> <span data-ttu-id="59c02-122">支持的服务的一些示例包括: azure 存储和 azure SQL 数据库。</span><span class="sxs-lookup"><span data-stu-id="59c02-122">Some examples of services that support this are: Azure Storage, and Azure SQL databases.</span></span>'

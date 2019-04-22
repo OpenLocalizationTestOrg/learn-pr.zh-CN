@@ -1,0 +1,47 @@
+### YamlMime:Module
+uid: learn.create-serverless-logic-with-functions
+metadata:
+  title: 使用 Azure 函数创建无服务器逻辑-了解
+  description: Azure 函数使您能够在不管理或设置服务器基础结构的情况下托管可执行的业务逻辑
+  ms.date: 09/24/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 859cf5ac4f9fd2a8867e64704bfc8a04ba1ce0e2
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137634"
+title: 使用 Azure 函数创建无服务器逻辑
+summary: 通过 Azure 函数, 开发人员可以在不管理或设置基础结构的情况下托管可执行的业务逻辑。
+abstract: >
+  在本模块中, 您将:
+
+  - 确定无服务器计算是否适合您的业务需求
+
+  - 在 azure 门户中创建 azure 函数应用
+
+  - 使用触发器执行函数
+
+  - 从 azure 门户监视和测试 azure 函数
+prerequisites: 无
+iconUrl: /learn/achievements/create-serverless-logic-with-azure-functions.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-functions
+- azure-portal
+units:
+- learn.create-serverless-logic-with-functions.1-introduction
+- learn.create-serverless-logic-with-functions.2-decide-if-serverless-computing-is-right-for-your-business-need
+- learn.create-serverless-logic-with-functions.3-create-an-azure-functions-app-in-the-azure-portal
+- learn.create-serverless-logic-with-functions.4-creating-and-executing-an-azure-function
+- learn.create-serverless-logic-with-functions.5-add-logic-to-the-function-app
+- learn.create-serverless-logic-with-functions.6-summary
+badge:
+  uid: learn.create-serverless-logic-with-functions.badge

@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn.automate-azure-tasks-with-powershell.9-summary
+title: <span data-ttu-id="5f430-101">摘要</span><span class="sxs-lookup"><span data-stu-id="5f430-101">Summary</span></span>
+metadata:
+  title: <span data-ttu-id="5f430-102">摘要</span><span class="sxs-lookup"><span data-stu-id="5f430-102">Summary</span></span>
+  description: <span data-ttu-id="5f430-103">摘要</span><span class="sxs-lookup"><span data-stu-id="5f430-103">Summary</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: cd543556d93318a22e06b8cbd11b559ffdbfe912
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136352"
+durationInMinutes: 3
+content: >
+  [!include[](includes/9-summary.md)]
+quiz:
+  title: <span data-ttu-id="5f430-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="5f430-104">Check your knowledge</span></span>
+  questions:
+  - content: '<span data-ttu-id="5f430-105">True 或 false: azure 门户、azure CLI 和 azure PowerShell 提供明显不同的服务, 因此这三种方法不大可能支持所需的操作。</span><span class="sxs-lookup"><span data-stu-id="5f430-105">True or false: The Azure portal, the Azure CLI, and Azure PowerShell offer significantly different services, so it is unlikely that all three will support the operation you need.</span></span>'
+    choices:
+    - content: <span data-ttu-id="5f430-106">True</span><span class="sxs-lookup"><span data-stu-id="5f430-106">True</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="5f430-107">这三个工具几乎完全相同, 提供了相同的一组服务。</span><span class="sxs-lookup"><span data-stu-id="5f430-107">The three tools offer almost exactly the same set of services.</span></span>
+    - content: <span data-ttu-id="5f430-108">False</span><span class="sxs-lookup"><span data-stu-id="5f430-108">False</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="5f430-109">这三个工具几乎提供了相同的一组服务。</span><span class="sxs-lookup"><span data-stu-id="5f430-109">The three tools offer almost the same set of services.</span></span> <span data-ttu-id="5f430-110">通常情况下, 这并不是决定哪种工具最适合您的任务的因素。</span><span class="sxs-lookup"><span data-stu-id="5f430-110">Generally, this is not a factor in deciding which tool is best for your tasks.</span></span>
+  - content: <span data-ttu-id="5f430-111">假设您要构建一个视频编辑应用程序, 该应用程序将为用户生成的视频内容提供在线存储。</span><span class="sxs-lookup"><span data-stu-id="5f430-111">Suppose you are building a video-editing application that will offer online storage for user-generated video content.</span></span> <span data-ttu-id="5f430-112">将视频存储在 Azure blob 中, 因此需要创建 azure 存储帐户以包含 blob。</span><span class="sxs-lookup"><span data-stu-id="5f430-112">You will store the videos in Azure Blobs, so you need to create an Azure storage account to contain the blobs.</span></span> <span data-ttu-id="5f430-113">存储帐户准备就绪后, 您不可能删除并重新创建它, 因为这将删除所有用户视频。</span><span class="sxs-lookup"><span data-stu-id="5f430-113">Once the storage account is in place, it is unlikely you would remove and recreate it because this would delete all the user videos.</span></span> <span data-ttu-id="5f430-114">哪种工具可能提供最快、最简便的方法来创建存储帐户？</span><span class="sxs-lookup"><span data-stu-id="5f430-114">Which tool is likely to offer the quickest and easiest way to create the storage account?</span></span>
+    choices:
+    - content: <span data-ttu-id="5f430-115">Azure 门户</span><span class="sxs-lookup"><span data-stu-id="5f430-115">Azure portal</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="5f430-116">门户对于创建长寿命存储帐户这样的一次性操作是很好的选择。</span><span class="sxs-lookup"><span data-stu-id="5f430-116">The portal is a good choice for one-off operations like creating a long-lived storage account.</span></span> <span data-ttu-id="5f430-117">门户为您提供了一个包含所有存储帐户属性的 GUI, 并提供了工具提示, 可帮助您选择适当的选项满足您的需求。</span><span class="sxs-lookup"><span data-stu-id="5f430-117">The portal gives you a GUI containing all the storage-account properties and provides tool tips to help you select the right options for your needs.</span></span>
+    - content: <span data-ttu-id="5f430-118">Azure CLI</span><span class="sxs-lookup"><span data-stu-id="5f430-118">Azure CLI</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="5f430-119">若要使用 CLI, 需要研究用于创建存储帐户的命令。</span><span class="sxs-lookup"><span data-stu-id="5f430-119">To use the CLI, you would need to research the command used to create a storage account.</span></span> <span data-ttu-id="5f430-120">您还需要在本地安装 CLI 或登录云命令行管理程序。</span><span class="sxs-lookup"><span data-stu-id="5f430-120">You would also need to either install the CLI locally or login to the cloud shell.</span></span> <span data-ttu-id="5f430-121">对于创建存储帐户这样的一次性操作, 这可能需要更长时间, 而不是使用 Azure 门户。</span><span class="sxs-lookup"><span data-stu-id="5f430-121">For a one-off operation like creating a storage account, this is likely to take longer than using the Azure portal.</span></span>
+    - content: <span data-ttu-id="5f430-122">Azure PowerShell</span><span class="sxs-lookup"><span data-stu-id="5f430-122">Azure PowerShell</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="5f430-123">若要使用 Azure PowerShell, 你需要研究用于创建存储帐户的命令。</span><span class="sxs-lookup"><span data-stu-id="5f430-123">To use Azure PowerShell, you would need to research the command used to create a storage account.</span></span> <span data-ttu-id="5f430-124">您还需要在本地安装 PowerShell 和 Azure powershell, 或登录云命令行管理程序。</span><span class="sxs-lookup"><span data-stu-id="5f430-124">You would also need to either install PowerShell and Azure PowerShell locally or login to the cloud shell.</span></span> <span data-ttu-id="5f430-125">对于创建存储帐户这样的一次性操作, 这可能需要更长时间, 而不是使用 Azure 门户。</span><span class="sxs-lookup"><span data-stu-id="5f430-125">For a one-off operation like creating a storage account, this is likely to take longer than using the Azure portal.</span></span>
+  - content: <span data-ttu-id="5f430-126">需要在您的计算机上安装哪些内容, 才能让您在本地执行 Azure PowerShell cmdlet？</span><span class="sxs-lookup"><span data-stu-id="5f430-126">What needs to be installed on your machine to let you execute Azure PowerShell cmdlets locally?</span></span>
+    choices:
+    - content: <span data-ttu-id="5f430-127">Azure 云命令行管理程序</span><span class="sxs-lookup"><span data-stu-id="5f430-127">The Azure cloud shell</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="5f430-128">云命令行管理程序允许你执行 Azure cmdlet;但是, 可以在浏览器中使用它, 因此不会在本地计算机上运行命令。</span><span class="sxs-lookup"><span data-stu-id="5f430-128">The cloud shell does let you execute Azure cmdlets; however, you use it in a browser, so you are not running the commands on your local machine.</span></span>
+    - content: <span data-ttu-id="5f430-129">基 PowerShell 产品和 Az 模块</span><span class="sxs-lookup"><span data-stu-id="5f430-129">The base PowerShell product and the Az module</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="5f430-130">您需要基本 PowerShell 产品和 Az 模块。</span><span class="sxs-lookup"><span data-stu-id="5f430-130">You need both the base PowerShell product and the Az module.</span></span> <span data-ttu-id="5f430-131">基本产品为您提供命令行管理程序本身、一些核心命令和编程构造, 如循环、变量等。Az 模块添加了您需要使用 Azure 资源的 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="5f430-131">The base product gives you the shell itself, a few core commands, and programming constructs like loops, variables, etc. The Az modules adds the cmdlets you need to work with Azure resources.</span></span>
+    - content: <span data-ttu-id="5f430-132">azure CLI 和 azure PowerShell</span><span class="sxs-lookup"><span data-stu-id="5f430-132">The Azure CLI and Azure PowerShell</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="5f430-133">Azure CLI 是替代的命令行和脚本工具。</span><span class="sxs-lookup"><span data-stu-id="5f430-133">The Azure CLI is an alternate command-line and scripting tool.</span></span> <span data-ttu-id="5f430-134">如果要使用 Azure PowerShell, 则不需要此方法。</span><span class="sxs-lookup"><span data-stu-id="5f430-134">It is not needed if you are going to use Azure PowerShell.</span></span>

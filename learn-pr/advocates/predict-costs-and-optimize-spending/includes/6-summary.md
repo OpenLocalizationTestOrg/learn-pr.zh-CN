@@ -1,0 +1,16 @@
+<span data-ttu-id="38e2c-101">我们已经讨论了 azure 定价计算器, 以及如何使用它来估计 azure 上的成本并比较不同服务产品之间的定价。</span><span class="sxs-lookup"><span data-stu-id="38e2c-101">We've talked through the Azure pricing calculator and how you can use it to estimate your costs on Azure and compare pricing between different service offerings.</span></span> <span data-ttu-id="38e2c-102">我们查看了节省成本、如何导出定价估计, 以及在 Azure 可帮助你在检查中保持云开支的各种工具。</span><span class="sxs-lookup"><span data-stu-id="38e2c-102">We looked at savings options, how to export pricing estimates, and at various tools that Azure has available to help you keep your cloud spend in check.</span></span>
+
+- <span data-ttu-id="38e2c-103">Azure Advisor 在许多方面提供了建议, 包括成本。</span><span class="sxs-lookup"><span data-stu-id="38e2c-103">Azure Advisor provides recommendations in many areas, including cost.</span></span>
+- <span data-ttu-id="38e2c-104">Azure 成本管理为你提供报告和帐单信息, 因此你可以深入了解你的投资的支出。</span><span class="sxs-lookup"><span data-stu-id="38e2c-104">Azure Cost Management gives you reporting and billing information, so you can gain insights into where you're spending your money.</span></span>
+- <span data-ttu-id="38e2c-105">Cloudyn 更进一步, 并提供了可用于退款的详细信息, 并可确定效率低下的领域。</span><span class="sxs-lookup"><span data-stu-id="38e2c-105">Cloudyn takes this even further and gives you detailed information that you can use for chargebacks and to identify areas of inefficiency.</span></span>
+
+<span data-ttu-id="38e2c-106">然后, 我们研究了最佳实践, 以帮助你在基础结构和许可方面节省资金。</span><span class="sxs-lookup"><span data-stu-id="38e2c-106">We then explored best practices to help you save money on both infrastructure and licensing.</span></span>
+
+## <a name="learn-more"></a><span data-ttu-id="38e2c-107">了解更多信息</span><span class="sxs-lookup"><span data-stu-id="38e2c-107">Learn more</span></span>
+<span data-ttu-id="38e2c-108">若要了解我们今天所介绍的内容, 请参阅下面的位置:</span><span class="sxs-lookup"><span data-stu-id="38e2c-108">Here are some places to go to learn more about what we've covered today:</span></span>
+
+- [<span data-ttu-id="38e2c-109">在 Azure 中设置支出限制</span><span class="sxs-lookup"><span data-stu-id="38e2c-109">Setting up spending limits in Azure</span></span>](https://docs.microsoft.com/azure/billing/billing-spending-limit)
+- [<span data-ttu-id="38e2c-110">Azure 预算</span><span class="sxs-lookup"><span data-stu-id="38e2c-110">Azure budgets</span></span>](https://docs.microsoft.com/azure/billing/billing-cost-management-budget-scenario)
+- [<span data-ttu-id="38e2c-111">探索灵活的 Azure 购买选项</span><span class="sxs-lookup"><span data-stu-id="38e2c-111">Explore flexible purchasing options for Azure</span></span>](https://azure.microsoft.com/en-us/pricing/purchase-options/)
+- [<span data-ttu-id="38e2c-112">了解 Microsoft Azure 发票上的术语</span><span class="sxs-lookup"><span data-stu-id="38e2c-112">Understand terms on your Microsoft Azure invoice</span></span>](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)
+- [<span data-ttu-id="38e2c-113">带宽定价详细信息</span><span class="sxs-lookup"><span data-stu-id="38e2c-113">Bandwidth Pricing Details</span></span>](https://azure.microsoft.com/en-us/pricing/details/bandwidth/)

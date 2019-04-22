@@ -1,0 +1,2 @@
+> [!TIP]
+> <span data-ttu-id="27a33-101">您可以使用 "**复制**" 按钮将命令复制到剪贴板。</span><span class="sxs-lookup"><span data-stu-id="27a33-101">You can use the **Copy** button to copy commands to the clipboard.</span></span> <span data-ttu-id="27a33-102">若要粘贴, 请在云命令行管理器窗口中右键单击新行, 然后选择 "**粘贴**" 或 "使用<kbd>Shift + 插入</kbd>键盘快捷方式"。</span><span class="sxs-lookup"><span data-stu-id="27a33-102">To paste, right click on a new line in the Cloud Shell window and select **Paste** or use the <kbd>Shift+Insert</kbd> keyboard shortcut.</span></span>

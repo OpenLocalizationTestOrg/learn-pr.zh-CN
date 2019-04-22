@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.align-requirements-in-azure.6-saas
+title: <span data-ttu-id="78634-101">软件即服务</span><span class="sxs-lookup"><span data-stu-id="78634-101">Software as a service</span></span>
+metadata:
+  title: <span data-ttu-id="78634-102">SaaS</span><span class="sxs-lookup"><span data-stu-id="78634-102">SaaS</span></span>
+  description: <span data-ttu-id="78634-103">了解作为服务的软件, 如果它可能是你的应用程序的正确选择</span><span class="sxs-lookup"><span data-stu-id="78634-103">Learn about software as a service and if it might be the right choice for your application</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: dafc041ec6372175a8eddbb4c51061135102c728
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136650"
+durationInMinutes: 4
+content: '[!include[](includes/6-saas.md)]'

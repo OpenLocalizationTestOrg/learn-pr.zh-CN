@@ -1,0 +1,88 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-compliance.8-summary
+title: <span data-ttu-id="dadfd-101">摘要</span><span class="sxs-lookup"><span data-stu-id="dadfd-101">Summary</span></span>
+metadata:
+  title: <span data-ttu-id="dadfd-102">Azure 调控摘要-了解</span><span class="sxs-lookup"><span data-stu-id="dadfd-102">Summary of Azure governance - Learn</span></span>
+  description: <span data-ttu-id="dadfd-103">查看你学习的内容并了解如何了解详细信息。</span><span class="sxs-lookup"><span data-stu-id="dadfd-103">Review what you've learned and discover how to learn more.</span></span>
+  ms.date: 12/26/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: c13d2b318dd9c7961f6af01bb4a3349d1deb973f
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137600"
+durationInMinutes: 5
+content: >
+  [!include[](includes/8-summary.md)]
+quiz:
+  title: <span data-ttu-id="dadfd-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="dadfd-104">Check your knowledge</span></span>
+  questions:
+  - content: '<span data-ttu-id="dadfd-105">True 或 false: 可以从服务信任门户下载已发布的审核报告以及与 Microsoft 云服务相关的其他符合性相关信息</span><span class="sxs-lookup"><span data-stu-id="dadfd-105">True or false: You can download published audit reports and other compliance-related information related to Microsoft’s cloud service from the Service Trust Portal</span></span>'
+    choices:
+    - content: <span data-ttu-id="dadfd-106">True</span><span class="sxs-lookup"><span data-stu-id="dadfd-106">True</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="dadfd-107">您可以从服务信任门户下载已发布的审核报告以及与 Microsoft 云服务相关的其他与合规性相关的信息。</span><span class="sxs-lookup"><span data-stu-id="dadfd-107">You can download published audit reports and other compliance-related information related to Microsoft’s cloud service from the Service Trust Portal.</span></span>
+    - content: <span data-ttu-id="dadfd-108">False</span><span class="sxs-lookup"><span data-stu-id="dadfd-108">False</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="dadfd-109">您可以从服务信任门户下载已发布的审核报告以及与 Microsoft 云服务相关的其他与合规性相关的信息。</span><span class="sxs-lookup"><span data-stu-id="dadfd-109">You can download published audit reports and other compliance-related information related to Microsoft’s cloud service from the Service Trust Portal.</span></span>
+  - content: <span data-ttu-id="dadfd-110">哪种 Azure 服务允许你为 azure 资源配置细化的访问管理, 使你能够仅向用户授予执行其作业所需的权限？</span><span class="sxs-lookup"><span data-stu-id="dadfd-110">Which Azure service allows you to configure fine-grained access management for Azure resources, enabling you to grant users only the rights they need to perform their jobs?</span></span>
+    choices:
+    - content: <span data-ttu-id="dadfd-111">Locks</span><span class="sxs-lookup"><span data-stu-id="dadfd-111">Locks</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="dadfd-112">锁定有助于防止您的 Azure 资源的意外删除或修改。</span><span class="sxs-lookup"><span data-stu-id="dadfd-112">Locks help you prevent accidental deletion or modification of your Azure resources.</span></span>
+    - content: <span data-ttu-id="dadfd-113">政策</span><span class="sxs-lookup"><span data-stu-id="dadfd-113">Policy</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="dadfd-114">策略定义表示要评估的内容以及要采取的操作。</span><span class="sxs-lookup"><span data-stu-id="dadfd-114">A policy definition expresses what to evaluate and what action to take.</span></span> <span data-ttu-id="dadfd-115">例如, 如果虚拟机公开到公用 IP 地址, 则可以阻止对其进行部署。</span><span class="sxs-lookup"><span data-stu-id="dadfd-115">For example, you could prevent VMs from being deployed if they are exposed to a public IP address.</span></span> <span data-ttu-id="dadfd-116">您还可以防止在部署虚拟机以控制成本时使用特定硬盘。</span><span class="sxs-lookup"><span data-stu-id="dadfd-116">You also could prevent a particular hard disk from being used when deploying VMs to control costs.</span></span>
+    - content: <span data-ttu-id="dadfd-117">措施</span><span class="sxs-lookup"><span data-stu-id="dadfd-117">Initiatives</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="dadfd-118">计划与 Azure 策略中的策略一起工作。</span><span class="sxs-lookup"><span data-stu-id="dadfd-118">Initiatives work alongside policies in Azure Policy.</span></span> <span data-ttu-id="dadfd-119">计划定义是一组策略定义, 可帮助跟踪更大目标的合规性状态。</span><span class="sxs-lookup"><span data-stu-id="dadfd-119">An initiative definition is a set of policy definitions to help track your compliance state for a larger goal.</span></span>
+    - content: <span data-ttu-id="dadfd-120">基于角色的访问控制</span><span class="sxs-lookup"><span data-stu-id="dadfd-120">Role-based Access Control</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="dadfd-121">基于角色的访问控制是正确的答案。</span><span class="sxs-lookup"><span data-stu-id="dadfd-121">Role-based access control is the correct answer.</span></span> <span data-ttu-id="dadfd-122">基于角色的访问控制 (RBAC) 为 Azure 资源提供细化的访问管理, 使您可以仅向用户授予执行其工作所需的权限。</span><span class="sxs-lookup"><span data-stu-id="dadfd-122">Role-based access control (RBAC) provides fine-grained access management for Azure resources, enabling you to grant users only the rights they need to perform their jobs.</span></span> <span data-ttu-id="dadfd-123">RBAC 在无需额外费用的情况之下提供给所有 Azure 订阅者。</span><span class="sxs-lookup"><span data-stu-id="dadfd-123">RBAC is provided at no additional cost to all Azure subscriber.</span></span>
+  - content: <span data-ttu-id="dadfd-124">哪种 Azure 服务允许您创建、分配和管理策略, 以强制执行不同的规则和影响您的资源, 并遵守公司标准和服务级别协议 (sla)。</span><span class="sxs-lookup"><span data-stu-id="dadfd-124">Which Azure service allows you to create, assign, and, manage policies to enforce different rules and effects over your resources and stay compliant with your corporate standards and service-level agreements (SLAs)?</span></span>
+    choices:
+    - content: <span data-ttu-id="dadfd-125">Azure 策略</span><span class="sxs-lookup"><span data-stu-id="dadfd-125">Azure Policy</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="dadfd-126">Azure 策略是正确的答案。</span><span class="sxs-lookup"><span data-stu-id="dadfd-126">Azure Policy is the correct answer.</span></span> <span data-ttu-id="dadfd-127">azure Policy 是 azure 中的一项服务, 可用于创建、分配和管理策略。</span><span class="sxs-lookup"><span data-stu-id="dadfd-127">Azure Policy is a service in Azure that you use to create, assign, and, manage policies.</span></span> <span data-ttu-id="dadfd-128">这些策略对您的资源实施不同的规则和影响, 因此这些资源符合您的公司标准和服务级别协议 (sla)。</span><span class="sxs-lookup"><span data-stu-id="dadfd-128">These policies enforce different rules and effects over your resources, so those resources stay compliant with your corporate standards and service-level agreements (SLAs).</span></span>
+    - content: <span data-ttu-id="dadfd-129">Azure 蓝图</span><span class="sxs-lookup"><span data-stu-id="dadfd-129">Azure Blueprints</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="dadfd-130">借助 azure 蓝图, 云架构师可以定义一组可重复的 Azure 资源, 以实现并遵守组织的标准、模式和要求。</span><span class="sxs-lookup"><span data-stu-id="dadfd-130">Azure Blueprints enables cloud architects to define a repeatable set of Azure resources that implement and adhere to an organization's standards, patterns, and requirements.</span></span>
+    - content: <span data-ttu-id="dadfd-131">Azure 安全中心</span><span class="sxs-lookup"><span data-stu-id="dadfd-131">Azure Security Center</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="dadfd-132">安全中心提供有关安全相关问题的分析和详细信息。</span><span class="sxs-lookup"><span data-stu-id="dadfd-132">Security Center provides analysis and details concerning security related issues.</span></span>
+    - content: <span data-ttu-id="dadfd-133">基于角色的访问控制</span><span class="sxs-lookup"><span data-stu-id="dadfd-133">Role-based Access Control</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="dadfd-134">基于角色的访问控制 (RBAC) 为 Azure 资源提供细化的访问管理, 使您可以仅向用户授予执行其工作所需的权限。</span><span class="sxs-lookup"><span data-stu-id="dadfd-134">Role-based access control (RBAC) provides fine-grained access management for Azure resources, enabling you to grant users only the rights they need to perform their jobs.</span></span> <span data-ttu-id="dadfd-135">RBAC 在无需额外费用的情况之下提供给所有 Azure 订阅者。</span><span class="sxs-lookup"><span data-stu-id="dadfd-135">RBAC is provided at no additional cost to all Azure subscriber.</span></span>
+  - content: <span data-ttu-id="dadfd-136">以下哪些服务可提供有关 Azure 服务运行状况的最新状态信息？</span><span class="sxs-lookup"><span data-stu-id="dadfd-136">Which of the following services provides up-to-date status information about the health of Azure services?</span></span>
+    choices:
+    - content: <span data-ttu-id="dadfd-137">合规性管理器</span><span class="sxs-lookup"><span data-stu-id="dadfd-137">Compliance Manager</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="dadfd-138">合规性管理器使您能够跟踪、分配和验证与 microsoft 专业服务和 microsoft 云服务相关的组织的法规遵从性活动。</span><span class="sxs-lookup"><span data-stu-id="dadfd-138">Compliance Manager enables you to track, assign, and verify your organization's regulatory compliance activities related to Microsoft professional services and Microsoft cloud services.</span></span>
+    - content: <span data-ttu-id="dadfd-139">Azure 监视器</span><span class="sxs-lookup"><span data-stu-id="dadfd-139">Azure Monitor</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="dadfd-140">Azure Monitor 收集、分析并提供对来自你的云和本地环境的遥测的操作。</span><span class="sxs-lookup"><span data-stu-id="dadfd-140">Azure Monitor collects, analyzes, and provides actions on telemetry from your cloud and on-premises environments.</span></span>
+    - content: <span data-ttu-id="dadfd-141">服务信任门户</span><span class="sxs-lookup"><span data-stu-id="dadfd-141">Service Trust Portal</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="dadfd-142">服务信任门户提供了与托管合规性管理器应用程序之外的标准、法律和法规遵从性的信息。</span><span class="sxs-lookup"><span data-stu-id="dadfd-142">Service Trust Portal provides information about compliance with standards, laws, and regulations, in addition to hosting the Compliance Manager application.</span></span>
+    - content: <span data-ttu-id="dadfd-143">Azure 服务运行状况</span><span class="sxs-lookup"><span data-stu-id="dadfd-143">Azure Service Health</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="dadfd-144">azure 服务运行状况是正确的答案, 因为它为你提供了 azure 服务运行状况的全局视图。</span><span class="sxs-lookup"><span data-stu-id="dadfd-144">Azure Service Health is the correct answer, because it provides you with a global view of the health of Azure services.</span></span> <span data-ttu-id="dadfd-145">由于 azure 状态是 azure 服务运行状况的组件, 因此您可以获取有关服务可用性的最新信息。</span><span class="sxs-lookup"><span data-stu-id="dadfd-145">With Azure Status, a component of Azure Service Health, you can get up-to-the-minute information on service availability.</span></span>
+  - content: <span data-ttu-id="dadfd-146">在哪里可以获取有关个人数据 microsoft 进程、microsoft 如何处理它以及出于什么目的的详细信息？</span><span class="sxs-lookup"><span data-stu-id="dadfd-146">Where can you obtain details about the personal data Microsoft processes, how Microsoft processes it, and for what purposes?</span></span>
+    choices:
+    - content: <span data-ttu-id="dadfd-147">Microsoft 隐私声明</span><span class="sxs-lookup"><span data-stu-id="dadfd-147">Microsoft Privacy Statement</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="dadfd-148">Microsoft 隐私声明是正确答案。</span><span class="sxs-lookup"><span data-stu-id="dadfd-148">Microsoft Privacy Statement is the correct answer.</span></span>
+    - content: <span data-ttu-id="dadfd-149">合规性管理器</span><span class="sxs-lookup"><span data-stu-id="dadfd-149">Compliance Manager</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="dadfd-150">合规性管理器使您能够跟踪、分配和验证与 microsoft 专业服务和 microsoft 云服务相关的组织的法规遵从性活动。</span><span class="sxs-lookup"><span data-stu-id="dadfd-150">Compliance Manager enables you to track, assign, and verify your organization's regulatory compliance activities related to Microsoft professional services and Microsoft cloud services.</span></span>
+    - content: <span data-ttu-id="dadfd-151">Azure 服务运行状况</span><span class="sxs-lookup"><span data-stu-id="dadfd-151">Azure Service Health</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="dadfd-152">azure 服务运行状况将向你提供 Azure 服务运行状况的全局视图。</span><span class="sxs-lookup"><span data-stu-id="dadfd-152">Azure Service Health will provide you with a global view of the health of your Azure services.</span></span>
+    - content: <span data-ttu-id="dadfd-153">信任中心</span><span class="sxs-lookup"><span data-stu-id="dadfd-153">Trust Center</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="dadfd-154">信任中心包含其中一些数据, 但它并不是权威源。</span><span class="sxs-lookup"><span data-stu-id="dadfd-154">Trust Center has some of this data, but it's not the definitive source.</span></span> <span data-ttu-id="dadfd-155">信任中心提供了有关 Microsoft 提供的安全性、合规性、隐私和透明度选项的信息。</span><span class="sxs-lookup"><span data-stu-id="dadfd-155">Trust Center provides you with information about security, compliance, privacy, and transparency options available from Microsoft.</span></span>

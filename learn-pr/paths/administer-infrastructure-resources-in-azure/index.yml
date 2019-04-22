@@ -1,0 +1,46 @@
+### YamlMime:LearningPath
+uid: learn.administer-infrastructure-resources-in-azure
+metadata:
+  title: 在 Azure 学习路径中管理基础结构资源
+  description: 了解如何创建、管理、保护和扩展虚拟机资源。
+  brand: azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 1f1115e29468cacd9f1ca959fcab8d4ddc04ec69
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137005"
+title: 管理 Azure 中的基础结构资源
+summary: 了解如何创建、管理、保护和扩展虚拟机资源。
+prerequisites: 无
+iconUrl: /learn/achievements/administer-infrastructure-resources-in-azure.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- azure
+- azure-virtual-machines
+- azure-storage
+- azure-portal
+- azure-monitor
+- azure-clis
+- azure-resource-manager
+modules:
+- learn.introduction-to-azure-virtual-machines
+- learn.create-linux-vm-in-azure
+- learn.create-a-windows-vm-in-azure
+- learn.manage-vms-with-azure-cli
+- learn.keep-your-virtual-machines-updated
+- learn.configure-the-network-for-your-virtual-machines
+- learn.build-azure-vm-templates
+- learn.add-and-size-disks-in-azure-virtual-machines
+- learn.caching-and-performance-azure-storage-and-disks
+- learn.secure-your-azure-virtual-machine-disks
+trophy:
+  uid: learn.administer-infrastructure-resources-in-azure.trophy

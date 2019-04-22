@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.prepare-azure-dev-environment.3-exercise-set-up-visual-studio-code
+title: <span data-ttu-id="50fb8-101">安装 Visual Studio Code 和 Azure 应用服务扩展</span><span class="sxs-lookup"><span data-stu-id="50fb8-101">Install Visual Studio Code and the Azure App Service extension</span></span>
+metadata:
+  title: <span data-ttu-id="50fb8-102">安装 Visual Studio Code 和 Azure 应用服务扩展</span><span class="sxs-lookup"><span data-stu-id="50fb8-102">Install Visual Studio Code and the Azure App Service extension</span></span>
+  description: <span data-ttu-id="50fb8-103">安装 Visual Studio Code 和 Azure 应用服务扩展</span><span class="sxs-lookup"><span data-stu-id="50fb8-103">Install Visual Studio Code and the Azure App Service extension</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  zone_pivot_groups: platform
+  ms.openlocfilehash: be2d08117974190608ce3a2fccfe5141155e52ab
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138042"
+durationInMinutes: 15
+content: '[!include[](includes/3-exercise-set-up-visual-studio-code.md)]'

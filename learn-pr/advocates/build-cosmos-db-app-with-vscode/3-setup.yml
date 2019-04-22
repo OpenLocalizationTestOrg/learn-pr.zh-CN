@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.cosmos-db-app-with-vscode.3-setup
+metadata:
+  title: <span data-ttu-id="184bf-101">在 Visual Studio Code 中设置你的应用程序</span><span class="sxs-lookup"><span data-stu-id="184bf-101">Set up your app in Visual Studio Code</span></span>
+  description: <span data-ttu-id="184bf-102">在 Visual Studio Code 中设置你的应用程序</span><span class="sxs-lookup"><span data-stu-id="184bf-102">Set up your app in Visual Studio Code</span></span>
+  ms.date: 09/24/2018
+  author: mimig1
+  ms.author: mimig
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 985b3f14fc4539193d6b512bf334b4b56b7118bc
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137748"
+title: <span data-ttu-id="184bf-103">在 Visual Studio Code 中设置你的应用程序</span><span class="sxs-lookup"><span data-stu-id="184bf-103">Set up your app in Visual Studio Code</span></span>
+durationInMinutes: 15
+content: '[!include[](includes/3-setup.md)]'

@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-your-azure-sql-database.1-create-database
+metadata:
+  title: <span data-ttu-id="d2aa7-101">设置沙盒环境</span><span class="sxs-lookup"><span data-stu-id="d2aa7-101">Set up sandbox environment</span></span>
+  description: <span data-ttu-id="d2aa7-102">创建 Azure SQL 数据库和 Linux 虚拟机以在此模块中使用。</span><span class="sxs-lookup"><span data-stu-id="d2aa7-102">Create an Azure SQL Database and a Linux VM for use throughout this module.</span></span>
+  ms.date: 11/09/2018
+  author: jboeshart
+  ms.author: jaboes
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: c2a8f69e522c42af025e83ad8f4cf7784c4b7386
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136094"
+interactive: bash
+azureSandbox: true
+title: <span data-ttu-id="d2aa7-103">设置沙盒环境</span><span class="sxs-lookup"><span data-stu-id="d2aa7-103">Set up sandbox environment</span></span>
+durationInMinutes: 10
+content: '[!include[](includes/1-create-database.md)]'

@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check
+title: <span data-ttu-id="7b7d4-101">知识检查</span><span class="sxs-lookup"><span data-stu-id="7b7d4-101">Knowledge check</span></span>
+metadata:
+  title: <span data-ttu-id="7b7d4-102">摘要和清理</span><span class="sxs-lookup"><span data-stu-id="7b7d4-102">Summary and clean-up</span></span>
+  description: <span data-ttu-id="7b7d4-103">知识检查</span><span class="sxs-lookup"><span data-stu-id="7b7d4-103">Knowledge check</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: d7d14fee20953605c1eed30849306ae39c6e5310
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136163"
+durationInMinutes: 2
+quiz:
+  title: <span data-ttu-id="7b7d4-104">知识检查</span><span class="sxs-lookup"><span data-stu-id="7b7d4-104">Knowledge check</span></span>
+  questions:
+  - content: <span data-ttu-id="7b7d4-105">如何将您的函数绑定到 Twilio 以发送短信消息？</span><span class="sxs-lookup"><span data-stu-id="7b7d4-105">How do you bind your function to Twilio to send SMS messages?</span></span>
+    choices:
+    - content: <span data-ttu-id="7b7d4-106">通过将 SMS 消息作为函数的返回值返回</span><span class="sxs-lookup"><span data-stu-id="7b7d4-106">By returning the SMS messages as the return value of the Function</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="7b7d4-107">函数参数</span><span class="sxs-lookup"><span data-stu-id="7b7d4-107">A function parameter</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="7b7d4-108">SMS 消息将添加到作为使用`[TwilioSms]`属性修饰的参数传递给函数的集合中。</span><span class="sxs-lookup"><span data-stu-id="7b7d4-108">SMS messages are added to a collection passed to the function as a parameter decorated with the `[TwilioSms]` attribute.</span></span> <span data-ttu-id="7b7d4-109">函数的运行时将在函数返回后将这些邮件发送到 Twilio。</span><span class="sxs-lookup"><span data-stu-id="7b7d4-109">The Function's runtime will send these messages to Twilio once the function returns.</span></span>
+    - content: <span data-ttu-id="7b7d4-110">直接调用 Twilio API</span><span class="sxs-lookup"><span data-stu-id="7b7d4-110">Direct call to the Twilio API</span></span>
+      isCorrect: false
+  - content: <span data-ttu-id="7b7d4-111">在本地运行函数时, 您在何处定义您的 Twilio 帐户 SID 和 auth 令牌？</span><span class="sxs-lookup"><span data-stu-id="7b7d4-111">Where do you define your Twilio account SID and auth token when running your function locally?</span></span>
+    choices:
+    - content: <span data-ttu-id="7b7d4-112">在`local.settings.json`文件中。</span><span class="sxs-lookup"><span data-stu-id="7b7d4-112">In the `local.settings.json` file.</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="7b7d4-113">该`local.settings.json`文件用于存储仅在本地运行时 (而不是发布到 Azure 时) 使用的本地设置。</span><span class="sxs-lookup"><span data-stu-id="7b7d4-113">The `local.settings.json` file is used to store local settings that are only used when running locally, not when published to Azure.</span></span> <span data-ttu-id="7b7d4-114">如果包含私钥且你的存储库是公共的, 请注意不要将其签入到源代码控制中。</span><span class="sxs-lookup"><span data-stu-id="7b7d4-114">Be careful to not check this into source code control if it contains private keys and your repo is public.</span></span>
+    - content: <span data-ttu-id="7b7d4-115">`[TwilioSms]`属性中</span><span class="sxs-lookup"><span data-stu-id="7b7d4-115">In the `[TwilioSms]` attribute</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="7b7d4-116">发布到 Azure 的应用程序设置</span><span class="sxs-lookup"><span data-stu-id="7b7d4-116">Application settings published to Azure</span></span>
+      isCorrect: false

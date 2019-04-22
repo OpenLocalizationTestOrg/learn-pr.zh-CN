@@ -1,0 +1,11 @@
+<span data-ttu-id="cb692-101">Azure Bot 服务与 Microsoft QnA Maker 结合使用, 为开发人员提供了构建和发布与使用一系列服务的用户进行自然交互的智能 bot 所需的工具。</span><span class="sxs-lookup"><span data-stu-id="cb692-101">The Azure Bot Service, combined with Microsoft QnA Maker, provides the tools developers need to build and publish intelligent bots that interact naturally with users using a range of services.</span></span> <span data-ttu-id="cb692-102">在本模块中, 你将使用 Azure bot 服务创建一个 bot, 并将其连接到使用 QnA Maker 构建的知识库。</span><span class="sxs-lookup"><span data-stu-id="cb692-102">In this module, you will create a bot using the Azure Bot Service and connect it to a knowledge base built with QnA Maker.</span></span> <span data-ttu-id="cb692-103">然后, 您将使用 microsoft QnA Maker 和 microsoft bot 框架仿真程序与 bot 进行交互。</span><span class="sxs-lookup"><span data-stu-id="cb692-103">Then, you will interact with the bot using the Microsoft QnA Maker and Microsoft Bot Framework Emulator.</span></span>
+
+## <a name="learning-objectives"></a><span data-ttu-id="cb692-104">学习目标</span><span class="sxs-lookup"><span data-stu-id="cb692-104">Learning objectives</span></span>
+
+<span data-ttu-id="cb692-105">在本模块中, 您将:</span><span class="sxs-lookup"><span data-stu-id="cb692-105">In this module, you will:</span></span>
+
+- <span data-ttu-id="cb692-106">创建 Azure Web 应用程序机器人以承载 Bot</span><span class="sxs-lookup"><span data-stu-id="cb692-106">Create an Azure Web App Bot to host a bot</span></span>
+- <span data-ttu-id="cb692-107">创建知识库, 使用数据填充该知识库, 并将其连接到机器人</span><span class="sxs-lookup"><span data-stu-id="cb692-107">Create a knowledge base, populate it with data, and connect it to a bot</span></span>
+- <span data-ttu-id="cb692-108">在代码中实现 bot 并调试生成的 bot</span><span class="sxs-lookup"><span data-stu-id="cb692-108">Implement bots in code and debug the bots that you build</span></span>
+- <span data-ttu-id="cb692-109">发布 bot 并使用持续集成使其保持最新</span><span class="sxs-lookup"><span data-stu-id="cb692-109">Publish bots and use continuous integration to keep them up to date</span></span>
+- <span data-ttu-id="cb692-110">使用 Visual Studio Code 和 Microsoft Bot 框架仿真器在本地调试 bot</span><span class="sxs-lookup"><span data-stu-id="cb692-110">Debug bots locally using Visual Studio Code and the Microsoft Bot Framework Emulator</span></span>

@@ -1,0 +1,19 @@
+<span data-ttu-id="bae93-101">假设您针对执行视频数据处理和模式分析的公司工作。</span><span class="sxs-lookup"><span data-stu-id="bae93-101">Imagine you work for a company that does video data processing and pattern analysis.</span></span> <span data-ttu-id="bae93-102">您要构建一个新的原型平台来处理来自交通相机的视频、分析趋势, 并提供可操作的数据来进行流量和路上改进。</span><span class="sxs-lookup"><span data-stu-id="bae93-102">You are building a new prototype platform to process the video from traffic cameras, analyze trends, and provide actionable data for traffic and road improvements.</span></span> 
+
+<span data-ttu-id="bae93-103">为了改进您的算法, 您已进行了多个新城市的排列, 以收集其流量相机数据。</span><span class="sxs-lookup"><span data-stu-id="bae93-103">To improve your algorithms, you have made arrangements with several new cities to collect their traffic camera data.</span></span> <span data-ttu-id="bae93-104">但是, 并不是所有的视频数据都使用相同的格式, 并且许多格式只有 Windows 编解码器才能对数据进行解码。</span><span class="sxs-lookup"><span data-stu-id="bae93-104">However not all of the video data is in the same format, and many of the formats only have Windows codecs to decode the data.</span></span> <span data-ttu-id="bae93-105">为此, 你已决定使用虚拟机 (vm) 执行初始处理, 然后将数据推送到将处理标准格式的 Azure 函数上。</span><span class="sxs-lookup"><span data-stu-id="bae93-105">Because of this, you have decided to use Virtual Machines (VMs) to do the initial processing and then push the data onto Azure Functions that will process a standard format.</span></span> <span data-ttu-id="bae93-106">此方法将允许您动态地引入新数据格式, 而不会停止整个系统。</span><span class="sxs-lookup"><span data-stu-id="bae93-106">This approach will allow you to bring on new data formats dynamically without stopping the entire system.</span></span>
+
+<span data-ttu-id="bae93-107">Azure 提供了可靠的虚拟机托管解决方案, 可满足您的需求。</span><span class="sxs-lookup"><span data-stu-id="bae93-107">Azure provides a robust virtual machine hosting solution that can meet your needs.</span></span> <span data-ttu-id="bae93-108">让我们来了解如何在 Azure 中创建和使用 Windows 虚拟机。</span><span class="sxs-lookup"><span data-stu-id="bae93-108">Let's explore how to create and work with Windows virtual machines in Azure.</span></span>
+
+## <a name="learning-objectives"></a><span data-ttu-id="bae93-109">学习目标</span><span class="sxs-lookup"><span data-stu-id="bae93-109">Learning objectives</span></span>
+
+<span data-ttu-id="bae93-110">在本模块中, 您将:</span><span class="sxs-lookup"><span data-stu-id="bae93-110">In this module, you will:</span></span>
+
+- <span data-ttu-id="bae93-111">了解 Azure 中的虚拟机可用的选项。</span><span class="sxs-lookup"><span data-stu-id="bae93-111">Understand the options that are available for virtual machines in Azure.</span></span>
+- <span data-ttu-id="bae93-112">使用 Azure 门户创建 Windows 虚拟机。</span><span class="sxs-lookup"><span data-stu-id="bae93-112">Create a Windows virtual machine using the Azure portal.</span></span>
+- <span data-ttu-id="bae93-113">使用远程桌面连接到正在运行的 Windows 虚拟机。</span><span class="sxs-lookup"><span data-stu-id="bae93-113">Connect to a running Windows virtual machine using Remote Desktop.</span></span>
+- <span data-ttu-id="bae93-114">使用 Azure 门户在 VM 上安装软件并更改网络配置。</span><span class="sxs-lookup"><span data-stu-id="bae93-114">Install software and change the network configuration on a VM using the Azure portal.</span></span>
+
+## <a name="prerequisites"></a><span data-ttu-id="bae93-115">先决条件</span><span class="sxs-lookup"><span data-stu-id="bae93-115">Prerequisites</span></span>
+
+- <span data-ttu-id="bae93-116">从**azure 虚拟机简介中对**azure 虚拟机的基本了解</span><span class="sxs-lookup"><span data-stu-id="bae93-116">Basic understanding of Azure Virtual Machines from **Introduction to Azure Virtual Machines**</span></span>
+- <span data-ttu-id="bae93-117">远程桌面客户端</span><span class="sxs-lookup"><span data-stu-id="bae93-117">Remote Desktop client</span></span>

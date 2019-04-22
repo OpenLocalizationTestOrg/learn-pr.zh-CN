@@ -1,0 +1,2 @@
+> [!NOTE]
+> <span data-ttu-id="85fee-101">在继续执行这些说明之前, 请确保已激活沙盒。</span><span class="sxs-lookup"><span data-stu-id="85fee-101">Make sure you have activated the sandbox before proceeding with these instructions.</span></span>

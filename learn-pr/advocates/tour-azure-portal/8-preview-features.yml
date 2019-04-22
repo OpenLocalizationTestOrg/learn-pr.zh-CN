@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.tour-azure-portal-features.8-preview-features
+title: <span data-ttu-id="d26be-101">访问公共和私有预览功能</span><span class="sxs-lookup"><span data-stu-id="d26be-101">Access public and private preview features</span></span>
+metadata:
+  title: <span data-ttu-id="d26be-102">访问公共和专用预览功能-了解</span><span class="sxs-lookup"><span data-stu-id="d26be-102">Access public and private preview features - Learn</span></span>
+  description: <span data-ttu-id="d26be-103">访问公共和专用预览功能-了解</span><span class="sxs-lookup"><span data-stu-id="d26be-103">Access public and private preview features - Learn</span></span>
+  ms.date: 01/1/2019
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 46c7f9237ec10a3043bd18387efcccbad4ec83d8
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137284"
+durationInMinutes: 5
+content: '[!include[](includes/8-preview-features.md)]'

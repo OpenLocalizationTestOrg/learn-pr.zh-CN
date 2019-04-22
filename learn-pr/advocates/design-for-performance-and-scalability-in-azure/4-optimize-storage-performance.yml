@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-performance-and-scalability.4-optimize-storage-performance
+title: <span data-ttu-id="58577-101">优化存储性能</span><span class="sxs-lookup"><span data-stu-id="58577-101">Optimize storage performance</span></span>
+metadata:
+  title: <span data-ttu-id="58577-102">优化存储性能</span><span class="sxs-lookup"><span data-stu-id="58577-102">Optimize storage performance</span></span>
+  description: <span data-ttu-id="58577-103">在此单元中, 我们将讨论如何为你的体系结构优化存储性能</span><span class="sxs-lookup"><span data-stu-id="58577-103">In this unit we'll discuss how to optimize storage performance for your architecture</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 334af2c2df56f1ea0c7cdc08c208bce95ab36c51
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137483"
+durationInMinutes: 9
+content: >
+  [!include[](includes/4-optimize-storage-performance.md)]
+quiz:
+  title: <span data-ttu-id="58577-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="58577-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="58577-105">什么是 polyglot 持久性？</span><span class="sxs-lookup"><span data-stu-id="58577-105">What is polyglot persistence?</span></span>
+    choices:
+    - content: <span data-ttu-id="58577-106">使用 Azure SQL Database 存储所有数据</span><span class="sxs-lookup"><span data-stu-id="58577-106">Using Azure SQL Database to store all of your data</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="58577-107">将所有数据存储在一种技术中并不是 polyglot 持久性的定义。</span><span class="sxs-lookup"><span data-stu-id="58577-107">Storing all data in a single technology is not the definition of polyglot persistence.</span></span>
+    - content: <span data-ttu-id="58577-108">一种保持连接处于活动状态以进行数据传输的方法</span><span class="sxs-lookup"><span data-stu-id="58577-108">A way to keep connections alive for data transfers</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="58577-109">Keepalives 是保持连接处于活动状态以进行数据传输且与 polyglot 暂留不相关的方法。</span><span class="sxs-lookup"><span data-stu-id="58577-109">Keepalives are methods of keeping connections alive for data transfers and are not related to polyglot persistence.</span></span>
+    - content: <span data-ttu-id="58577-110">在应用程序中用于不同用途的不同数据存储技术的使用情况</span><span class="sxs-lookup"><span data-stu-id="58577-110">The usage of different data storage technologies for different purposes in your application</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="58577-111">Polyglot 持久性是在同一应用程序中使用不同的数据存储技术, 因此您可以对每种数据类型使用最佳方法。</span><span class="sxs-lookup"><span data-stu-id="58577-111">Polyglot persistence is the usage of different data storage technologies in the same application so you can use the best approach for each type of data.</span></span>
+    - content: <span data-ttu-id="58577-112">一种处理暂时性数据故障的方法</span><span class="sxs-lookup"><span data-stu-id="58577-112">An approach to deal with transient data faults</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="58577-113">在应用程序体系结构中处理瞬时数据故障是有益的, 但它与 polyglot 暂留不相关。</span><span class="sxs-lookup"><span data-stu-id="58577-113">While dealing with transient data faults is beneficial in an application architecture, it is not related to polyglot persistence.</span></span>
+  - content: '<span data-ttu-id="58577-114">True 或 false: Redis 缓存通过在内存中存储数据的快照来提高应用程序的性能。</span><span class="sxs-lookup"><span data-stu-id="58577-114">True or false: Redis Cache improves the performance of your application by storing a snapshot of data in memory.</span></span>'
+    choices:
+    - content: <span data-ttu-id="58577-115">True</span><span class="sxs-lookup"><span data-stu-id="58577-115">True</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="58577-116">Redis 缓存将在内存中存储应用程序数据, 从而加快检索速度, 并改进与频繁访问的数据相关的应用程序性能。</span><span class="sxs-lookup"><span data-stu-id="58577-116">Redis Cache will store application data in memory, leading to fast retrieval times and an improvement in application performance related to frequently accessed data.</span></span>
+    - content: <span data-ttu-id="58577-117">False</span><span class="sxs-lookup"><span data-stu-id="58577-117">False</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="58577-118">Redis 缓存将在内存中存储应用程序数据, 从而加快检索速度, 并改进与频繁访问的数据相关的应用程序性能。</span><span class="sxs-lookup"><span data-stu-id="58577-118">Redis Cache will store application data in memory, leading to fast retrieval times and an improvement in application performance related to frequently accessed data.</span></span>

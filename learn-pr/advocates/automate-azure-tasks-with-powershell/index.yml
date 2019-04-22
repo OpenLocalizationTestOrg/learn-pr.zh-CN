@@ -1,0 +1,53 @@
+### YamlMime:Module
+uid: learn.automate-azure-tasks-with-powershell
+metadata:
+  title: 使用带 PowerShell 的脚本自动执行 Azure 任务-了解
+  description: Azure powershell 是一个 PowerShell 模块, 其中包含用于控制 Azure 资源的 cmdlet。 您可以在管理员计算机上本地安装它, 然后运行交互式命令和脚本。 azure PowerShell 将命令转发到 azure 数据中心, 在 azure 订阅的上下文中执行这些命令。 本模块向您介绍如何在 Linux、macOS 或 Windows 上安装 Azure PowerShell, 然后使用它连接到 Azure 并管理您的资源。
+  ms.date: 09/24/2018
+  author: marktap
+  ms.author: matapar
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 873a21f8ed11436ab0ef4d5ec48c8d89d13fedd7
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136947"
+title: 使用 PowerShell 脚本自动执行 Azure 任务
+summary: 在本地安装 azure PowerShell 并使用它来管理 azure 资源。
+abstract: >
+  在本模块中, 您将:
+
+  - 确定 azure PowerShell 是否为你的 azure 管理任务的正确工具
+
+  - 在 Linux、macOS 和/或 Windows 上安装 Azure PowerShell
+
+  - 使用 azure PowerShell 连接到 azure 订阅
+
+  - 使用 azure PowerShell 创建 Azure 资源
+prerequisites: >
+  - 使用命令行界面 (如 PowerShell 或 Bash) 的体验
+
+  - 基本 Azure 概念 (例如资源组和虚拟机) 的知识
+
+  - 使用 azure 门户管理 azure 资源的体验
+iconUrl: /learn/achievements/automate-azure-tasks-with-powershell.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+units:
+- learn.automate-azure-tasks-with-powershell.1-introduction
+- learn.automate-azure-tasks-with-powershell.2-decide-if-azure-powershell-is-right-for-your-tasks
+- learn.automate-azure-tasks-with-powershell.3-install-azure-powershell
+- learn.automate-azure-tasks-with-powershell.4-exercise-install-azure-powershell
+- learn.automate-azure-tasks-with-powershell.5-create-resource-interactively
+- learn.automate-azure-tasks-with-powershell.6-exercise-create-resource-interactively
+- learn.automate-azure-tasks-with-powershell.7-create-resource-using-script
+- learn.automate-azure-tasks-with-powershell.8-exercise-create-resource-using-script
+- learn.automate-azure-tasks-with-powershell.9-summary
+badge:
+  uid: learn.automate-azure-tasks-with-powershell.badge

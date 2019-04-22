@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability
+title: <span data-ttu-id="7df40-101">性能和可伸缩性的设计</span><span class="sxs-lookup"><span data-stu-id="7df40-101">Design for performance and scalability</span></span>
+metadata:
+  title: <span data-ttu-id="7df40-102">性能和可伸缩性的设计</span><span class="sxs-lookup"><span data-stu-id="7df40-102">Design for performance and scalability</span></span>
+  description: <span data-ttu-id="7df40-103">性能和可伸缩性的设计</span><span class="sxs-lookup"><span data-stu-id="7df40-103">Design for performance and scalability</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 6b11e77335cfaa0b0f971f5c1bab44288579e75c
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136386"
+durationInMinutes: 10
+content: >
+  [!include[](includes/4-design-for-performance-and-scalability.md)]
+quiz:
+  title: <span data-ttu-id="7df40-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="7df40-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="7df40-105">以下哪一项是向上扩展的示例？</span><span class="sxs-lookup"><span data-stu-id="7df40-105">Which of the following is an example of scaling up?</span></span>
+    choices:
+    - content: <span data-ttu-id="7df40-106">更新应用程序以使用队列服务</span><span class="sxs-lookup"><span data-stu-id="7df40-106">Updating your application to use a queuing service</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="7df40-107">在应用程序中包括队列服务可能是一个智能 architecual 决策, 但并不是向上扩展的一个示例。</span><span class="sxs-lookup"><span data-stu-id="7df40-107">Including a queuing service in your application can be a smart architecual decision, but is not an example of scaling up.</span></span>
+    - content: <span data-ttu-id="7df40-108">将更多的 web 服务器添加到 web 场</span><span class="sxs-lookup"><span data-stu-id="7df40-108">Adding more web servers into a web farm</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="7df40-109">向 web 场中添加更多的 web 服务器是向外扩展的示例。</span><span class="sxs-lookup"><span data-stu-id="7df40-109">Adding more web servers into a web farm is an example of scaling out.</span></span>
+    - content: <span data-ttu-id="7df40-110">将另一虚拟机添加到数据库群集</span><span class="sxs-lookup"><span data-stu-id="7df40-110">Adding another virtual machine into a database cluster</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="7df40-111">将另一个虚拟机添加到数据库群集并不是向上扩展的示例。</span><span class="sxs-lookup"><span data-stu-id="7df40-111">Adding another virtual machine into a database cluster is not an example of scaling up.</span></span>
+    - content: <span data-ttu-id="7df40-112">将虚拟机更新为更大的大小</span><span class="sxs-lookup"><span data-stu-id="7df40-112">Updating a virtual machine to a larger size</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="7df40-113">将虚拟机更改为更大的大小可增加实例的可用资源, 也是向上扩展的示例。</span><span class="sxs-lookup"><span data-stu-id="7df40-113">Changing a virtual machine to a larger size increases the resources available to the instance, and is an example of scaling up.</span></span>
+  - content: <span data-ttu-id="7df40-114">下面哪一项是向外扩展的示例？</span><span class="sxs-lookup"><span data-stu-id="7df40-114">Which of the following is an example of scaling out?</span></span>
+    choices:
+    - content: <span data-ttu-id="7df40-115">将虚拟机更新为更大的大小</span><span class="sxs-lookup"><span data-stu-id="7df40-115">Updating a virtual machine to a larger size</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="7df40-116">将虚拟机更改为更大的大小可增加实例的可用资源, 也是向上扩展的示例。</span><span class="sxs-lookup"><span data-stu-id="7df40-116">Changing a virtual machine to a larger size increases the resources available to the instance, and is an example of scaling up.</span></span>
+    - content: <span data-ttu-id="7df40-117">向虚拟机添加更多存储</span><span class="sxs-lookup"><span data-stu-id="7df40-117">Adding more storage to a virtual machine</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="7df40-118">向虚拟机添加更多存储不是向外扩展的一个示例。</span><span class="sxs-lookup"><span data-stu-id="7df40-118">Adding more storage to a virtual machine is not an example of scaling out.</span></span>
+    - content: <span data-ttu-id="7df40-119">将更多的 web 服务器添加到 web 场</span><span class="sxs-lookup"><span data-stu-id="7df40-119">Adding more web servers into a web farm</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="7df40-120">向 web 场中添加更多的 web 服务器是向外扩展的示例。</span><span class="sxs-lookup"><span data-stu-id="7df40-120">Adding more web servers into a web farm is an example of scaling out.</span></span>
+    - content: <span data-ttu-id="7df40-121">将备份复制到另一个区域</span><span class="sxs-lookup"><span data-stu-id="7df40-121">Replicating backups to another region</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="7df40-122">将备份复制到另一个区域不适用于资源的缩放。</span><span class="sxs-lookup"><span data-stu-id="7df40-122">Replicating backups to another region is not applicable to scaling of resources.</span></span>

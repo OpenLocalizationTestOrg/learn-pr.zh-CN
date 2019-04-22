@@ -1,0 +1,5 @@
+<span data-ttu-id="cc305-101">通过存储帐户, 您可以创建一组数据管理规则, 并将它们一次性应用于帐户中存储的数据: blob、文件、表和队列。</span><span class="sxs-lookup"><span data-stu-id="cc305-101">Storage accounts let you create a group of data management rules and apply them all at once to the data stored in the account: blobs, files, tables, and queues.</span></span> 
+
+<span data-ttu-id="cc305-102">如果您尝试实现相同的内容, 而不是存储帐户, 最终产品将变单调且容易出错。</span><span class="sxs-lookup"><span data-stu-id="cc305-102">If you tried to achieve the same thing without storage accounts, the end product would be tedious and error-prone.</span></span> <span data-ttu-id="cc305-103">例如, 您可以成功地将相同的规则应用于数千个 blob 的可能性是什么？</span><span class="sxs-lookup"><span data-stu-id="cc305-103">For example, what are the chances that you could successfully apply the same rules to thousands of blobs?</span></span>
+
+<span data-ttu-id="cc305-104">而是捕获存储帐户设置中的规则, 这些规则将自动应用于帐户中的每个数据服务。</span><span class="sxs-lookup"><span data-stu-id="cc305-104">Instead, you capture the rules in the settings for a storage account, and those rules are automatically applied to every data service in the account.</span></span>

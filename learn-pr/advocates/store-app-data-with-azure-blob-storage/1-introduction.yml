@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.store-app-data-with-azure-blob-storage.1-introduction
+title: <span data-ttu-id="1f162-101">Blob 存储简介</span><span class="sxs-lookup"><span data-stu-id="1f162-101">Introduction to Blob storage</span></span>
+metadata:
+  title: <span data-ttu-id="1f162-102">Blob 存储简介</span><span class="sxs-lookup"><span data-stu-id="1f162-102">Introduction to Blob storage</span></span>
+  description: <span data-ttu-id="1f162-103">Blob 存储简介</span><span class="sxs-lookup"><span data-stu-id="1f162-103">Introduction to Blob storage</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 6ee4e09eeb8f3a022d0319e767ef84a4e8ce0afc
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137762"
+durationInMinutes: 3
+content: '[!include[](includes/1-introduction.md)]'

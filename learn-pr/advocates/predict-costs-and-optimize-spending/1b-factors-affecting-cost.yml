@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.predict-costs-and-optimize-spending.1b-factors-affecting-cost
+title: <span data-ttu-id="0450b-101">影响成本的因素</span><span class="sxs-lookup"><span data-stu-id="0450b-101">Factors affecting costs</span></span>
+metadata:
+  title: <span data-ttu-id="0450b-102">影响成本的因素-了解</span><span class="sxs-lookup"><span data-stu-id="0450b-102">Factors affecting costs - Learn</span></span>
+  description: <span data-ttu-id="0450b-103">影响成本的因素-了解</span><span class="sxs-lookup"><span data-stu-id="0450b-103">Factors affecting costs - Learn</span></span>
+  ms.date: 12/28/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 98e7f1587116f3fb2b838d9efe6d0c9db29d5db4
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137390"
+durationInMinutes: 5
+content: '[!include[](includes/1b-factors-affecting-cost.md)]'

@@ -1,0 +1,43 @@
+### YamlMime:ModuleUnit
+uid: learn.choose-storage-approach-in-azure.4-transactions
+metadata:
+  title: <span data-ttu-id="82ab5-101">在事务中对多个操作进行分组</span><span class="sxs-lookup"><span data-stu-id="82ab5-101">Group multiple operations in a transaction</span></span>
+  description: <span data-ttu-id="82ab5-102">在事务中对多个操作进行分组</span><span class="sxs-lookup"><span data-stu-id="82ab5-102">Group multiple operations in a transaction</span></span>
+  ms.date: 09/24/2018
+  author: mimig1
+  ms.author: mimig
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 38a3be134f13aa5bf07fa39478a9dbbedd40b6ea
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136273"
+title: <span data-ttu-id="82ab5-103">在事务中对多个操作进行分组</span><span class="sxs-lookup"><span data-stu-id="82ab5-103">Group multiple operations in a transaction</span></span>
+durationInMinutes: 5
+content: >
+  [!include[](includes/4-transactions.md)]
+quiz:
+  title: <span data-ttu-id="82ab5-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="82ab5-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="82ab5-105">哪种类型的事务性数据库系统最适用于产品数据？</span><span class="sxs-lookup"><span data-stu-id="82ab5-105">Which type of transactional database system would work best for product data?</span></span>
+    choices:
+    - content: <span data-ttu-id="82ab5-106">透视</span><span class="sxs-lookup"><span data-stu-id="82ab5-106">OLAP</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="82ab5-107">OLTP 系统支持大型用户集、快速响应时间、处理大量数据、高度可用, 并且非常适合小型或相对简单的事务。</span><span class="sxs-lookup"><span data-stu-id="82ab5-107">OLTP systems support a large set of users, have quick response times, handle large volumes of data, are highly available, and are great for small or relatively simple transactions.</span></span>
+    - content: <span data-ttu-id="82ab5-108">OLTP</span><span class="sxs-lookup"><span data-stu-id="82ab5-108">OLTP</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="82ab5-109">OLTP 系统支持大型用户集、快速响应时间、处理大量数据、高度可用, 并且非常适合小型或相对简单的事务。</span><span class="sxs-lookup"><span data-stu-id="82ab5-109">OLTP systems support a large set of users, have quick response times, handle large volumes of data, are highly available, and are great for small or relatively simple transactions.</span></span>
+  - content: <span data-ttu-id="82ab5-110">假定更新库存和进程付款的操作在同一事务中。</span><span class="sxs-lookup"><span data-stu-id="82ab5-110">Suppose the operations to update inventory and process payments are in the same transaction.</span></span> <span data-ttu-id="82ab5-111">用户尝试对全额应用商店信用, 并同时通过电话和膝上型电脑提交完全相同的订单。</span><span class="sxs-lookup"><span data-stu-id="82ab5-111">A user is attempting to apply store credit for the full amount, and submitted the exact same order via phone and laptop at the same time.</span></span> <span data-ttu-id="82ab5-112">幕后的数据库是一个与 ACID 兼容的数据库, 将会发生什么情况？</span><span class="sxs-lookup"><span data-stu-id="82ab5-112">The database behind the scenes is an ACID-compliant database, what would happen?</span></span>
+    choices:
+    - content: <span data-ttu-id="82ab5-113">同时处理这两个订单并使用存储中的贷方。</span><span class="sxs-lookup"><span data-stu-id="82ab5-113">Both orders would be processed and use the in-store credit.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="82ab5-114">第二个订单确定已使用存储中的贷方后, 它会回滚事务。</span><span class="sxs-lookup"><span data-stu-id="82ab5-114">Once the second order determined that the in-store credit has already been used, it would roll back the transaction.</span></span>
+    - content: <span data-ttu-id="82ab5-115">将处理一个订单并使用存储中的贷方, 而另一个订单将更新购物篮中项目的剩余清单, 但不会完成订单。</span><span class="sxs-lookup"><span data-stu-id="82ab5-115">One order would be processed and use the in-store credit, and the other order would update the remaining inventory for the items in the basket, but would not complete the order.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="82ab5-116">第二个订单确定已使用存储中的贷方后, 它会回滚事务。</span><span class="sxs-lookup"><span data-stu-id="82ab5-116">Once the second order determined that the in-store credit has already been used, it would roll back the transaction.</span></span>
+    - content: <span data-ttu-id="82ab5-117">将处理一个订单并使用存储中的贷方, 并且将不会处理另一个订单。</span><span class="sxs-lookup"><span data-stu-id="82ab5-117">One order would be processed and use the in-store credit, and the other order would not be processed.</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="82ab5-118">第二个订单确定已使用存储中的贷方后, 它会回滚事务。</span><span class="sxs-lookup"><span data-stu-id="82ab5-118">Once the second order determined that the in-store credit has already been used, it would roll back the transaction.</span></span>

@@ -1,0 +1,14 @@
+<span data-ttu-id="554c4-101">Microsoft Azure 使你能够快速高效地构建、部署、监视和扩展云托管的解决方案。</span><span class="sxs-lookup"><span data-stu-id="554c4-101">Microsoft Azure enables you to quickly and efficiently build, deploy, monitor, and scale cloud hosted solutions.</span></span> <span data-ttu-id="554c4-102">Azure 的部署模型是灵活的。</span><span class="sxs-lookup"><span data-stu-id="554c4-102">Azure's deployment model is flexible.</span></span> <span data-ttu-id="554c4-103">例如, 您可以在 Visual Studio 中进行开发, 将您的代码提交给 GitHub, 使用 Azure DevOps 生成, 然后部署到 azure。</span><span class="sxs-lookup"><span data-stu-id="554c4-103">For example, you can develop in Visual Studio, commit your code to GitHub, build with Azure DevOps, and then deploy to Azure.</span></span> <span data-ttu-id="554c4-104">或者, 您可以使用不同的集成开发环境 (IDE), 如 Eclipse、在 Linux 上开发和直接从开发计算机部署到云。</span><span class="sxs-lookup"><span data-stu-id="554c4-104">Or you could use a different integrated development environment (IDE) like Eclipse, develop on Linux, and deploy directly from your development machine to the cloud.</span></span>
+
+<span data-ttu-id="554c4-105">使用 Azure 意味着您可以使用最喜爱的 IDE, 从 c # 到 Java 的各种开发语言中进行选择, 并选择您的开发操作系统。</span><span class="sxs-lookup"><span data-stu-id="554c4-105">Using Azure means you use your favorite IDE, you choose from a large range of development languages, from C# to Java to Node.js, and you choose your development operating system.</span></span> <span data-ttu-id="554c4-106">Microsoft 提供并支持适用于 Windows、Linux 和 macOS 的各种开发工具。</span><span class="sxs-lookup"><span data-stu-id="554c4-106">Microsoft provides and supports a wide range of development tools for Windows, Linux, and macOS.</span></span>
+
+<span data-ttu-id="554c4-107">在这里, 你将了解如何使用多个常用 ide 设置开发环境。</span><span class="sxs-lookup"><span data-stu-id="554c4-107">Here, you'll learn how to set up your development environment with several popular IDEs.</span></span>
+
+## <a name="learning-objectives"></a><span data-ttu-id="554c4-108">学习目标</span><span class="sxs-lookup"><span data-stu-id="554c4-108">Learning objectives</span></span>
+
+<span data-ttu-id="554c4-109">在本模块中, 您将:</span><span class="sxs-lookup"><span data-stu-id="554c4-109">In this module, you will:</span></span>
+
+- <span data-ttu-id="554c4-110">设置 Visual Studio Code</span><span class="sxs-lookup"><span data-stu-id="554c4-110">Set up Visual Studio Code</span></span>
+- <span data-ttu-id="554c4-111">设置 Visual Studio</span><span class="sxs-lookup"><span data-stu-id="554c4-111">Set up Visual Studio</span></span>
+- <span data-ttu-id="554c4-112">为 Java 开发设置 Eclipse</span><span class="sxs-lookup"><span data-stu-id="554c4-112">Set up Eclipse for Java development</span></span>
+- <span data-ttu-id="554c4-113">为 Azure 开发准备 IDE</span><span class="sxs-lookup"><span data-stu-id="554c4-113">Prepare your IDE for Azure development</span></span>

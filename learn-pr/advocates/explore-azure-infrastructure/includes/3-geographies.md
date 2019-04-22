@@ -1,0 +1,16 @@
+<span data-ttu-id="81fe3-101">Azure 将世界划分为由 geopolitical 边界或国家/地区边框定义的*地理*位置。</span><span class="sxs-lookup"><span data-stu-id="81fe3-101">Azure divides the world into *geographies* that are defined by geopolitical boundaries or country borders.</span></span> <span data-ttu-id="81fe3-102">Azure 地理位置是一个离散的市场, 它通常包含两个或更多个区域, 以保留数据常驻和合规性边界。</span><span class="sxs-lookup"><span data-stu-id="81fe3-102">An Azure geography is a discrete market typically containing two or more regions that preserve data residency and compliance boundaries.</span></span> <span data-ttu-id="81fe3-103">此部门有几个优点。</span><span class="sxs-lookup"><span data-stu-id="81fe3-103">This division has several benefits.</span></span>
+
+- <span data-ttu-id="81fe3-104">地理位置允许具有特定数据常驻和合规性的客户将其数据和应用程序关闭。</span><span class="sxs-lookup"><span data-stu-id="81fe3-104">Geographies allow customers with specific data residency and compliance needs to keep their data and applications close.</span></span> 
+- <span data-ttu-id="81fe3-105">地理位置可确保数据派驻服务、主权、合规性和恢复能力要求在地理边界内有效。</span><span class="sxs-lookup"><span data-stu-id="81fe3-105">Geographies ensure that data residency, sovereignty, compliance, and resiliency requirements are honored within geographical boundaries.</span></span> 
+- <span data-ttu-id="81fe3-106">通过与专用的高容量网络基础结构的连接, 地理位置可承受在完成区域故障时实现的容错能力。</span><span class="sxs-lookup"><span data-stu-id="81fe3-106">Geographies are fault-tolerant to withstand complete region failure through their connection to dedicated high-capacity networking infrastructure.</span></span>
+
+> [!TIP]
+> <span data-ttu-id="81fe3-107">数据驻留是指组织的数据或信息的物理或地理位置。</span><span class="sxs-lookup"><span data-stu-id="81fe3-107">Data residency refers to the physical or geographic location of an organization's data or information.</span></span> <span data-ttu-id="81fe3-108">它根据数据所在的国家或地区定义对数据的法律或法规要求, 这是规划应用程序数据存储区时的重要考虑事项。</span><span class="sxs-lookup"><span data-stu-id="81fe3-108">It defines the legal or regulatory requirements imposed on data based on the country or region in which it resides and is an important consideration when planning out your application data storage.</span></span>
+
+<span data-ttu-id="81fe3-109">地理位置分为以下几个方面:</span><span class="sxs-lookup"><span data-stu-id="81fe3-109">Geographies are broken up into the following areas:</span></span> 
+- <span data-ttu-id="81fe3-110">其它</span><span class="sxs-lookup"><span data-stu-id="81fe3-110">Americas</span></span>
+- <span data-ttu-id="81fe3-111">地区</span><span class="sxs-lookup"><span data-stu-id="81fe3-111">Europe</span></span>
+- <span data-ttu-id="81fe3-112">亚太地区</span><span class="sxs-lookup"><span data-stu-id="81fe3-112">Asia Pacific</span></span>
+- <span data-ttu-id="81fe3-113">中东和非洲</span><span class="sxs-lookup"><span data-stu-id="81fe3-113">Middle East and Africa</span></span>
+
+<span data-ttu-id="81fe3-114">每个区域都属于一个地理位置, 并对其应用特定的服务可用性、合规性和数据派驻/主权规则。</span><span class="sxs-lookup"><span data-stu-id="81fe3-114">Each region belongs to a single geography and has specific service availability, compliance, and data residency/sovereignty rules applied to it.</span></span> <span data-ttu-id="81fe3-115">有关详细信息, 请查看文档 (摘要单位中提供了链接)。</span><span class="sxs-lookup"><span data-stu-id="81fe3-115">Check the documentation for more information (a link is available in the summary unit).</span></span>

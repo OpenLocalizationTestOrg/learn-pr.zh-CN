@@ -1,0 +1,44 @@
+### YamlMime:ModuleUnit
+uid: learn.introduction-to-azure-virtual-machines.7-knowledge-check
+title: <span data-ttu-id="17f01-101">知识检查</span><span class="sxs-lookup"><span data-stu-id="17f01-101">Knowledge check</span></span>
+metadata:
+  title: <span data-ttu-id="17f01-102">知识检查</span><span class="sxs-lookup"><span data-stu-id="17f01-102">Knowledge check</span></span>
+  description: <span data-ttu-id="17f01-103">知识检查</span><span class="sxs-lookup"><span data-stu-id="17f01-103">Knowledge check</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 69529d40c6d5981e286aaaea1026f81c12fb63c4
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136174"
+durationInMinutes: 1
+quiz:
+  title: <span data-ttu-id="17f01-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="17f01-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="17f01-105">假设您想要在虚拟机上运行网络设备。</span><span class="sxs-lookup"><span data-stu-id="17f01-105">Suppose you want to run a network appliance on a virtual machine.</span></span> <span data-ttu-id="17f01-106">应选择哪个工作负荷选项？</span><span class="sxs-lookup"><span data-stu-id="17f01-106">Which workload option should you choose?</span></span>
+    choices:
+    - content: <span data-ttu-id="17f01-107">常规用途</span><span class="sxs-lookup"><span data-stu-id="17f01-107">General purpose</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="17f01-108">计算优化的虚拟机旨在使 CPU 与内存的比率较高。</span><span class="sxs-lookup"><span data-stu-id="17f01-108">Compute optimized virtual machines are designed to have a high CPU-to-memory ratio.</span></span> <span data-ttu-id="17f01-109">适用于中型流量 web 服务器、网络设备、批处理过程和应用程序服务器。</span><span class="sxs-lookup"><span data-stu-id="17f01-109">Suitable for medium traffic web servers, network appliances, batch processes, and application servers.</span></span>
+    - content: <span data-ttu-id="17f01-110">计算优化</span><span class="sxs-lookup"><span data-stu-id="17f01-110">Compute optimized</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="17f01-111">计算优化的虚拟机旨在使 CPU 与内存的比率较高。</span><span class="sxs-lookup"><span data-stu-id="17f01-111">Compute optimized virtual machines are designed to have a high CPU-to-memory ratio.</span></span> <span data-ttu-id="17f01-112">适用于中型流量 web 服务器、网络设备、批处理过程和应用程序服务器。</span><span class="sxs-lookup"><span data-stu-id="17f01-112">Suitable for medium traffic web servers, network appliances, batch processes, and application servers.</span></span>
+    - content: <span data-ttu-id="17f01-113">内存优化</span><span class="sxs-lookup"><span data-stu-id="17f01-113">Memory optimized</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="17f01-114">计算优化的虚拟机旨在使 CPU 与内存的比率较高。</span><span class="sxs-lookup"><span data-stu-id="17f01-114">Compute optimized virtual machines are designed to have a high CPU-to-memory ratio.</span></span> <span data-ttu-id="17f01-115">适用于中型流量 web 服务器、网络设备、批处理过程和应用程序服务器。</span><span class="sxs-lookup"><span data-stu-id="17f01-115">Suitable for medium traffic web servers, network appliances, batch processes, and application servers.</span></span>
+    - content: <span data-ttu-id="17f01-116">存储优化</span><span class="sxs-lookup"><span data-stu-id="17f01-116">Storage optimized</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="17f01-117">计算优化的虚拟机旨在使 CPU 与内存的比率较高。</span><span class="sxs-lookup"><span data-stu-id="17f01-117">Compute optimized virtual machines are designed to have a high CPU-to-memory ratio.</span></span> <span data-ttu-id="17f01-118">适用于中型流量 web 服务器、网络设备、批处理过程和应用程序服务器。</span><span class="sxs-lookup"><span data-stu-id="17f01-118">Suitable for medium traffic web servers, network appliances, batch processes, and application servers.</span></span>
+  - content: '<span data-ttu-id="17f01-119">True 或 false: 资源管理器模板是否为 JSON 文件？</span><span class="sxs-lookup"><span data-stu-id="17f01-119">True or false: Resource Manager templates are JSON files?</span></span>'
+    choices:
+    - content: <span data-ttu-id="17f01-120">True</span><span class="sxs-lookup"><span data-stu-id="17f01-120">True</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="17f01-121">资源管理器模板是 JSON 文件, 用于定义需要为解决方案部署的资源。</span><span class="sxs-lookup"><span data-stu-id="17f01-121">Resource Manager templates are JSON files that define the resources you need to deploy for your solution.</span></span> <span data-ttu-id="17f01-122">然后, 可以使用该模板轻松地重新创建多个版本的基础结构, 例如暂存和生产。</span><span class="sxs-lookup"><span data-stu-id="17f01-122">The template can then be used to easily re-create multiple versions of your infrastructure, such as staging and production.</span></span>
+    - content: <span data-ttu-id="17f01-123">False</span><span class="sxs-lookup"><span data-stu-id="17f01-123">False</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="17f01-124">资源管理器模板是 JSON 文件, 用于定义需要为解决方案部署的资源。</span><span class="sxs-lookup"><span data-stu-id="17f01-124">Resource Manager templates are JSON files that define the resources you need to deploy for your solution.</span></span> <span data-ttu-id="17f01-125">然后, 可以使用该模板轻松地重新创建多个版本的基础结构, 例如暂存和生产。</span><span class="sxs-lookup"><span data-stu-id="17f01-125">The template can then be used to easily re-create multiple versions of your infrastructure, such as staging and production.</span></span>

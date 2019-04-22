@@ -1,0 +1,45 @@
+### YamlMime:ModuleUnit
+uid: learn.n-tier-architecture.2-what-is-n-tier-architecture
+metadata:
+  title: <span data-ttu-id="e5e8a-101">什么是 N 层体系结构？</span><span class="sxs-lookup"><span data-stu-id="e5e8a-101">What is an N-tier architecture?</span></span>
+  description: <span data-ttu-id="e5e8a-102">什么是 N 层体系结构？</span><span class="sxs-lookup"><span data-stu-id="e5e8a-102">What is an N-tier architecture?</span></span>
+  ms.date: 01/15/2019
+  author: jboeshart
+  ms.author: jaboes
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: ba52fb4863ad2664caacf802dd38ebcf7d39d78b
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136113"
+title: <span data-ttu-id="e5e8a-103">什么是 N 层体系结构？</span><span class="sxs-lookup"><span data-stu-id="e5e8a-103">What is an N-tier architecture?</span></span>
+durationInMinutes: 7
+content: >
+  [!include[](includes/2-what-is-n-tier-architecture.md)]
+quiz:
+  title: <span data-ttu-id="e5e8a-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="e5e8a-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="e5e8a-105">需要更新三层应用程序以与合作伙伴 API 集成。</span><span class="sxs-lookup"><span data-stu-id="e5e8a-105">A three-tier application needs to be updated to integrate with a partner API.</span></span> <span data-ttu-id="e5e8a-106">应将此功能添加到哪个层？</span><span class="sxs-lookup"><span data-stu-id="e5e8a-106">Which layer should this functionality be added to?</span></span>
+    choices:
+    - content: <span data-ttu-id="e5e8a-107">表示层</span><span class="sxs-lookup"><span data-stu-id="e5e8a-107">Presentation tier</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="e5e8a-108">此层的责任应侧重于向用户提供应用程序的方式。</span><span class="sxs-lookup"><span data-stu-id="e5e8a-108">Responsibilities of this tier should focus on how the application is served to the user.</span></span>
+    - content: <span data-ttu-id="e5e8a-109">应用层</span><span class="sxs-lookup"><span data-stu-id="e5e8a-109">Application tier</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="e5e8a-110">对其他系统的 API 调用最适用于应用层, 其中返回的数据可以轻松地与新的或现有的业务逻辑集成。</span><span class="sxs-lookup"><span data-stu-id="e5e8a-110">API calls to other systems are best located in the application tier, where returned data can be easily integrated with new or existing business logic.</span></span>
+    - content: <span data-ttu-id="e5e8a-111">数据层</span><span class="sxs-lookup"><span data-stu-id="e5e8a-111">Data tier</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="e5e8a-112">数据层将重点放在数据存储上。</span><span class="sxs-lookup"><span data-stu-id="e5e8a-112">The data tier focuses on the storage of data.</span></span> <span data-ttu-id="e5e8a-113">添加与 API 的集成并不最好放置在应用程序层上。</span><span class="sxs-lookup"><span data-stu-id="e5e8a-113">Adding integration with an API is not best placed on this tier of the application.</span></span>
+  - content: <span data-ttu-id="e5e8a-114">在哪一层可接受对用户的访问？</span><span class="sxs-lookup"><span data-stu-id="e5e8a-114">On which layer is it acceptable to allow access to users?</span></span>
+    choices:
+    - content: <span data-ttu-id="e5e8a-115">表示层</span><span class="sxs-lookup"><span data-stu-id="e5e8a-115">Presentation tier</span></span>
+      isCorrect: true
+      explanation: '<span data-ttu-id="e5e8a-116">此层处理与最终用户的交互, 并且应是最终用户访问的层。</span><span class="sxs-lookup"><span data-stu-id="e5e8a-116">This tier handles the interaction with the end user, and should be the tier accessed by the end user.</span></span> '
+    - content: <span data-ttu-id="e5e8a-117">应用层</span><span class="sxs-lookup"><span data-stu-id="e5e8a-117">Application tier</span></span>
+      isCorrect: false
+      explanation: '<span data-ttu-id="e5e8a-118">此层包含业务逻辑、数据处理和其他可能的敏感详细信息, 不应向最终用户公开。</span><span class="sxs-lookup"><span data-stu-id="e5e8a-118">This tier contains business logic, data processing, and other potentially sensitive details and should not be exposed to end users.</span></span> '
+    - content: <span data-ttu-id="e5e8a-119">数据层</span><span class="sxs-lookup"><span data-stu-id="e5e8a-119">Data tier</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="e5e8a-120">数据层处理数据存储, 永远不应直接向用户公开。</span><span class="sxs-lookup"><span data-stu-id="e5e8a-120">The data tier handles the storage of data and should never be exposed directly to users.</span></span> <span data-ttu-id="e5e8a-121">数据的使用者应使用更高的层提供的功能。</span><span class="sxs-lookup"><span data-stu-id="e5e8a-121">Consumers of data should use capabilities provided by higher tiers.</span></span>

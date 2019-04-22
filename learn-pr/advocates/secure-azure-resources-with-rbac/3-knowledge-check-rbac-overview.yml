@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-azure-resources-with-rbac.3-knowledge-check-rbac-overview
+metadata:
+  title: <span data-ttu-id="04487-101">知识检查-什么是 RBAC？</span><span class="sxs-lookup"><span data-stu-id="04487-101">Knowledge check - What is RBAC?</span></span>
+  description: <span data-ttu-id="04487-102">知识检查-什么是 RBAC？</span><span class="sxs-lookup"><span data-stu-id="04487-102">Knowledge check - What is RBAC?</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 237532bc290ea7cf2d8d5e2c8f87c3042e8979fc
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136099"
+title: <span data-ttu-id="04487-103">知识检查-什么是 RBAC？</span><span class="sxs-lookup"><span data-stu-id="04487-103">Knowledge check - What is RBAC?</span></span>
+durationInMinutes: 2
+quiz:
+  title: <span data-ttu-id="04487-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="04487-104">Check your knowledge</span></span>
+  questions:
+  - content: '<span data-ttu-id="04487-105">True 或 false: Azure 中的角色定义是权限的集合。</span><span class="sxs-lookup"><span data-stu-id="04487-105">True or false: A role definition in Azure is a collection of permissions?</span></span>'
+    choices:
+    - content: <span data-ttu-id="04487-106">True</span><span class="sxs-lookup"><span data-stu-id="04487-106">True</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="04487-107">Azure 中的角色定义是具有可分配给用户、组或应用程序的名称的权限的集合。</span><span class="sxs-lookup"><span data-stu-id="04487-107">A role definition in Azure is a collection of permissions with a name that you can assign to a user, group, or application.</span></span>
+    - content: <span data-ttu-id="04487-108">False</span><span class="sxs-lookup"><span data-stu-id="04487-108">False</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="04487-109">Azure 中的角色定义是具有可分配给用户、组或应用程序的名称的权限集。</span><span class="sxs-lookup"><span data-stu-id="04487-109">A role definition in Azure is a collection of permissions with a name that you can assign to a user, group, or application</span></span>
+  - content: <span data-ttu-id="04487-110">假设您要分配角色以允许用户创建和管理 Azure 资源, 但不能向其他人授予访问权限。</span><span class="sxs-lookup"><span data-stu-id="04487-110">Suppose you want to assign a role to allow a user to create and manage Azure resources but not be able to grant access to others.</span></span> <span data-ttu-id="04487-111">以下哪些内置角色将支持此功能？</span><span class="sxs-lookup"><span data-stu-id="04487-111">Which of the following built-in roles would support this?</span></span>
+    choices:
+    - content: <span data-ttu-id="04487-112">Owner</span><span class="sxs-lookup"><span data-stu-id="04487-112">Owner</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="04487-113">所有者可以创建和管理所有类型的 Azure 资源;但是, 他们可以向其他用户授予访问权限。</span><span class="sxs-lookup"><span data-stu-id="04487-113">An owner can create and manage all types of Azure resources; however, they can grant access to other users.</span></span>
+    - content: <span data-ttu-id="04487-114">参与者</span><span class="sxs-lookup"><span data-stu-id="04487-114">Contributor</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="04487-115">参与者可以创建和管理所有类型的 Azure 资源, 但不能向其他用户授予访问权限。</span><span class="sxs-lookup"><span data-stu-id="04487-115">A contributor can create and manage all types of Azure resources, but they can't grant access to other users.</span></span>
+    - content: <span data-ttu-id="04487-116">Reader</span><span class="sxs-lookup"><span data-stu-id="04487-116">Reader</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="04487-117">读者只能查看现有的 Azure 资源。</span><span class="sxs-lookup"><span data-stu-id="04487-117">A reader can only view existing Azure Resources.</span></span>
+    - content: <span data-ttu-id="04487-118">用户访问管理员</span><span class="sxs-lookup"><span data-stu-id="04487-118">User Access Administrator</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="04487-119">用户访问管理员只能管理 Azure 资源的访问权限。</span><span class="sxs-lookup"><span data-stu-id="04487-119">A user access administrator can only manage access of Azure resources.</span></span>
+  - content: <span data-ttu-id="04487-120">在 Azure 中作用域的继承顺序是什么？</span><span class="sxs-lookup"><span data-stu-id="04487-120">What is the inheritance order for scope in Azure?</span></span>
+    choices:
+    - content: <span data-ttu-id="04487-121">管理组、资源组、订阅、资源</span><span class="sxs-lookup"><span data-stu-id="04487-121">Management group, Resource group, Subscription, Resource</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="04487-122">作用域的继承顺序为管理组、订阅、资源组和资源。</span><span class="sxs-lookup"><span data-stu-id="04487-122">The inheritance order for scope is Management group, Subscription, Resource group, Resource.</span></span> <span data-ttu-id="04487-123">例如, 如果在订阅作用域级别向某个组分配了一个参与者角色, 则所有资源组和资源将继承该角色。</span><span class="sxs-lookup"><span data-stu-id="04487-123">For example, if you assigned a Contributor role to a group at the Subscription scope level, it will be inherited by all Resource groups and Resources.</span></span>
+    - content: <span data-ttu-id="04487-124">管理组、订阅、资源组、资源</span><span class="sxs-lookup"><span data-stu-id="04487-124">Management group, Subscription, Resource group, Resource</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="04487-125">作用域的继承顺序为管理组、订阅、资源组和资源。</span><span class="sxs-lookup"><span data-stu-id="04487-125">The inheritance order for scope is Management group, Subscription, Resource group, Resource.</span></span> <span data-ttu-id="04487-126">例如, 如果在订阅作用域级别向某个组分配了一个参与者角色, 则所有资源组和资源将继承该角色。</span><span class="sxs-lookup"><span data-stu-id="04487-126">For example, if you assigned a Contributor role to a group at the Subscription scope level, it will be inherited by all Resource groups and Resources.</span></span>
+    - content: <span data-ttu-id="04487-127">订阅、管理组、资源组、资源</span><span class="sxs-lookup"><span data-stu-id="04487-127">Subscription, Management group, Resource group, Resource</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="04487-128">作用域的继承顺序为管理组、订阅、资源组和资源。</span><span class="sxs-lookup"><span data-stu-id="04487-128">The inheritance order for scope is Management group, Subscription, Resource group, Resource.</span></span> <span data-ttu-id="04487-129">例如, 如果在订阅作用域级别向某个组分配了一个参与者角色, 则所有资源组和资源将继承该角色。</span><span class="sxs-lookup"><span data-stu-id="04487-129">For example, if you assigned a Contributor role to a group at the Subscription scope level, it will be inherited by all Resource groups and Resources.</span></span>
+    - content: <span data-ttu-id="04487-130">订阅、资源组、管理组、资源</span><span class="sxs-lookup"><span data-stu-id="04487-130">Subscription, Resource group, Management group, Resource</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="04487-131">作用域的继承顺序为管理组、订阅、资源组和资源。</span><span class="sxs-lookup"><span data-stu-id="04487-131">The inheritance order for scope is Management group, Subscription, Resource group, Resource.</span></span> <span data-ttu-id="04487-132">例如, 如果在订阅作用域级别向某个组分配了一个参与者角色, 则所有资源组和资源将继承该角色。</span><span class="sxs-lookup"><span data-stu-id="04487-132">For example, if you assigned a Contributor role to a group at the Subscription scope level, it will be inherited by all Resource groups and Resources.</span></span>

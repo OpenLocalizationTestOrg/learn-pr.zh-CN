@@ -1,0 +1,51 @@
+### YamlMime:Module
+uid: learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm
+metadata:
+  title: 使用 Azure Linux 虚拟机上的平均堆栈生成和运行 web 应用程序-了解
+  description: 了解如何在新的 Azure Linux 虚拟机上设置基于平均的 web 应用程序。
+  ms.date: 09/24/2018
+  author: patridge
+  ms.author: adpatrid
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 06ceda4a8c12dfa53e4ebac19a2ec64cb83e9313
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137820"
+title: 使用 Azure Linux 虚拟机上的平均堆栈生成和运行 web 应用程序
+summary: 了解如何在新的 Azure Linux 虚拟机上设置基于平均的 web 应用程序。
+abstract: >
+  在本模块中, 您将:
+
+  - 确定平均 web 堆栈是否适合您
+
+  - 创建 Ubuntu Linux VM 以托管你的 web 应用
+
+  - 在虚拟机上安装平均堆栈组件
+
+  - 在您的均值堆栈上创建基本 web 应用程序
+prerequisites: >
+  - 使用命令行中的 Bash 的体验
+
+  - 使用 JavaScript 生成 web 应用程序时熟悉或关注的情况
+iconUrl: /learn/achievements/build-a-web-app-with-mean-on-a-linux-vm.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-virtual-machines
+- azure-cloud-shell
+units:
+- learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm.1-introduction
+- learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm.2-decide-if-mean-is-right-for-you
+- learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm.3-create-a-vm
+- learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm.4-install-mongodb
+- learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm.5-install-nodejs
+- learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm.6-create-a-basic-app
+- learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm.7-summary
+badge:
+  uid: learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm.badge

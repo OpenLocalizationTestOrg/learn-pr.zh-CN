@@ -1,0 +1,1 @@
+<span data-ttu-id="83b03-101">下面的几个问题是查看我们讨论的内容并检查您学到的内容。</span><span class="sxs-lookup"><span data-stu-id="83b03-101">Here's a few questions to review what we've discussed and check what you've learned.</span></span>

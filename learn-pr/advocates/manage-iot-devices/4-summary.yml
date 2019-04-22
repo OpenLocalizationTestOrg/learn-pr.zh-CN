@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.manage-iot-devices.4-summary
+metadata:
+  title: <span data-ttu-id="52cba-101">摘要</span><span class="sxs-lookup"><span data-stu-id="52cba-101">Summary</span></span>
+  description: <span data-ttu-id="52cba-102">摘要</span><span class="sxs-lookup"><span data-stu-id="52cba-102">Summary</span></span>
+  author: lnyswonger
+  ms.date: 09/24/2018
+  ms.author: luken
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 11b21932fb4523dc133883d62f92aa16d4aba78b
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136727"
+title: <span data-ttu-id="52cba-103">摘要</span><span class="sxs-lookup"><span data-stu-id="52cba-103">Summary</span></span>
+durationInMinutes: 7
+content: >
+  [!include[](includes/4-summary.md)]
+quiz:
+  title: <span data-ttu-id="52cba-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="52cba-104">Check your knowledge</span></span>
+  questions:
+  - content: '<span data-ttu-id="52cba-105">True 或 false: IoT 中心是支持后端开发人员构建设备管理解决方案的 Azure 服务？</span><span class="sxs-lookup"><span data-stu-id="52cba-105">True or false: IoT Hub is an Azure service that enables back-end developers to build device management solutions?</span></span>'
+    choices:
+    - content: <span data-ttu-id="52cba-106">True</span><span class="sxs-lookup"><span data-stu-id="52cba-106">True</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="52cba-107">Azure IoT 中心提供了功能和扩展性模型, 使设备和后端开发人员能够构建强大的设备管理解决方案。</span><span class="sxs-lookup"><span data-stu-id="52cba-107">Azure IoT Hub provides features and an extensibility model that enables device and back-end developers to build robust device management solutions.</span></span> <span data-ttu-id="52cba-108">设备的范围从受约束的传感器和单一目的 microcontrollers, 到路由设备组通信的功能强大的网关。</span><span class="sxs-lookup"><span data-stu-id="52cba-108">Devices range from constrained sensors and single purpose microcontrollers, to powerful gateways that route communications for groups of devices.</span></span>
+    - content: <span data-ttu-id="52cba-109">False</span><span class="sxs-lookup"><span data-stu-id="52cba-109">False</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="52cba-110">Azure IoT 中心提供了功能和扩展性模型, 使设备和后端开发人员能够构建强大的设备管理解决方案。</span><span class="sxs-lookup"><span data-stu-id="52cba-110">Azure IoT Hub provides features and an extensibility model that enables device and back-end developers to build robust device management solutions.</span></span> <span data-ttu-id="52cba-111">设备的范围从受约束的传感器和单一目的 microcontrollers, 到路由设备组通信的功能强大的网关。</span><span class="sxs-lookup"><span data-stu-id="52cba-111">Devices range from constrained sensors and single purpose microcontrollers, to powerful gateways that route communications for groups of devices.</span></span>
+  - content: "<span data-ttu-id=\"52cba-112\">True 或 false: 使用 Raspberry Pi Azure IoT 模拟器时, 不能在 Azure 门户中接收遥测数据？</span><span class=\"sxs-lookup\"><span data-stu-id=\"52cba-112\">True or false: you can't receive telemetry data in the Azure portal when using the Raspberry Pi Azure IoT Simulator?</span></span>"
+    choices:
+    - content: <span data-ttu-id="52cba-113">True</span><span class="sxs-lookup"><span data-stu-id="52cba-113">True</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="52cba-114">即使您不使用物理硬件, 但在使用 Raspberry Pi Azure IoT 模拟器时仍可以接收遥测数据。</span><span class="sxs-lookup"><span data-stu-id="52cba-114">Even though you're not using physical hardware, you can still receive telemetry data when using the Raspberry Pi Azure IoT Simulator.</span></span>
+    - content: <span data-ttu-id="52cba-115">False</span><span class="sxs-lookup"><span data-stu-id="52cba-115">False</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="52cba-116">即使您不使用物理硬件, 但在使用 Raspberry Pi Azure IoT 模拟器时仍可以接收遥测数据。</span><span class="sxs-lookup"><span data-stu-id="52cba-116">Even though you're not using physical hardware, you can still receive telemetry data when using the Raspberry Pi Azure IoT Simulator.</span></span>

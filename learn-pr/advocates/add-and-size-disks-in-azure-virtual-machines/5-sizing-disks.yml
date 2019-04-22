@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.add-and-size-disks-in-azure-virtual-machines.5-sizing-disks
+title: <span data-ttu-id="bfd1d-101">调整虚拟机磁盘的大小</span><span class="sxs-lookup"><span data-stu-id="bfd1d-101">Resizing virtual machine disks</span></span>
+metadata:
+  title: <span data-ttu-id="bfd1d-102">调整虚拟机磁盘的大小</span><span class="sxs-lookup"><span data-stu-id="bfd1d-102">Resizing virtual machine disks</span></span>
+  description: <span data-ttu-id="bfd1d-103">调整虚拟机磁盘的大小</span><span class="sxs-lookup"><span data-stu-id="bfd1d-103">Resizing virtual machine disks</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: cb4089c39fa005ee35d6be2494f3b0b5dbcaf64a
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137537"
+durationInMinutes: 5
+content: '[!include[](includes/5-sizing-disks.md)]'

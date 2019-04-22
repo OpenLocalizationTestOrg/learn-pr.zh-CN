@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.host-a-web-application-with-azure-web-apps.7-summary
+title: <span data-ttu-id="f6225-101">摘要</span><span class="sxs-lookup"><span data-stu-id="f6225-101">Summary</span></span>
+metadata:
+  title: <span data-ttu-id="f6225-102">摘要</span><span class="sxs-lookup"><span data-stu-id="f6225-102">Summary</span></span>
+  description: <span data-ttu-id="f6225-103">摘要</span><span class="sxs-lookup"><span data-stu-id="f6225-103">Summary</span></span>
+  ms.date: 12/12/2018
+  author: nickwalkmsft
+  ms.author: nickwalk
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 466734b711b566ea76ae5585e5c9be77624445b1
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136976"
+durationInMinutes: 2
+content: >
+  [!include[](includes/7-summary.md)]
+quiz:
+  title: <span data-ttu-id="f6225-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="f6225-104">Check your knowledge</span></span>
+  questions:
+  - content: '<span data-ttu-id="f6225-105">True 或 false: Azure 应用服务可以自动扩展 web 应用程序以满足流量需求？</span><span class="sxs-lookup"><span data-stu-id="f6225-105">True or false: Azure App service can automatically scale your web application to meet traffic demand?</span></span>'
+    choices:
+    - content: <span data-ttu-id="f6225-106">True</span><span class="sxs-lookup"><span data-stu-id="f6225-106">True</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="f6225-107">Azure 应用服务具有内置的自动缩放支持, 并将根据需要增加或减少分配给运行应用程序的资源。</span><span class="sxs-lookup"><span data-stu-id="f6225-107">Azure App service has built-in auto scale support and will increase or decrease the resources allocated to run your app as needed, depending on the demand.</span></span>
+    - content: <span data-ttu-id="f6225-108">False</span><span class="sxs-lookup"><span data-stu-id="f6225-108">False</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="f6225-109">Azure 应用服务具有内置的自动缩放支持, 并将根据需要增加或减少分配给运行应用程序的资源。</span><span class="sxs-lookup"><span data-stu-id="f6225-109">Azure App service has built-in auto scale support and will increase or decrease the resources allocated to run your app as needed, depending on the demand.</span></span>
+  - content: <span data-ttu-id="f6225-110">以下哪一项不是有效的自动部署源？</span><span class="sxs-lookup"><span data-stu-id="f6225-110">Which of the following is not a valid automated deployment source?</span></span>
+    choices:
+    - content: <span data-ttu-id="f6225-111">GitHub</span><span class="sxs-lookup"><span data-stu-id="f6225-111">GitHub</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="f6225-112">Azure 当前支持 Visual Studio Team Services、GitHub、Bitbucket、OneDrive、Dropbox 和外部 Git 存储库。</span><span class="sxs-lookup"><span data-stu-id="f6225-112">Azure currently supports Visual Studio Team Services, GitHub, Bitbucket, OneDrive, Dropbox, and external Git repositories.</span></span>
+    - content: <span data-ttu-id="f6225-113">Visual Studio Team Services</span><span class="sxs-lookup"><span data-stu-id="f6225-113">Visual Studio Team Services</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="f6225-114">Azure 当前支持 Visual Studio Team Services、GitHub、Bitbucket、OneDrive、Dropbox 和外部 Git 存储库。</span><span class="sxs-lookup"><span data-stu-id="f6225-114">Azure currently supports Visual Studio Team Services, GitHub, Bitbucket, OneDrive, Dropbox, and external Git repositories.</span></span>
+    - content: <span data-ttu-id="f6225-115">SharePoint</span><span class="sxs-lookup"><span data-stu-id="f6225-115">SharePoint</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="f6225-116">Azure 当前支持 Visual Studio Team Services、GitHub、Bitbucket、OneDrive、Dropbox 和外部 Git 存储库。</span><span class="sxs-lookup"><span data-stu-id="f6225-116">Azure currently supports Visual Studio Team Services, GitHub, Bitbucket, OneDrive, Dropbox, and external Git repositories.</span></span>
+    - content: <span data-ttu-id="f6225-117">箱</span><span class="sxs-lookup"><span data-stu-id="f6225-117">Dropbox</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="f6225-118">Azure 当前支持 Visual Studio Team Services、GitHub、Bitbucket、OneDrive、Dropbox 和外部 Git 存储库。</span><span class="sxs-lookup"><span data-stu-id="f6225-118">Azure currently supports Visual Studio Team Services, GitHub, Bitbucket, OneDrive, Dropbox, and external Git repositories.</span></span>

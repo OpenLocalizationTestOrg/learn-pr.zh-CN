@@ -1,0 +1,47 @@
+### YamlMime:Module
+uid: learn.communicate-between-applications-with-azure-queue-storage
+metadata:
+  title: 使用 Azure 队列存储在应用程序之间进行通信-了解
+  description: 使用 Azure 队列存储在云中实施发布订阅模式。
+  ms.date: 09/24/2018
+  author: marktap
+  ms.author: matapar
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 017dc68425e4754bba99ef99ba0ec96b8c6507d1
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137968"
+title: 使用 Azure 队列存储在应用程序之间进行通信
+summary: 使用 Azure 队列存储在云中实施发布订阅模式。
+abstract: >
+  在本模块中, 您将:
+
+  - 创建支持队列的 Azure 存储帐户
+
+  - 使用 c # 和用于 .net 的 Azure 存储客户端库创建队列
+
+  - 使用 c # 和用于 .net 的 Azure 存储客户端库在队列中添加、检索和删除邮件
+prerequisites: 无
+iconUrl: /learn/achievements/communicate-between-apps-with-azure-queue-storage.svg
+levels:
+- intermediate
+roles:
+- developer
+products:
+- azure
+- azure-storage
+units:
+- learn.communicate-between-applications-with-azure-queue-storage.1-introduction
+- learn.communicate-between-applications-with-azure-queue-storage.2-create-the-azure-storage-infrastructure
+- learn.communicate-between-applications-with-azure-queue-storage.3-exercise-create-the-azure-storage-infrastructure
+- learn.communicate-between-applications-with-azure-queue-storage.4-identify-a-queue
+- learn.communicate-between-applications-with-azure-queue-storage.5-exercise-identify-a-queue
+- learn.communicate-between-applications-with-azure-queue-storage.6-how-to-programmatically-access-a-queue
+- learn.communicate-between-applications-with-azure-queue-storage.7-exercise-implement-enqueue
+- learn.communicate-between-applications-with-azure-queue-storage.8-exercise-implement-dequeue
+- learn.communicate-between-applications-with-azure-queue-storage.9-summary
+badge:
+  uid: learn.communicate-between-applications-with-azure-queue-storage.badge

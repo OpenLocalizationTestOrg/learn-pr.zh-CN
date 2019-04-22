@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.intro-to-data-in-azure
+metadata:
+  title: Core 云服务-Azure 数据存储选项-了解
+  description: 在本模块中, 我们将探讨 Azure 数据存储服务与本地存储相比的优势。
+  ms.date: 09/24/2018
+  author: sowmyasubramaniam
+  ms.author: sosubra
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 2f325aa17845a9780d7446b6aa61f6a7adf784c3
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136460"
+title: Core 云服务-Azure 数据存储选项
+summary: 在本模块中, 我们将探讨 Azure 数据存储与本地存储的优势。
+abstract: >
+  在本模块中, 您将:
+
+  - 调查 Azure 中的数据存储选项
+
+  - 了解 Azure 如何满足存储和分析数据的业务需求
+
+  - 将 Azure 数据选项与本地存储进行比较
+prerequisites: 无
+iconUrl: /learn/achievements/intro-to-data-in-azure.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-storage
+units:
+- learn.intro-to-data-in-azure.1-introduction
+- learn.intro-to-data-in-azure.2-benefits-of-using-azure-to-store-data
+- learn.intro-to-data-in-azure.3-how-azure-storage-meets-your-business-storage-needs
+- learn.intro-to-data-in-azure.4-comparison-azure-and-on-prem-storage
+- learn.intro-to-data-in-azure.5-knowledge-check
+- learn.intro-to-data-in-azure.6-summary
+badge:
+  uid: learn.intro-to-data-in-azure.badge

@@ -1,0 +1,35 @@
+### YamlMime:ModuleUnit
+uid: learn.build-azure-vm-templates.7-summary
+title: <span data-ttu-id="a98ad-101">摘要</span><span class="sxs-lookup"><span data-stu-id="a98ad-101">Summary</span></span>
+metadata:
+  title: <span data-ttu-id="a98ad-102">摘要</span><span class="sxs-lookup"><span data-stu-id="a98ad-102">Summary</span></span>
+  description: <span data-ttu-id="a98ad-103">查看你学习的内容并发现下一步可以执行的操作</span><span class="sxs-lookup"><span data-stu-id="a98ad-103">Review what you've learned and discover what you can do next</span></span>
+  ms.date: 09/24/2018
+  author: tpetchel
+  ms.author: thpetche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 2f9c64a1d2883feae7a9a135eeca1a3dfab8a392
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2137361"
+durationInMinutes: 2
+content: >
+  [!include[](includes/7-summary.md)]
+quiz:
+  title: <span data-ttu-id="a98ad-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="a98ad-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="a98ad-105">假设您想要创建一个可重用模板, 该模板使用自定义脚本扩展在虚拟机上配置 web 内容。</span><span class="sxs-lookup"><span data-stu-id="a98ad-105">Say you want to create a reusable template that uses the Custom Script Extension to configure web content on a VM.</span></span> <span data-ttu-id="a98ad-106">启用部署以指定用于配置 web 内容的脚本的最佳方法是什么？</span><span class="sxs-lookup"><span data-stu-id="a98ad-106">What's the best way to enable deployments to specify the script that configures web content?</span></span>
+    choices:
+    - content: <span data-ttu-id="a98ad-107">提供指定脚本位置的参数。</span><span class="sxs-lookup"><span data-stu-id="a98ad-107">Provide a parameter that specifies the script location.</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="a98ad-108">参数促进重用。</span><span class="sxs-lookup"><span data-stu-id="a98ad-108">Parameters promote reuse.</span></span> <span data-ttu-id="a98ad-109">模板运行时, 它们的值将填入。</span><span class="sxs-lookup"><span data-stu-id="a98ad-109">Their values are filled in when the template runs.</span></span>
+    - content: <span data-ttu-id="a98ad-110">提供指定脚本位置的变量。</span><span class="sxs-lookup"><span data-stu-id="a98ad-110">Provide a variable that specifies the script location.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="a98ad-111">尽管变量可帮助您更轻松地维护您的模板, 但在使模板可配置或可重用时, 它们并不是最佳选择。</span><span class="sxs-lookup"><span data-stu-id="a98ad-111">Although variables can help make your templates easier to maintain, they're not the best choice when making your templates configurable or reusable.</span></span>
+    - content: <span data-ttu-id="a98ad-112">在模板中提供一个默认的脚本位置, 然后使用嵌套模板来覆盖该位置。</span><span class="sxs-lookup"><span data-stu-id="a98ad-112">Provide a default script location in your template and then use a nested template to override that location.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="a98ad-113">虽然您可以使用嵌套的模板替代默认值, 但它可能会使您的部署比所需的复杂。</span><span class="sxs-lookup"><span data-stu-id="a98ad-113">Although you can use a nested template to override default values, it may make your deployments more complex than necessary.</span></span>

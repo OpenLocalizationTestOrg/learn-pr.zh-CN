@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn.pillars-of-a-great-azure-architecture.6-design-for-efficiency-and-operations
+title: <span data-ttu-id="46215-101">提高效率和操作的设计</span><span class="sxs-lookup"><span data-stu-id="46215-101">Design for efficiency and operations</span></span>
+metadata:
+  title: <span data-ttu-id="46215-102">提高效率和操作的设计</span><span class="sxs-lookup"><span data-stu-id="46215-102">Design for efficiency and operations</span></span>
+  description: <span data-ttu-id="46215-103">提高效率和操作的设计</span><span class="sxs-lookup"><span data-stu-id="46215-103">Design for efficiency and operations</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: b0bd1f8e31ee6d648267bef768602222fd1b0574
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136381"
+durationInMinutes: 10
+content: >
+  [!include[](includes/6-design-for-efficiency-and-operations.md)]
+quiz:
+  title: <span data-ttu-id="46215-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="46215-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="46215-105">假设你最近将应用程序移到了云, 而你的月度帐单似乎高于预期。</span><span class="sxs-lookup"><span data-stu-id="46215-105">Suppose you have recently moved your application to the cloud and your monthly bill seems higher than expected.</span></span> <span data-ttu-id="46215-106">VM 的使用率级别足够高, 以至于您 hesitant 到 downsize。</span><span class="sxs-lookup"><span data-stu-id="46215-106">The utilization level of your VM is high enough that you are hesitant to downsize.</span></span> <span data-ttu-id="46215-107">为帮助查找低效率, 下一个合理的步骤可能是什么？</span><span class="sxs-lookup"><span data-stu-id="46215-107">What might be a reasonable next step you could take to help you find inefficiencies?</span></span>
+    choices:
+    - content: <span data-ttu-id="46215-108">等待一个月并重新检查你的帐单</span><span class="sxs-lookup"><span data-stu-id="46215-108">Wait a month and recheck your bill</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="46215-109">这将告诉你在何处支出资金, 但不会帮助你确定系统组件的效率级别。</span><span class="sxs-lookup"><span data-stu-id="46215-109">This will tell you where you are spending money but will not help you determine the efficiency level of the components of your system.</span></span>
+    - content: <span data-ttu-id="46215-110">增加每次发布前执行的应用程序测试量</span><span class="sxs-lookup"><span data-stu-id="46215-110">Increase the amount of application testing you do before each release</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="46215-111">这可以提高应用程序的质量, 但通常不会帮助您识别基础结构的低效率。</span><span class="sxs-lookup"><span data-stu-id="46215-111">This can improve the quality of your application, but generally would not help you identify infrastructure inefficiencies.</span></span>
+    - content: <span data-ttu-id="46215-112">添加监控和检测</span><span class="sxs-lookup"><span data-stu-id="46215-112">Add monitoring and instrumentation</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="46215-113">持续监控将为你提供查找成本节约所需的数据。</span><span class="sxs-lookup"><span data-stu-id="46215-113">Continuous monitoring will give you the data you need to find cost savings.</span></span> <span data-ttu-id="46215-114">例如, 您可能会发现, 需求非常可变, 多个带自动缩放的小型 vm 的成本低于您当前使用的单个大型虚拟机的成本。</span><span class="sxs-lookup"><span data-stu-id="46215-114">For example, you might find that demand is extremely variable and multiple small VMs with autoscale could cost less than the single large VM you currently use.</span></span>
+  - content: <span data-ttu-id="46215-115">以下哪一项是提高运营效率的示例？</span><span class="sxs-lookup"><span data-stu-id="46215-115">Which of the following is an example of improving operational efficiency?</span></span>
+    choices:
+    - content: <span data-ttu-id="46215-116">自动化基础结构的部署</span><span class="sxs-lookup"><span data-stu-id="46215-116">Automating the deployment of infrastructure</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="46215-117">自动化基础结构的部署是提高运营效率的一个很好的示例。</span><span class="sxs-lookup"><span data-stu-id="46215-117">Automating the deployment of infrastructure is a great example of improving your operational efficiency.</span></span>
+    - content: <span data-ttu-id="46215-118">将服务从 PaaS 移动到 IaaS</span><span class="sxs-lookup"><span data-stu-id="46215-118">Moving services from PaaS to IaaS</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="46215-119">将服务从 PaaS 移动到 IaaS 在操作效率上是一个反向步骤, 因为 PaaS 服务通常具有降低的运营成本。</span><span class="sxs-lookup"><span data-stu-id="46215-119">Moving services from PaaS to IaaS is a step backwards in operational efficiency, as PaaS services typically come with reduced operational costs.</span></span>
+    - content: <span data-ttu-id="46215-120">记录基础结构部署的手动步骤</span><span class="sxs-lookup"><span data-stu-id="46215-120">Documenting manual steps for the deployment of infrastructure</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="46215-121">文档对任何体系结构都很重要, 但操作改进可使手动活动自动化, 而不只是将其记录下来。</span><span class="sxs-lookup"><span data-stu-id="46215-121">Documentation is important with any architecture, but operational improvement comes with automating the manual activities as opposed to simply documenting them.</span></span>
+    - content: <span data-ttu-id="46215-122">维护多个日志记录系统</span><span class="sxs-lookup"><span data-stu-id="46215-122">Maintaining multiple logging systems</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="46215-123">维护多个日志记录系统会带来更高的运营开销, 并能够在日志记录系统中关联事件和指标。</span><span class="sxs-lookup"><span data-stu-id="46215-123">Maintaining multiple logging systems comes with increased operational overhead and a reduced ability to correlate events and metrics across the logging systems.</span></span> <span data-ttu-id="46215-124">集中在单个登录系统上可提高运营效率。</span><span class="sxs-lookup"><span data-stu-id="46215-124">Centralizing on a single login system can improve operational efficiency.</span></span>

@@ -1,0 +1,54 @@
+### YamlMime:Module
+uid: learn.publish-azure-web-app-with-visual-studio
+metadata:
+  title: 使用 Visual Studio 将 web 应用程序发布到 Azure
+  description: Azure 应用服务使你能够快速从 Visual Studio 发布和更新 web 应用。 在这里, 你将了解如何安装必要的工具, 创建新的基于 ASP.NET 的 web 应用程序, 并将其发布到 Azure。 最后, 您将了解如何更改应用程序, 并了解将这些更改重新发布到 Azure 的简单方法。
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: d67ccdd337b06a4ee791c58b3496b51fe3ab2e50
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136822"
+title: 使用 Visual Studio 将 web 应用程序发布到 Azure
+summary: 使用 Visual Studio 2017 的发布功能部署和管理在 Azure 上托管的 ASP.NET 核心 web 应用程序。
+abstract: >
+  在本模块中, 您将:
+
+  - 在 Visual Studio 2017 中创建 ASP.NET Core web app
+
+  - 使用 Visual Studio 2017 将 web 应用发布到 Azure
+
+  - 在 Visual Studio 中更新 web 应用程序并将更改发布到 Azure
+prerequisites: >
+  - Azure 云环境的知识
+
+  - 熟悉 Visual Studio 用户界面
+
+  - 熟悉 web 应用程序概念
+
+  - 基本编程知识
+
+  - 基本 HTML 知识
+iconUrl: /learn/achievements/publish-azure-web-app-with-visual-studio.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+units:
+- learn.publish-azure-web-app-with-visual-studio.1-introduction
+- learn.publish-azure-web-app-with-visual-studio.2-install-the-necessary-workloads
+- learn.publish-azure-web-app-with-visual-studio.3-exercise-create-a-new-aspnet-app
+- learn.publish-azure-web-app-with-visual-studio.4-explore-the-azure-app-service
+- learn.publish-azure-web-app-with-visual-studio.5-exercise-publish-an-asp.net-app-from-visual-studio
+- learn.publish-azure-web-app-with-visual-studio.6-explore-your-visual-studio-app-project
+- learn.publish-azure-web-app-with-visual-studio.7-exercise-publish-an-update-to-your-site
+- learn.publish-azure-web-app-with-visual-studio.8-summary
+badge:
+  uid: learn.publish-azure-web-app-with-visual-studio.badge

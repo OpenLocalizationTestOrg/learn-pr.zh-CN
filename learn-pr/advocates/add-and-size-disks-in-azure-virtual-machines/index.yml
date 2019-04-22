@@ -1,0 +1,48 @@
+### YamlMime:Module
+uid: learn.add-and-size-disks-in-azure-virtual-machines
+metadata:
+  title: 在 Azure 虚拟机中添加和调整磁盘大小-了解
+  description: 为您的虚拟机选择合适的存储非常重要。 您必须在标准存储和高级存储、托管和非托管磁盘、磁盘大小和其他参数之间进行选择。 在本模块中, 你将了解你的选项并练习使用磁盘 (VHD 文件)。
+  ms.date: 09/24/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: d1945281f4ec8fa3a481b4be989d7b3d2abe7c79
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2136290"
+title: 在 Azure 虚拟机中添加和调整磁盘大小
+summary: 了解并创建可用于 Azure 虚拟机 (vm) 的不同类型的磁盘存储。
+abstract: >
+  在本模块中, 您将:
+
+  - 创建虚拟机 (VM)
+
+  - 配置虚拟硬盘 (vhd) 并将其附加到现有 VM
+
+  - 确定是否需要高级磁盘
+
+  - 为 VM 调整磁盘大小
+prerequisites: 无
+iconUrl: /learn/achievements/add-and-size-disks-in-azure-virtual-machines.svg
+levels:
+- intermediate
+roles:
+- developer
+products:
+- azure
+- azure-virtual-machines
+- azure-portal
+units:
+- learn.add-and-size-disks-in-azure-virtual-machines.1-introduction
+- learn.add-and-size-disks-in-azure-virtual-machines.2-add-data-disks-to-azure-virtual-machines
+- learn.add-and-size-disks-in-azure-virtual-machines.3-exercise-add-data-disks-to-azure-virtual-machines
+- learn.add-and-size-disks-in-azure-virtual-machines.4-choosing-premium-storage
+- learn.add-and-size-disks-in-azure-virtual-machines.5-sizing-disks
+- learn.add-and-size-disks-in-azure-virtual-machines.6-exercise-resize-disks
+- learn.add-and-size-disks-in-azure-virtual-machines.7-summary
+badge:
+  uid: learn.add-and-size-disks-in-azure-virtual-machines.badge

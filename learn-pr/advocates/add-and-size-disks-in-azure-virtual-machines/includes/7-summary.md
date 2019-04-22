@@ -1,0 +1,9 @@
+<span data-ttu-id="50c1b-101">在本模块中, 您学习了如何将新磁盘添加到虚拟机以增加其存储空间。</span><span class="sxs-lookup"><span data-stu-id="50c1b-101">In this module, you learned how to add new disks to your VMs to increase their storage.</span></span> <span data-ttu-id="50c1b-102">此外, 您还探索了不同的可用磁盘类型、标准与高级存储的功能, 以及如何调整现有磁盘的大小。</span><span class="sxs-lookup"><span data-stu-id="50c1b-102">In addition, you explored the different disk types available, features of Standard versus Premium storage, and how to resize existing disks.</span></span>
+
+[!include[](../../../includes/azure-sandbox-cleanup.md)]
+
+## <a name="additional-resources"></a><span data-ttu-id="50c1b-103">其他资源</span><span class="sxs-lookup"><span data-stu-id="50c1b-103">Additional resources</span></span>
+
+- [<span data-ttu-id="50c1b-104">有关 Azure IaaS 虚拟磁盘和托管和非托管高级磁盘的常见问题</span><span class="sxs-lookup"><span data-stu-id="50c1b-104">Frequently asked questions about Azure IaaS VM disks and managed and unmanaged premium disks</span></span>](https://docs.microsoft.com/azure/virtual-machines/windows/faq-for-disks)
+- [<span data-ttu-id="50c1b-105">将 Azure 托管磁盘存储从 standard 转换为高级, 反之亦然</span><span class="sxs-lookup"><span data-stu-id="50c1b-105">Convert Azure managed disks storage from standard to premium, and vice versa</span></span>](https://docs.microsoft.com/azure/virtual-machines/linux/convert-disk-storage)
+- <span data-ttu-id="50c1b-106">支持[Windows](https://docs.microsoft.com/azure/virtual-machines/windows/sizes)和[Linux](https://docs.microsoft.com/azure/virtual-machines/linux/sizes)高级存储的 VM 大小的完整列表</span><span class="sxs-lookup"><span data-stu-id="50c1b-106">Full list of VM sizes that support premium storage for [Windows](https://docs.microsoft.com/azure/virtual-machines/windows/sizes) and [Linux](https://docs.microsoft.com/azure/virtual-machines/linux/sizes)</span></span>

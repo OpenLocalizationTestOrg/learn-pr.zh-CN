@@ -1,0 +1,32 @@
+<span data-ttu-id="32774-101">Azure 函数应用不会执行任何操作, 直到出现指示其执行的操作。</span><span class="sxs-lookup"><span data-stu-id="32774-101">An Azure function app doesn't do work until something tells it to execute.</span></span> <span data-ttu-id="32774-102">例如, 我们可以创建一个 Azure 函数, 在约会前向客户发送提醒文本消息。</span><span class="sxs-lookup"><span data-stu-id="32774-102">For example, we could create an Azure function to send out a reminder text message to our customers before an appointment.</span></span> <span data-ttu-id="32774-103">如果我们不告知函数应在何时运行, 则客户将永远不会收到一条消息。</span><span class="sxs-lookup"><span data-stu-id="32774-103">If we don't tell the function when it should run, our customers will never receive a message.</span></span> 
+
+<span data-ttu-id="32774-104">在这里, 你将检查较高级别的触发器, 并探索最常见的触发器类型。</span><span class="sxs-lookup"><span data-stu-id="32774-104">Here, you'll examine triggers at a high level and explore the most common types of triggers.</span></span>
+
+## <a name="what-is-a-trigger"></a><span data-ttu-id="32774-105">什么是触发器？</span><span class="sxs-lookup"><span data-stu-id="32774-105">What is a trigger?</span></span>
+
+<span data-ttu-id="32774-106">触发器是一个定义如何调用 Azure 函数的对象。</span><span class="sxs-lookup"><span data-stu-id="32774-106">A trigger is an object that defines how an Azure function is invoked.</span></span> <span data-ttu-id="32774-107">例如, 如果您希望某个函数每隔10分钟执行一次, 则可以使用 timer 触发器。</span><span class="sxs-lookup"><span data-stu-id="32774-107">For example, if you want a function to execute every 10 minutes, you could use a timer trigger.</span></span>
+
+<span data-ttu-id="32774-108">每个函数必须刚好有一个与其关联的触发器。</span><span class="sxs-lookup"><span data-stu-id="32774-108">Every function must have exactly one trigger associated with it.</span></span> <span data-ttu-id="32774-109">如果要执行在多个条件下运行的逻辑片段, 则需要创建多个共享相同核心函数代码的函数。</span><span class="sxs-lookup"><span data-stu-id="32774-109">If you want to execute a piece of logic that runs under multiple conditions, you need to create multiple functions that share the same core function code.</span></span>
+
+<span data-ttu-id="32774-110">在本模块中, 我们将重点介绍**计时器**、 **HTTP**和**blob**触发器类型。</span><span class="sxs-lookup"><span data-stu-id="32774-110">In this module, we're going to focus on the **timer**, **HTTP**, and **blob** trigger types.</span></span>
+
+## <a name="types-of-triggers"></a><span data-ttu-id="32774-111">触发器的类型</span><span class="sxs-lookup"><span data-stu-id="32774-111">Types of triggers</span></span>
+
+<span data-ttu-id="32774-112">Azure 函数支持范围广泛的触发器类型。</span><span class="sxs-lookup"><span data-stu-id="32774-112">Azure Functions support a wide range of trigger types.</span></span> <span data-ttu-id="32774-113">以下是一些最常见的类型:</span><span class="sxs-lookup"><span data-stu-id="32774-113">Here are some of the most common types:</span></span>
+
+| <span data-ttu-id="32774-114">类型</span><span class="sxs-lookup"><span data-stu-id="32774-114">Type</span></span> | <span data-ttu-id="32774-115">目的</span><span class="sxs-lookup"><span data-stu-id="32774-115">Purpose</span></span> |
+| --- | --- |
+| <span data-ttu-id="32774-116">**计时器**</span><span class="sxs-lookup"><span data-stu-id="32774-116">**Timer**</span></span> | <span data-ttu-id="32774-117">按设置的时间间隔执行函数。</span><span class="sxs-lookup"><span data-stu-id="32774-117">Execute a function at a set interval.</span></span> |
+| <span data-ttu-id="32774-118">**http.sys**</span><span class="sxs-lookup"><span data-stu-id="32774-118">**HTTP**</span></span> | <span data-ttu-id="32774-119">在收到 HTTP 请求时执行函数。</span><span class="sxs-lookup"><span data-stu-id="32774-119">Execute a function when an HTTP request is received.</span></span> |
+| <span data-ttu-id="32774-120">**块**</span><span class="sxs-lookup"><span data-stu-id="32774-120">**Blob**</span></span> | <span data-ttu-id="32774-121">在 Azure Blob 存储中上传或更新文件时执行函数。</span><span class="sxs-lookup"><span data-stu-id="32774-121">Execute a function when a file is uploaded or updated in Azure Blob storage.</span></span> |
+| <span data-ttu-id="32774-122">**列队**</span><span class="sxs-lookup"><span data-stu-id="32774-122">**Queue**</span></span> | <span data-ttu-id="32774-123">将邮件添加到 Azure 存储队列时执行函数。</span><span class="sxs-lookup"><span data-stu-id="32774-123">Execute a function when a message is added to an Azure Storage queue.</span></span> |
+| <span data-ttu-id="32774-124">**Cosmos DB**</span><span class="sxs-lookup"><span data-stu-id="32774-124">**Cosmos DB**</span></span> | <span data-ttu-id="32774-125">在集合中的文档发生更改时执行函数。</span><span class="sxs-lookup"><span data-stu-id="32774-125">Execute a function when a document changes in a collection.</span></span> |
+| <span data-ttu-id="32774-126">**事件中心**</span><span class="sxs-lookup"><span data-stu-id="32774-126">**Event Hub**</span></span> | <span data-ttu-id="32774-127">在事件中心收到新事件时执行函数。</span><span class="sxs-lookup"><span data-stu-id="32774-127">Execute a function when an event hub receives a new event.</span></span> |
+
+## <a name="what-is-a-binding"></a><span data-ttu-id="32774-128">绑定是什么？</span><span class="sxs-lookup"><span data-stu-id="32774-128">What is a binding?</span></span>
+
+<span data-ttu-id="32774-129">绑定是与函数中的数据的连接。</span><span class="sxs-lookup"><span data-stu-id="32774-129">A binding is a connection to data within your function.</span></span> <span data-ttu-id="32774-130">绑定是可选的, 采用输入绑定和输出绑定的形式。</span><span class="sxs-lookup"><span data-stu-id="32774-130">Bindings are optional and come in the form of input and output bindings.</span></span> <span data-ttu-id="32774-131">输入绑定是函数接收的数据。</span><span class="sxs-lookup"><span data-stu-id="32774-131">An input binding is the data that your function receives.</span></span> <span data-ttu-id="32774-132">输出绑定是您的函数发送的数据。</span><span class="sxs-lookup"><span data-stu-id="32774-132">An output binding is the data that your function sends.</span></span>
+
+<span data-ttu-id="32774-133">与触发器不同的是, 函数可以有多个输入绑定和输出绑定。</span><span class="sxs-lookup"><span data-stu-id="32774-133">Unlike a trigger, a function can have multiple input and output bindings.</span></span>
+
+<span data-ttu-id="32774-134">在下一个练习中, 我们将使用计时器触发器按计划运行函数。</span><span class="sxs-lookup"><span data-stu-id="32774-134">In the next exercise, we'll run a function on a schedule using a Timer trigger.</span></span>
