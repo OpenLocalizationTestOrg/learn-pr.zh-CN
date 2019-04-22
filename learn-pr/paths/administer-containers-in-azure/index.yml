@@ -6,14 +6,15 @@ metadata:
   brand: azure
   author: markjulmar
   ms.author: smmark
+  ms.date: 9/24/2018
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-  ms.openlocfilehash: 843f5bf4707d7fa6fff716deaf233b2f3538e211
-  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.openlocfilehash: 8894e14fd24f73b0965216b85256ba3c4564faee
+  ms.sourcegitcommit: 1865f0bda8a03c92aea2b6d718d9fa9890fdcf4f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/21/2019
-  ms.locfileid: "2137008"
+  ms.lasthandoff: 04/22/2019
+  ms.locfileid: "2138553"
 title: 在 Azure 中管理容器
 summary: azure 容器实例是在 Azure 中运行容器的最快捷和最简单的方法。 本学习途径将教您如何创建和管理您的容器, 以及如何使用 ACI 为 Kubernetes 提供弹性扩展。
 prerequisites: 无
@@ -29,5 +30,6 @@ products:
 modules:
 - learn.azure-container-registry
 - learn.run-docker-containers-aci
+- learn.azure.deploy-run-container-app-service
 trophy:
   uid: learn.administer-containers-in-azure.trophy

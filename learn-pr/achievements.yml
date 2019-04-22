@@ -2,23 +2,18 @@
 achievements:
 - uid: learn.make-your-virtual-machines-highly-available.badge
   type: badge
-  title: <span data-ttu-id="40a1e-101">使虚拟机高度可用</span><span class="sxs-lookup"><span data-stu-id="40a1e-101">Make your virtual machines highly available</span></span>
-  summary: <span data-ttu-id="40a1e-102">使虚拟机高度可用</span><span class="sxs-lookup"><span data-stu-id="40a1e-102">Make your virtual machines highly available</span></span>
+  title: <span data-ttu-id="3f7f1-101">使虚拟机高度可用</span><span class="sxs-lookup"><span data-stu-id="3f7f1-101">Make your virtual machines highly available</span></span>
+  summary: <span data-ttu-id="3f7f1-102">使虚拟机高度可用</span><span class="sxs-lookup"><span data-stu-id="3f7f1-102">Make your virtual machines highly available</span></span>
   iconUrl: /learn/achievements/make-your-virtual-machines-highly-available.svg
-- uid: learn.intro-to-containers.badge
-  type: badge
-  title: <span data-ttu-id="40a1e-103">容器徽章简介</span><span class="sxs-lookup"><span data-stu-id="40a1e-103">Introduction to Containers badge</span></span>
-  summary: <span data-ttu-id="40a1e-104">"对容器的简介" 模块的标记。</span><span class="sxs-lookup"><span data-stu-id="40a1e-104">Badge for the 'Introduction to Containers' module.</span></span>
-  iconUrl: /learn/achievements/intro-to-containers.svg
 - uid: learn.scale-and-size-virtual-machines.badge
   type: badge
-  title: <span data-ttu-id="40a1e-105">扩展 Azure 中的虚拟机并调整其大小</span><span class="sxs-lookup"><span data-stu-id="40a1e-105">Scale and size Virtual Machines in Azure</span></span>
-  summary: <span data-ttu-id="40a1e-106">扩展 Azure 中的虚拟机并调整其大小</span><span class="sxs-lookup"><span data-stu-id="40a1e-106">Scale and size Virtual Machines in Azure</span></span>
+  title: <span data-ttu-id="3f7f1-103">扩展 Azure 中的虚拟机并调整其大小</span><span class="sxs-lookup"><span data-stu-id="3f7f1-103">Scale and size Virtual Machines in Azure</span></span>
+  summary: <span data-ttu-id="3f7f1-104">扩展 Azure 中的虚拟机并调整其大小</span><span class="sxs-lookup"><span data-stu-id="3f7f1-104">Scale and size Virtual Machines in Azure</span></span>
   iconUrl: /learn/achievements/scale-and-size-virtual-machines.svg
 metadata:
-  ms.openlocfilehash: 24560bd389ddf409093ee65e25caa0c7afa52c72
-  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.openlocfilehash: 792c5e4b469444e32af9d948af282a73f63da6d6
+  ms.sourcegitcommit: 1865f0bda8a03c92aea2b6d718d9fa9890fdcf4f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/21/2019
-  ms.locfileid: "2136909"
+  ms.lasthandoff: 04/22/2019
+  ms.locfileid: "2138465"

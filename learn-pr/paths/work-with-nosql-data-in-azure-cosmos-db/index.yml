@@ -9,12 +9,12 @@ metadata:
   ms.author: smmark
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-  ms.openlocfilehash: 8733d99dad708c044548d60be56746f583d858dc
-  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.openlocfilehash: b358e47e7e95d6ad0cb651751014ac0d80b88ede
+  ms.sourcegitcommit: 1865f0bda8a03c92aea2b6d718d9fa9890fdcf4f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/21/2019
-  ms.locfileid: "2137826"
+  ms.lasthandoff: 04/22/2019
+  ms.locfileid: "2138555"
 title: 使用 Azure Cosmos DB 中的 NoSQL 数据
 summary: NoSQL 数据是一种存储不映射到关系 SQL 数据库的要求的信息的有效方式。 了解如何使用 azure 门户、适用于 Visual Studio Code 的 azure Cosmos db 扩展和 azure Cosmos DB .net Core SDK 在您需要的地方处理您的 NoSQL 数据, 并为用户提供高可用性, 而不管他们在世界上的什么位置。
 prerequisites: >
@@ -24,6 +24,7 @@ levels:
 - beginner
 roles:
 - developer
+- data-engineer
 products:
 - azure
 - azure-cosmos-db
@@ -34,6 +35,7 @@ modules:
 - learn.create-cosmos-db-for-scale
 - learn.access-data-with-cosmos-db-and-sql-api
 - learn.cosmos-db-app-with-vscode
+- learn.monitor-azure-cosmos-db
 - learn.distribute-data-globally-with-cosmos-db
 trophy:
   uid: learn.work-with-nosql-data-in-azure-cosmos-db.trophy
