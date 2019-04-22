@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.explore-azure-infrastructure.1-introduction
+title: <span data-ttu-id="98a70-101">简介</span><span class="sxs-lookup"><span data-stu-id="98a70-101">Introduction</span></span>
+metadata:
+  title: <span data-ttu-id="98a70-102">Azure 基础结构、地区、地理位置和 sla 简介-了解</span><span class="sxs-lookup"><span data-stu-id="98a70-102">Introduction to Azure infrastructure, regions, geographies and SLAs - Learn</span></span>
+  description: <span data-ttu-id="98a70-103">Azure 基础结构、地区、地理位置和 sla 简介-了解</span><span class="sxs-lookup"><span data-stu-id="98a70-103">Introduction to Azure infrastructure, regions, geographies and SLAs - Learn</span></span>
+  ms.date: 01/1/2019
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: f5a84932450745e07ab8861d3ab209965e420c21
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138408"
+durationInMinutes: 3
+content: '[!include[](includes/1-introduction.md)]'

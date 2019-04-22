@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-security.6-network-security
+title: <span data-ttu-id="604ce-101">网络安全</span><span class="sxs-lookup"><span data-stu-id="604ce-101">Network security</span></span>
+metadata:
+  title: <span data-ttu-id="604ce-102">网络安全</span><span class="sxs-lookup"><span data-stu-id="604ce-102">Network security</span></span>
+  description: <span data-ttu-id="604ce-103">在此单元中, 我们将讨论如何保护您的网络基础结构</span><span class="sxs-lookup"><span data-stu-id="604ce-103">In this unit we'll discuss how to secure your network infrastructure</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 8fde997a82820ae9dd9ad4e49d2e61a87f2a1199
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138418"
+durationInMinutes: 10
+content: >
+  [!include[](includes/6-network-security.md)]
+quiz:
+  title: <span data-ttu-id="604ce-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="604ce-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="604ce-105">Azure 网络安全组可用于保护以下各项之间的通信安全？</span><span class="sxs-lookup"><span data-stu-id="604ce-105">Azure network security groups can be used to secure communication between which of the following?</span></span>
+    choices:
+    - content: <span data-ttu-id="604ce-106">Azure 虚拟机与 internet 之间的通信</span><span class="sxs-lookup"><span data-stu-id="604ce-106">Communication between Azure virtual machines and the internet</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="604ce-107">网络安全组可用于保护此通信流, 但这并不是唯一的正确选择。</span><span class="sxs-lookup"><span data-stu-id="604ce-107">Network security groups can be used to secure this communication flow, but this is not the only correct choice.</span></span>
+    - content: <span data-ttu-id="604ce-108">VNet 中的 Azure 虚拟机之间的通信</span><span class="sxs-lookup"><span data-stu-id="604ce-108">Communication between Azure virtual machines within a VNet</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="604ce-109">网络安全组可用于保护此通信流, 但这并不是唯一的正确选择。</span><span class="sxs-lookup"><span data-stu-id="604ce-109">Network security groups can be used to secure this communication flow, but this is not the only correct choice.</span></span>
+    - content: <span data-ttu-id="604ce-110">本地网络中的 Azure 虚拟机和系统之间的通信</span><span class="sxs-lookup"><span data-stu-id="604ce-110">Communication between Azure virtual machines and systems in an on-premises network</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="604ce-111">网络安全组可用于保护此通信流, 但这并不是唯一的正确选择。</span><span class="sxs-lookup"><span data-stu-id="604ce-111">Network security groups can be used to secure this communication flow, but this is not the only correct choice.</span></span>
+    - content: <span data-ttu-id="604ce-112">以上所有</span><span class="sxs-lookup"><span data-stu-id="604ce-112">All of the above</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="604ce-113">网络安全组可完全自定义, 并使您能够完全锁定与虚拟机之间的网络通信。</span><span class="sxs-lookup"><span data-stu-id="604ce-113">Network security groups are fully customizable, and give you the ability to fully lock down network communication to and from your virtual machines.</span></span>
+  - content: <span data-ttu-id="604ce-114">以下哪一项不是保护面向 internet 的服务对网络攻击的方法？</span><span class="sxs-lookup"><span data-stu-id="604ce-114">Which of the following is not a method for protecting internet facing services from network attacks?</span></span>
+    choices:
+    - content: <span data-ttu-id="604ce-115">Azure DDoS</span><span class="sxs-lookup"><span data-stu-id="604ce-115">Azure DDoS</span></span>
+      isCorrect: false
+      explanation: '<span data-ttu-id="604ce-116">Azure DDoS 可用于保护面向 internet 的服务免受 DoS 攻击。</span><span class="sxs-lookup"><span data-stu-id="604ce-116">Azure DDoS can be used to protect your internet facing services from a DoS attack.</span></span> '
+    - content: <span data-ttu-id="604ce-117">Azure 应用程序网关 WAF</span><span class="sxs-lookup"><span data-stu-id="604ce-117">Azure Application Gateway WAF</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="604ce-118">应用程序网关 WAF 可用于保护面向 internet 的服务免受 XSS 和 SQL 注入等攻击。</span><span class="sxs-lookup"><span data-stu-id="604ce-118">Application Gateway WAF can be used to protect your internet facing services from attacks such as XSS and SQL injection.</span></span>
+    - content: <span data-ttu-id="604ce-119">Azure 磁盘加密</span><span class="sxs-lookup"><span data-stu-id="604ce-119">Azure Disk Encryption</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="604ce-120">Azure 磁盘加密可保护虚拟机 vhd 不暴露, 但不会对基于网络的攻击提供保护。</span><span class="sxs-lookup"><span data-stu-id="604ce-120">Azure Disk Encryption protects your virtual machine VHDs from exposure, but does not provide protection from network based attacks.</span></span>
+    - content: <span data-ttu-id="604ce-121">网络虚拟设备</span><span class="sxs-lookup"><span data-stu-id="604ce-121">A network virtual appliance</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="604ce-122">网络虚拟设备可以为面向 internet 的资源提供自定义的网络保护。</span><span class="sxs-lookup"><span data-stu-id="604ce-122">Network virtual appliances can provide customized network protection for your internet facing resources.</span></span>
