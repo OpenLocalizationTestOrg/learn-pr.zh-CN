@@ -1,0 +1,60 @@
+### YamlMime:ModuleUnit
+uid: learn.create-azure-account.7-summary
+title: <span data-ttu-id="2aece-101">摘要</span><span class="sxs-lookup"><span data-stu-id="2aece-101">Summary</span></span>
+metadata:
+  title: <span data-ttu-id="2aece-102">摘要</span><span class="sxs-lookup"><span data-stu-id="2aece-102">Summary</span></span>
+  description: <span data-ttu-id="2aece-103">摘要</span><span class="sxs-lookup"><span data-stu-id="2aece-103">Summary</span></span>
+  ms.date: 01/1/2019
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 3d4dfafa43be1e650d6b7097a25a8523697cbe49
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138292"
+durationInMinutes: 5
+content: >
+  [!include[](includes/7-summary.md)]
+quiz:
+  title: <span data-ttu-id="2aece-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="2aece-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="2aece-105">以下哪一项定义了 Azure 订阅正确？</span><span class="sxs-lookup"><span data-stu-id="2aece-105">Which of the following defines an Azure subscription correctly?</span></span>
+    choices:
+    - content: <span data-ttu-id="2aece-106">使用 Azure 不需要订阅</span><span class="sxs-lookup"><span data-stu-id="2aece-106">Using Azure does not require a subscription</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="2aece-107">使用 azure 需要 Azure 订阅。</span><span class="sxs-lookup"><span data-stu-id="2aece-107">Using Azure requires an Azure subscription.</span></span> <span data-ttu-id="2aece-108">Azure 提供免费和付费订阅选项以适应不同的客户需求和要求。</span><span class="sxs-lookup"><span data-stu-id="2aece-108">Azure offer free and paid subscription options to suit different customer needs and requirements.</span></span>
+    - content: <span data-ttu-id="2aece-109">所有 Azure 订阅始终免费</span><span class="sxs-lookup"><span data-stu-id="2aece-109">All Azure subscriptions are always free</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="2aece-110">但有一些免费订阅, 但若要充分利用所有 Azure 服务, 需要升级到付费订阅。</span><span class="sxs-lookup"><span data-stu-id="2aece-110">There are free subscriptions, however to fully use all the Azure services you will need to upgrade to a paid subscription.</span></span>
+    - content: <span data-ttu-id="2aece-111">azure 订阅是链接到 azure 帐户的 azure 服务的逻辑单元</span><span class="sxs-lookup"><span data-stu-id="2aece-111">An Azure subscription is a logical unit of Azure services that is linked to an Azure account</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="2aece-112">使用 azure 需要 Azure 订阅。</span><span class="sxs-lookup"><span data-stu-id="2aece-112">Using Azure requires an Azure subscription.</span></span> <span data-ttu-id="2aece-113">Azure 提供免费和付费订阅选项以满足不同的客户需求和要求, 并且一个帐户可以有一个或多个订阅, 每个订阅都应用不同的计费模型和访问管理策略。</span><span class="sxs-lookup"><span data-stu-id="2aece-113">Azure offer free and paid subscription options to suit different customer needs and requirements, and an account can have one or more subscriptions, with different billing models and access-management policies applied to each .</span></span> <span data-ttu-id="2aece-114">订阅提供对 Azure 产品和服务的经过身份验证和授权的访问, 并允许您设置资源。</span><span class="sxs-lookup"><span data-stu-id="2aece-114">A subscription provides authenticated and authorized access to Azure products and services, and allows you to provision resources.</span></span>
+    - content: <span data-ttu-id="2aece-115">一个帐户不能有多个订阅</span><span class="sxs-lookup"><span data-stu-id="2aece-115">An account cannot have more than one subscription</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="2aece-116">不.</span><span class="sxs-lookup"><span data-stu-id="2aece-116">Incorrect.</span></span> <span data-ttu-id="2aece-117">帐户可以在组织中的多个组之间具有多个单独的记帐或访问控制的订阅。</span><span class="sxs-lookup"><span data-stu-id="2aece-117">Accounts can have multiple subscriptions to separate billing or access control across multiple groups in your organization.</span></span>
+  - content: <span data-ttu-id="2aece-118">True 或 False。</span><span class="sxs-lookup"><span data-stu-id="2aece-118">True or False.</span></span> <span data-ttu-id="2aece-119">azure 具有可在拥有 Azure 订阅后使用的免费服务。</span><span class="sxs-lookup"><span data-stu-id="2aece-119">Azure has free services you can use once you have an Azure subscription.</span></span>
+    choices:
+    - content: <span data-ttu-id="2aece-120">True-有几个免费服务可供使用。</span><span class="sxs-lookup"><span data-stu-id="2aece-120">True - there are several free services available.</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="2aece-121">这是真的。</span><span class="sxs-lookup"><span data-stu-id="2aece-121">This is true.</span></span> <span data-ttu-id="2aece-122">Azure 有几个免费服务可供使用, 包括 azure 应用服务、功能和 azure Kubernetes 容器。</span><span class="sxs-lookup"><span data-stu-id="2aece-122">Azure has several free services you can use including Azure App Services, Functions, and Azure Kubernetes containers.</span></span>
+    - content: <span data-ttu-id="2aece-123">False-服务仅在前12个月内免费。</span><span class="sxs-lookup"><span data-stu-id="2aece-123">False - services are only free for the first 12 months.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="2aece-124">虽然有些服务仅在前12个月内可用, 但 Azure 有几种服务可以在不收费的情况下使用。</span><span class="sxs-lookup"><span data-stu-id="2aece-124">While some services are free for only the first 12 months, Azure has several services you can use after that at no cost.</span></span>
+  - content: <span data-ttu-id="2aece-125">Azure 中的帐单是 ______________</span><span class="sxs-lookup"><span data-stu-id="2aece-125">Billing in Azure is ______________</span></span>
+    choices:
+    - content: <span data-ttu-id="2aece-126">每个基于使用情况的 Azure 帐户每年一次。</span><span class="sxs-lookup"><span data-stu-id="2aece-126">Annually for each Azure account based on usage.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="2aece-127">帐单不是每年执行一种。</span><span class="sxs-lookup"><span data-stu-id="2aece-127">Billing is not performed annually.</span></span>
+    - content: <span data-ttu-id="2aece-128">每个基于使用情况的 Azure 订阅的每月。</span><span class="sxs-lookup"><span data-stu-id="2aece-128">Monthly for each Azure subscription based on usage.</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="2aece-129">根据资源使用情况, 为帐户中的每个订阅执行每月计费。</span><span class="sxs-lookup"><span data-stu-id="2aece-129">Billing is performed monthly for each subscription in the account, based on the resource usage.</span></span>
+    - content: <span data-ttu-id="2aece-130">每个基于使用情况的 Azure 帐户的每月。</span><span class="sxs-lookup"><span data-stu-id="2aece-130">Monthly for each Azure account based on usage.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="2aece-131">帐单在每月的帐户级别执行。</span><span class="sxs-lookup"><span data-stu-id="2aece-131">Billing is performed monthly at the account level.</span></span>
+    - content: <span data-ttu-id="2aece-132">每个基于使用情况的 Azure 订阅。</span><span class="sxs-lookup"><span data-stu-id="2aece-132">Daily for each Azure subscription based on usage.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="2aece-133">帐单不会每天收费。</span><span class="sxs-lookup"><span data-stu-id="2aece-133">Billing is not charged daily.</span></span>

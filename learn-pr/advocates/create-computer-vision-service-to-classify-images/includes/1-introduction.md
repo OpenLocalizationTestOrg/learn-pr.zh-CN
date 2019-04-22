@@ -1,0 +1,15 @@
+<span data-ttu-id="ce519-101">作为 Contoso 饮料分布的开发人员, 您负责构建和维护业务线应用程序, 使 frontline 分销商能够扫描和上传存储架的图像以进行重新进货。</span><span class="sxs-lookup"><span data-stu-id="ce519-101">As a lead developer at Contoso Beverage Distribution, you're responsible for building and maintaining a line-of-business app that lets your frontline distributors scan and upload images of the store shelves they are restocking.</span></span>
+
+<span data-ttu-id="ce519-102">您想要验证用户发布的任何图像是否遵循贵公司设置的内容规则。</span><span class="sxs-lookup"><span data-stu-id="ce519-102">You want to validate that any images posted by users respect the content rules set by your company.</span></span> <span data-ttu-id="ce519-103">公司不希望将不良内容发布到公司网站。</span><span class="sxs-lookup"><span data-stu-id="ce519-103">The company doesn't want inappropriate content posted to company sites.</span></span> 
+
+<span data-ttu-id="ce519-104">您需要决定是生成还是购买解决方案。</span><span class="sxs-lookup"><span data-stu-id="ce519-104">You need to decide whether to build or buy a solution.</span></span> <span data-ttu-id="ce519-105">构建复杂的图像处理和分析引擎成本高昂。</span><span class="sxs-lookup"><span data-stu-id="ce519-105">Building a sophisticated image processing and analysis engine is costly.</span></span> <span data-ttu-id="ce519-106">一种替代方法是使用来自 Microsoft 的计算机远景 API。</span><span class="sxs-lookup"><span data-stu-id="ce519-106">One alternative is to use the Computer Vision API from Microsoft.</span></span> <span data-ttu-id="ce519-107">在本模块中, 我们将探讨此 API 提供的功能并调用它来处理一些图像。</span><span class="sxs-lookup"><span data-stu-id="ce519-107">In this module, we'll explore the features offered by this API and call it to process some images.</span></span> 
+
+## <a name="learning-objectives"></a><span data-ttu-id="ce519-108">学习目标</span><span class="sxs-lookup"><span data-stu-id="ce519-108">Learning objectives</span></span>
+
+<span data-ttu-id="ce519-109">在本模块中, 您将:</span><span class="sxs-lookup"><span data-stu-id="ce519-109">In this module, you will:</span></span>
+
+- <span data-ttu-id="ce519-110">创建一个认知服务帐户。</span><span class="sxs-lookup"><span data-stu-id="ce519-110">Create a Cognitive Services account.</span></span>
+- <span data-ttu-id="ce519-111">获取有关在图像中找到的可视内容的信息。</span><span class="sxs-lookup"><span data-stu-id="ce519-111">Get information about the visual content found in an image.</span></span>
+- <span data-ttu-id="ce519-112">生成图像的缩略图。</span><span class="sxs-lookup"><span data-stu-id="ce519-112">Generate a thumbnail of an image.</span></span>
+- <span data-ttu-id="ce519-113">检测并提取图像中的打印文本。</span><span class="sxs-lookup"><span data-stu-id="ce519-113">Detect and extract printed text from an image.</span></span>
+- <span data-ttu-id="ce519-114">检测并从图像中提取手写文本。</span><span class="sxs-lookup"><span data-stu-id="ce519-114">Detect and extract handwritten text from an image.</span></span>

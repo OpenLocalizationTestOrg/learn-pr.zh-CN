@@ -1,0 +1,38 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-security.3-identity-management
+title: <span data-ttu-id="48c98-101">身份管理</span><span class="sxs-lookup"><span data-stu-id="48c98-101">Identity management</span></span>
+metadata:
+  title: <span data-ttu-id="48c98-102">身份管理</span><span class="sxs-lookup"><span data-stu-id="48c98-102">Identity management</span></span>
+  description: <span data-ttu-id="48c98-103">在此单元中, 我们将讨论如何保护你的身份</span><span class="sxs-lookup"><span data-stu-id="48c98-103">In this unit we'll discuss how to protect your identities</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 102ce98c038f1636903b33a75640387277905251
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138259"
+durationInMinutes: 10
+content: >
+  [!include[](includes/3-identity-management.md)]
+quiz:
+  title: <span data-ttu-id="48c98-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="48c98-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="48c98-105">以下哪一项不是单一登录的好处？</span><span class="sxs-lookup"><span data-stu-id="48c98-105">Which of the following is NOT a benefit of single sign-on?</span></span>
+    choices:
+    - content: <span data-ttu-id="48c98-106">增加了复杂性为用户分配权限</span><span class="sxs-lookup"><span data-stu-id="48c98-106">Increased complexity assigning permissions to users</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="48c98-107">单一登录可以降低将权限分配给用户所需的复杂性, 因为要管理的标识较少。</span><span class="sxs-lookup"><span data-stu-id="48c98-107">Single sign-on can reduce the complexity needed to assign permissions to users because there are less identities to manage.</span></span>
+    - content: <span data-ttu-id="48c98-108">要记住的用户的 id 和密码较少</span><span class="sxs-lookup"><span data-stu-id="48c98-108">Fewer IDs and passwords for users to remember</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="48c98-109">单一登录可以降低将权限分配给用户所需的复杂性, 因为要管理的标识较少。</span><span class="sxs-lookup"><span data-stu-id="48c98-109">Single sign-on can reduce the complexity needed to assign permissions to users because there are less identities to manage.</span></span>
+    - content: <span data-ttu-id="48c98-110">在用户更改角色或离开组织时降低管理工作</span><span class="sxs-lookup"><span data-stu-id="48c98-110">Lower administration effort when users change roles or leave an organization</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="48c98-111">单一登录可以降低将权限分配给用户所需的复杂性, 因为要管理的标识较少。</span><span class="sxs-lookup"><span data-stu-id="48c98-111">Single sign-on can reduce the complexity needed to assign permissions to users because there are less identities to manage.</span></span>
+    - content: <span data-ttu-id="48c98-112">确保各个应用程序之间的一致密码策略</span><span class="sxs-lookup"><span data-stu-id="48c98-112">Ensures a consistent password policy across applications</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="48c98-113">单一登录可以降低将权限分配给用户所需的复杂性, 因为要管理的标识较少。</span><span class="sxs-lookup"><span data-stu-id="48c98-113">Single sign-on can reduce the complexity needed to assign permissions to users because there are less identities to manage.</span></span>

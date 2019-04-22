@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-availability-and-recoverability.2-high-availability
+title: <span data-ttu-id="db8bb-101">构建高可用性体系结构</span><span class="sxs-lookup"><span data-stu-id="db8bb-101">Build a highly available architecture</span></span>
+metadata:
+  title: <span data-ttu-id="db8bb-102">构建高可用性体系结构</span><span class="sxs-lookup"><span data-stu-id="db8bb-102">Build a highly available architecture</span></span>
+  description: <span data-ttu-id="db8bb-103">构建高可用性体系结构</span><span class="sxs-lookup"><span data-stu-id="db8bb-103">Build a highly available architecture</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: ab53183df0987590d032d673d4864c8d2df522f7
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138270"
+durationInMinutes: 20
+content: >
+  [!include[](includes/2-high-availability.md)]
+quiz:
+  title: <span data-ttu-id="db8bb-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="db8bb-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="db8bb-105">为您的服务定义 SLA 是非常重要的, 这是因为:</span><span class="sxs-lookup"><span data-stu-id="db8bb-105">An SLA is important to define for your service because:</span></span>
+    choices:
+    - content: <span data-ttu-id="db8bb-106">它可帮助您确定备份保留要求。</span><span class="sxs-lookup"><span data-stu-id="db8bb-106">It helps you determine your backup retention requirements.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="db8bb-107">必须定义备份保留, 但不受 SLA 的制约。</span><span class="sxs-lookup"><span data-stu-id="db8bb-107">Backup retention is important to define, but it is not driven by SLA.</span></span>
+    - content: <span data-ttu-id="db8bb-108">它可帮助您确定您将为客户提交的服务的可用性。</span><span class="sxs-lookup"><span data-stu-id="db8bb-108">It helps you determine the availability of your service that you will commit to for your customers.</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="db8bb-109">服务级别协议是承诺您为客户提供服务的可用性。</span><span class="sxs-lookup"><span data-stu-id="db8bb-109">Service level agreement is a commitment you are making to your customers for the availability of your service.</span></span>
+    - content: <span data-ttu-id="db8bb-110">您可以使用它说服您的经理自动执行虚拟机创建。</span><span class="sxs-lookup"><span data-stu-id="db8bb-110">You can use it to convince your manager to automate virtual-machine creation.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="db8bb-111">虽然这是一个很棒的讨论, 但您的 SLA 很可能对结果不会有任何影响。</span><span class="sxs-lookup"><span data-stu-id="db8bb-111">While this is a good discussion to have, your SLA will likely not have any impact on the outcome.</span></span>
+    - content: <span data-ttu-id="db8bb-112">您可以使用它来定义资源的访问控制设置。</span><span class="sxs-lookup"><span data-stu-id="db8bb-112">You use it to define the access control settings for your resources.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="db8bb-113">访问控制设置非常重要, 但它们与应用程序的 SLA 无关。</span><span class="sxs-lookup"><span data-stu-id="db8bb-113">Access control settings are important, but they are not related to the SLA of your application.</span></span>
+  - content: <span data-ttu-id="db8bb-114">在高可用性体系结构中不使用以下哪一项？</span><span class="sxs-lookup"><span data-stu-id="db8bb-114">Which of the following is not used in a highly available architecture?</span></span>
+    choices:
+    - content: <span data-ttu-id="db8bb-115">负载平衡</span><span class="sxs-lookup"><span data-stu-id="db8bb-115">Load balancing</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="db8bb-116">负载平衡通常在高可用性体系结构中使用, 以将负载分配给可用系统, 并从负载中删除失败的系统。</span><span class="sxs-lookup"><span data-stu-id="db8bb-116">Load balancing is typically used in a highly available architecture to distribute load to available systems and remove failed systems from load.</span></span>
+    - content: <span data-ttu-id="db8bb-117">可用性区域</span><span class="sxs-lookup"><span data-stu-id="db8bb-117">Availability zones</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="db8bb-118">可用性区域在高可用性体系结构中使用, 以跨区域中的多个数据中心分发系统。</span><span class="sxs-lookup"><span data-stu-id="db8bb-118">Availability zones are used in a highly available architecture to distribute systems across multiple datacenters within a region.</span></span>
+    - content: <span data-ttu-id="db8bb-119">可用性集</span><span class="sxs-lookup"><span data-stu-id="db8bb-119">Availability sets</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="db8bb-120">可用性集在高可用性体系结构中使用, 以最大限度地减少对本地化故障和维护事件的影响。</span><span class="sxs-lookup"><span data-stu-id="db8bb-120">Availability sets are used in a highly available architecture to minimize the impact from localized failures and maintenance events.</span></span>
+    - content: <span data-ttu-id="db8bb-121">恢复服务电子仓库</span><span class="sxs-lookup"><span data-stu-id="db8bb-121">A recovery service vault</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="db8bb-122">恢复服务电子仓库为备份提供了一个目标, 但它们不是高可用性体系结构的一部分。</span><span class="sxs-lookup"><span data-stu-id="db8bb-122">Recovery service vaults provide a destination for backups, but they are not part of a highly available architecture.</span></span>

@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.classify-user-feedback-with-the-text-analytics-api.4-design-a-feedback-sorter
+metadata:
+  title: <span data-ttu-id="3d690-101">设计反馈排序器</span><span class="sxs-lookup"><span data-stu-id="3d690-101">Design a feedback sorter</span></span>
+  description: <span data-ttu-id="3d690-102">在看法分析可能很方便的时候, 让我们考虑现实应用场景。</span><span class="sxs-lookup"><span data-stu-id="3d690-102">Let's consider a real-world scenario for times when sentiment analysis might come in handy.</span></span> <span data-ttu-id="3d690-103">在这里, 我们讨论了该方案以及如何使用 Azure 函数和文本分析 API 来实现。</span><span class="sxs-lookup"><span data-stu-id="3d690-103">Here we talk about the scenario and how to implement it using Azure Functions and the Text Analytics API.</span></span>
+  ms.date: 09/24/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 917b5832ad89680dc6054c157205abba7d8761e5
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138148"
+title: <span data-ttu-id="3d690-104">设计反馈排序器</span><span class="sxs-lookup"><span data-stu-id="3d690-104">Design a feedback sorter</span></span>
+durationInMinutes: 6
+content: '[!include[](includes/4-design-a-feedback-sorter.md)]'

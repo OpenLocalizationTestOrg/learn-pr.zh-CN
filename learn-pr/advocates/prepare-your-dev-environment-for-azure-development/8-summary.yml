@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.prepare-azure-dev-environment.8-summary
+title: <span data-ttu-id="396ee-101">摘要</span><span class="sxs-lookup"><span data-stu-id="396ee-101">Summary</span></span>
+metadata:
+  title: <span data-ttu-id="396ee-102">摘要</span><span class="sxs-lookup"><span data-stu-id="396ee-102">Summary</span></span>
+  description: <span data-ttu-id="396ee-103">摘要</span><span class="sxs-lookup"><span data-stu-id="396ee-103">Summary</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 8df08ffc3c3f35ff1a1fab8a8de0462d8e052e3e
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138225"
+durationInMinutes: 5
+content: >
+  [!include[](includes/8-summary.md)]
+quiz:
+  title: '<span data-ttu-id="396ee-104">知识检查: 为 Azure 准备开发环境</span><span class="sxs-lookup"><span data-stu-id="396ee-104">Knowledge check: Prepare your development environment for Azure</span></span>'
+  questions:
+  - content: <span data-ttu-id="396ee-105">Visual Studio 代码支持哪种操作系统？</span><span class="sxs-lookup"><span data-stu-id="396ee-105">Visual Studio Code supports which operating system?</span></span>
+    choices:
+    - content: <span data-ttu-id="396ee-106">Linux</span><span class="sxs-lookup"><span data-stu-id="396ee-106">Linux</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="396ee-107">Visual Studio Code 是跨平台的, 并支持 Linux、macOS 和 Windows。</span><span class="sxs-lookup"><span data-stu-id="396ee-107">Visual Studio Code is cross-platform and supports Linux, macOS, and Windows.</span></span>
+    - content: <span data-ttu-id="396ee-108">macOS</span><span class="sxs-lookup"><span data-stu-id="396ee-108">macOS</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="396ee-109">Visual Studio Code 是跨平台的, 并支持 Linux、macOS 和 Windows。</span><span class="sxs-lookup"><span data-stu-id="396ee-109">Visual Studio Code is cross-platform and supports Linux, macOS, and Windows.</span></span>
+    - content: <span data-ttu-id="396ee-110">Windows</span><span class="sxs-lookup"><span data-stu-id="396ee-110">Windows</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="396ee-111">Visual Studio Code 是跨平台的, 并支持 Linux、macOS 和 Windows。</span><span class="sxs-lookup"><span data-stu-id="396ee-111">Visual Studio Code is cross-platform and supports Linux, macOS, and Windows.</span></span>
+    - content: <span data-ttu-id="396ee-112">以上所有</span><span class="sxs-lookup"><span data-stu-id="396ee-112">All of the above</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="396ee-113">Visual Studio Code 是跨平台的, 并支持 Linux、macOS 和 Windows。</span><span class="sxs-lookup"><span data-stu-id="396ee-113">Visual Studio Code is cross-platform and supports Linux, macOS, and Windows.</span></span>
+  - content: <span data-ttu-id="396ee-114">Microsoft 提供了适用于以下编辑器/IDE 的 Azure 扩展？</span><span class="sxs-lookup"><span data-stu-id="396ee-114">Microsoft supplies an Azure extension for which of the following editor/IDE?</span></span>
+    choices:
+    - content: <span data-ttu-id="396ee-115">Eclipse</span><span class="sxs-lookup"><span data-stu-id="396ee-115">Eclipse</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="396ee-116">您可以选择要用于 Azure 开发的工具, Microsoft 为 Eclipse、visual studio 2017、visual studio for Mac 和 Visual Studio Code 提供 azure 集成。</span><span class="sxs-lookup"><span data-stu-id="396ee-116">You choose which tool you want to use for Azure development, Microsoft provides Azure integration for Eclipse, Visual Studio 2017, Visual Studio for Mac, and Visual Studio Code.</span></span>
+    - content: <span data-ttu-id="396ee-117">Visual Studio</span><span class="sxs-lookup"><span data-stu-id="396ee-117">Visual Studio</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="396ee-118">您可以选择要用于 Azure 开发的工具, Microsoft 为 Eclipse、visual studio 2017、visual studio for Mac 和 Visual Studio Code 提供 azure 集成。</span><span class="sxs-lookup"><span data-stu-id="396ee-118">You choose which tool you want to use for Azure development, Microsoft provides Azure integration for Eclipse, Visual Studio 2017, Visual Studio for Mac, and Visual Studio Code.</span></span>
+    - content: <span data-ttu-id="396ee-119">Visual Studio Code</span><span class="sxs-lookup"><span data-stu-id="396ee-119">Visual Studio Code</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="396ee-120">您可以选择要用于 Azure 开发的工具, Microsoft 为 Eclipse、visual studio 2017、visual studio for Mac 和 Visual Studio Code 提供 azure 集成。</span><span class="sxs-lookup"><span data-stu-id="396ee-120">You choose which tool you want to use for Azure development, Microsoft provides Azure integration for Eclipse, Visual Studio 2017, Visual Studio for Mac, and Visual Studio Code.</span></span>
+    - content: <span data-ttu-id="396ee-121">以上所有</span><span class="sxs-lookup"><span data-stu-id="396ee-121">All of the above</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="396ee-122">您可以选择要用于 Azure 开发的工具, Microsoft 为 Eclipse、visual studio 2017、visual studio for Mac 和 Visual Studio Code 提供 azure 集成。</span><span class="sxs-lookup"><span data-stu-id="396ee-122">You choose which tool you want to use for Azure development, Microsoft provides Azure integration for Eclipse, Visual Studio 2017, Visual Studio for Mac, and Visual Studio Code.</span></span>

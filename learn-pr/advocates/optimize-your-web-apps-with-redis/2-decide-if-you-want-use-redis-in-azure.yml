@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.optimize-web-app-with-redis.2-decide-if-you-want-use-redis-in-azure
+title: <span data-ttu-id="31891-101">决定是否要对 Redis 使用 Azure 缓存</span><span class="sxs-lookup"><span data-stu-id="31891-101">Decide if you want to use Azure Cache for Redis</span></span>
+metadata:
+  title: <span data-ttu-id="31891-102">决定是否要对 Redis 使用 Azure 缓存</span><span class="sxs-lookup"><span data-stu-id="31891-102">Decide if you want to use Azure Cache for Redis</span></span>
+  description: <span data-ttu-id="31891-103">决定是否要对 Redis 使用 Azure 缓存</span><span class="sxs-lookup"><span data-stu-id="31891-103">Decide if you want to use Azure Cache for Redis</span></span>
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: cf950c7d77aeae85f676a4b01a9c5e2d405cd381
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138237"
+durationInMinutes: 5
+content: '[!include[](includes/2-decide-if-you-want-use-redis-in-azure.md)]'

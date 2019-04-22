@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.manage-iot-devices
+metadata:
+  title: 了解如何以 IT 管理员身份管理 IoT 设备-了解
+  description: 随着 IoT 采用的发展, 了解 Microsoft 提供的操作, 以帮助部署、管理和保护所说的 plethora 设备的各种工具。
+  author: WirelessLife
+  ms.date: 09/24/2018
+  ms.author: abartolo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: f46b24c999055ed1aa33f9fdba729a0f02cfd285
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138120"
+title: 了解如何以 IT 管理员身份管理 IoT 设备
+summary: 随着 IoT 采用的发展, 了解 Microsoft 提供的操作, 以帮助部署、管理和保护所说的 plethora 设备的各种工具。
+abstract: >
+  在本模块中, 您将:
+   - 获取 IoT 简介
+   - 与 Raspberry Pi 模拟器进行交互
+   - 配置 Azure IoT 中心以捕获数据
+prerequisites: 无
+iconUrl: /learn/achievements/manage-your-iot-devices.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- azure
+units:
+- learn.manage-iot-devices.1-intro-to-ops-in-iot
+- learn.manage-iot-devices.2-raspberry-pi-emulator
+- learn.manage-iot-devices.3-connect-device
+- learn.manage-iot-devices.4-summary
+badge:
+  uid: learn.manage-iot-devices.badge

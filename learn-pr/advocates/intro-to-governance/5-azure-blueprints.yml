@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-compliance.5-azure-blueprints
+title: <span data-ttu-id="624a8-101">使用 Azure 蓝图定义标准资源</span><span class="sxs-lookup"><span data-stu-id="624a8-101">Define standard resources with Azure Blueprints</span></span>
+metadata:
+  title: <span data-ttu-id="624a8-102">使用 Azure 蓝图定义标准资源-了解</span><span class="sxs-lookup"><span data-stu-id="624a8-102">Define standard resources with Azure Blueprints - Learn</span></span>
+  description: <span data-ttu-id="624a8-103">使用 Azure 蓝图定义标准资源-了解。</span><span class="sxs-lookup"><span data-stu-id="624a8-103">Define standard resources with Azure Blueprints - Learn.</span></span>
+  ms.date: 12/27/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: b7e754a24b924fef3d3911f6300859cf1f8ae36b
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138332"
+durationInMinutes: 5
+content: '[!include[](includes/5-azure-blueprints.md)]'

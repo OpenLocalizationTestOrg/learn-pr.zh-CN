@@ -1,0 +1,45 @@
+### YamlMime:ModuleUnit
+uid: learn.n-tier-architecture.4-n-tier-architecture-considerations
+metadata:
+  title: <span data-ttu-id="0c2fa-101">N 层体系结构注意事项</span><span class="sxs-lookup"><span data-stu-id="0c2fa-101">Considerations for N-tier architectures</span></span>
+  description: <span data-ttu-id="0c2fa-102">N 层体系结构注意事项</span><span class="sxs-lookup"><span data-stu-id="0c2fa-102">Considerations for N-tier architectures</span></span>
+  ms.date: 01/15/2019
+  author: jboeshart
+  ms.author: jaboes
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: e629ccbcd5b87b25f86b9a871d14df3228a3d1e1
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138114"
+title: <span data-ttu-id="0c2fa-103">N 层体系结构注意事项</span><span class="sxs-lookup"><span data-stu-id="0c2fa-103">Considerations for N-tier architectures</span></span>
+durationInMinutes: 7
+content: >
+  [!include[](includes/4-n-tier-architecture-considerations.md)]
+quiz:
+  title: <span data-ttu-id="0c2fa-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="0c2fa-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="0c2fa-105">以下哪一种方法可能是在 N 层体系结构上提高应用程序性能的一种方法, 同时保持对成本的优化？</span><span class="sxs-lookup"><span data-stu-id="0c2fa-105">Which of the following might be a way to improve performance of an application on an N-tier architecture, while keeping costs optimized?</span></span>
+    choices:
+    - content: <span data-ttu-id="0c2fa-106">向每个层部署更大的虚拟机。</span><span class="sxs-lookup"><span data-stu-id="0c2fa-106">Deploy larger virtual machines to each tier.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="0c2fa-107">虽然增加虚拟机的大小可能会提高性能, 但它不会 miminize 成本。</span><span class="sxs-lookup"><span data-stu-id="0c2fa-107">While increasing the size of virtual machines may improve performance, it does not miminize costs.</span></span> <span data-ttu-id="0c2fa-108">随着负载的下降, 虚拟机的大小保持不变, 且成本不会降低。</span><span class="sxs-lookup"><span data-stu-id="0c2fa-108">As the load drops, the virtual machines remain the same size and your costs do not decrease.</span></span>
+    - content: <span data-ttu-id="0c2fa-109">使用自动缩放处理负载波动。</span><span class="sxs-lookup"><span data-stu-id="0c2fa-109">Use autoscaling to handle fluctuations in load.</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="0c2fa-110">这是最大限度地减少成本的一种很棒的方法。</span><span class="sxs-lookup"><span data-stu-id="0c2fa-110">This is a good way to minimize your costs.</span></span> <span data-ttu-id="0c2fa-111">随着负载的增加或减少, 您的计算资源可以进行调整, 以确保您的成本已针对您的负载进行优化。</span><span class="sxs-lookup"><span data-stu-id="0c2fa-111">As load increases or decreases, your compute resources can adjust with them, ensuring your costs are optimized to your load.</span></span>
+    - content: <span data-ttu-id="0c2fa-112">将应用程序放置在负载平衡器的后面。</span><span class="sxs-lookup"><span data-stu-id="0c2fa-112">Place your application behind a load balancer.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="0c2fa-113">仅将应用程序放置在负载平衡器后面不会直接影响性能或成本。</span><span class="sxs-lookup"><span data-stu-id="0c2fa-113">Placing an application behind a load balancer alone does not have a direct impact on performance or costs.</span></span>
+  - content: <span data-ttu-id="0c2fa-114">以下哪一项将提高应用程序的安全性？</span><span class="sxs-lookup"><span data-stu-id="0c2fa-114">Which of the following would improve the security of an application?</span></span>
+    choices:
+    - content: <span data-ttu-id="0c2fa-115">限制从 internet 访问你的数据层。</span><span class="sxs-lookup"><span data-stu-id="0c2fa-115">Restrict access to your data tier from the internet.</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="0c2fa-116">若要提高您的应用程序的安全性, 建议使用隔离对数据层的访问。</span><span class="sxs-lookup"><span data-stu-id="0c2fa-116">Isolating access to your data tier is a recommended way to improve the security of your application.</span></span>
+    - content: <span data-ttu-id="0c2fa-117">允许从 internet 对应用层服务器进行远程管理。</span><span class="sxs-lookup"><span data-stu-id="0c2fa-117">Allow remote administration of your application tier servers from the internet.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="0c2fa-118">打开对 internet 进行远程管理的访问可提高对系统的恶意活动的能力, 不建议这样做。</span><span class="sxs-lookup"><span data-stu-id="0c2fa-118">Opening up access to the internet for remote administration increases the ability for malicious activity against your systems, and is not recommended.</span></span>
+    - content: <span data-ttu-id="0c2fa-119">在应用程序层和数据层之间添加缓存技术。</span><span class="sxs-lookup"><span data-stu-id="0c2fa-119">Add a caching technology between your application and data tiers.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="0c2fa-120">向应用程序添加缓存技术有助于提高性能, 但不会直接影响应用程序的安全性。</span><span class="sxs-lookup"><span data-stu-id="0c2fa-120">Adding a caching technology to your application can help improve performance, but does not have a direct impact on the security of your application.</span></span>

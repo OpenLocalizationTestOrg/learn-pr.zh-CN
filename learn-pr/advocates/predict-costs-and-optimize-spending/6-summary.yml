@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn.predict-costs-and-optimize-spending.6-summary
+title: <span data-ttu-id="bf494-101">摘要</span><span class="sxs-lookup"><span data-stu-id="bf494-101">Summary</span></span>
+metadata:
+  title: <span data-ttu-id="bf494-102">摘要</span><span class="sxs-lookup"><span data-stu-id="bf494-102">Summary</span></span>
+  description: <span data-ttu-id="bf494-103">摘要</span><span class="sxs-lookup"><span data-stu-id="bf494-103">Summary</span></span>
+  ms.date: 12/28/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 338228a6f24edb153d863992ea88c5b38a70ae7b
+  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/21/2019
+  ms.locfileid: "2138230"
+durationInMinutes: 4
+content: >
+  [!include[](includes/6-summary.md)]
+quiz:
+  title: <span data-ttu-id="bf494-104">查看你的知识</span><span class="sxs-lookup"><span data-stu-id="bf494-104">Check your knowledge</span></span>
+  questions:
+  - content: <span data-ttu-id="bf494-105">以下哪一项用于确定每个计费时段的 Azure 成本？</span><span class="sxs-lookup"><span data-stu-id="bf494-105">Which of the following are used to determine Azure costs for each billing period?</span></span>
+    choices:
+    - content: <span data-ttu-id="bf494-106">Azure 网站</span><span class="sxs-lookup"><span data-stu-id="bf494-106">The Azure website</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="bf494-107">网站可用于_查看_您的成本, 但不会影响实际计费时段。</span><span class="sxs-lookup"><span data-stu-id="bf494-107">The website can be used to _view_ your costs, but it doesn't influence the actual billing period.</span></span>
+    - content: <span data-ttu-id="bf494-108">已创建的虚拟机的数量</span><span class="sxs-lookup"><span data-stu-id="bf494-108">Number of created virtual machines</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="bf494-109">由于 CPU 和存储, 运行中的虚拟机将影响成本, 但不代表整个帐单。</span><span class="sxs-lookup"><span data-stu-id="bf494-109">Running VMs will influence the cost due to CPU and storage, but do not represent the entire bill.</span></span>
+    - content: <span data-ttu-id="bf494-110">Azure 定价计算器</span><span class="sxs-lookup"><span data-stu-id="bf494-110">The Azure pricing calculator</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="bf494-111">Azure 计算器可以帮助_预测_成本, 但不会影响成本。</span><span class="sxs-lookup"><span data-stu-id="bf494-111">The Azure calculator can help to _predict_ costs, but it doesn't influence the cost.</span></span>
+    - content: <span data-ttu-id="bf494-112">使用计量器</span><span class="sxs-lookup"><span data-stu-id="bf494-112">Usage meters</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="bf494-113">错误.</span><span class="sxs-lookup"><span data-stu-id="bf494-113">Correct.</span></span> <span data-ttu-id="bf494-114">根据您在每月使用情况计量器中的消费情况对 Azure 进行计费。</span><span class="sxs-lookup"><span data-stu-id="bf494-114">Azure is billed according to your consumption based on monthly usage meters.</span></span>
+  - content: <span data-ttu-id="bf494-115">以下哪一项是影响成本的因素？</span><span class="sxs-lookup"><span data-stu-id="bf494-115">Which of the following is a factor affecting costs?</span></span>
+    choices:
+    - content: <span data-ttu-id="bf494-116">全局基础结构</span><span class="sxs-lookup"><span data-stu-id="bf494-116">Global infrastructure</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="bf494-117">全局基础结构是指跨多个国家/地区分布了体系结构的系统。</span><span class="sxs-lookup"><span data-stu-id="bf494-117">Global infrastructure refers to a system with architecture that is distributed across many countries.</span></span>
+    - content: <span data-ttu-id="bf494-118">位置</span><span class="sxs-lookup"><span data-stu-id="bf494-118">Location</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="bf494-119">您放置资源的位置将因资源的价格而异。</span><span class="sxs-lookup"><span data-stu-id="bf494-119">The location you place your resources will vary the price for the resource.</span></span>
+    - content: <span data-ttu-id="bf494-120">可用性区域</span><span class="sxs-lookup"><span data-stu-id="bf494-120">Availability zone</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="bf494-121">可用性区域为数据中心提供故障保护。</span><span class="sxs-lookup"><span data-stu-id="bf494-121">An availability zone provides failure protection for datacenters.</span></span>
+  - content: <span data-ttu-id="bf494-122">完成以下句子。</span><span class="sxs-lookup"><span data-stu-id="bf494-122">Complete the following sentence.</span></span> <span data-ttu-id="bf494-123">作为 azure 客户, azure 保留价格将提供打折价格 (如果您 _________</span><span class="sxs-lookup"><span data-stu-id="bf494-123">As an Azure customer, Azure Reservations offer discounted prices if you _________</span></span>
+    choices:
+    - content: <span data-ttu-id="bf494-124">提前付款。</span><span class="sxs-lookup"><span data-stu-id="bf494-124">pay in advance.</span></span>
+      isCorrect: true
+      explanation: <span data-ttu-id="bf494-125">azure 保留在某些 azure 产品和资源上提供打折价格。</span><span class="sxs-lookup"><span data-stu-id="bf494-125">Azure Reservations offer discounted prices on certain Azure products and resources.</span></span> <span data-ttu-id="bf494-126">若要获取折扣, 请提前付款以预留产品和资源。</span><span class="sxs-lookup"><span data-stu-id="bf494-126">To get a discount, you reserve products and resources by paying in advance.</span></span> <span data-ttu-id="bf494-127">您可以预付一年或三年的特定 Azure 资源的使用情况。</span><span class="sxs-lookup"><span data-stu-id="bf494-127">You can prepay for one or three year's use of certain Azure resources.</span></span>
+    - content: <span data-ttu-id="bf494-128">设置多个资源。</span><span class="sxs-lookup"><span data-stu-id="bf494-128">provision many resources.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="bf494-129">不需要设置许多资源以使用 Azure 保留。</span><span class="sxs-lookup"><span data-stu-id="bf494-129">There is no requirement to provision many resources to use Azure Reservations.</span></span>
+    - content: <span data-ttu-id="bf494-130">拥有免费帐户</span><span class="sxs-lookup"><span data-stu-id="bf494-130">have a free account</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="bf494-131">免费帐户不能使用 Azure 保留。</span><span class="sxs-lookup"><span data-stu-id="bf494-131">Free accounts can't use Azure Reservations.</span></span>
+    - content: <span data-ttu-id="bf494-132">使用花费限制。</span><span class="sxs-lookup"><span data-stu-id="bf494-132">use Spending Limits.</span></span>
+      isCorrect: false
+      explanation: <span data-ttu-id="bf494-133">支出限制阻止您在每个帐单期内为您的帐户耗尽信用。</span><span class="sxs-lookup"><span data-stu-id="bf494-133">Spending limits prevent you from exhausting the credit on your account within each billing period.</span></span>
