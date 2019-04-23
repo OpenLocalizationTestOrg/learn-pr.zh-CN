@@ -150,16 +150,24 @@ groups:
   pivots:
   - id: rehost
     title: Rehost
-  - id: refractor
-    title: Refractor
+  - id: refactor
+    title: 重构
   - id: rearchitect
     title: Rearchitect
   - id: rebuild
     title: 重新生成
+- id: ef-core-data-access-syntax
+  title: 数据访问语法
+  prompt: 选择数据访问语法
+  pivots:
+  - id: linq
+    title: 一些
+  - id: fluent
+    title: 精通
 metadata:
-  ms.openlocfilehash: 4c822dc631b0d6163cc8a388d79a21ad2ac7ee6e
-  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.openlocfilehash: e7cb052c70cce5f4972a6dabf26ec308fd7c2486
+  ms.sourcegitcommit: 1865f0bda8a03c92aea2b6d718d9fa9890fdcf4f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/21/2019
-  ms.locfileid: "2137001"
+  ms.lasthandoff: 04/22/2019
+  ms.locfileid: "2138479"

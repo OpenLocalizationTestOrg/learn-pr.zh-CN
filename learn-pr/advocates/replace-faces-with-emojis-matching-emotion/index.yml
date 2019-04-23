@@ -1,19 +1,19 @@
 ### YamlMime:Module
 uid: learn.the-mojifier
 metadata:
-  title: Mojifier-创建一个可使用表情符号匹配其情感的可宽延时间 bot 替换用户的脸-了解
+  title: Mojifier-创建一个可使用表情符号匹配其情感的可宽延时间 bot 替换用户的面孔
   description: 了解如何获取图像、计算情感、将感受与表情符号相匹配, 以及如何将面孔替换为表情符号。
   author: lnyswonger
   ms.date: 10/18/2018
   ms.author: luken
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-  ms.openlocfilehash: 3c0ecad2914c3af1a9f6024c88930056b3300c0f
-  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.openlocfilehash: f92c16711b419480693f61b3e4441e9629f3eded
+  ms.sourcegitcommit: 1865f0bda8a03c92aea2b6d718d9fa9890fdcf4f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/21/2019
-  ms.locfileid: "2138101"
+  ms.lasthandoff: 04/22/2019
+  ms.locfileid: "2138536"
 title: Mojifier-创建一个可使用表情符号匹配其情感的可宽延时间 bot 替换用户的面孔
 summary: 了解如何获取图像、计算情感、将感受与表情符号相匹配, 以及如何将面孔替换为表情符号。
 abstract: >
