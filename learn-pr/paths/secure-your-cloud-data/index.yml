@@ -9,12 +9,12 @@ metadata:
   ms.author: smmark
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-  ms.openlocfilehash: 1706acca2f5adf76c53937f05f78519d6199cfb8
-  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.openlocfilehash: b0122aad308e1c12032d16b84ff8b928e9c073f9
+  ms.sourcegitcommit: 1865f0bda8a03c92aea2b6d718d9fa9890fdcf4f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/21/2019
-  ms.locfileid: "2136095"
+  ms.lasthandoff: 04/22/2019
+  ms.locfileid: "2138532"
 title: 保护你的云数据的安全
 summary: Azure 旨在实现安全性和合规性。 了解如何利用内置服务安全地存储应用程序数据, 以确保只有授权服务和客户端才有权访问它。
 prerequisites: 无
@@ -33,7 +33,11 @@ products:
 modules:
 - learn.design-for-security
 - learn.top-5-security-items-to-consider
+- learn.azure.secure-azure-storage-account
 - learn.manage-secrets-with-azure-key-vault
+- learn.authenticate-browser-based-apps-with-azure-app-services
 - learn.secure-access-azure-ad-multi-factor-authentication
+- learn.secure-azure-resources-with-rbac
+- learn.secure-your-azure-sql-database
 trophy:
   uid: learn.secure-your-cloud-data.trophy

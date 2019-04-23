@@ -9,12 +9,12 @@ metadata:
   ms.author: smmark
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-  ms.openlocfilehash: 0d1126eba72a2331380496672edfe2217a354eca
-  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.openlocfilehash: 11452a7d97a9e06b748bb3bc373b78d9ee0191f9
+  ms.sourcegitcommit: 1865f0bda8a03c92aea2b6d718d9fa9890fdcf4f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/21/2019
-  ms.locfileid: "2137182"
+  ms.lasthandoff: 04/22/2019
+  ms.locfileid: "2138533"
 title: 使用 azure 应用服务将网站部署到 azure
 summary: Azure 中的 Web 应用允许你轻松发布和管理网站, 而无需使用基础服务器、存储或网络资产。 相反, 您可以重点关注您的网站功能, 并依靠强大的 Azure 平台来提供对网站的安全访问。
 prerequisites: 无
@@ -30,5 +30,7 @@ modules:
 - learn.prepare-azure-dev-environment
 - learn.host-a-web-application-with-azure-web-apps
 - learn.publish-azure-web-app-with-visual-studio
+- learn.azure.stage-deploy-app-service-deployment-slots
+- learn.azure.deploy-run-container-app-service
 trophy:
   uid: learn.deploy-a-website-with-azure-app-service.trophy

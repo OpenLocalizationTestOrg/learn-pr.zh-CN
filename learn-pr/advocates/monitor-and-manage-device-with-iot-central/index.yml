@@ -1,19 +1,19 @@
 ### YamlMime:Module
 uid: learn.monitor-manage-device-with-iotcentral
 metadata:
-  title: 使用 Azure IoT 管理中心监视和管理你的咖啡机-了解
+  title: 使用 Azure IoT Central 监视和管理咖啡机
   description: 了解如何创建 Azure iot 中心应用程序以监视和管理 IoT 设备。
   ms.date: 09/24/2018
   author: lnyswonger
   ms.author: luken
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-  ms.openlocfilehash: 88ac09153827feb01c6f109e53556ef98501248e
-  ms.sourcegitcommit: ed6fdf0be4f20279586c4d18c9105fdb65a392eb
+  ms.openlocfilehash: d9a02306ed16285fde5b856b575a52e1519997b1
+  ms.sourcegitcommit: 1865f0bda8a03c92aea2b6d718d9fa9890fdcf4f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/21/2019
-  ms.locfileid: "2136845"
+  ms.lasthandoff: 04/22/2019
+  ms.locfileid: "2138543"
 title: 使用 Azure IoT Central 监视和管理咖啡机
 summary: 了解如何创建 Azure iot 中心应用程序以监视和管理 IoT 设备。
 abstract: >
