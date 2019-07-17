@@ -1,7 +1,0 @@
-<span data-ttu-id="79a4f-101">通过 Azure IoT 中心, 可以轻松地连接、监控和管理 IoT 解决方案。</span><span class="sxs-lookup"><span data-stu-id="79a4f-101">Azure IoT Central makes it easy to connect, monitor and manage your IoT solutions.</span></span> <span data-ttu-id="79a4f-102">在本模块中, 您创建了将远程咖啡计算机连接到 Azure IoT Central 的端到端方案, 以便在发生维护问题时监视和管理计算机。</span><span class="sxs-lookup"><span data-stu-id="79a4f-102">In this module, you created an end-to-end scenario of connecting a remote coffee machine to Azure IoT Central to monitor and manage the machine as maintenance issues arise.</span></span>
-
-## <a name="further-reading"></a><span data-ttu-id="79a4f-103">进一步阅读</span><span class="sxs-lookup"><span data-stu-id="79a4f-103">Further reading</span></span>
-
-- [<span data-ttu-id="79a4f-104">什么是 Azure IoT 中心？</span><span class="sxs-lookup"><span data-stu-id="79a4f-104">What is Azure IoT Central?</span></span>](https://docs.microsoft.com/azure/iot-central/overview-iot-central)
-- [<span data-ttu-id="79a4f-105">浏览 Azure IoT 中央 UI</span><span class="sxs-lookup"><span data-stu-id="79a4f-105">Take a tour of the Azure IoT Central UI</span></span>](https://docs.microsoft.com/azure/iot-central/overview-iot-central-tour)
-- [<span data-ttu-id="79a4f-106">在 Microsoft Flow 中使用 IoT 中心连接器生成工作流</span><span class="sxs-lookup"><span data-stu-id="79a4f-106">Build workflows with the IoT Central connector in Microsoft Flow</span></span>](https://docs.microsoft.com/azure/iot-central/howto-add-microsoft-flow)
