@@ -1,35 +1,5 @@
 {
-  "docsets_to_publish": [
-    {
-      "docset_name": "learn-pr",
-      "build_source_folder": "learn-pr",
-      "build_output_subfolder": "learn-pr",
-      "locale": "zh-CN",
-      "monikers": [],
-      "moniker_ranges": [],
-      "xref_query_tags": [
-        "/learn-quiz-pr",
-        "/dotnet"
-      ],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "Module": "Content",
-        "ModuleList": "Content",
-        "Tutorial": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "TripleCrownValidation": {
-        "quizTag": "/learn-quiz-pr"
-      },
-      "customized_tasks": {
-        "docset_postbuild": [
-          "_dependentPackages/CommonPlugins/tools/TripleCrownValidation.ps1"
-        ]
-      }
-    }
-  ],
+  "docsets_to_publish": [],
   "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "branches_to_filter": [
